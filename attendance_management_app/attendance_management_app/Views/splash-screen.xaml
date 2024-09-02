@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="attendance_management_app.Views.splash_screen"
+             BackgroundColor="#0D0D0D"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+            <Image x:Name="SplashImage"
+                   Source="https://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19705.png"
+                   Aspect="AspectFill"
+                   HeightRequest="150"
+                   WidthRequest="150"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
