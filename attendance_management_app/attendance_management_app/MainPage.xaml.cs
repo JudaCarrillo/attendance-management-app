@@ -1,6 +1,4 @@
-﻿using System; // Asegúrate de incluir esto
-using Xamarin.Forms;
-using attendance_management_app.Services;  // Asegúrate de que el espacio de nombres sea correcto
+﻿using Xamarin.Forms;
 
 namespace attendance_management_app
 {
@@ -10,41 +8,22 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            // Verificar si el GPS está habilitado
-            var gpsService = DependencyService.Get<IGpsService>();
-
-            if (!gpsService.IsGpsEnabled())
-            {
-                // Mostrar alerta y ofrecer abrir la configuración
-                DisplayAlert("GPS deshabilitado", "El GPS está deshabilitado, ¿desea habilitarlo?", "Sí", "No").ContinueWith(async (task) =>
-                {
-                    if (task.Result)
-                    {
-                        // Si el usuario acepta, abrir la configuración
-                        gpsService.OpenSettings();
-                    }
-                });
-            }
-            else
-            {
-                // GPS está habilitado, continuar con la lógica de la aplicación
-            }
+            OpenLocationPermissionModal();
         }
 
-        private void OnCheckGpsClicked(object sender, EventArgs e)
+        private async void OpenLocationPermissionModal()
         {
-            var gpsService = DependencyService.Get<IGpsService>();
-
-            if (!gpsService.IsGpsEnabled())
-            {
-                gpsService.OpenSettings();
-            }
-            else
-            {
-                var (latitude, longitude) = gpsService.GetLocation();
-                LatitudeLabel.Text = $"Latitud: {latitude}";
-                LongitudeLabel.Text = $"Longitud: {longitude}";
-            }
+            var modal = new LocationPermissionModal(OnLocationReceived);
+            await Navigation.PushModalAsync(modal);
         }
+
+        private void OnLocationReceived(double latitude, double longitude)
+        {
+            DisplayAlert("Ubicación Obtenida", $"Latitud: {latitude}, Longitud: {longitude}", "OK");
+
+            LatitudeLabel.Text = $"Latitud: {latitude}";
+            LongitudeLabel.Text = $"Longitud: {longitude}";
+        }
+
     }
 }
