@@ -1,4 +1,5 @@
-﻿using System;
+﻿using attendance_management_app.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Login();
         }
 
         protected override void OnStart()
