@@ -11,5 +11,6 @@ namespace attendance_management_app.Models
         public string StartTime { get; set; }
         public string EndTime { get; set; }
         public List<string> WorkingDays { get; set; }
+        public List<string> WorkingDaysFormat { get; set; }
     }
 }

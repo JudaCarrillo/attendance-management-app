@@ -79,7 +79,9 @@
                             HeightRequest="40"
                             WidthRequest="200"
                             FontAttributes="Bold"
-                            HorizontalOptions="Center" />
+                            HorizontalOptions="Center" 
+                            x:Name="btnLogin"
+                            Clicked="btnLogin_Clicked"/>
                 </StackLayout>
             </StackLayout>
         </Grid>
