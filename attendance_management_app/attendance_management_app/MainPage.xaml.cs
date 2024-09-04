@@ -1,20 +1,27 @@
 ﻿using System;
 using Xamarin.Essentials;
 using Xamarin.Forms;
+using attendance_management_app.Services;
+using attendance_management_app.Models;
+using System.Globalization;
+using attendance_management_app.Utils;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace attendance_management_app
 {
     public partial class MainPage : ContentPage
     {
         // Coordenadas de la empresa
-        private readonly double _empresaLatitud = -11.8934203;
-        private readonly double _empresaLongitud = -77.0664731;
+        private readonly double _empresaLatitud = -12.0003777;
+        private readonly double _empresaLongitud = -76.8611125;
         private readonly double _rangoPermitido = 0.01;
 
         public MainPage()
         {
             InitializeComponent();
             OpenLocationPermissionModal();
+            ShowCurrentTime();
         }
 
         private async void OpenLocationPermissionModal()
@@ -43,6 +50,14 @@ namespace attendance_management_app
             }
         }
 
+        // Método para mostrar la hora actual
+        private void ShowCurrentTime()
+        {
+            // Obtener la hora actual
+            string currentTime = DateTime.Now.ToString("HH:mm:ss", CultureInfo.InvariantCulture);
+            CurrentTimeLabel.Text = $"Hora actual: {currentTime}"; 
+        }
+
         // Método para calcular la distancia en kilómetros
         private double CalculateDistance(double lat1, double lon1, double lat2, double lon2)
         {
@@ -67,7 +82,56 @@ namespace attendance_management_app
 
         private async void MarkAttendanceButton_Clicked(object sender, EventArgs e)
         {
-            await DisplayAlert("Asistencia", "Asistencia marcada exitosamente.", "OK");
+            DateTime now = DateTime.Now;
+            string date = now.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+            string monthYear = now.ToString("yyyy-MM", CultureInfo.InvariantCulture);
+
+            var currentTurn = TurnDataStore.Instance.GetTurnsDataStore().FirstOrDefault(); 
+
+            if (currentTurn != null)
+            {
+                TimeSpan startTime = TimeSpan.Parse(currentTurn.StartTime);
+                TimeSpan endTime = TimeSpan.Parse(currentTurn.EndTime);
+                TimeSpan nowTime = now.TimeOfDay;
+                TimeSpan allowedStartTime = startTime - TimeSpan.FromMinutes(60);
+
+                if (nowTime < allowedStartTime )
+                {
+                    await MarkAttendance(now, monthYear, date, Attendance.AttendanceType.Early);
+                    await DisplayAlert("Asistencia", "Has marcado asistencia a tiempo.", "OK");
+                    
+                }
+                else
+                {
+                    await MarkAttendance(now, monthYear, date, Attendance.AttendanceType.Late);
+                    await DisplayAlert("Asistencia", "Has marcado asistencia tarde.", "OK");
+                }
+            }
+            else
+            {
+                await DisplayAlert("Error", "No hay turnos definidos.", "OK");
+            }
         }
+
+        private async Task MarkAttendance(DateTime now, string monthYear, string date, Attendance.AttendanceType attendanceType)
+        {
+            var attendance = new Attendance
+            {
+                UserId = "Usuario123", 
+                DateTime = now,
+                AttendanceId = Util.GenerateUniqueId(),
+                Type = attendanceType
+            };
+
+            AttendanceDataStore.Instance.AddAttendanceDataStore(monthYear, date, attendance);
+        }
+
+
+        private async void ShowAttendanceButton_Clicked(object sender, EventArgs e)
+        {
+            string attendanceSummary = AttendanceDataStore.Instance.GetAttendanceSummary();
+            await DisplayAlert("Resumen de Asistencia", attendanceSummary, "OK");
+        }
+
     }
 }

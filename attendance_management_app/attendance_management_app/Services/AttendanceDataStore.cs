@@ -14,7 +14,6 @@ namespace attendance_management_app.Services
 
         private Dictionary<string, Dictionary<string, AttendanceRecord>> _attendancesDataStore;
 
-
         private AttendanceDataStore()
         {
             _attendancesDataStore = new Dictionary<string, Dictionary<string, AttendanceRecord>>();
@@ -22,7 +21,7 @@ namespace attendance_management_app.Services
 
         public void AddAttendanceDataStore(string monthYear, string date, Attendance attendance)
         {
-            if (!_attendancesDataStore.ContainsKey(monthYear) || !!_attendancesDataStore[monthYear].ContainsKey(date))
+            if (!_attendancesDataStore.ContainsKey(monthYear) || !_attendancesDataStore[monthYear].ContainsKey(date))
             {
                 InitializedAttendanceDataStore(monthYear, date);
             }
@@ -52,6 +51,26 @@ namespace attendance_management_app.Services
         public Dictionary<string, Dictionary<string, AttendanceRecord>> GetAttendancesData()
         {
             return _attendancesDataStore;
+        }
+
+        public string GetAttendanceSummary()
+        {
+            var summary = new StringBuilder();
+
+            foreach (var monthYear in _attendancesDataStore.Keys)
+            {
+                summary.AppendLine($"Mes/Año: {monthYear}");
+                foreach (var date in _attendancesDataStore[monthYear].Keys)
+                {
+                    var record = _attendancesDataStore[monthYear][date];
+                    summary.AppendLine($"  Fecha: {date}");
+                    summary.AppendLine($"    Temprano: {record.Early.Count} registros");
+                    summary.AppendLine($"    Tarde: {record.Late.Count} registros");
+                    summary.AppendLine($"    Ausente: {record.Absent.Count} registros");
+                }
+            }
+
+            return summary.ToString();
         }
 
         public void UpdateAttendanceAbsentHistory(string month, string date, DateTime dateTime)
@@ -87,7 +106,6 @@ namespace attendance_management_app.Services
                 );
             }
         }
-
     }
 
     public class AttendanceRecord
@@ -97,5 +115,4 @@ namespace attendance_management_app.Services
         public List<Attendance> Late { get; set; } = new List<Attendance>();
         public List<Attendance> Absent { get; set; } = new List<Attendance>();
     }
-
 }

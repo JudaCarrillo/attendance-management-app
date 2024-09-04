@@ -11,6 +11,9 @@
         <Label x:Name="LatitudeLabel" FontSize="16" Padding="30,10,30,10"/>
         <Label x:Name="LongitudeLabel" FontSize="16" Padding="30,10,30,10"/>
 
+        <!-- Label para mostrar la hora actual -->
+        <Label x:Name="CurrentTimeLabel" FontSize="20" Padding="30,10,30,10" />
+
         <Button x:Name="MarkAttendanceButton"
                 Text="Marcar Asistencia"
                 IsEnabled="False"
@@ -20,5 +23,15 @@
                 TextColor="White"
                 Padding="15"
                 Margin="30,10,30,10" />
+
+        <Button x:Name="ShowAttendanceButton"
+                Text="Mostrar Resumen de Asistencia"
+                Clicked="ShowAttendanceButton_Clicked"
+                FontSize="20"
+                BackgroundColor="Blue"
+                TextColor="White"
+                Padding="15"
+                Margin="30,10,30,10" />
+
     </StackLayout>
 </ContentPage>
