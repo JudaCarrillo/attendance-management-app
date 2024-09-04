@@ -40,7 +40,7 @@ namespace attendance_management_app.Services
                     DNI = "701566",
                     Password = "user",
                     Enabled = true,
-                    FirstLogin = true,
+                    FirstLogin = false,
                     TurnId = 1,
                     ProfileId = 2,
                 }

@@ -14,7 +14,7 @@ using attendance_management_app.Droid;
 
 namespace product_catalog_xamarin.Droid
 {
-    [Activity(Label = "Guille Library", Icon = "@mipmap/icon",
+    [Activity(Label = "attendance_management_app", Icon = "@mipmap/icon",
         Theme = "@style/ScreenPageTheme",
         MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize)]

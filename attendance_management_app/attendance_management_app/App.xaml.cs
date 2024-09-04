@@ -12,7 +12,7 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new UpdatePassword())
+            MainPage = new NavigationPage(new Login())
             {
                 BarBackgroundColor = Color.Transparent,
                 BackgroundColor = Color.FromHex("#0D0D0D"),
