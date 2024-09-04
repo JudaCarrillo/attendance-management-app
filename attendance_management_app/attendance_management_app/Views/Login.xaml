@@ -2,10 +2,11 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.Views.Login"
-             BackgroundColor="White">
+             BackgroundColor="Transparent"
+             NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <Grid>
-            <Image Source="https://img.freepik.com/fotos-premium/abstracto-fondo-negro-lineas_961875-341672.jpg" 
+            <Image Source="@drawable/fondo_login" 
                    Aspect="AspectFill"
                    VerticalOptions="Start"
                    HorizontalOptions="FillAndExpand"
@@ -26,18 +27,16 @@
                        HeightRequest="110"
                        IsClippedToBounds="False"
                        HorizontalOptions="FillAndExpand"
-                       Margin="0, 150, 0, -25">
-                    <Frame.Clip>
-                        <PathGeometry Figures="M 0,100 A 50,50 0 0,1 50,50 L 1000,50 L 1000,100 Z" />
-                    </Frame.Clip>
+                       Margin="0, 170, 0, 0">
                 </Frame>
 
                 <StackLayout BackgroundColor="White" VerticalOptions="Center" Padding="30" HeightRequest="523">
                     <Label Text="Iniciar Sesion"
                            FontSize="30"
                            HorizontalOptions="Center"
-                           Margin="0, 0, 0, 20"
+                           Margin="0, 10, 0, 0"
                            FontAttributes="Bold" />
+                    <BoxView HeightRequest="1" BackgroundColor="Black" WidthRequest="250" HorizontalOptions="Center" Margin="0,0,0,60"/>
                     <StackLayout WidthRequest="200">
                         <Frame CornerRadius="10"
                                 BorderColor="Gray"
