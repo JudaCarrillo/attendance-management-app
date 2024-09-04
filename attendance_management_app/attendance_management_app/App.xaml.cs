@@ -1,4 +1,5 @@
 ﻿using attendance_management_app.Views;
+using attendance_management_app.Views.Employee;
 using attendance_management_app.Views.Shared;
 using System;
 using Xamarin.Forms;
@@ -12,7 +13,7 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new UpdatePassword())
+            MainPage = new NavigationPage(new Inicio())
             {
                 BarBackgroundColor = Color.Transparent,
                 BackgroundColor = Color.FromHex("#0D0D0D"),

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using attendance_management_app.Utils;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,7 @@ namespace attendance_management_app.Views.Employee
 		public Inicio ()
 		{
 			InitializeComponent ();
-		}
+        }
 
         private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {

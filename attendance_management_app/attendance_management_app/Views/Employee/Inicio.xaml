@@ -2,9 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.Views.Employee.Inicio"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             Background="white">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="16">
             <Label Text="Registro de Asistencia"
                    VerticalOptions="Start" 
                    HorizontalOptions="CenterAndExpand"
@@ -12,16 +13,18 @@
                    TextColor="#000000"
                    Margin="0,24,0,0"/>
 
-            <CollectionView ItemsSource="{Binding DaysFormat}"
+            <CollectionView ItemsSource="{Binding Days}"
                             SelectionChanged="CollectionView_SelectionChanged"
                             SelectionMode="Single">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <StackLayout>
+                        <StackLayout Padding="5">
                             <Button Text="{Binding .}"
                                     HorizontalOptions="CenterAndExpand"
                                     VerticalOptions="CenterAndExpand"
-                                    Margin="5"/>
+                                    Margin="5"
+                                    BackgroundColor="#DDDDDD"
+                                    TextColor="#333333"/>
                         </StackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
