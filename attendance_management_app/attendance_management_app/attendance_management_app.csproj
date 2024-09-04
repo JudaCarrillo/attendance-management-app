@@ -16,10 +16,10 @@
 		<PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
 	</ItemGroup>
 
-	<ItemGroup>
-		<Folder Include="Services\" />
-		<Folder Include="Views\Administrator\" />
-	</ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Administrator\" />
+    <Folder Include="Views\Employee\" />
+  </ItemGroup>
 
 	<ItemGroup>
 		<EmbeddedResource Update="Views\Employee\Inicio.xaml">
