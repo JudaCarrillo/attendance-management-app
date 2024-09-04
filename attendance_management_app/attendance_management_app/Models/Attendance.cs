@@ -6,7 +6,7 @@ namespace attendance_management_app.Models
 {
     public class Attendance
     {
-        public int AttendanceId { get; set; }
+        public string AttendanceId { get; set; }
         public int UserId { get; set; }
         public DateTime DateTime { get; set; }
         public AttendanceType Type { get; set; }
