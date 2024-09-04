@@ -12,8 +12,7 @@
                    FontSize="28"
                    TextColor="#000000"
                    Margin="0,24,0,0"/>
-
-            <CollectionView ItemsSource="{Binding Days}"
+            <CollectionView ItemsSource="{Binding WorkingDaysFormat}"
                             SelectionChanged="CollectionView_SelectionChanged"
                             SelectionMode="Single">
                 <CollectionView.ItemTemplate>
