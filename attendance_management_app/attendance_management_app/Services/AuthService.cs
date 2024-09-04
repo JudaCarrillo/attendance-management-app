@@ -25,5 +25,11 @@ namespace attendance_management_app.Services
         {
             currentUser = null;
         }
+
+        public void UpdatePassword(string newPassword)
+        {
+            currentUser.Password = newPassword;
+            currentUser.FirstLogin = false;
+        }
     }
 }
