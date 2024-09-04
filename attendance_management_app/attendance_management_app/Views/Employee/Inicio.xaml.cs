@@ -14,7 +14,8 @@ namespace attendance_management_app.Views.Employee
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Inicio : ContentPage
 	{
-		public Inicio ()
+        private Button _selectedButton;
+        public Inicio ()
 		{
 			InitializeComponent ();
 			LoadData();
@@ -30,6 +31,26 @@ namespace attendance_management_app.Views.Employee
         private void CollectionView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
+        }
+        private void OnButtonClicked(object sender, EventArgs e)
+        {
+            var clickedButton = sender as Button;
+
+            if (clickedButton == null) return;
+
+            // Restaurar el estado del botón previamente seleccionado
+            if (_selectedButton != null)
+            {
+                _selectedButton.BackgroundColor = Color.Black;
+                _selectedButton.TextColor = Color.White;
+            }
+
+            // Establecer el estado del botón actualmente seleccionado
+            clickedButton.BackgroundColor = Color.Gray;
+            clickedButton.TextColor = Color.Black;
+
+            // Guardar la referencia del botón seleccionado
+            _selectedButton = clickedButton;
         }
     }
 }
