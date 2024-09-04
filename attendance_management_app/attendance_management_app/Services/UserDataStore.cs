@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using attendance_management_app.Models;
+using attendance_management_app.Utils;
 
 namespace attendance_management_app.Services
 {
@@ -16,7 +17,7 @@ namespace attendance_management_app.Services
             UsersDataStore = new List<User>
             {
                 new User {
-                    UserId = 1,
+                    UserId = Util.GenerateUniqueId(),
                     Name = "Admin",
                     LastName = "Admin",
                     PhoneNumber = "123456789",
@@ -31,7 +32,7 @@ namespace attendance_management_app.Services
 
                 new User
                 {
-                    UserId = 2,
+                    UserId = Util.GenerateUniqueId(),
                     Name = "User",
                     LastName = "User",
                     PhoneNumber = "987654321",

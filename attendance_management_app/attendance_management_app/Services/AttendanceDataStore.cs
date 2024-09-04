@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using attendance_management_app.Models;
+using attendance_management_app.Utils;
 using static attendance_management_app.Models.Attendance;
 
 namespace attendance_management_app.Services
@@ -80,7 +81,7 @@ namespace attendance_management_app.Services
                     {
                         UserId = user.UserId,
                         DateTime = dateTime,
-                        AttendanceId = "1",
+                        AttendanceId = Util.GenerateUniqueId(),
                         Type = Attendance.AttendanceType.Absent
                     }
                 );
