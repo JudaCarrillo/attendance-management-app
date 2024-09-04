@@ -1,4 +1,5 @@
 ﻿using attendance_management_app.Views;
+using attendance_management_app.Views.Shared;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
