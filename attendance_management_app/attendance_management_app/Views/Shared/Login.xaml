@@ -38,6 +38,11 @@
                            HorizontalOptions="Center"
                            Margin="0, 0, 0, 20"
                            FontAttributes="Bold" />
+                    <BoxView HeightRequest="2"
+                             BackgroundColor="#404040"
+                             HorizontalOptions="CenterAndExpand"
+                             WidthRequest="300"
+                             Margin="0,-20,0,20"/>
                     <StackLayout WidthRequest="200">
                         <Frame CornerRadius="10"
                                 BorderColor="Gray"

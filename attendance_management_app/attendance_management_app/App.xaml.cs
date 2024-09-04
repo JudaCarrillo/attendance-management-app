@@ -1,4 +1,5 @@
 ﻿using attendance_management_app.Views;
+using attendance_management_app.Views.Shared;
 using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -11,7 +12,7 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new UpdatePassword();
         }
 
         protected override void OnStart()
