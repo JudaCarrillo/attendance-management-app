@@ -7,16 +7,28 @@
     <ContentPage.Content>
         <StackLayout Padding="16">
             <Label Text="Registro de Asistencia"
-                   VerticalOptions="Start" 
+                   VerticalOptions="Start"
                    HorizontalOptions="CenterAndExpand"
                    FontSize="24"
                    FontAttributes="Bold"
                    TextColor="#000000"
-                   Margin="0,24,0,0"/>
-            <BoxView HeightRequest="2" BackgroundColor="Black" WidthRequest="270" HorizontalOptions="Center" Margin="0,0,0,15"/>
+                   Margin="0,24,0,0" />
+            <BoxView HeightRequest="2"
+                     BackgroundColor="Black"
+                     WidthRequest="270"
+                     HorizontalOptions="Center"
+                     Margin="0,0,0,15" />
             <!-- Frame for adding a border to the sides -->
-            <Frame HasShadow="False" CornerRadius="5" BorderColor="Black" Padding="0" Margin="0">
-                <StackLayout Orientation="Horizontal" Spacing="5" Padding="0" Margin="0" HeightRequest="40">
+            <Frame HasShadow="False"
+                   CornerRadius="5"
+                   BorderColor="Black"
+                   Padding="0"
+                   Margin="0">
+                <StackLayout Orientation="Horizontal"
+                             Spacing="5"
+                             Padding="0"
+                             Margin="0"
+                             HeightRequest="40">
                     <!-- CollectionView inside StackLayout -->
                     <CollectionView ItemsSource="{Binding WorkingDaysFormat}"
                                     SelectionMode="Single"
@@ -30,46 +42,38 @@
                                         Margin="2"
                                         BackgroundColor="Black"
                                         TextColor="White"
-                                        Clicked="OnButtonClicked"/>
+                                        Clicked="OnButtonClicked"
+                                        CommandParameter="{Binding .}" />
                             </DataTemplate>
                         </CollectionView.ItemTemplate>
                     </CollectionView>
                 </StackLayout>
             </Frame>
-            <!-- Frame displaying the entry time with specified dimensions -->
-            <Frame HasShadow="False"
-                   CornerRadius="10"
-                   BorderColor="Black"
-                   BackgroundColor="White"
-                   Padding="10"
-                   Margin="0,20,0,0"
-                   HorizontalOptions="Center"
-                   WidthRequest="193"
-                   HeightRequest="100">
-
-                <StackLayout VerticalOptions="CenterAndExpand"
-                             HorizontalOptions="Center"
-                             Spacing="5">
-                    <Label Text="Hora de Entrada:"
-                           FontSize="14"
-                           TextColor="Black"
-                           HorizontalOptions="Center"/>
-                    <Label Text="8:00 AM"
-                           FontSize="14"
-                           TextColor="Black"
-                           HorizontalOptions="Center"/>
-                </StackLayout>
-            </Frame>
-
-                <Label Text="Break"
-                       VerticalOptions="Start" 
-                       HorizontalOptions="CenterAndExpand"
-                       FontSize="14"
-                       FontAttributes="Bold"
-                       TextColor="#000000"
-                       Margin="0,20,0,0"/>
-                <BoxView HeightRequest="2" BackgroundColor="Black" WidthRequest="193" HorizontalOptions="Center" Margin="0,0,0,15"/>
-
+            <StackLayout>
+                <Frame HasShadow="False"
+                       x:Name="AttendanceFrame"
+                       CornerRadius="10"
+                       BorderColor="Black"
+                       BackgroundColor="White"
+                       Padding="10"
+                       Margin="0,20,0,0"
+                       HorizontalOptions="Center"
+                       WidthRequest="193"
+                       HeightRequest="100">
+                    <StackLayout VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="Center"
+                                 Spacing="5">
+                        <Label Text="Hora de Entrada:"
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                        <Label Text="8:00 AM"
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
