@@ -7,7 +7,8 @@
              NavigationPage.HasNavigationBar="False"
              Background="white">
     <ContentPage.Content>
-        <StackLayout Padding="16">
+        <StackLayout Padding="16"
+                     VerticalOptions="FillAndExpand">
             <Label Text="Registro de Asistencia"
                    VerticalOptions="Start"
                    HorizontalOptions="CenterAndExpand"
@@ -51,7 +52,8 @@
                     </CollectionView>
                 </StackLayout>
             </Frame>
-            <StackLayout>
+            <StackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center">
                 <Frame HasShadow="False"
                        x:Name="AttendanceFrame"
                        CornerRadius="10"
@@ -75,8 +77,63 @@
                                HorizontalOptions="Center" />
                     </StackLayout>
                 </Frame>
+                <Frame HasShadow="False"
+                       CornerRadius="10"
+                       BorderColor="Black"
+                       BackgroundColor="White"
+                       Padding="10"
+                       Margin="0,20,0,0"
+                       HorizontalOptions="Center"
+                       WidthRequest="193"
+                       HeightRequest="100"
+                       IsVisible="false"
+                       x:Name="AttendanceHistoryFrame">
+                    <StackLayout VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="Center"
+                                 Spacing="10">
+                        <Label Text=""
+                               x:Name="AttendanceHistoryLabel"
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                        <Image Source=""
+                               x:Name="AttendanceHistoryImage" />
+                    </StackLayout>
+                </Frame>
             </StackLayout>
-            <forms:ChartView x:Name="chartView" HeightRequest="500" /> 
+            <!-- New Grid for buttons at the bottom with black background -->
+            <Grid VerticalOptions="EndAndExpand"
+                  Padding="0"
+                  Margin="-20, 0, -20, -17"
+                  BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <!-- Registrar Button -->
+                <Button Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Registrar"
+                        Clicked="OnMarkAttendance"
+                        WidthRequest="210"
+                        ImageSource="@drawable/Home"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="1"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Cerrar Sesión"
+                        WidthRequest="210"
+                        ImageSource="@drawable/cerrarsession"
+                        Clicked="OnLogoutButtonClicked"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+            </Grid>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

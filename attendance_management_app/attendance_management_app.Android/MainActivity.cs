@@ -36,6 +36,7 @@ namespace attendance_management_app.Droid
             AlarmManager alarmManager = (AlarmManager)GetSystemService(AlarmService);
 
             Intent intent = new Intent(this, typeof(AttendanceJobService));
+
             // Aquí se añade FLAG_IMMUTABLE
             PendingIntent pendingIntent = PendingIntent.GetBroadcast(this, 0, intent, PendingIntentFlags.UpdateCurrent | PendingIntentFlags.Immutable);
 
@@ -48,6 +49,7 @@ namespace attendance_management_app.Droid
             long triggerTime = calendar.TimeInMillis;
             alarmManager.SetRepeating(AlarmType.RtcWakeup, triggerTime, AlarmManager.IntervalDay, pendingIntent);
         }
+
 
     }
 }

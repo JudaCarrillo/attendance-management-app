@@ -15,7 +15,6 @@ namespace attendance_management_app.Services
 
         private Dictionary<string, Dictionary<string, AttendanceRecord>> _attendancesDataStore;
 
-
         private AttendanceDataStore()
         {
             _attendancesDataStore = new Dictionary<string, Dictionary<string, AttendanceRecord>>();
@@ -123,7 +122,7 @@ namespace attendance_management_app.Services
 
             string monthYear = "08/2024";
 
-            for (int i = 1; i <= 31; i++)
+            for (int i = 1; i <= 4; i++)
             {
                 string date = $"{i:D2}/08/2024";
 
