@@ -52,6 +52,7 @@ namespace attendance_management_app.Views
                 return;
             }
 
+            ClearEntries();
             await Navigation.PushAsync(new Inicio());
 
         }
