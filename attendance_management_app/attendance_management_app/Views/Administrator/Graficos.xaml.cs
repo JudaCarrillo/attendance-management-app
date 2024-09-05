@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using attendance_management_app.Services;
+using attendance_management_app.Utils;
+using attendance_management_app.Views.Administrador;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microcharts;
 
 namespace attendance_management_app.Views.Administrator
 {
@@ -18,6 +21,9 @@ namespace attendance_management_app.Views.Administrator
             InitializeComponent();
             OnButtonSelected(DiarioButton);
             GraficoMensual.IsVisible = false;
+
+            var entries = Util.CreateEntriesForDailyChart(new DateTime(2024, 8, 30));
+            dailyChart.Chart = new DonutChart { Entries = entries };
         }
         private void OnButtonSelected(Button button)
         {
@@ -44,6 +50,9 @@ namespace attendance_management_app.Views.Administrator
 
             GraficoDiario.IsVisible = true;
             GraficoMensual.IsVisible = false;
+
+            var entries = Util.CreateEntriesForDailyChart(new DateTime(2024, 8, 30));
+            dailyChart.Chart = new DonutChart { Entries = entries };
         }
 
         private void MensualButton_Clicked(object sender, EventArgs e)
@@ -54,7 +63,19 @@ namespace attendance_management_app.Views.Administrator
 
             GraficoDiario.IsVisible = false;
             GraficoMensual.IsVisible = true;
+            var entries = Util.CreateEntriesForMonthChart(new DateTime(2024, 8, 30));
+            monthlyChart.Chart = new DonutChart { Entries = entries };
+        }
 
+        private void BtnLogOut_Clicked(object sender, EventArgs e)
+        {
+            AuthService.Instance.Logout();
+            Navigation.PopAsync();
+        }
+
+        private async void BtnEmployee_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new RegistrarEmpleado());
         }
     }
 }

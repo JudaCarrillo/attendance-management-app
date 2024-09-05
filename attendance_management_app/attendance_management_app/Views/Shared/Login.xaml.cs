@@ -47,6 +47,7 @@ namespace attendance_management_app.Views
             }
 
             AuthService.Instance.Login(currentUser);
+            ClearEntries();
 
             if (currentUser.FirstLogin && currentUser.ProfileId != 1)
             {
@@ -54,8 +55,7 @@ namespace attendance_management_app.Views
                 return;
             }
 
-            ClearEntries();
-            switch(currentUser.ProfileId)
+            switch (currentUser.ProfileId)
             {
                 case 1:
                     await Navigation.PushAsync(new Graficos());
@@ -65,7 +65,7 @@ namespace attendance_management_app.Views
                     await Navigation.PushAsync(new Inicio());
                     break;
             }
-            
+
 
         }
     }

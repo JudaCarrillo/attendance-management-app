@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="attendance_management_app.Views.Administrator.Graficos"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False">
@@ -18,7 +20,6 @@
                      WidthRequest="270"
                      HorizontalOptions="Center"
                      Margin="0,0,0,1" />
-            <!-- Frame con botones de Registro y Gestión -->
             <Frame HasShadow="False"
                    CornerRadius="9"
                    Padding="-2,-2,0,0"
@@ -52,17 +53,25 @@
                             Clicked="MensualButton_Clicked" />
                 </StackLayout>
             </Frame>
+
             <Frame x:Name="GraficoDiario"
+                   HeightRequest="395"
                    Padding="15"
                    BorderColor="Black"
                    CornerRadius="10"
-                   Margin="10,10,10,0"></Frame>
+                   Margin="10,10,10,0">
+                <forms:ChartView x:Name="dailyChart"
+                                 HeightRequest="400" />
+            </Frame>
             <Frame x:Name="GraficoMensual"
-                   HeightRequest="460"
+                   HeightRequest="395"
                    Padding="15"
                    BorderColor="Black"
                    CornerRadius="10"
-                   Margin="10,0,10,0"></Frame>
+                   Margin="10,10,10,0">
+                <forms:ChartView x:Name="monthlyChart"
+                                 HeightRequest="400" />
+            </Frame>
             <Grid VerticalOptions="EndAndExpand"
                   Padding="0"
                   Margin="-20, 0, -20, 0"
@@ -79,11 +88,12 @@
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Gráficos"
+                        Text="Dashboard"
                         WidthRequest="110"
                         ImageSource="grafico.png"
                         ContentLayout="Top, 10"
-                        Padding="0,12,0,10" />
+                        Padding="0,12,0,10"
+                        x:Name="BtnCharts" />
                 <Button Grid.Column="1"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
@@ -93,17 +103,21 @@
                         WidthRequest="110"
                         ImageSource="usuario.png"
                         ContentLayout="Top, 10"
-                        Padding="0,12,0,10" />
+                        Padding="0,12,0,10"
+                        x:Name="BtnEmployee"
+                        Clicked="BtnEmployee_Clicked" />
                 <Button Grid.Column="2"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Cerrar Sesión"
+                        Text="Salir"
                         WidthRequest="110"
                         ImageSource="cerrarsession.png"
                         ContentLayout="Top, 10"
-                        Padding="-6,12,9,10" />
+                        Padding="-6,12,9,10"
+                        x:Name="BtnLogOut"
+                        Clicked="BtnLogOut_Clicked" />
             </Grid>
         </StackLayout>
     </ContentPage.Content>

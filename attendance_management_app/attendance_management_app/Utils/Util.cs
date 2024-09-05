@@ -108,18 +108,21 @@ namespace attendance_management_app.Utils
                 {
                     Label = "Asistencias",
                     ValueLabel = earlyCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#2ecc71"),
                     Color = SKColor.Parse("#2ecc71")
                 },
                 new ChartEntry(lateCount)
                 {
                     Label = "Tardanzas",
                     ValueLabel = lateCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#f1c40f"),
                     Color = SKColor.Parse("#f1c40f")
                 },
                 new ChartEntry(absentCount)
                 {
                     Label = "Faltas",
                     ValueLabel = absentCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#e74c3c"),
                     Color = SKColor.Parse("#e74c3c")
                 }
             };
@@ -158,18 +161,72 @@ namespace attendance_management_app.Utils
                 {
                     Label = "Asistencias",
                     ValueLabel = earlyCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#2ecc71"),
                     Color = SKColor.Parse("#2ecc71")
                 },
                 new ChartEntry(lateCount)
                 {
                     Label = "Tardanzas",
                     ValueLabel = lateCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#f1c40f"),
                     Color = SKColor.Parse("#f1c40f")
                 },
                 new ChartEntry(absentCount)
                 {
                     Label = "Faltas",
                     ValueLabel = absentCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#e74c3c"),
+                    Color = SKColor.Parse("#e74c3c")
+                }
+            };
+
+            return entries;
+        }
+
+        public static List<ChartEntry> CreateEntriesForMonthChartToUser(string userId, DateTime date)
+        {
+            string monthYear = date.ToString("MM/yyyy");
+            string day = date.ToString("dd/MM/yyyy");
+
+            var attendanceData = AttendanceDataStore.Instance.GetAttendancesData();
+            if (!attendanceData.ContainsKey(monthYear))
+            {
+                AttendanceDataStore.Instance.InitializedAttendanceDataStore(monthYear, day);
+            }
+
+            var record = attendanceData[monthYear];
+            int earlyCount = 0;
+            int lateCount = 0;
+            int absentCount = 0;
+
+            foreach (var dailyRecord in record)
+            {
+                earlyCount += dailyRecord.Value.Early.FindAll(attendance => attendance.UserId == userId).Count;
+                lateCount += dailyRecord.Value.Late.FindAll(attendance => attendance.UserId == userId).Count;
+                absentCount += dailyRecord.Value.Absent.FindAll(attendance => attendance.UserId == userId).Count;
+            }
+
+            var entries = new List<ChartEntry>
+            {
+                new ChartEntry(earlyCount)
+                {
+                    Label = "Asistencias",
+                    ValueLabelColor = SKColor.Parse("#2ecc71"),
+                    ValueLabel = earlyCount.ToString(),
+                    Color = SKColor.Parse("#2ecc71")
+                },
+                new ChartEntry(lateCount)
+                {
+                    Label = "Tardanzas",
+                    ValueLabel = lateCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#f1c40f"),
+                    Color = SKColor.Parse("#f1c40f")
+                },
+                new ChartEntry(absentCount)
+                {
+                    Label = "Faltas",
+                    ValueLabel = absentCount.ToString(),
+                    ValueLabelColor = SKColor.Parse("#e74c3c"),
                     Color = SKColor.Parse("#e74c3c")
                 }
             };

@@ -25,11 +25,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Folder Include="Views\Employee\" />
-	</ItemGroup>
-
-	<ItemGroup>
 		<EmbeddedResource Update="Views\Administrator\Graficos.xaml">
+		  <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+		</EmbeddedResource>
+		<EmbeddedResource Update="Views\Employee\Dashboard.xaml">
 		  <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
 		</EmbeddedResource>
 		<EmbeddedResource Update="Views\Employee\Inicio.xaml">

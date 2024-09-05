@@ -6,17 +6,12 @@ using System.Text;
 using System.Threading.Tasks;
 using attendance_management_app.Models;
 using attendance_management_app.Services;
-using Microcharts;
-using Microcharts.Forms;
-using ChartEntry = Microcharts.ChartEntry;
-using SkiaSharp;
 using Xamarin.Forms;
 using System.Globalization;
 using System.Diagnostics;
 
 namespace attendance_management_app.Views.Employee
 {
-    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Inicio : ContentPage
     {
         private Button _selectedButton;
@@ -36,15 +31,7 @@ namespace attendance_management_app.Views.Employee
             BindingContext = userTurn;
 
             DateTime today = DateTime.Today;
-            CreatePieChartForDate(new DateTime(2024, 8, 30));
         }
-
-        private void CreatePieChartForDate(DateTime date)
-        {
-            var chart = Util.CreateEntriesForMonthChart(date);
-            chartView.Chart = new DonutChart { Entries = chart };
-        }
-
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
@@ -220,5 +207,9 @@ namespace attendance_management_app.Views.Employee
             }
         }
 
+        private void OnDashboardView(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Dashboard());
+        }
     }
 }
