@@ -36,53 +36,15 @@ namespace attendance_management_app.Views.Employee
             BindingContext = userTurn;
 
             DateTime today = DateTime.Today;
-            CreatePieChartForDate(new DateTime(2024, 9, 2));
+            CreatePieChartForDate(new DateTime(2024, 8, 30));
         }
 
         private void CreatePieChartForDate(DateTime date)
         {
-            string monthYear = date.ToString("MM/yyyy");
-            string dayDate = date.ToString("dd/MM/yyyy");
-
-            var attendanceData = AttendanceDataStore.Instance.GetAttendancesData();
-
-            if (!attendanceData.ContainsKey(monthYear) || !attendanceData[monthYear].ContainsKey(dayDate))
-            {
-                AttendanceDataStore.Instance.InitializedAttendanceDataStore(monthYear, dayDate);
-            }
-
-            var record = attendanceData[monthYear][dayDate];
-
-            int earlyCount = record.Early.Count;
-            int lateCount = record.Late.Count;
-            int absentCount = record.Absent.Count;
-
-            var entries = new List<ChartEntry>
-            {
-                new ChartEntry(earlyCount)
-                {
-                    Label = "Asistencias",
-                    ValueLabel = earlyCount.ToString(),
-                    Color = SKColor.Parse("#2ecc71")
-                },
-                new ChartEntry(lateCount)
-                {
-                    Label = "Tardanzas",
-                    ValueLabel = lateCount.ToString(),
-                    Color = SKColor.Parse("#f1c40f")
-                },
-                new ChartEntry(absentCount)
-                {
-                    Label = "Faltas",
-                    ValueLabel = absentCount.ToString(),
-                    Color = SKColor.Parse("#e74c3c")
-                }
-            };
-
-            var chart = new PieChart() { Entries = entries };
-            chartView.Chart = chart;
-
+            var chart = Util.CreateEntriesForMonthChart(date);
+            chartView.Chart = new DonutChart { Entries = chart };
         }
+
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
