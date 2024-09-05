@@ -74,9 +74,6 @@
                                TextColor="Black"
                                HorizontalOptions="Center" />
                     </StackLayout>
-                    <Frame.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="OnMarkAttendanceTapped" />
-                    </Frame.GestureRecognizers>
                 </Frame>
                 <Frame HasShadow="False"
                        CornerRadius="10"
@@ -118,6 +115,7 @@
                         BackgroundColor="Black"
                         TextColor="White"
                         Text="Registrar"
+                        Clicked="OnMarkAttendance"
                         WidthRequest="210"
                         ImageSource="@drawable/Home"
                         ContentLayout="Top, 10"
