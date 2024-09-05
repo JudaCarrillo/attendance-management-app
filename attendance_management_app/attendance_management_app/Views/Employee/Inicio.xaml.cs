@@ -108,14 +108,5 @@ namespace attendance_management_app.Views.Employee
             // Guardar la referencia del botón seleccionado
             _selectedButton = clickedButton;
         }
-
-        private void OnRegistrarClicked(object sender, EventArgs e)
-        {
-
-        }
-        private void OnCerrarSesionClicked(object sender, EventArgs e)
-        {
-
-        }
     }
 }
