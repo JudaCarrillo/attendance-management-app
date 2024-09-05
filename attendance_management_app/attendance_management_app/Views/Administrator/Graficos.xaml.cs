@@ -22,7 +22,7 @@ namespace attendance_management_app.Views.Administrator
             OnButtonSelected(DiarioButton);
             GraficoMensual.IsVisible = false;
 
-            var entries = Util.CreateEntriesForDailyChart(new DateTime(2024, 8, 30));
+            var entries = Util.CreateEntriesForDailyChart(DateTime.Today);
             dailyChart.Chart = new DonutChart { Entries = entries };
         }
         private void OnButtonSelected(Button button)
@@ -51,7 +51,7 @@ namespace attendance_management_app.Views.Administrator
             GraficoDiario.IsVisible = true;
             GraficoMensual.IsVisible = false;
 
-            var entries = Util.CreateEntriesForDailyChart(new DateTime(2024, 8, 30));
+            var entries = Util.CreateEntriesForDailyChart(DateTime.Today);
             dailyChart.Chart = new DonutChart { Entries = entries };
         }
 
@@ -63,7 +63,7 @@ namespace attendance_management_app.Views.Administrator
 
             GraficoDiario.IsVisible = false;
             GraficoMensual.IsVisible = true;
-            var entries = Util.CreateEntriesForMonthChart(new DateTime(2024, 8, 30));
+            var entries = Util.CreateEntriesForMonthChart(DateTime.Today);
             monthlyChart.Chart = new DonutChart { Entries = entries };
         }
 

@@ -17,7 +17,7 @@ namespace attendance_management_app.Views.Employee
         public Dashboard()
         {
             InitializeComponent();
-            LoadChart(new DateTime(2024, 08, 30));
+            LoadChart(DateTime.Today);
         }
         private void OnLogoutButtonClicked(object sender, EventArgs e)
         {
