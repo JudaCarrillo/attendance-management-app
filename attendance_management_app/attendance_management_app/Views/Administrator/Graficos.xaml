@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="attendance_management_app.Views.Administrator.Graficos"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Label Text="Graficos de Asistencias"
+                   VerticalOptions="Start"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#000000"
+                   Margin="0,24,0,0" />
+            <BoxView HeightRequest="2"
+                     BackgroundColor="Black"
+                     WidthRequest="270"
+                     HorizontalOptions="Center"
+                     Margin="0,0,0,1" />
+            <!-- Frame con botones de Registro y Gestión -->
+            <Frame HasShadow="False"
+                   CornerRadius="9"
+                   Padding="-2,-2,0,0"
+                   Margin="0,5,0,30"
+                   HorizontalOptions="Center">
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="Center"
+                             Spacing="-8"
+                             Padding="0"
+                             Margin="0"
+                             HeightRequest="40">
+                    <!-- Botón Gestión -->
+                    <Button Text="Diaria"
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                            Margin="2"
+                            WidthRequest="150"
+                            BackgroundColor="Gray"
+                            TextColor="White"
+                            x:Name="DiarioButton"
+                            Clicked="DiarioButton_Clicked" />
+                    <!-- Botón Registro -->
+                    <Button Text="mensual"
+                            HorizontalOptions="Start"
+                            VerticalOptions="Center"
+                            Margin="2"
+                            WidthRequest="150"
+                            BackgroundColor="Black"
+                            TextColor="White"
+                            x:Name="MensualButton"
+                            Clicked="MensualButton_Clicked" />
+                </StackLayout>
+            </Frame>
+            <Frame x:Name="GraficoDiario"
+                   Padding="15"
+                   BorderColor="Black"
+                   CornerRadius="10"
+                   Margin="10,10,10,0"></Frame>
+            <Frame x:Name="GraficoMensual"
+                   HeightRequest="460"
+                   Padding="15"
+                   BorderColor="Black"
+                   CornerRadius="10"
+                   Margin="10,0,10,0"></Frame>
+            <Grid VerticalOptions="EndAndExpand"
+                  Padding="0"
+                  Margin="-20, 0, -20, 0"
+                  BackgroundColor="Black"
+                  HorizontalOptions="Center"
+                  ColumnSpacing="-10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Gráficos"
+                        WidthRequest="110"
+                        ImageSource="grafico.png"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="1"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Empleados"
+                        WidthRequest="110"
+                        ImageSource="usuario.png"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="2"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Cerrar Sesión"
+                        WidthRequest="110"
+                        ImageSource="cerrarsession.png"
+                        ContentLayout="Top, 10"
+                        Padding="-6,12,9,10" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
