@@ -131,13 +131,14 @@ namespace attendance_management_app.Services
                     AddAttendanceDataStore(monthYear, date, new Attendance
                     {
                         UserId = user,
-                        DateTime = new DateTime(2024, 9, i),
+                        DateTime = new DateTime(2024, 8, i),
                         AttendanceId = Util.GenerateUniqueId(),
                         Type = (AttendanceType)(i % 3)
                     });
                 }
             }
         }
+
         public class AttendanceRecord
         {
             public string Date { get; set; }

@@ -87,12 +87,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\attendance_management_app\attendance_management_app.csproj">
-      <Project>{09EE922E-532B-4922-9804-5C4325F897DD}</Project>
-      <Name>attendance_management_app</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\drawable\PresentationSplash.xml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -111,6 +105,12 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\cerrarsession.png" />
     <AndroidResource Include="Resources\drawable\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\attendance_management_app\attendance_management_app.csproj">
+      <Project>{c0af2716-293c-421f-8810-8a9316ab5501}</Project>
+      <Name>attendance_management_app</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
