@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="attendance_management_app.Views.Employee.Dashboard"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             NavigationPage.HasNavigationBar="False"
+             Background="White">
+    <ContentPage.Content>
+        <StackLayout Padding="16"
+                     VerticalOptions="FillAndExpand">
+            <Label Text="Asistencias Mensuales"
+                   VerticalOptions="Start"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#000000"
+                   Margin="0,24,0,0" />
+            <BoxView HeightRequest="2"
+                     BackgroundColor="Black"
+                     WidthRequest="270"
+                     HorizontalOptions="Center"
+                     Margin="0,0,0,15" />
+            <Frame x:Name="GraficoMensual"
+                   HeightRequest="460"
+                   Padding="15"
+                   BorderColor="Black"
+                   CornerRadius="10"
+                   Margin="10,10,10,0">
+                <forms:ChartView x:Name="monthlyChart"
+                                 HeightRequest="400"/>
+            </Frame>
+            <Grid VerticalOptions="EndAndExpand"
+                  Padding="0"
+                  Margin="-20, 0, -20, -17"
+                  BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Registrar"
+                        Clicked="OnHomeView"
+                        WidthRequest="210"
+                        ImageSource="@drawable/Home"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="1"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Dashboard"
+                        WidthRequest="210"
+                        ImageSource="@drawable/grafico"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="2"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Salir"
+                        WidthRequest="210"
+                        ImageSource="@drawable/cerrarsession"
+                        Clicked="OnLogoutButtonClicked"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

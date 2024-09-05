@@ -124,13 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.8.1" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\attendance_management_app\attendance_management_app.csproj">
-      <Project>{09EE922E-532B-4922-9804-5C4325F897DD}</Project>
-      <Name>attendance_management_app</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
