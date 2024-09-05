@@ -7,8 +7,8 @@ namespace attendance_management_app.Services
     public class GelocationService
     {
 
-        public static readonly double _empresaLatitud = -12.0003777;
-        public static readonly double _empresaLongitud = -76.8611125;
+        public static readonly double _empresaLatitud = -11.8934203;
+        public static readonly double _empresaLongitud = -77.0664731;
         public static readonly double _rangoPermitido = 0.01;
 
         // Método para calcular la distancia en kilómetros

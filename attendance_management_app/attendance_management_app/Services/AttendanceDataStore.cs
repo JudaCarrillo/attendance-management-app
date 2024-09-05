@@ -122,7 +122,7 @@ namespace attendance_management_app.Services
 
             string monthYear = "09/2024";
 
-            for (int i = 2; i <= 4; i++)
+            for (int i = 1; i <= 3; i++)
             {
                 string date = $"{i:D2}/09/2024";
 

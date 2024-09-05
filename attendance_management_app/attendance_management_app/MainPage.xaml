@@ -2,36 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.MainPage">
-
     <StackLayout>
-        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="¡Bienvenido a Xamarin.Forms!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <Frame BackgroundColor="#2196F3"
+               Padding="24"
+               CornerRadius="0">
+            <Label Text="¡Bienvenido a Xamarin.Forms!"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"
+                   FontSize="36" />
         </Frame>
-
-        <Label x:Name="LatitudeLabel" FontSize="16" Padding="30,10,30,10"/>
-        <Label x:Name="LongitudeLabel" FontSize="16" Padding="30,10,30,10"/>
-
-        <!-- Label para mostrar la hora actual -->
-        <Label x:Name="CurrentTimeLabel" FontSize="20" Padding="30,10,30,10" />
-
         <Button x:Name="MarkAttendanceButton"
                 Text="Marcar Asistencia"
                 IsEnabled="False"
-                Clicked="MarkAttendanceButton_Clicked"
                 FontSize="20"
                 BackgroundColor="Green"
                 TextColor="White"
                 Padding="15"
                 Margin="30,10,30,10" />
-
-        <Button x:Name="ShowAttendanceButton"
-                Text="Mostrar Resumen de Asistencia"
-                Clicked="ShowAttendanceButton_Clicked"
-                FontSize="20"
-                BackgroundColor="Blue"
-                TextColor="White"
-                Padding="15"
-                Margin="30,10,30,10" />
-
     </StackLayout>
 </ContentPage>
