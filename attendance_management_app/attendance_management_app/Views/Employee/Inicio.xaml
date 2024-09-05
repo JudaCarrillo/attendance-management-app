@@ -5,7 +5,7 @@
              NavigationPage.HasNavigationBar="False"
              Background="white">
     <ContentPage.Content>
-        <StackLayout Padding="16">
+        <StackLayout Padding="16" VerticalOptions="FillAndExpand">
             <Label Text="Registro de Asistencia"
                    VerticalOptions="Start"
                    HorizontalOptions="CenterAndExpand"
@@ -74,6 +74,42 @@
                     </StackLayout>
                 </Frame>
             </StackLayout>
+
+            <!-- New Grid for buttons at the bottom with black background -->
+            <Grid VerticalOptions="EndAndExpand" Padding="0" Margin="-20, 0, -20, -17" BackgroundColor="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+
+                <!-- Registrar Button -->
+                <Button Grid.Column="0"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Registrar"
+                        WidthRequest="210"
+                        ImageSource="@drawable/Home"
+                        Clicked="OnRegistrarClicked"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10"
+                    />
+
+                    <Button Grid.Column="1"
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            BackgroundColor="Black"
+                            TextColor="White"
+                            Text="Cerrar Sesión"
+                            WidthRequest="210"
+                            ImageSource="@drawable/cerrarsession"
+                            Clicked="OnCerrarSesionClicked"
+                            ContentLayout="Top, 10"
+                            Padding="0,12,0,10"
+                        />
+            </Grid>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
