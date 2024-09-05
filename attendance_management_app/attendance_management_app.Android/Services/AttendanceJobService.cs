@@ -20,8 +20,8 @@ namespace attendance_management_app.Droid.Services
 
             DateTime dateTime = DateTime.Now;
             Log.Info("AttendanceJobService", $"Ejecutando cron job {dateTime.ToString()}");
-            string month = dateTime.ToString("M/yyyy");
-            string date = dateTime.ToString("d/M/yyyy");
+            string month = dateTime.ToString("MM/yyyy");
+            string date = dateTime.ToString("dd/MM/yyyy");
             AttendanceDataStore.Instance.UpdateAttendanceAbsentHistory(month, date, dateTime);
         }
     }

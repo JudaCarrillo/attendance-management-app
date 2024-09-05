@@ -17,7 +17,7 @@ namespace attendance_management_app.Services
             UsersDataStore = new List<User>
             {
                 new User {
-                    UserId = Util.GenerateUniqueId(),
+                    UserId = "1",
                     Name = "Admin",
                     LastName = "Admin",
                     PhoneNumber = "123456789",
@@ -32,7 +32,7 @@ namespace attendance_management_app.Services
 
                 new User
                 {
-                    UserId = Util.GenerateUniqueId(),
+                    UserId = "2",
                     Name = "User",
                     LastName = "User",
                     PhoneNumber = "987654321",
