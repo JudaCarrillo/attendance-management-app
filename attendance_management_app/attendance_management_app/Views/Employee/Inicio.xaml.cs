@@ -34,6 +34,9 @@ namespace attendance_management_app.Views.Employee
             User currentUser = AuthService.Instance.currentUser;
             Turn userTurn = TurnDataStore.Instance.GetTurnsDataStore().Find(turn => turn.TurnId == currentUser.TurnId);
             BindingContext = userTurn;
+
+            DateTime today = DateTime.Today;
+            CreatePieChartForDate(new DateTime(2024, 9, 2));
         }
 
         private void CreatePieChartForDate(DateTime date)
@@ -49,14 +52,10 @@ namespace attendance_management_app.Views.Employee
             }
 
             var record = attendanceData[monthYear][dayDate];
-            Debug.WriteLine(AttendanceDataStore.Instance.GetAttendanceSummary());
 
             int earlyCount = record.Early.Count;
-            Debug.WriteLine(earlyCount);
             int lateCount = record.Late.Count;
-            Debug.WriteLine(lateCount);
             int absentCount = record.Absent.Count;
-            Debug.WriteLine(absentCount);
 
             var entries = new List<ChartEntry>
             {
@@ -81,9 +80,6 @@ namespace attendance_management_app.Views.Employee
             };
 
             var chart = new PieChart() { Entries = entries };
-
-            // Assuming you have a ChartView in your XAML named 'chartView'
-
             chartView.Chart = chart;
 
         }
