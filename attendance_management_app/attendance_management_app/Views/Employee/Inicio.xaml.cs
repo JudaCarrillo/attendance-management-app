@@ -7,13 +7,12 @@ using System.Threading.Tasks;
 using attendance_management_app.Models;
 using attendance_management_app.Services;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 using System.Globalization;
 using System.Diagnostics;
 
 namespace attendance_management_app.Views.Employee
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Inicio : ContentPage
     {
         private Button _selectedButton;
@@ -137,7 +136,7 @@ namespace attendance_management_app.Views.Employee
             }
         }
 
-        private async void OnMarkAttendanceTapped(object sender, EventArgs e)
+        private async void OnMarkAttendance(object sender, EventArgs e)
         {
             if (!markAttendanceEnabled) return;
             if (AttendanceHistoryFrame.IsVisible) return;
@@ -160,19 +159,19 @@ namespace attendance_management_app.Views.Employee
             TimeSpan allowedStartTime = startTime - TimeSpan.FromMinutes(60);
             TimeSpan allowedMarkAttendanceTime = startTime + TimeSpan.FromMinutes(60);
 
-            if (allowedStartTime <= nowTime)
+            if (nowTime >= allowedStartTime && nowTime <= startTime)
             {
                 MarkAttendance(now, monthYear, date, Attendance.AttendanceType.Early, currentUser);
                 await DisplayAlert("Asistencia", "Has marcado asistencia a tiempo.", "OK");
             }
-            else if (nowTime > allowedMarkAttendanceTime)
-            {
-                await DisplayAlert("Asistencia", "Pasó el límite de tiempo para marcar la asistencia", "OK");
-            }
-            else
+            else if (nowTime > startTime && nowTime <= allowedMarkAttendanceTime)
             {
                 MarkAttendance(now, monthYear, date, Attendance.AttendanceType.Late, currentUser);
                 await DisplayAlert("Asistencia", "Has marcado asistencia tarde.", "OK");
+            }
+            else
+            {
+                await DisplayAlert("Asistencia", "No es posible marcar la asistencia.", "OK");
             }
         }
 
