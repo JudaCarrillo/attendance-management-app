@@ -11,7 +11,7 @@ using Android.Util;
 using Java.Util;
 namespace attendance_management_app.Droid
 {
-    [Activity(Label = "attendance_management_app", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "Assistance Guille PRO", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -22,7 +22,7 @@ namespace attendance_management_app.Droid
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Log.Info("MainActivity", "Init App");
             LoadApplication(new App());
-            SetDailyAlarm(21, 09);
+            SetDailyAlarm(17, 00);
         }
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {

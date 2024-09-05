@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
-             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="attendance_management_app.Views.Employee.Inicio"
              NavigationPage.HasNavigationBar="False"
              Background="white">
@@ -101,7 +99,6 @@
                     </StackLayout>
                 </Frame>
             </StackLayout>
-            <!-- New Grid for buttons at the bottom with black background -->
             <Grid VerticalOptions="EndAndExpand"
                   Padding="0"
                   Margin="-20, 0, -20, -17"
@@ -109,8 +106,8 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
-                <!-- Registrar Button -->
                 <Button Grid.Column="0"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
@@ -127,15 +124,24 @@
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Cerrar Sesión"
+                        Text="Dashboard"
+                        WidthRequest="210"
+                        ImageSource="@drawable/grafico"
+                        Clicked="OnDashboardView"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10" />
+                <Button Grid.Column="2"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Text="Salir"
                         WidthRequest="210"
                         ImageSource="@drawable/cerrarsession"
                         Clicked="OnLogoutButtonClicked"
                         ContentLayout="Top, 10"
                         Padding="0,12,0,10" />
             </Grid>
-            <forms:ChartView x:Name="chartView"
-                             HeightRequest="400" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

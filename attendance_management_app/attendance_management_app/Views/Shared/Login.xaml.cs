@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using attendance_management_app.Services;
+using attendance_management_app.Views.Administrador;
+using attendance_management_app.Views.Administrator;
 using attendance_management_app.Views.Employee;
 using attendance_management_app.Views.Shared;
 using Xamarin.Forms;
@@ -45,15 +47,25 @@ namespace attendance_management_app.Views
             }
 
             AuthService.Instance.Login(currentUser);
+            ClearEntries();
 
-            if (currentUser.FirstLogin)
+            if (currentUser.FirstLogin && currentUser.ProfileId != 1)
             {
                 await Navigation.PushAsync(new UpdatePassword());
                 return;
             }
 
-            ClearEntries();
-            await Navigation.PushAsync(new Inicio());
+            switch (currentUser.ProfileId)
+            {
+                case 1:
+                    await Navigation.PushAsync(new Graficos());
+                    break;
+
+                case 2:
+                    await Navigation.PushAsync(new Inicio());
+                    break;
+            }
+
 
         }
     }

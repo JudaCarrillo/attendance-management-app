@@ -57,5 +57,11 @@ namespace attendance_management_app.Services
         {
             return UsersDataStore;
         }
+
+        public void UpdateUserState(string userId)
+        {
+            var userSelected = UsersDataStore.Find((user) => user.UserId == userId);
+            userSelected.Enabled = !userSelected.Enabled;
+        }
     }
 }
