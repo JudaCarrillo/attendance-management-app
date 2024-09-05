@@ -15,7 +15,6 @@ namespace attendance_management_app.Services
 
         private Dictionary<string, Dictionary<string, AttendanceRecord>> _attendancesDataStore;
 
-
         private AttendanceDataStore()
         {
             _attendancesDataStore = new Dictionary<string, Dictionary<string, AttendanceRecord>>();
@@ -63,6 +62,26 @@ namespace attendance_management_app.Services
             return _attendancesDataStore;
         }
 
+        public string GetAttendanceSummary()
+        {
+            var summary = new StringBuilder();
+
+            foreach (var monthYear in _attendancesDataStore.Keys)
+            {
+                summary.AppendLine($"Mes/Año: {monthYear}");
+                foreach (var date in _attendancesDataStore[monthYear].Keys)
+                {
+                    var record = _attendancesDataStore[monthYear][date];
+                    summary.AppendLine($"  Fecha: {date}");
+                    summary.AppendLine($"    Temprano: {record.Early.Count} registros");
+                    summary.AppendLine($"    Tarde: {record.Late.Count} registros");
+                    summary.AppendLine($"    Ausente: {record.Absent.Count} registros");
+                }
+            }
+
+            return summary.ToString();
+        }
+
         public void UpdateAttendanceAbsentHistory(string month, string date, DateTime dateTime)
         {
             var users = UserDataStore.Instance.GetUsersDataStore();
@@ -103,7 +122,7 @@ namespace attendance_management_app.Services
 
             string monthYear = "09/2024";
 
-            for (int i = 2; i <= 4; i++)
+            for (int i = 1; i <= 3; i++)
             {
                 string date = $"{i:D2}/09/2024";
 
