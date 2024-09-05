@@ -11,7 +11,7 @@ namespace attendance_management_app
         {
             InitializeComponent();
 
-            MainPage = new Login();
+            MainPage = new RegistrarEmpleado();
         }
 
         protected override void OnStart()

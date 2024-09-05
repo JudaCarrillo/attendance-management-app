@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="attendance_management_app.Views.RegistrarEmpleado"
+             BackgroundColor="White"
+             
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand">
+            <Frame Padding="15" BorderColor="Black" CornerRadius="10" Margin="10,0,10,0">
+                <Grid ColumnSpacing="10" RowSpacing="15">
+                    <!-- Definición de filas y columnas -->
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Nombre -->
+                    <Label Text="Nombre" Grid.Row="0" Grid.Column="0" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="1" Grid.Column="0">
+                        <Entry  TextColor="Black"/>
+                    </Frame>
+
+                    <!-- Apellido -->
+                    <Label Text="Apellido" Grid.Row="0" Grid.Column="1" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="1" Grid.Column="1">
+                        <Entry TextColor="Black" />
+                    </Frame>
+
+                    <!-- Teléfono -->
+                    <Label Text="Teléfono" Grid.Row="2" Grid.Column="0" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="3" Grid.Column="0">
+                        <Entry TextColor="Black" />
+                    </Frame>
+
+                    <!-- Dirección -->
+                    <Label Text="Dirección" Grid.Row="2" Grid.Column="1" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="3" Grid.Column="1">
+                        <Entry  TextColor="Black" />
+                    </Frame>
+
+                    <!-- DNI -->
+                    <Label Text="DNI" Grid.Row="4" Grid.Column="0" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="5" Grid.Column="0">
+                        <Entry  TextColor="Black" />
+                    </Frame>
+
+                    <!-- Contraseña -->
+                    <Label Text="Contraseña" Grid.Row="4" Grid.Column="1" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="5" Grid.Column="1">
+                        <Entry TextColor="Black" IsPassword="True" />
+                    </Frame>
+
+                    <!-- Turnos (ComboBox) -->
+                    <Label Text="Turnos" Grid.Row="6" Grid.Column="0" />
+                    <Frame BorderColor="Gray" CornerRadius="5" Padding="5, 0, 5, 0" Grid.Row="7" Grid.Column="0">
+                        <Picker Title="Seleccionar Turno" TextColor="Black">
+                            <Picker.Items>
+                                <x:String>Mañana</x:String>
+                                <x:String>Tarde</x:String>
+                                <x:String>Noche</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </Frame>
+
+                    <!-- Botones -->
+                    <Grid Grid.Row="8" Grid.ColumnSpan="2" ColumnSpacing="10" Margin="0,20,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+
+                        <!-- Botón Registrar -->
+                        <Button Text="Registrar"
+                                CornerRadius="7"
+                                BackgroundColor="Black"
+                                TextColor="White"
+                                Grid.Column="0" />
+
+                        <!-- Botón Cancelar -->
+                        <Button Text="Cancelar"
+                                CornerRadius="7"
+                                BackgroundColor="Red"
+                                TextColor="White"
+                                Grid.Column="1" />
+                    </Grid>
+                </Grid>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
