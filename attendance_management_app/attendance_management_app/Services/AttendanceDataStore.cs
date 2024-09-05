@@ -63,6 +63,26 @@ namespace attendance_management_app.Services
             return _attendancesDataStore;
         }
 
+        public string GetAttendanceSummary()
+        {
+            var summary = new StringBuilder();
+
+            foreach (var monthYear in _attendancesDataStore.Keys)
+            {
+                summary.AppendLine($"Mes/Año: {monthYear}");
+                foreach (var date in _attendancesDataStore[monthYear].Keys)
+                {
+                    var record = _attendancesDataStore[monthYear][date];
+                    summary.AppendLine($"  Fecha: {date}");
+                    summary.AppendLine($"    Temprano: {record.Early.Count} registros");
+                    summary.AppendLine($"    Tarde: {record.Late.Count} registros");
+                    summary.AppendLine($"    Ausente: {record.Absent.Count} registros");
+                }
+            }
+
+            return summary.ToString();
+        }
+
         public void UpdateAttendanceAbsentHistory(string month, string date, DateTime dateTime)
         {
             var users = UserDataStore.Instance.GetUsersDataStore();
@@ -101,24 +121,25 @@ namespace attendance_management_app.Services
         {
             var users = new List<string> { "1", "2" };
 
-            string monthYear = "09/2024";
+            string monthYear = "08/2024";
 
-            for (int i = 2; i <= 4; i++)
+            for (int i = 1; i <= 31; i++)
             {
-                string date = $"{i:D2}/09/2024";
+                string date = $"{i:D2}/08/2024";
 
                 foreach (var user in users)
                 {
                     AddAttendanceDataStore(monthYear, date, new Attendance
                     {
                         UserId = user,
-                        DateTime = new DateTime(2024, 9, i),
+                        DateTime = new DateTime(2024, 8, i),
                         AttendanceId = Util.GenerateUniqueId(),
                         Type = (AttendanceType)(i % 3)
                     });
                 }
             }
         }
+
         public class AttendanceRecord
         {
             public string Date { get; set; }

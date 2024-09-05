@@ -6,12 +6,22 @@ using System.Text;
 using System.Threading.Tasks;
 using attendance_management_app.Models;
 using attendance_management_app.Services;
+using Microcharts;
+using Microcharts.Forms;
+using ChartEntry = Microcharts.ChartEntry;
+using SkiaSharp;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+//using Xamarin.Forms.Xaml;
+//Paquetes para Gráficos
+
+
+using static attendance_management_app.Services.AttendanceDataStore;
+using System.Diagnostics;
+
 
 namespace attendance_management_app.Views.Employee
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    //[XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Inicio : ContentPage
     {
         private Button _selectedButton;
@@ -27,10 +37,63 @@ namespace attendance_management_app.Views.Employee
             Turn userTurn = TurnDataStore.Instance.GetTurnsDataStore().Find(turn => turn.TurnId == currentUser.TurnId);
             BindingContext = userTurn;
 
+            CreatePieChartForDate(new DateTime(2024, 8, 30));
+
             //DateTime today = DateTime.Today;
             //OnSelectDay(today);
         }
 
+        private void CreatePieChartForDate(DateTime date)
+        {
+            string monthYear = date.ToString("MM/yyyy");
+            string dayDate = date.ToString("dd/MM/yyyy");
+
+            var attendanceData = AttendanceDataStore.Instance.GetAttendancesData();
+
+            if (!attendanceData.ContainsKey(monthYear) || !attendanceData[monthYear].ContainsKey(dayDate))
+            {
+                AttendanceDataStore.Instance.InitializedAttendanceDataStore(monthYear, dayDate);
+            }
+
+            var record = attendanceData[monthYear][dayDate];
+            Debug.WriteLine(AttendanceDataStore.Instance.GetAttendanceSummary());
+
+            int earlyCount = record.Early.Count;
+            Debug.WriteLine(earlyCount);
+            int lateCount = record.Late.Count;
+            Debug.WriteLine(lateCount);
+            int absentCount = record.Absent.Count;
+            Debug.WriteLine(absentCount);
+
+            var entries = new List<ChartEntry>
+            {
+                new ChartEntry(earlyCount)
+                {
+                    Label = "Asistencias",
+                    ValueLabel = earlyCount.ToString(),
+                    Color = SKColor.Parse("#2ecc71")
+                },
+                new ChartEntry(lateCount)
+                {
+                    Label = "Tardanzas",
+                    ValueLabel = lateCount.ToString(),
+                    Color = SKColor.Parse("#f1c40f")
+                },
+                new ChartEntry(absentCount)
+                {
+                    Label = "Faltas",
+                    ValueLabel = absentCount.ToString(),
+                    Color = SKColor.Parse("#e74c3c")
+                }
+            };
+
+            var chart = new PieChart() { Entries = entries };
+
+            // Assuming you have a ChartView in your XAML named 'chartView'
+
+            chartView.Chart = chart;
+
+        }
 
         private void OnButtonClicked(object sender, EventArgs e)
         {
