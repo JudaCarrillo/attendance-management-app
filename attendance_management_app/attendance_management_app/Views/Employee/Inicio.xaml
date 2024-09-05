@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="attendance_management_app.Views.Employee.Inicio"
+             NavigationPage.HasNavigationBar="False"
+             Background="white">
+    <ContentPage.Content>
+        <StackLayout Padding="16">
+            <Label Text="Registro de Asistencia"
+                   VerticalOptions="Start"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="#000000"
+                   Margin="0,24,0,0" />
+            <BoxView HeightRequest="2"
+                     BackgroundColor="Black"
+                     WidthRequest="270"
+                     HorizontalOptions="Center"
+                     Margin="0,0,0,15" />
+            <!-- Frame for adding a border to the sides -->
+            <Frame HasShadow="False"
+                   CornerRadius="5"
+                   BorderColor="Black"
+                   Padding="0"
+                   Margin="0">
+                <StackLayout Orientation="Horizontal"
+                             Spacing="5"
+                             Padding="0"
+                             Margin="0"
+                             HeightRequest="40">
+                    <!-- CollectionView inside StackLayout -->
+                    <CollectionView ItemsSource="{Binding WorkingDaysFormat}"
+                                    SelectionMode="Single"
+                                    ItemsLayout="HorizontalList">
+                        <CollectionView.ItemTemplate>
+                            <DataTemplate>
+                                <Button x:Name="{Binding .}"
+                                        Text="{Binding .}"
+                                        HorizontalOptions="Start"
+                                        VerticalOptions="Center"
+                                        Margin="2"
+                                        BackgroundColor="Black"
+                                        TextColor="White"
+                                        Clicked="OnButtonClicked"
+                                        CommandParameter="{Binding .}" />
+                            </DataTemplate>
+                        </CollectionView.ItemTemplate>
+                    </CollectionView>
+                </StackLayout>
+            </Frame>
+            <StackLayout>
+                <Frame HasShadow="False"
+                       x:Name="AttendanceFrame"
+                       CornerRadius="10"
+                       BorderColor="Black"
+                       BackgroundColor="White"
+                       Padding="10"
+                       Margin="0,20,0,0"
+                       HorizontalOptions="Center"
+                       WidthRequest="193"
+                       HeightRequest="100">
+                    <StackLayout VerticalOptions="CenterAndExpand"
+                                 HorizontalOptions="Center"
+                                 Spacing="5">
+                        <Label Text="Hora de Entrada:"
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                        <Label Text="8:00 AM"
+                               FontSize="14"
+                               TextColor="Black"
+                               HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

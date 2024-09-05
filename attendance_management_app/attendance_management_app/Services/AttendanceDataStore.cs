@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Text;
 using attendance_management_app.Models;
 using attendance_management_app.Utils;
@@ -17,6 +18,7 @@ namespace attendance_management_app.Services
         private AttendanceDataStore()
         {
             _attendancesDataStore = new Dictionary<string, Dictionary<string, AttendanceRecord>>();
+            InitializeTestData();
         }
 
         public void AddAttendanceDataStore(string monthYear, string date, Attendance attendance)
@@ -44,8 +46,15 @@ namespace attendance_management_app.Services
 
         public void InitializedAttendanceDataStore(string monthYear, string date)
         {
-            _attendancesDataStore[monthYear] = new Dictionary<string, AttendanceRecord>();
-            _attendancesDataStore[monthYear][date] = new AttendanceRecord { Date = date };
+            if (!_attendancesDataStore.ContainsKey(monthYear))
+            {
+                _attendancesDataStore[monthYear] = new Dictionary<string, AttendanceRecord>();
+            }
+
+            if (!_attendancesDataStore[monthYear].ContainsKey(date))
+            {
+                _attendancesDataStore[monthYear][date] = new AttendanceRecord { Date = date };
+            }
         }
 
         public Dictionary<string, Dictionary<string, AttendanceRecord>> GetAttendancesData()
@@ -106,13 +115,36 @@ namespace attendance_management_app.Services
                 );
             }
         }
-    }
 
-    public class AttendanceRecord
-    {
-        public string Date { get; set; }
-        public List<Attendance> Early { get; set; } = new List<Attendance>();
-        public List<Attendance> Late { get; set; } = new List<Attendance>();
-        public List<Attendance> Absent { get; set; } = new List<Attendance>();
+        private void InitializeTestData()
+        {
+            var users = new List<string> { "1", "2" };
+
+            string monthYear = "09/2024";
+
+            for (int i = 2; i <= 4; i++)
+            {
+                string date = $"{i:D2}/09/2024";
+
+                foreach (var user in users)
+                {
+                    AddAttendanceDataStore(monthYear, date, new Attendance
+                    {
+                        UserId = user,
+                        DateTime = new DateTime(2024, 9, i),
+                        AttendanceId = Util.GenerateUniqueId(),
+                        Type = (AttendanceType)(i % 3)
+                    });
+                }
+            }
+        }
+        public class AttendanceRecord
+        {
+            public string Date { get; set; }
+            public List<Attendance> Early { get; set; } = new List<Attendance>();
+            public List<Attendance> Late { get; set; } = new List<Attendance>();
+            public List<Attendance> Absent { get; set; } = new List<Attendance>();
+        }
+
     }
 }
