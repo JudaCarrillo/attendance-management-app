@@ -19057,7 +19057,7 @@ namespace attendance_management_app.Droid
 			public const int ic_mtrl_chip_close_circle = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int logo = 2131165297;
+			public const int logo_alt = 2131165297;
 			
 			// aapt resource value: 0x7F070072
 			public const int material_cursor_drawable = 2131165298;
@@ -21296,14 +21296,17 @@ namespace attendance_management_app.Droid
 		public partial class Mipmap
 		{
 			
-			// aapt resource value: 0x7F0C0000
-			public const int icon = 2131492864;
-			
 			// aapt resource value: 0x7F0C0001
-			public const int icon_round = 2131492865;
+			public const int icon = 2131492865;
 			
 			// aapt resource value: 0x7F0C0002
-			public const int launcher_foreground = 2131492866;
+			public const int icon_round = 2131492866;
+			
+			// aapt resource value: 0x7F0C0000
+			public const int ic_launcher_fore = 2131492864;
+			
+			// aapt resource value: 0x7F0C0003
+			public const int launcher_foreground = 2131492867;
 			
 			static Mipmap()
 			{

@@ -12,11 +12,11 @@
                    HorizontalOptions="FillAndExpand"
                    HeightRequest="285" />
 
-            <AbsoluteLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Margin="0,36,0,0">
-                <Image Source="https://via.placeholder.com/150" 
+            <AbsoluteLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Margin="0,25,0,0">
+                <Image Source="@drawable/logo_alt" 
                        Aspect="AspectFit"
-                       WidthRequest="120"
-                       HeightRequest="120"
+                       WidthRequest="150"
+                       HeightRequest="150"
                        AbsoluteLayout.LayoutBounds="0.5, 0.25, AutoSize, AutoSize"
                        AbsoluteLayout.LayoutFlags="PositionProportional" />
             </AbsoluteLayout>
@@ -31,7 +31,7 @@
                 </Frame>
 
                 <StackLayout BackgroundColor="White" VerticalOptions="Center" Padding="30" HeightRequest="523">
-                    <Label Text="Iniciar Sesion"
+                    <Label Text="Assistance Pro"
                            FontSize="30"
                            HorizontalOptions="Center"
                            Margin="0, 10, 0, 0"

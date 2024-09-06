@@ -7,7 +7,7 @@
 	<item>
 		<color android:color="@color/backgroundSplashScreen"/>
 	</item>
-	<item android:drawable="@drawable/logo"
+	<item android:drawable="@drawable/logo_alt"
 	android:gravity="center">
 
 	</item>
