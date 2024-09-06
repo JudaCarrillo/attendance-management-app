@@ -69,7 +69,8 @@
                                FontSize="14"
                                TextColor="Black"
                                HorizontalOptions="Center" />
-                        <Label Text="8:00 AM"
+                        <Label x:Name="StartTime"
+                               Text=""
                                FontSize="14"
                                TextColor="Black"
                                HorizontalOptions="Center" />

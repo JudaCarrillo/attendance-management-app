@@ -30,7 +30,8 @@ namespace attendance_management_app.Views.Employee
             Turn userTurn = TurnDataStore.Instance.GetTurnsDataStore().Find(turn => turn.TurnId == currentUser.TurnId);
             BindingContext = userTurn;
 
-            DateTime today = DateTime.Today;
+            var startTimeFormatted = userTurn.StartTime + ":00";
+            StartTime.Text = startTimeFormatted;
         }
 
         private void OnButtonClicked(object sender, EventArgs e)

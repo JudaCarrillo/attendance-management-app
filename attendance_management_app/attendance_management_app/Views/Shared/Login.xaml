@@ -22,7 +22,7 @@
             </AbsoluteLayout>
 
             <StackLayout VerticalOptions="FillAndExpand" Padding="0">
-                <Frame BackgroundColor="White"
+                <Frame BackgroundColor="Transparent"
                        Padding="0"
                        HeightRequest="110"
                        IsClippedToBounds="False"

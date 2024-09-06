@@ -41,7 +41,7 @@ namespace attendance_management_app.Services
                     Password = "user",
                     Enabled = true,
                     FirstLogin = false,
-                    TurnId = 1,
+                    TurnId = 2,
                     ProfileId = 2,
                 }
 
