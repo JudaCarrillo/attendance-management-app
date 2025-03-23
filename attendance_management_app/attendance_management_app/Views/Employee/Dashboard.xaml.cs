@@ -7,6 +7,8 @@ using attendance_management_app.Services;
 using attendance_management_app.Utils;
 using Microcharts;
 using Xamarin.Forms;
+using attendance_management_app.ViewModel; 
+using Xamarin.Plugin.Calendar.Controls;
 using Xamarin.Forms.Xaml;
 
 namespace attendance_management_app.Views.Employee
@@ -18,7 +20,11 @@ namespace attendance_management_app.Views.Employee
         {
             InitializeComponent();
             LoadChart(DateTime.Today);
+            BindingContext = new CalendarViewModel();
+
         }
+
+
         private void OnLogoutButtonClicked(object sender, EventArgs e)
         {
             AuthService.Instance.Logout();

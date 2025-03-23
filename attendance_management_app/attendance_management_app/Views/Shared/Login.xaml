@@ -2,87 +2,86 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.Views.Login"
-             BackgroundColor="Transparent"
+             BackgroundColor="White"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <Grid>
-            <Image Source="@drawable/fondo_login" 
-                   Aspect="AspectFill"
-                   VerticalOptions="Start"
-                   HorizontalOptions="FillAndExpand"
-                   HeightRequest="285" />
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Margin="0,60,0,0">
+                <!-- Logo con imagen y texto en horizontal -->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="0,0,0,10">
+                    <Image Source="logo_act" 
+                           Aspect="AspectFit"
+                           WidthRequest="250" 
+                           HeightRequest="250" />
+                 
+                </StackLayout>
 
-            <AbsoluteLayout VerticalOptions="Start" HorizontalOptions="FillAndExpand" Margin="0,25,0,0">
-                <Image Source="@drawable/logo_alt" 
-                       Aspect="AspectFit"
-                       WidthRequest="150"
-                       HeightRequest="150"
-                       AbsoluteLayout.LayoutBounds="0.5, 0.25, AutoSize, AutoSize"
-                       AbsoluteLayout.LayoutFlags="PositionProportional" />
-            </AbsoluteLayout>
+                <!-- Línea divisoria -->
+               
 
-            <StackLayout VerticalOptions="FillAndExpand" Padding="0">
-                <Frame BackgroundColor="Transparent"
+                <!-- Sección de inicio de sesión -->
+                <Label Text="INICIAR SESION"
+                       FontSize="22" 
+                       HorizontalOptions="Center"
+                       TextColor="Black"/>
+
+                <!-- Línea divisoria -->
+                <BoxView HeightRequest="1" 
+                         BackgroundColor="Black" 
+                         WidthRequest="250" 
+                         HorizontalOptions="Center" 
+                         Margin="0,5,0,30"/>
+
+                <!-- Campo de usuario -->
+                <Frame CornerRadius="5" 
+                       BorderColor="Gray"
                        Padding="0"
-                       HeightRequest="110"
-                       IsClippedToBounds="False"
-                       HorizontalOptions="FillAndExpand"
-                       Margin="0, 170, 0, 0">
+                       HasShadow="False"
+                       Margin="30,0,30,20"
+                       HeightRequest="50">
+                    <Entry Placeholder="USUARIO"
+                           BackgroundColor="Transparent"
+                           TextColor="Black"
+                           PlaceholderColor="LightGray"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0"
+                           WidthRequest="250"
+                           HeightRequest="50"
+                           FontSize="16" 
+                           x:Name="usernameEntry"/>
                 </Frame>
 
-                <StackLayout BackgroundColor="White" VerticalOptions="Center" Padding="30" HeightRequest="523">
-                    <Label Text="Assistance Pro"
-                           FontSize="30"
-                           HorizontalOptions="Center"
-                           Margin="0, 10, 0, 0"
-                           FontAttributes="Bold" 
+                <!-- Campo de contraseña -->
+                <Frame CornerRadius="5" 
+                       BorderColor="Gray"
+                       Padding="0"
+                       HasShadow="False"
+                       Margin="30,0,30,40"
+                       HeightRequest="50">
+                    <Entry Placeholder="CONTRASEÑA"
+                           IsPassword="True"
+                           BackgroundColor="Transparent"
                            TextColor="Black"
-                           />
-                    <BoxView HeightRequest="1" BackgroundColor="Black" WidthRequest="250" HorizontalOptions="Center" Margin="0,0,0,60"/>
-                    <StackLayout WidthRequest="200">
-                        <Frame CornerRadius="10"
-                                BorderColor="Gray"
-                                Padding="0"
-                                HasShadow="False"
-                                Margin="0, 0, 0, 20">
-                            <Entry Placeholder="Usuario"
-                                   BackgroundColor="Transparent"
-                                   TextColor="Black"
-                                   PlaceholderColor="Gray"
-                                   Margin="10,0"
-                                   HeightRequest="50"
-                                   x:Name="usernameEntry"/>
-                        </Frame>
+                           PlaceholderColor="LightGray"
+                           HorizontalTextAlignment="Center"
+                           Margin="20,0"
+                           HeightRequest="50"
+                           FontSize="16"
+                           x:Name="passwordEntry"/>
+                </Frame>
 
-                        <Frame CornerRadius="10"
-                               BorderColor="Gray"
-                               Padding="0"
-                               HasShadow="False"
-                               Margin="0, 0, 0, 20">
-                            <Entry Placeholder="Contraseña"
-                                   IsPassword="True"
-                                   BackgroundColor="Transparent"
-                                   TextColor="Black"
-                                   PlaceholderColor="Gray"
-                                   Margin="10,0"
-                                   HeightRequest="50"
-                                   x:Name="passwordEntry"/>
-                        </Frame>
-                    </StackLayout>
-
-                    
-
-                    <Button Text="Iniciar Sesion"
-                            BackgroundColor="Black"
-                            TextColor="White"
-                            CornerRadius="10"
-                            HeightRequest="40"
-                            WidthRequest="200"
-                            FontAttributes="Bold"
-                            HorizontalOptions="Center" 
-                            x:Name="btnLogin"
-                            Clicked="btnLogin_Clicked"/>
-                </StackLayout>
+                <!-- Botón de inicio de sesión -->
+                <Button Text="INICIAR SESION"
+                        BackgroundColor="#6A83FF"
+                        TextColor="White"
+                        CornerRadius="5"
+                        HeightRequest="50"
+                        WidthRequest="250"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        HorizontalOptions="Center" 
+                        x:Name="btnLogin"
+                        Clicked="btnLogin_Clicked"/>
             </StackLayout>
         </Grid>
     </ContentPage.Content>

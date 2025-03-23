@@ -2748,10 +2748,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_fade_exit = global::attendance_management_app.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_enter = global::attendance_management_app.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.fragment_open_exit = global::attendance_management_app.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Android.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Android.Resource.Animator.mtrl_card_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -2925,6 +2921,9 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconTint = global::attendance_management_app.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedIconVisible = global::attendance_management_app.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkedTextViewStyle = global::attendance_management_app.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkCompat = global::attendance_management_app.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTint = global::attendance_management_app.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.checkMarkTintMode = global::attendance_management_app.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipBackgroundColor = global::attendance_management_app.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.chipEndPadding = global::attendance_management_app.Droid.Resource.Attribute.chipEndPadding;
@@ -2996,7 +2995,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSurface = global::attendance_management_app.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.colorSwitchThumbNormal = global::attendance_management_app.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.commitIcon = global::attendance_management_app.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.ConstraintRotate = global::attendance_management_app.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraints = global::attendance_management_app.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSet = global::attendance_management_app.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.constraintSetEnd = global::attendance_management_app.Droid.Resource.Attribute.constraintSetEnd;
@@ -3097,6 +3095,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevation = global::attendance_management_app.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayColor = global::attendance_management_app.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.elevationOverlayEnabled = global::attendance_management_app.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.emojiCompatEnabled = global::attendance_management_app.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.enableEdgeToEdge = global::attendance_management_app.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconCheckable = global::attendance_management_app.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.endIconContentDescription = global::attendance_management_app.Droid.Resource.Attribute.endIconContentDescription;
@@ -3355,6 +3354,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.listPreferredItemPaddingStart = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logo = global::attendance_management_app.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.logoDescription = global::attendance_management_app.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.lStar = global::attendance_management_app.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogBodyTextStyle = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTheme = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.materialAlertDialogTitleIconStyle = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -3692,7 +3692,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureHeight = global::attendance_management_app.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.textureWidth = global::attendance_management_app.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.theme = global::attendance_management_app.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Attribute.themeLineHeight = global::attendance_management_app.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thickness = global::attendance_management_app.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbColor = global::attendance_management_app.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.thumbElevation = global::attendance_management_app.Droid.Resource.Attribute.thumbElevation;
@@ -3834,7 +3833,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_light_background = global::attendance_management_app.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_end_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.cardview_shadow_start_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.checkbox_themeable_attribute_color = global::attendance_management_app.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_bottom_navigation_shadow_color = global::attendance_management_app.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_box_stroke_color = global::attendance_management_app.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.design_dark_default_color_background = global::attendance_management_app.Droid.Resource.Color.design_dark_default_color_background;
@@ -3979,7 +3977,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_default_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.primary_text_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.radiobutton_themeable_attribute_color = global::attendance_management_app.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_dark = global::attendance_management_app.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.ripple_material_light = global::attendance_management_app.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.secondary_text_default_material_dark = global::attendance_management_app.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -3992,8 +3989,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_dark = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.switch_thumb_normal_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day = global::attendance_management_app.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Android.Resource.Color.test_mtrl_calendar_day_selected = global::attendance_management_app.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_dark = global::attendance_management_app.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Color.tooltip_background_light = global::attendance_management_app.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -4077,7 +4072,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.action_bar_size = global::attendance_management_app.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.appcompat_dialog_background_inset = global::attendance_management_app.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_compat_inset_shadow = global::attendance_management_app.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.cardview_default_elevation = global::attendance_management_app.Droid.Resource.Dimension.cardview_default_elevation;
@@ -4090,7 +4084,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_control_corner_material = global::attendance_management_app.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_height = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.compat_notification_large_icon_max_width = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.default_dimension = global::attendance_management_app.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.def_drawer_elevation = global::attendance_management_app.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_appbar_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -4162,11 +4155,8 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_hand_stroke_width = global::attendance_management_app.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_number_text_size = global::attendance_management_app.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_height = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_margin_left = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_period_toggle_width = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_clock_size = global::attendance_management_app.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_bottom = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_inset_top = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_cursor_width = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_disabled = global::attendance_management_app.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_emphasis_high_type = global::attendance_management_app.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -4184,8 +4174,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_default_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_max_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_textinput_min_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height = global::attendance_management_app.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_text_view_test_line_height_override = global::attendance_management_app.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::attendance_management_app.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_height = global::attendance_management_app.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.material_time_picker_minimum_screen_width = global::attendance_management_app.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -4282,12 +4270,10 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_card_spacing = global::attendance_management_app.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_pressed_translation_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_chip_text_size = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_extended_fab_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -4311,7 +4297,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_large_touch_target = global::attendance_management_app.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_default_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -4359,7 +4344,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_thumb_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_side_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_track_top = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_slider_widget_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -4399,18 +4383,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_subtext_size = global::attendance_management_app.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.notification_top_pad_large_text = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::attendance_management_app.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_active_text_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_elevation = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_height = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_icon_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_label_padding = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_shadow_height = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Dimension.test_navigation_bar_text_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_horizontal_padding = global::attendance_management_app.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Android.Resource.Dimension.tooltip_margin = global::attendance_management_app.Droid.Resource.Dimension.tooltip_margin;
@@ -4537,7 +4509,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_ic_error = global::attendance_management_app.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_navigation_bar_item_background = global::attendance_management_app.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background = global::attendance_management_app.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_popupmenu_background_dark = global::attendance_management_app.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.mtrl_tabs_default_indicator = global::attendance_management_app.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.navigation_empty_icon = global::attendance_management_app.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_action_background = global::attendance_management_app.Droid.Resource.Drawable.notification_action_background;
@@ -4552,7 +4523,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_template_icon_low_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notification_tile_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::attendance_management_app.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_custom_background = global::attendance_management_app.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Android.Resource.Drawable.test_level_drawable = global::attendance_management_app.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_dark = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Drawable.tooltip_frame_light = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.accelerate = global::attendance_management_app.Droid.Resource.Id.accelerate;
@@ -4657,11 +4628,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chains = global::attendance_management_app.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.checkbox = global::attendance_management_app.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.@checked = global::attendance_management_app.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip = global::attendance_management_app.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip1 = global::attendance_management_app.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip2 = global::attendance_management_app.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip3 = global::attendance_management_app.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.chip_group = global::attendance_management_app.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.chronometer = global::attendance_management_app.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.circle_center = global::attendance_management_app.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.clear_text = global::attendance_management_app.Droid.Resource.Id.clear_text;
@@ -4750,7 +4716,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.grouping = global::attendance_management_app.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.groups = global::attendance_management_app.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.group_divider = global::attendance_management_app.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.guideline = global::attendance_management_app.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.header_title = global::attendance_management_app.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.hideable = global::attendance_management_app.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.home = global::attendance_management_app.Droid.Resource.Id.home;
@@ -4803,7 +4768,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_textinput_timepicker = global::attendance_management_app.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_cancel_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_container = global::attendance_management_app.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_edit_text = global::attendance_management_app.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_mode_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_ok_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.material_timepicker_view = global::attendance_management_app.Droid.Resource.Id.material_timepicker_view;
@@ -4978,10 +4942,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_event_manager = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_unhandled_key_listeners = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.tag_window_insets_animation_callback = global::attendance_management_app.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_android_button_tint = global::attendance_management_app.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_checkbox_app_button_tint = global::attendance_management_app.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_android_button_tint = global::attendance_management_app.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.test_radiobutton_app_button_tint = global::attendance_management_app.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text = global::attendance_management_app.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.text2 = global::attendance_management_app.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.textEnd = global::attendance_management_app.Droid.Resource.Id.textEnd;
@@ -5026,6 +4986,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_offset_helper = global::attendance_management_app.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_transition = global::attendance_management_app.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_lifecycle_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_saved_state_registry_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.view_tree_view_model_store_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.visible = global::attendance_management_app.Droid.Resource.Id.visible;
@@ -5038,7 +4999,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Id.wrap_content_constrained = global::attendance_management_app.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_left = global::attendance_management_app.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Android.Resource.Id.x_right = global::attendance_management_app.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Android.Resource.Id.zero_corner_chip = global::attendance_management_app.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityDefaultDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.abc_config_activityShortDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Android.Resource.Integer.app_bar_elevation_anim_duration = global::attendance_management_app.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -5192,21 +5152,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.ShellContent = global::attendance_management_app.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::attendance_management_app.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Tabbar = global::attendance_management_app.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_action_chip = global::attendance_management_app.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_chip_zero_corner_radius = global::attendance_management_app.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_checkbox = global::attendance_management_app.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_design_radiobutton = global::attendance_management_app.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_navigation_bar_item_layout = global::attendance_management_app.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_reflow_chipgroup = global::attendance_management_app.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar = global::attendance_management_app.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_custom_background = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_elevation = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.test_toolbar_surface = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_without_line_height = global::attendance_management_app.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_appearance = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_layout = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_line_height_from_style = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Android.Resource.Layout.text_view_with_theme_line_height = global::attendance_management_app.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Android.Resource.Layout.Toolbar = global::attendance_management_app.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Android.Resource.Plurals.mtrl_badge_content_description = global::attendance_management_app.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_action_bar_home_description = global::attendance_management_app.Droid.Resource.String.abc_action_bar_home_description;
@@ -5236,13 +5181,13 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_shareactionprovider_share_with_application = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Android.Resource.String.abc_toolbar_collapse_description = global::attendance_management_app.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Android.Resource.String.androidx_startup = global::attendance_management_app.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Android.Resource.String.appbar_scrolling_view_behavior = global::attendance_management_app.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottomsheet_action_expand_halfway = global::attendance_management_app.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Android.Resource.String.bottom_sheet_behavior = global::attendance_management_app.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_content_description = global::attendance_management_app.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_overflowed_content_description = global::attendance_management_app.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.character_counter_pattern = global::attendance_management_app.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Android.Resource.String.chip_text = global::attendance_management_app.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Android.Resource.String.clear_text_end_icon_content_description = global::attendance_management_app.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.error_icon_content_description = global::attendance_management_app.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Android.Resource.String.exposed_dropdown_menu_content_description = global::attendance_management_app.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -5318,7 +5263,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.String.status_bar_notification_info_overflow = global::attendance_management_app.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.AlertDialog_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.AndroidThemeColorAccentYellow = global::attendance_management_app.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Animation_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -5549,7 +5493,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::attendance_management_app.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::attendance_management_app.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::attendance_management_app.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.EmptyTheme = global::attendance_management_app.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::attendance_management_app.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::attendance_management_app.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MaterialAlertDialog_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -5595,11 +5538,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::attendance_management_app.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::attendance_management_app.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_Cut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -5608,25 +5546,11 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeight = global::attendance_management_app.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithLineHeightAppearance = global::attendance_management_app.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithoutLineHeight = global::attendance_management_app.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::attendance_management_app.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeight = global::attendance_management_app.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.TestThemeWithLineHeightDisabled = global::attendance_management_app.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::attendance_management_app.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::attendance_management_app.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -5716,7 +5640,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlayColorAccentRed = global::attendance_management_app.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -5823,7 +5746,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -5837,7 +5759,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.Theme_MaterialComponents_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -6140,6 +6061,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScroll = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppBarLayout_statusBarForeground = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatEmojiHelper = global::attendance_management_app.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_android_src = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -6173,6 +6095,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTint = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTintMode = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontFamily = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -6389,6 +6312,11 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUpMode = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_android_checkMark = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkCompat = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTint = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.Chip = global::attendance_management_app.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ChipGroup_checkedChip = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -6479,6 +6407,8 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_color = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_android_lStar = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ColorStateListItem_lStar = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_android_button = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.CompoundButton_buttonCompat = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -6752,7 +6682,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierDirection = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_barrierMargin = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_chainUseRtl = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_ConstraintRotate = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -7981,11 +7910,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingEnd = global::attendance_management_app.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_paddingStart = global::attendance_management_app.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.View_theme = global::attendance_management_app.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge = global::attendance_management_app.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_end = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_bottom_start = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_gravity_top_start = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Android.Resource.Xml.standalone_badge_offset = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_in = global::attendance_management_app.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_fade_out = global::attendance_management_app.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom = global::attendance_management_app.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -8035,10 +7959,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_fade_exit = global::attendance_management_app.Droid.Resource.Animator.fragment_fade_exit;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_enter = global::attendance_management_app.Droid.Resource.Animator.fragment_open_enter;
 			global::Xamarin.Forms.Platform.Resource.Animator.fragment_open_exit = global::attendance_management_app.Droid.Resource.Animator.fragment_open_exit;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_head_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line1_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line1_tail_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line1_tail_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_head_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line2_head_interpolator;
-			global::Xamarin.Forms.Platform.Resource.Animator.linear_indeterminate_line2_tail_interpolator = global::attendance_management_app.Droid.Resource.Animator.linear_indeterminate_line2_tail_interpolator;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
 			global::Xamarin.Forms.Platform.Resource.Animator.mtrl_card_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_card_state_list_anim;
@@ -8212,6 +8132,9 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconTint = global::attendance_management_app.Droid.Resource.Attribute.checkedIconTint;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedIconVisible = global::attendance_management_app.Droid.Resource.Attribute.checkedIconVisible;
 			global::Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle = global::attendance_management_app.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkCompat = global::attendance_management_app.Droid.Resource.Attribute.checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTint = global::attendance_management_app.Droid.Resource.Attribute.checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Attribute.checkMarkTintMode = global::attendance_management_app.Droid.Resource.Attribute.checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipBackgroundColor = global::attendance_management_app.Droid.Resource.Attribute.chipBackgroundColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.chipCornerRadius;
 			global::Xamarin.Forms.Platform.Resource.Attribute.chipEndPadding = global::attendance_management_app.Droid.Resource.Attribute.chipEndPadding;
@@ -8283,7 +8206,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSurface = global::attendance_management_app.Droid.Resource.Attribute.colorSurface;
 			global::Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal = global::attendance_management_app.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Xamarin.Forms.Platform.Resource.Attribute.commitIcon = global::attendance_management_app.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.Platform.Resource.Attribute.ConstraintRotate = global::attendance_management_app.Droid.Resource.Attribute.ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraints = global::attendance_management_app.Droid.Resource.Attribute.constraints;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSet = global::attendance_management_app.Droid.Resource.Attribute.constraintSet;
 			global::Xamarin.Forms.Platform.Resource.Attribute.constraintSetEnd = global::attendance_management_app.Droid.Resource.Attribute.constraintSetEnd;
@@ -8384,6 +8306,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevation = global::attendance_management_app.Droid.Resource.Attribute.elevation;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayColor = global::attendance_management_app.Droid.Resource.Attribute.elevationOverlayColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.elevationOverlayEnabled = global::attendance_management_app.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Xamarin.Forms.Platform.Resource.Attribute.emojiCompatEnabled = global::attendance_management_app.Droid.Resource.Attribute.emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Attribute.enableEdgeToEdge = global::attendance_management_app.Droid.Resource.Attribute.enableEdgeToEdge;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconCheckable = global::attendance_management_app.Droid.Resource.Attribute.endIconCheckable;
 			global::Xamarin.Forms.Platform.Resource.Attribute.endIconContentDescription = global::attendance_management_app.Droid.Resource.Attribute.endIconContentDescription;
@@ -8642,6 +8565,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingStart = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logo = global::attendance_management_app.Droid.Resource.Attribute.logo;
 			global::Xamarin.Forms.Platform.Resource.Attribute.logoDescription = global::attendance_management_app.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Forms.Platform.Resource.Attribute.lStar = global::attendance_management_app.Droid.Resource.Attribute.lStar;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogBodyTextStyle = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTheme = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogTheme;
 			global::Xamarin.Forms.Platform.Resource.Attribute.materialAlertDialogTitleIconStyle = global::attendance_management_app.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
@@ -8979,7 +8903,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureHeight = global::attendance_management_app.Droid.Resource.Attribute.textureHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.textureWidth = global::attendance_management_app.Droid.Resource.Attribute.textureWidth;
 			global::Xamarin.Forms.Platform.Resource.Attribute.theme = global::attendance_management_app.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.Platform.Resource.Attribute.themeLineHeight = global::attendance_management_app.Droid.Resource.Attribute.themeLineHeight;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thickness = global::attendance_management_app.Droid.Resource.Attribute.thickness;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbColor = global::attendance_management_app.Droid.Resource.Attribute.thumbColor;
 			global::Xamarin.Forms.Platform.Resource.Attribute.thumbElevation = global::attendance_management_app.Droid.Resource.Attribute.thumbElevation;
@@ -9121,7 +9044,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_light_background = global::attendance_management_app.Droid.Resource.Color.cardview_light_background;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.Platform.Resource.Color.checkbox_themeable_attribute_color = global::attendance_management_app.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_bottom_navigation_shadow_color = global::attendance_management_app.Droid.Resource.Color.design_bottom_navigation_shadow_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_box_stroke_color = global::attendance_management_app.Droid.Resource.Color.design_box_stroke_color;
 			global::Xamarin.Forms.Platform.Resource.Color.design_dark_default_color_background = global::attendance_management_app.Droid.Resource.Color.design_dark_default_color_background;
@@ -9266,7 +9188,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_default_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.radiobutton_themeable_attribute_color = global::attendance_management_app.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_dark = global::attendance_management_app.Droid.Resource.Color.ripple_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.ripple_material_light = global::attendance_management_app.Droid.Resource.Color.ripple_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark = global::attendance_management_app.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -9279,8 +9200,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_material_light;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day = global::attendance_management_app.Droid.Resource.Color.test_mtrl_calendar_day;
-			global::Xamarin.Forms.Platform.Resource.Color.test_mtrl_calendar_day_selected = global::attendance_management_app.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_dark = global::attendance_management_app.Droid.Resource.Color.tooltip_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Color.tooltip_background_light = global::attendance_management_app.Droid.Resource.Color.tooltip_background_light;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -9364,7 +9283,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Dimension.action_bar_size = global::attendance_management_app.Droid.Resource.Dimension.action_bar_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.appcompat_dialog_background_inset = global::attendance_management_app.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow = global::attendance_management_app.Droid.Resource.Dimension.cardview_compat_inset_shadow;
 			global::Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation = global::attendance_management_app.Droid.Resource.Dimension.cardview_default_elevation;
@@ -9377,7 +9295,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_control_corner_material = global::attendance_management_app.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_height = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.compat_notification_large_icon_max_width = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.default_dimension = global::attendance_management_app.Droid.Resource.Dimension.default_dimension;
 			global::Xamarin.Forms.Platform.Resource.Dimension.def_drawer_elevation = global::attendance_management_app.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
@@ -9449,11 +9366,8 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_hand_stroke_width = global::attendance_management_app.Droid.Resource.Dimension.material_clock_hand_stroke_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_number_text_size = global::attendance_management_app.Droid.Resource.Dimension.material_clock_number_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_height = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_margin_left = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_margin_left;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_period_toggle_width = global::attendance_management_app.Droid.Resource.Dimension.material_clock_period_toggle_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_clock_size = global::attendance_management_app.Droid.Resource.Dimension.material_clock_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_bottom = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_inset_bottom;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_inset_top = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_inset_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_cursor_width = global::attendance_management_app.Droid.Resource.Dimension.material_cursor_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_disabled = global::attendance_management_app.Droid.Resource.Dimension.material_emphasis_disabled;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_emphasis_high_type = global::attendance_management_app.Droid.Resource.Dimension.material_emphasis_high_type;
@@ -9471,8 +9385,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_default_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_default_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_max_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_max_width;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_textinput_min_width = global::attendance_management_app.Droid.Resource.Dimension.material_textinput_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height = global::attendance_management_app.Droid.Resource.Dimension.material_text_view_test_line_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.material_text_view_test_line_height_override = global::attendance_management_app.Droid.Resource.Dimension.material_text_view_test_line_height_override;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_timepicker_dialog_buttons_margin_top = global::attendance_management_app.Droid.Resource.Dimension.material_timepicker_dialog_buttons_margin_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_height = global::attendance_management_app.Droid.Resource.Dimension.material_time_picker_minimum_screen_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.material_time_picker_minimum_screen_width = global::attendance_management_app.Droid.Resource.Dimension.material_time_picker_minimum_screen_width;
@@ -9569,12 +9481,10 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_card_spacing = global::attendance_management_app.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_pressed_translation_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_chip_text_size = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_extended_fab_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
@@ -9598,7 +9508,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_large_touch_target = global::attendance_management_app.Droid.Resource.Dimension.mtrl_large_touch_target;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_default_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
@@ -9646,7 +9555,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_thumb_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_side_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_track_top = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_track_top;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_slider_widget_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_slider_widget_height;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Xamarin.Forms.Platform.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
@@ -9686,18 +9594,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size = global::attendance_management_app.Droid.Resource.Dimension.notification_subtext_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad;
 			global::Xamarin.Forms.Platform.Resource.Dimension.notification_top_pad_large_text = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::attendance_management_app.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_active_text_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_active_text_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_elevation = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_height = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_icon_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_icon_size;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_item_max_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_item_min_width;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_label_padding = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_label_padding;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_shadow_height = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_shadow_height;
-			global::Xamarin.Forms.Platform.Resource.Dimension.test_navigation_bar_text_size = global::attendance_management_app.Droid.Resource.Dimension.test_navigation_bar_text_size;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_horizontal_padding = global::attendance_management_app.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Xamarin.Forms.Platform.Resource.Dimension.tooltip_margin = global::attendance_management_app.Droid.Resource.Dimension.tooltip_margin;
@@ -9824,7 +9720,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_ic_error = global::attendance_management_app.Droid.Resource.Drawable.mtrl_ic_error;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_navigation_bar_item_background = global::attendance_management_app.Droid.Resource.Drawable.mtrl_navigation_bar_item_background;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background = global::attendance_management_app.Droid.Resource.Drawable.mtrl_popupmenu_background;
-			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_popupmenu_background_dark = global::attendance_management_app.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.mtrl_tabs_default_indicator = global::attendance_management_app.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Xamarin.Forms.Platform.Resource.Drawable.navigation_empty_icon = global::attendance_management_app.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_action_background = global::attendance_management_app.Droid.Resource.Drawable.notification_action_background;
@@ -9839,7 +9734,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_low_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_template_icon_low_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notification_tile_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_tile_bg;
 			global::Xamarin.Forms.Platform.Resource.Drawable.notify_panel_notification_icon_bg = global::attendance_management_app.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.Platform.Resource.Drawable.test_custom_background = global::attendance_management_app.Droid.Resource.Drawable.test_custom_background;
+			global::Xamarin.Forms.Platform.Resource.Drawable.test_level_drawable = global::attendance_management_app.Droid.Resource.Drawable.test_level_drawable;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_dark = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Xamarin.Forms.Platform.Resource.Drawable.tooltip_frame_light = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Xamarin.Forms.Platform.Resource.Id.accelerate = global::attendance_management_app.Droid.Resource.Id.accelerate;
@@ -9944,11 +9839,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.chains = global::attendance_management_app.Droid.Resource.Id.chains;
 			global::Xamarin.Forms.Platform.Resource.Id.checkbox = global::attendance_management_app.Droid.Resource.Id.checkbox;
 			global::Xamarin.Forms.Platform.Resource.Id.@checked = global::attendance_management_app.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.Platform.Resource.Id.chip = global::attendance_management_app.Droid.Resource.Id.chip;
-			global::Xamarin.Forms.Platform.Resource.Id.chip1 = global::attendance_management_app.Droid.Resource.Id.chip1;
-			global::Xamarin.Forms.Platform.Resource.Id.chip2 = global::attendance_management_app.Droid.Resource.Id.chip2;
-			global::Xamarin.Forms.Platform.Resource.Id.chip3 = global::attendance_management_app.Droid.Resource.Id.chip3;
-			global::Xamarin.Forms.Platform.Resource.Id.chip_group = global::attendance_management_app.Droid.Resource.Id.chip_group;
 			global::Xamarin.Forms.Platform.Resource.Id.chronometer = global::attendance_management_app.Droid.Resource.Id.chronometer;
 			global::Xamarin.Forms.Platform.Resource.Id.circle_center = global::attendance_management_app.Droid.Resource.Id.circle_center;
 			global::Xamarin.Forms.Platform.Resource.Id.clear_text = global::attendance_management_app.Droid.Resource.Id.clear_text;
@@ -10037,7 +9927,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.grouping = global::attendance_management_app.Droid.Resource.Id.grouping;
 			global::Xamarin.Forms.Platform.Resource.Id.groups = global::attendance_management_app.Droid.Resource.Id.groups;
 			global::Xamarin.Forms.Platform.Resource.Id.group_divider = global::attendance_management_app.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.Platform.Resource.Id.guideline = global::attendance_management_app.Droid.Resource.Id.guideline;
 			global::Xamarin.Forms.Platform.Resource.Id.header_title = global::attendance_management_app.Droid.Resource.Id.header_title;
 			global::Xamarin.Forms.Platform.Resource.Id.hideable = global::attendance_management_app.Droid.Resource.Id.hideable;
 			global::Xamarin.Forms.Platform.Resource.Id.home = global::attendance_management_app.Droid.Resource.Id.home;
@@ -10090,7 +9979,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.material_textinput_timepicker = global::attendance_management_app.Droid.Resource.Id.material_textinput_timepicker;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_cancel_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_cancel_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_container = global::attendance_management_app.Droid.Resource.Id.material_timepicker_container;
-			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_edit_text = global::attendance_management_app.Droid.Resource.Id.material_timepicker_edit_text;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_mode_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_mode_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_ok_button = global::attendance_management_app.Droid.Resource.Id.material_timepicker_ok_button;
 			global::Xamarin.Forms.Platform.Resource.Id.material_timepicker_view = global::attendance_management_app.Droid.Resource.Id.material_timepicker_view;
@@ -10265,10 +10153,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_event_manager = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_unhandled_key_listeners = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_listeners;
 			global::Xamarin.Forms.Platform.Resource.Id.tag_window_insets_animation_callback = global::attendance_management_app.Droid.Resource.Id.tag_window_insets_animation_callback;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_android_button_tint = global::attendance_management_app.Droid.Resource.Id.test_checkbox_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_checkbox_app_button_tint = global::attendance_management_app.Droid.Resource.Id.test_checkbox_app_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_android_button_tint = global::attendance_management_app.Droid.Resource.Id.test_radiobutton_android_button_tint;
-			global::Xamarin.Forms.Platform.Resource.Id.test_radiobutton_app_button_tint = global::attendance_management_app.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Xamarin.Forms.Platform.Resource.Id.text = global::attendance_management_app.Droid.Resource.Id.text;
 			global::Xamarin.Forms.Platform.Resource.Id.text2 = global::attendance_management_app.Droid.Resource.Id.text2;
 			global::Xamarin.Forms.Platform.Resource.Id.textEnd = global::attendance_management_app.Droid.Resource.Id.textEnd;
@@ -10313,6 +10197,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.view_offset_helper = global::attendance_management_app.Droid.Resource.Id.view_offset_helper;
 			global::Xamarin.Forms.Platform.Resource.Id.view_transition = global::attendance_management_app.Droid.Resource.Id.view_transition;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_lifecycle_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Forms.Platform.Resource.Id.view_tree_on_back_pressed_dispatcher_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_on_back_pressed_dispatcher_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_saved_state_registry_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.view_tree_view_model_store_owner = global::attendance_management_app.Droid.Resource.Id.view_tree_view_model_store_owner;
 			global::Xamarin.Forms.Platform.Resource.Id.visible = global::attendance_management_app.Droid.Resource.Id.visible;
@@ -10325,7 +10210,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Id.wrap_content_constrained = global::attendance_management_app.Droid.Resource.Id.wrap_content_constrained;
 			global::Xamarin.Forms.Platform.Resource.Id.x_left = global::attendance_management_app.Droid.Resource.Id.x_left;
 			global::Xamarin.Forms.Platform.Resource.Id.x_right = global::attendance_management_app.Droid.Resource.Id.x_right;
-			global::Xamarin.Forms.Platform.Resource.Id.zero_corner_chip = global::attendance_management_app.Droid.Resource.Id.zero_corner_chip;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Xamarin.Forms.Platform.Resource.Integer.app_bar_elevation_anim_duration = global::attendance_management_app.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -10479,21 +10363,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Layout.ShellContent = global::attendance_management_app.Droid.Resource.Layout.ShellContent;
 			global::Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item = global::attendance_management_app.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Xamarin.Forms.Platform.Resource.Layout.Tabbar = global::attendance_management_app.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_action_chip = global::attendance_management_app.Droid.Resource.Layout.test_action_chip;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_chip_zero_corner_radius = global::attendance_management_app.Droid.Resource.Layout.test_chip_zero_corner_radius;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_checkbox = global::attendance_management_app.Droid.Resource.Layout.test_design_checkbox;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_design_radiobutton = global::attendance_management_app.Droid.Resource.Layout.test_design_radiobutton;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_navigation_bar_item_layout = global::attendance_management_app.Droid.Resource.Layout.test_navigation_bar_item_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_reflow_chipgroup = global::attendance_management_app.Droid.Resource.Layout.test_reflow_chipgroup;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar = global::attendance_management_app.Droid.Resource.Layout.test_toolbar;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_custom_background = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_custom_background;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_elevation = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_elevation;
-			global::Xamarin.Forms.Platform.Resource.Layout.test_toolbar_surface = global::attendance_management_app.Droid.Resource.Layout.test_toolbar_surface;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_without_line_height = global::attendance_management_app.Droid.Resource.Layout.text_view_without_line_height;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_appearance = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_layout = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_layout;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_line_height_from_style = global::attendance_management_app.Droid.Resource.Layout.text_view_with_line_height_from_style;
-			global::Xamarin.Forms.Platform.Resource.Layout.text_view_with_theme_line_height = global::attendance_management_app.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Xamarin.Forms.Platform.Resource.Layout.Toolbar = global::attendance_management_app.Droid.Resource.Layout.Toolbar;
 			global::Xamarin.Forms.Platform.Resource.Plurals.mtrl_badge_content_description = global::attendance_management_app.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description = global::attendance_management_app.Droid.Resource.String.abc_action_bar_home_description;
@@ -10523,13 +10392,13 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with;
 			global::Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with_application = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with_application;
 			global::Xamarin.Forms.Platform.Resource.String.abc_toolbar_collapse_description = global::attendance_management_app.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Forms.Platform.Resource.String.androidx_startup = global::attendance_management_app.Droid.Resource.String.androidx_startup;
 			global::Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior = global::attendance_management_app.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.bottomsheet_action_expand_halfway = global::attendance_management_app.Droid.Resource.String.bottomsheet_action_expand_halfway;
 			global::Xamarin.Forms.Platform.Resource.String.bottom_sheet_behavior = global::attendance_management_app.Droid.Resource.String.bottom_sheet_behavior;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_content_description = global::attendance_management_app.Droid.Resource.String.character_counter_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_overflowed_content_description = global::attendance_management_app.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.character_counter_pattern = global::attendance_management_app.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.Platform.Resource.String.chip_text = global::attendance_management_app.Droid.Resource.String.chip_text;
 			global::Xamarin.Forms.Platform.Resource.String.clear_text_end_icon_content_description = global::attendance_management_app.Droid.Resource.String.clear_text_end_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.error_icon_content_description = global::attendance_management_app.Droid.Resource.String.error_icon_content_description;
 			global::Xamarin.Forms.Platform.Resource.String.exposed_dropdown_menu_content_description = global::attendance_management_app.Droid.Resource.String.exposed_dropdown_menu_content_description;
@@ -10605,7 +10474,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow = global::attendance_management_app.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.AndroidThemeColorAccentYellow = global::attendance_management_app.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Tooltip;
@@ -10836,7 +10704,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::attendance_management_app.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::attendance_management_app.Droid.Resource.Style.CardView_Light;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::attendance_management_app.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.EmptyTheme = global::attendance_management_app.Droid.Resource.Style.EmptyTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::attendance_management_app.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::attendance_management_app.Droid.Resource.Style.MainTheme_Base;
 			global::Xamarin.Forms.Platform.Resource.Style.MaterialAlertDialog_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
@@ -10882,11 +10749,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::attendance_management_app.Droid.Resource.Style.scrollViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::attendance_management_app.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_Cut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
@@ -10895,25 +10757,11 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::attendance_management_app.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
-			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
 			global::Xamarin.Forms.Platform.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::attendance_management_app.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeight = global::attendance_management_app.Droid.Resource.Style.TestStyleWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithLineHeightAppearance = global::attendance_management_app.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithoutLineHeight = global::attendance_management_app.Droid.Resource.Style.TestStyleWithoutLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::attendance_management_app.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeight = global::attendance_management_app.Droid.Resource.Style.TestThemeWithLineHeight;
-			global::Xamarin.Forms.Platform.Resource.Style.TestThemeWithLineHeightDisabled = global::attendance_management_app.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::attendance_management_app.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::attendance_management_app.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
-			global::Xamarin.Forms.Platform.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::attendance_management_app.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -11003,7 +10851,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlayColorAccentRed = global::attendance_management_app.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -11110,7 +10957,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -11124,7 +10970,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
-			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Xamarin.Forms.Platform.Resource.Style.Theme_MaterialComponents_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -11427,6 +11272,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScroll = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_statusBarForeground = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatEmojiHelper = global::attendance_management_app.Droid.Resource.Styleable.AppCompatEmojiHelper;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_android_src = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatImageView_srcCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -11460,6 +11306,7 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTint = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTintMode = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_emojiCompatEnabled = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_emojiCompatEnabled;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontFamily = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
 			global::Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
@@ -11676,6 +11523,11 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUpMode = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUpMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUp_dampeningFactor;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold = global::attendance_management_app.Droid.Resource.Styleable.Carousel_carousel_touchUp_velocityThreshold;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_android_checkMark = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_android_checkMark;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkCompat = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkCompat;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTint = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkTint;
+			global::Xamarin.Forms.Platform.Resource.Styleable.CheckedTextView_checkMarkTintMode = global::attendance_management_app.Droid.Resource.Styleable.CheckedTextView_checkMarkTintMode;
 			global::Xamarin.Forms.Platform.Resource.Styleable.Chip = global::attendance_management_app.Droid.Resource.Styleable.Chip;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ChipGroup_checkedChip = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_checkedChip;
@@ -11766,6 +11618,8 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_color = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_android_lStar = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_lStar;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ColorStateListItem_lStar = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_lStar;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_android_button;
 			global::Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonCompat = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_buttonCompat;
@@ -12039,7 +11893,6 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierDirection = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_barrierDirection;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_barrierMargin = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_barrierMargin;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_chainUseRtl = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_chainUseRtl;
-			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_ConstraintRotate = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_ConstraintRotate;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_ids = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_ids;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_constraint_referenced_tags = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_constraint_referenced_tags;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ConstraintSet_deriveConstraintsFrom = global::attendance_management_app.Droid.Resource.Styleable.ConstraintSet_deriveConstraintsFrom;
@@ -13268,11 +13121,2624 @@ namespace attendance_management_app.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd = global::attendance_management_app.Droid.Resource.Styleable.View_paddingEnd;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart = global::attendance_management_app.Droid.Resource.Styleable.View_paddingStart;
 			global::Xamarin.Forms.Platform.Resource.Styleable.View_theme = global::attendance_management_app.Droid.Resource.Styleable.View_theme;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge = global::attendance_management_app.Droid.Resource.Xml.standalone_badge;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_end = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_bottom_start = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_gravity_top_start = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_gravity_top_start;
-			global::Xamarin.Forms.Platform.Resource.Xml.standalone_badge_offset = global::attendance_management_app.Droid.Resource.Xml.standalone_badge_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_in = global::attendance_management_app.Droid.Resource.Animation.abc_fade_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_fade_out = global::attendance_management_app.Droid.Resource.Animation.abc_fade_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_grow_fade_in_from_bottom = global::attendance_management_app.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_enter = global::attendance_management_app.Droid.Resource.Animation.abc_popup_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_popup_exit = global::attendance_management_app.Droid.Resource.Animation.abc_popup_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_shrink_fade_out_from_bottom = global::attendance_management_app.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_bottom = global::attendance_management_app.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_in_top = global::attendance_management_app.Droid.Resource.Animation.abc_slide_in_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_bottom = global::attendance_management_app.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_slide_out_top = global::attendance_management_app.Droid.Resource.Animation.abc_slide_out_top;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_enter = global::attendance_management_app.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.abc_tooltip_exit = global::attendance_management_app.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::attendance_management_app.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::attendance_management_app.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_in = global::attendance_management_app.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_bottom_sheet_slide_out = global::attendance_management_app.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_in = global::attendance_management_app.Droid.Resource.Animation.design_snackbar_in;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.design_snackbar_out = global::attendance_management_app.Droid.Resource.Animation.design_snackbar_out;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromLeft = global::attendance_management_app.Droid.Resource.Animation.EnterFromLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.EnterFromRight = global::attendance_management_app.Droid.Resource.Animation.EnterFromRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToLeft = global::attendance_management_app.Droid.Resource.Animation.ExitToLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Animation.ExitToRight = global::attendance_management_app.Droid.Resource.Animation.ExitToRight;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_appbar_state_list_animator = global::attendance_management_app.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_hide_motion_spec = global::attendance_management_app.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.design_fab_show_motion_spec = global::attendance_management_app.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_chip_state_list_anim = global::attendance_management_app.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_hide_motion_spec = global::attendance_management_app.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_show_motion_spec = global::attendance_management_app.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::attendance_management_app.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::attendance_management_app.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarDivider = global::attendance_management_app.Droid.Resource.Attribute.actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarItemBackground = global::attendance_management_app.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarPopupTheme = global::attendance_management_app.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSize = global::attendance_management_app.Droid.Resource.Attribute.actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarSplitStyle = global::attendance_management_app.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarStyle = global::attendance_management_app.Droid.Resource.Attribute.actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabBarStyle = global::attendance_management_app.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabStyle = global::attendance_management_app.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTabTextStyle = global::attendance_management_app.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarTheme = global::attendance_management_app.Droid.Resource.Attribute.actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionBarWidgetTheme = global::attendance_management_app.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionDropDownStyle = global::attendance_management_app.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionLayout = global::attendance_management_app.Droid.Resource.Attribute.actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionMenuTextColor = global::attendance_management_app.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeBackground = global::attendance_management_app.Droid.Resource.Attribute.actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCloseDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCopyDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeCutDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeFindDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePasteDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModePopupWindowStyle = global::attendance_management_app.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSelectAllDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeShareDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeSplitBackground = global::attendance_management_app.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeStyle = global::attendance_management_app.Droid.Resource.Attribute.actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionModeWebSearchDrawable = global::attendance_management_app.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionOverflowMenuStyle = global::attendance_management_app.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionProviderClass = global::attendance_management_app.Droid.Resource.Attribute.actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.actionViewClass = global::attendance_management_app.Droid.Resource.Attribute.actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.activityChooserViewStyle = global::attendance_management_app.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogButtonGroupStyle = global::attendance_management_app.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogCenterButtons = global::attendance_management_app.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogStyle = global::attendance_management_app.Droid.Resource.Attribute.alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alertDialogTheme = global::attendance_management_app.Droid.Resource.Attribute.alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.allowStacking = global::attendance_management_app.Droid.Resource.Attribute.allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alpha = global::attendance_management_app.Droid.Resource.Attribute.alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.alphabeticModifiers = global::attendance_management_app.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowHeadLength = global::attendance_management_app.Droid.Resource.Attribute.arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.arrowShaftLength = global::attendance_management_app.Droid.Resource.Attribute.arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoCompleteTextViewStyle = global::attendance_management_app.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMaxTextSize = global::attendance_management_app.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeMinTextSize = global::attendance_management_app.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizePresetSizes = global::attendance_management_app.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeStepGranularity = global::attendance_management_app.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.autoSizeTextType = global::attendance_management_app.Droid.Resource.Attribute.autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.background = global::attendance_management_app.Droid.Resource.Attribute.background;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundSplit = global::attendance_management_app.Droid.Resource.Attribute.backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundStacked = global::attendance_management_app.Droid.Resource.Attribute.backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTint = global::attendance_management_app.Droid.Resource.Attribute.backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.backgroundTintMode = global::attendance_management_app.Droid.Resource.Attribute.backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.barLength = global::attendance_management_app.Droid.Resource.Attribute.barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_autoHide = global::attendance_management_app.Droid.Resource.Attribute.behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_fitToContents = global::attendance_management_app.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_hideable = global::attendance_management_app.Droid.Resource.Attribute.behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_overlapTop = global::attendance_management_app.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_peekHeight = global::attendance_management_app.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.behavior_skipCollapsed = global::attendance_management_app.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderlessButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.borderWidth = global::attendance_management_app.Droid.Resource.Attribute.borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomAppBarStyle = global::attendance_management_app.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomNavigationStyle = global::attendance_management_app.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetDialogTheme = global::attendance_management_app.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.bottomSheetStyle = global::attendance_management_app.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundColor = global::attendance_management_app.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxBackgroundMode = global::attendance_management_app.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCollapsedPaddingTop = global::attendance_management_app.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomEnd = global::attendance_management_app.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusBottomStart = global::attendance_management_app.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopEnd = global::attendance_management_app.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxCornerRadiusTopStart = global::attendance_management_app.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeColor = global::attendance_management_app.Droid.Resource.Attribute.boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.boxStrokeWidth = global::attendance_management_app.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNegativeButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarNeutralButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarPositiveButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonBarStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonCompat = global::attendance_management_app.Droid.Resource.Attribute.buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonGravity = global::attendance_management_app.Droid.Resource.Attribute.buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonIconDimen = global::attendance_management_app.Droid.Resource.Attribute.buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonPanelSideLayout = global::attendance_management_app.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyle = global::attendance_management_app.Droid.Resource.Attribute.buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonStyleSmall = global::attendance_management_app.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTint = global::attendance_management_app.Droid.Resource.Attribute.buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.buttonTintMode = global::attendance_management_app.Droid.Resource.Attribute.buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardBackgroundColor = global::attendance_management_app.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardElevation = global::attendance_management_app.Droid.Resource.Attribute.cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardMaxElevation = global::attendance_management_app.Droid.Resource.Attribute.cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardPreventCornerOverlap = global::attendance_management_app.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardUseCompatPadding = global::attendance_management_app.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cardViewStyle = global::attendance_management_app.Droid.Resource.Attribute.cardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkboxStyle = global::attendance_management_app.Droid.Resource.Attribute.checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedChip = global::attendance_management_app.Droid.Resource.Attribute.checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIcon = global::attendance_management_app.Droid.Resource.Attribute.checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconEnabled = global::attendance_management_app.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedIconVisible = global::attendance_management_app.Droid.Resource.Attribute.checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.checkedTextViewStyle = global::attendance_management_app.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipBackgroundColor = global::attendance_management_app.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipEndPadding = global::attendance_management_app.Droid.Resource.Attribute.chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipGroupStyle = global::attendance_management_app.Droid.Resource.Attribute.chipGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIcon = global::attendance_management_app.Droid.Resource.Attribute.chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconEnabled = global::attendance_management_app.Droid.Resource.Attribute.chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconSize = global::attendance_management_app.Droid.Resource.Attribute.chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconTint = global::attendance_management_app.Droid.Resource.Attribute.chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipIconVisible = global::attendance_management_app.Droid.Resource.Attribute.chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipMinHeight = global::attendance_management_app.Droid.Resource.Attribute.chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacing = global::attendance_management_app.Droid.Resource.Attribute.chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingHorizontal = global::attendance_management_app.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipSpacingVertical = global::attendance_management_app.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStandaloneStyle = global::attendance_management_app.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStartPadding = global::attendance_management_app.Droid.Resource.Attribute.chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeColor = global::attendance_management_app.Droid.Resource.Attribute.chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStrokeWidth = global::attendance_management_app.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.chipStyle = global::attendance_management_app.Droid.Resource.Attribute.chipStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIcon = global::attendance_management_app.Droid.Resource.Attribute.closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEnabled = global::attendance_management_app.Droid.Resource.Attribute.closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconEndPadding = global::attendance_management_app.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconSize = global::attendance_management_app.Droid.Resource.Attribute.closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconStartPadding = global::attendance_management_app.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconTint = global::attendance_management_app.Droid.Resource.Attribute.closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeIconVisible = global::attendance_management_app.Droid.Resource.Attribute.closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.closeItemLayout = global::attendance_management_app.Droid.Resource.Attribute.closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseContentDescription = global::attendance_management_app.Droid.Resource.Attribute.collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleGravity = global::attendance_management_app.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapsedTitleTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collapseIcon = global::attendance_management_app.Droid.Resource.Attribute.collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.collectionViewStyle = global::attendance_management_app.Droid.Resource.Attribute.collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.color = global::attendance_management_app.Droid.Resource.Attribute.color;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorAccent = global::attendance_management_app.Droid.Resource.Attribute.colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorBackgroundFloating = global::attendance_management_app.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorButtonNormal = global::attendance_management_app.Droid.Resource.Attribute.colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlActivated = global::attendance_management_app.Droid.Resource.Attribute.colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlHighlight = global::attendance_management_app.Droid.Resource.Attribute.colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorControlNormal = global::attendance_management_app.Droid.Resource.Attribute.colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorError = global::attendance_management_app.Droid.Resource.Attribute.colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimary = global::attendance_management_app.Droid.Resource.Attribute.colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorPrimaryDark = global::attendance_management_app.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSecondary = global::attendance_management_app.Droid.Resource.Attribute.colorSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.colorSwitchThumbNormal = global::attendance_management_app.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.commitIcon = global::attendance_management_app.Droid.Resource.Attribute.commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentDescription = global::attendance_management_app.Droid.Resource.Attribute.contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEnd = global::attendance_management_app.Droid.Resource.Attribute.contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetEndWithActions = global::attendance_management_app.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetLeft = global::attendance_management_app.Droid.Resource.Attribute.contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetRight = global::attendance_management_app.Droid.Resource.Attribute.contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStart = global::attendance_management_app.Droid.Resource.Attribute.contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentInsetStartWithNavigation = global::attendance_management_app.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPadding = global::attendance_management_app.Droid.Resource.Attribute.contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingBottom = global::attendance_management_app.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingLeft = global::attendance_management_app.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingRight = global::attendance_management_app.Droid.Resource.Attribute.contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentPaddingTop = global::attendance_management_app.Droid.Resource.Attribute.contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.contentScrim = global::attendance_management_app.Droid.Resource.Attribute.contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.controlBackground = global::attendance_management_app.Droid.Resource.Attribute.controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.coordinatorLayoutStyle = global::attendance_management_app.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.cornerRadius = global::attendance_management_app.Droid.Resource.Attribute.cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterEnabled = global::attendance_management_app.Droid.Resource.Attribute.counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterMaxLength = global::attendance_management_app.Droid.Resource.Attribute.counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterOverflowTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.counterTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.customNavigationLayout = global::attendance_management_app.Droid.Resource.Attribute.customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.defaultQueryHint = global::attendance_management_app.Droid.Resource.Attribute.defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogPreferredPadding = global::attendance_management_app.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dialogTheme = global::attendance_management_app.Droid.Resource.Attribute.dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.displayOptions = global::attendance_management_app.Droid.Resource.Attribute.displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.divider = global::attendance_management_app.Droid.Resource.Attribute.divider;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerHorizontal = global::attendance_management_app.Droid.Resource.Attribute.dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerPadding = global::attendance_management_app.Droid.Resource.Attribute.dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dividerVertical = global::attendance_management_app.Droid.Resource.Attribute.dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableBottomCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableEndCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableLeftCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableRightCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableSize = global::attendance_management_app.Droid.Resource.Attribute.drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableStartCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTint = global::attendance_management_app.Droid.Resource.Attribute.drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTintMode = global::attendance_management_app.Droid.Resource.Attribute.drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawableTopCompat = global::attendance_management_app.Droid.Resource.Attribute.drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.drawerArrowStyle = global::attendance_management_app.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropdownListPreferredItemHeight = global::attendance_management_app.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.dropDownListViewStyle = global::attendance_management_app.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextBackground = global::attendance_management_app.Droid.Resource.Attribute.editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextColor = global::attendance_management_app.Droid.Resource.Attribute.editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.editTextStyle = global::attendance_management_app.Droid.Resource.Attribute.editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.elevation = global::attendance_management_app.Droid.Resource.Attribute.elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceMaterialTheme = global::attendance_management_app.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.enforceTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorEnabled = global::attendance_management_app.Droid.Resource.Attribute.errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.errorTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandActivityOverflowButtonDrawable = global::attendance_management_app.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expanded = global::attendance_management_app.Droid.Resource.Attribute.expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleGravity = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMargin = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginBottom = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginEnd = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginStart = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleMarginTop = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.expandedTitleTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabAlignmentMode = global::attendance_management_app.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleMargin = global::attendance_management_app.Droid.Resource.Attribute.fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleRoundedCornerRadius = global::attendance_management_app.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCradleVerticalOffset = global::attendance_management_app.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabCustomSize = global::attendance_management_app.Droid.Resource.Attribute.fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fabSize = global::attendance_management_app.Droid.Resource.Attribute.fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollEnabled = global::attendance_management_app.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::attendance_management_app.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::attendance_management_app.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalThumbDrawable = global::attendance_management_app.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fastScrollVerticalTrackDrawable = global::attendance_management_app.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.firstBaselineToTopHeight = global::attendance_management_app.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.floatingActionButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.font = global::attendance_management_app.Droid.Resource.Attribute.font;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontFamily = global::attendance_management_app.Droid.Resource.Attribute.fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderAuthority = global::attendance_management_app.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderCerts = global::attendance_management_app.Droid.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchStrategy = global::attendance_management_app.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderFetchTimeout = global::attendance_management_app.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderPackage = global::attendance_management_app.Droid.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontProviderQuery = global::attendance_management_app.Droid.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontStyle = global::attendance_management_app.Droid.Resource.Attribute.fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontVariationSettings = global::attendance_management_app.Droid.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.fontWeight = global::attendance_management_app.Droid.Resource.Attribute.fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.foregroundInsidePadding = global::attendance_management_app.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.gapBetweenBars = global::attendance_management_app.Droid.Resource.Attribute.gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.goIcon = global::attendance_management_app.Droid.Resource.Attribute.goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.headerLayout = global::attendance_management_app.Droid.Resource.Attribute.headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.height = global::attendance_management_app.Droid.Resource.Attribute.height;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperText = global::attendance_management_app.Droid.Resource.Attribute.helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextEnabled = global::attendance_management_app.Droid.Resource.Attribute.helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.helperTextTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideMotionSpec = global::attendance_management_app.Droid.Resource.Attribute.hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnContentScroll = global::attendance_management_app.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hideOnScroll = global::attendance_management_app.Droid.Resource.Attribute.hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintAnimationEnabled = global::attendance_management_app.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintEnabled = global::attendance_management_app.Droid.Resource.Attribute.hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hintTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeAsUpIndicator = global::attendance_management_app.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.homeLayout = global::attendance_management_app.Droid.Resource.Attribute.homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.hoveredFocusedTranslationZ = global::attendance_management_app.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.icon = global::attendance_management_app.Droid.Resource.Attribute.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconEndPadding = global::attendance_management_app.Droid.Resource.Attribute.iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconGravity = global::attendance_management_app.Droid.Resource.Attribute.iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconifiedByDefault = global::attendance_management_app.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconPadding = global::attendance_management_app.Droid.Resource.Attribute.iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconSize = global::attendance_management_app.Droid.Resource.Attribute.iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconStartPadding = global::attendance_management_app.Droid.Resource.Attribute.iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTint = global::attendance_management_app.Droid.Resource.Attribute.iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.iconTintMode = global::attendance_management_app.Droid.Resource.Attribute.iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.imageButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.indeterminateProgressStyle = global::attendance_management_app.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.initialActivityCount = global::attendance_management_app.Droid.Resource.Attribute.initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.insetForeground = global::attendance_management_app.Droid.Resource.Attribute.insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.isLightTheme = global::attendance_management_app.Droid.Resource.Attribute.isLightTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemBackground = global::attendance_management_app.Droid.Resource.Attribute.itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalPadding = global::attendance_management_app.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemHorizontalTranslationEnabled = global::attendance_management_app.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconPadding = global::attendance_management_app.Droid.Resource.Attribute.itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconSize = global::attendance_management_app.Droid.Resource.Attribute.itemIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemIconTint = global::attendance_management_app.Droid.Resource.Attribute.itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemPadding = global::attendance_management_app.Droid.Resource.Attribute.itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemSpacing = global::attendance_management_app.Droid.Resource.Attribute.itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceActive = global::attendance_management_app.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextAppearanceInactive = global::attendance_management_app.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.itemTextColor = global::attendance_management_app.Droid.Resource.Attribute.itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.keylines = global::attendance_management_app.Droid.Resource.Attribute.keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.labelVisibilityMode = global::attendance_management_app.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lastBaselineToBottomHeight = global::attendance_management_app.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout = global::attendance_management_app.Droid.Resource.Attribute.layout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layoutManager = global::attendance_management_app.Droid.Resource.Attribute.layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchor = global::attendance_management_app.Droid.Resource.Attribute.layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_anchorGravity = global::attendance_management_app.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_behavior = global::attendance_management_app.Droid.Resource.Attribute.layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseMode = global::attendance_management_app.Droid.Resource.Attribute.layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_collapseParallaxMultiplier = global::attendance_management_app.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_dodgeInsetEdges = global::attendance_management_app.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_insetEdge = global::attendance_management_app.Droid.Resource.Attribute.layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_keyline = global::attendance_management_app.Droid.Resource.Attribute.layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollFlags = global::attendance_management_app.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.layout_scrollInterpolator = global::attendance_management_app.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.liftOnScroll = global::attendance_management_app.Droid.Resource.Attribute.liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineHeight = global::attendance_management_app.Droid.Resource.Attribute.lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.lineSpacing = global::attendance_management_app.Droid.Resource.Attribute.lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceBackgroundIndicator = global::attendance_management_app.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::attendance_management_app.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::attendance_management_app.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listDividerAlertDialog = global::attendance_management_app.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listItemLayout = global::attendance_management_app.Droid.Resource.Attribute.listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listLayout = global::attendance_management_app.Droid.Resource.Attribute.listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listMenuViewStyle = global::attendance_management_app.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPopupWindowStyle = global::attendance_management_app.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeight = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightLarge = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemHeightSmall = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingEnd = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingLeft = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingRight = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.listPreferredItemPaddingStart = global::attendance_management_app.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logo = global::attendance_management_app.Droid.Resource.Attribute.logo;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.logoDescription = global::attendance_management_app.Droid.Resource.Attribute.logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.materialButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.materialCardViewStyle = global::attendance_management_app.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxActionInlineWidth = global::attendance_management_app.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxButtonHeight = global::attendance_management_app.Droid.Resource.Attribute.maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.maxImageSize = global::attendance_management_app.Droid.Resource.Attribute.maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.measureWithLargestChild = global::attendance_management_app.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.menu = global::attendance_management_app.Droid.Resource.Attribute.menu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.multiChoiceItemLayout = global::attendance_management_app.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationContentDescription = global::attendance_management_app.Droid.Resource.Attribute.navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationIcon = global::attendance_management_app.Droid.Resource.Attribute.navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationMode = global::attendance_management_app.Droid.Resource.Attribute.navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.navigationViewStyle = global::attendance_management_app.Droid.Resource.Attribute.navigationViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.numericModifiers = global::attendance_management_app.Droid.Resource.Attribute.numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.overlapAnchor = global::attendance_management_app.Droid.Resource.Attribute.overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingBottomNoButtons = global::attendance_management_app.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingEnd = global::attendance_management_app.Droid.Resource.Attribute.paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingStart = global::attendance_management_app.Droid.Resource.Attribute.paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.paddingTopNoTitle = global::attendance_management_app.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelBackground = global::attendance_management_app.Droid.Resource.Attribute.panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListTheme = global::attendance_management_app.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.panelMenuListWidth = global::attendance_management_app.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleContentDescription = global::attendance_management_app.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleDrawable = global::attendance_management_app.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleEnabled = global::attendance_management_app.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTint = global::attendance_management_app.Droid.Resource.Attribute.passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.passwordToggleTintMode = global::attendance_management_app.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupMenuStyle = global::attendance_management_app.Droid.Resource.Attribute.popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupTheme = global::attendance_management_app.Droid.Resource.Attribute.popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.popupWindowStyle = global::attendance_management_app.Droid.Resource.Attribute.popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.preserveIconSpacing = global::attendance_management_app.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.pressedTranslationZ = global::attendance_management_app.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarPadding = global::attendance_management_app.Droid.Resource.Attribute.progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.progressBarStyle = global::attendance_management_app.Droid.Resource.Attribute.progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryBackground = global::attendance_management_app.Droid.Resource.Attribute.queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.queryHint = global::attendance_management_app.Droid.Resource.Attribute.queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.radioButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyle = global::attendance_management_app.Droid.Resource.Attribute.ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleIndicator = global::attendance_management_app.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ratingBarStyleSmall = global::attendance_management_app.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.recyclerViewStyle = global::attendance_management_app.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.reverseLayout = global::attendance_management_app.Droid.Resource.Attribute.reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.rippleColor = global::attendance_management_app.Droid.Resource.Attribute.rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimAnimationDuration = global::attendance_management_app.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimBackground = global::attendance_management_app.Droid.Resource.Attribute.scrimBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrimVisibleHeightTrigger = global::attendance_management_app.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.scrollViewStyle = global::attendance_management_app.Droid.Resource.Attribute.scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchHintIcon = global::attendance_management_app.Droid.Resource.Attribute.searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchIcon = global::attendance_management_app.Droid.Resource.Attribute.searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.searchViewStyle = global::attendance_management_app.Droid.Resource.Attribute.searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.seekBarStyle = global::attendance_management_app.Droid.Resource.Attribute.seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackground = global::attendance_management_app.Droid.Resource.Attribute.selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.selectableItemBackgroundBorderless = global::attendance_management_app.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showAsAction = global::attendance_management_app.Droid.Resource.Attribute.showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showDividers = global::attendance_management_app.Droid.Resource.Attribute.showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showMotionSpec = global::attendance_management_app.Droid.Resource.Attribute.showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showText = global::attendance_management_app.Droid.Resource.Attribute.showText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.showTitle = global::attendance_management_app.Droid.Resource.Attribute.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleChoiceItemLayout = global::attendance_management_app.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleLine = global::attendance_management_app.Droid.Resource.Attribute.singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.singleSelection = global::attendance_management_app.Droid.Resource.Attribute.singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.snackbarStyle = global::attendance_management_app.Droid.Resource.Attribute.snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spanCount = global::attendance_management_app.Droid.Resource.Attribute.spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinBars = global::attendance_management_app.Droid.Resource.Attribute.spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerDropDownItemStyle = global::attendance_management_app.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.spinnerStyle = global::attendance_management_app.Droid.Resource.Attribute.spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.splitTrack = global::attendance_management_app.Droid.Resource.Attribute.splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.srcCompat = global::attendance_management_app.Droid.Resource.Attribute.srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.stackFromEnd = global::attendance_management_app.Droid.Resource.Attribute.stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_above_anchor = global::attendance_management_app.Droid.Resource.Attribute.state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsed = global::attendance_management_app.Droid.Resource.Attribute.state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_collapsible = global::attendance_management_app.Droid.Resource.Attribute.state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_liftable = global::attendance_management_app.Droid.Resource.Attribute.state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.state_lifted = global::attendance_management_app.Droid.Resource.Attribute.state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarBackground = global::attendance_management_app.Droid.Resource.Attribute.statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.statusBarScrim = global::attendance_management_app.Droid.Resource.Attribute.statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeColor = global::attendance_management_app.Droid.Resource.Attribute.strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.strokeWidth = global::attendance_management_app.Droid.Resource.Attribute.strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subMenuArrow = global::attendance_management_app.Droid.Resource.Attribute.subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.submitBackground = global::attendance_management_app.Droid.Resource.Attribute.submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitle = global::attendance_management_app.Droid.Resource.Attribute.subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextColor = global::attendance_management_app.Droid.Resource.Attribute.subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.subtitleTextStyle = global::attendance_management_app.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.suggestionRowLayout = global::attendance_management_app.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchMinWidth = global::attendance_management_app.Droid.Resource.Attribute.switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchPadding = global::attendance_management_app.Droid.Resource.Attribute.switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchStyle = global::attendance_management_app.Droid.Resource.Attribute.switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.switchTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabBackground = global::attendance_management_app.Droid.Resource.Attribute.tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabContentStart = global::attendance_management_app.Droid.Resource.Attribute.tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabGravity = global::attendance_management_app.Droid.Resource.Attribute.tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTint = global::attendance_management_app.Droid.Resource.Attribute.tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIconTintMode = global::attendance_management_app.Droid.Resource.Attribute.tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicator = global::attendance_management_app.Droid.Resource.Attribute.tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorAnimationDuration = global::attendance_management_app.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorColor = global::attendance_management_app.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorFullWidth = global::attendance_management_app.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorGravity = global::attendance_management_app.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabIndicatorHeight = global::attendance_management_app.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabInlineLabel = global::attendance_management_app.Droid.Resource.Attribute.tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMaxWidth = global::attendance_management_app.Droid.Resource.Attribute.tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMinWidth = global::attendance_management_app.Droid.Resource.Attribute.tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabMode = global::attendance_management_app.Droid.Resource.Attribute.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPadding = global::attendance_management_app.Droid.Resource.Attribute.tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingBottom = global::attendance_management_app.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingEnd = global::attendance_management_app.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingStart = global::attendance_management_app.Droid.Resource.Attribute.tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabPaddingTop = global::attendance_management_app.Droid.Resource.Attribute.tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabRippleColor = global::attendance_management_app.Droid.Resource.Attribute.tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabSelectedTextColor = global::attendance_management_app.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabStyle = global::attendance_management_app.Droid.Resource.Attribute.tabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabTextColor = global::attendance_management_app.Droid.Resource.Attribute.tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tabUnboundedRipple = global::attendance_management_app.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAllCaps = global::attendance_management_app.Droid.Resource.Attribute.textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody1 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceBody2 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceButton = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceButton;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceCaption = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline1 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline2 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline3 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline4 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline5 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceHeadline6 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceLargePopupMenu = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItem = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSecondary = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceListItemSmall = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceOverline = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearancePopupMenuHeader = global::attendance_management_app.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultSubtitle = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSearchResultTitle = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSmallPopupMenu = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle1 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textAppearanceSubtitle2 = global::attendance_management_app.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorAlertDialogListItem = global::attendance_management_app.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textColorSearchUrl = global::attendance_management_app.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textEndPadding = global::attendance_management_app.Droid.Resource.Attribute.textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textInputStyle = global::attendance_management_app.Droid.Resource.Attribute.textInputStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textLocale = global::attendance_management_app.Droid.Resource.Attribute.textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.textStartPadding = global::attendance_management_app.Droid.Resource.Attribute.textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.theme = global::attendance_management_app.Droid.Resource.Attribute.theme;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thickness = global::attendance_management_app.Droid.Resource.Attribute.thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTextPadding = global::attendance_management_app.Droid.Resource.Attribute.thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTint = global::attendance_management_app.Droid.Resource.Attribute.thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.thumbTintMode = global::attendance_management_app.Droid.Resource.Attribute.thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMark = global::attendance_management_app.Droid.Resource.Attribute.tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTint = global::attendance_management_app.Droid.Resource.Attribute.tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tickMarkTintMode = global::attendance_management_app.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tint = global::attendance_management_app.Droid.Resource.Attribute.tint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tintMode = global::attendance_management_app.Droid.Resource.Attribute.tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.title = global::attendance_management_app.Droid.Resource.Attribute.title;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleEnabled = global::attendance_management_app.Droid.Resource.Attribute.titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargin = global::attendance_management_app.Droid.Resource.Attribute.titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginBottom = global::attendance_management_app.Droid.Resource.Attribute.titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginEnd = global::attendance_management_app.Droid.Resource.Attribute.titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMargins = global::attendance_management_app.Droid.Resource.Attribute.titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginStart = global::attendance_management_app.Droid.Resource.Attribute.titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleMarginTop = global::attendance_management_app.Droid.Resource.Attribute.titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextAppearance = global::attendance_management_app.Droid.Resource.Attribute.titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextColor = global::attendance_management_app.Droid.Resource.Attribute.titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.titleTextStyle = global::attendance_management_app.Droid.Resource.Attribute.titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarId = global::attendance_management_app.Droid.Resource.Attribute.toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarNavigationButtonStyle = global::attendance_management_app.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.toolbarStyle = global::attendance_management_app.Droid.Resource.Attribute.toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipForegroundColor = global::attendance_management_app.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipFrameBackground = global::attendance_management_app.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.tooltipText = global::attendance_management_app.Droid.Resource.Attribute.tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.track = global::attendance_management_app.Droid.Resource.Attribute.track;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTint = global::attendance_management_app.Droid.Resource.Attribute.trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.trackTintMode = global::attendance_management_app.Droid.Resource.Attribute.trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.ttcIndex = global::attendance_management_app.Droid.Resource.Attribute.ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.useCompatPadding = global::attendance_management_app.Droid.Resource.Attribute.useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.viewInflaterClass = global::attendance_management_app.Droid.Resource.Attribute.viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.voiceIcon = global::attendance_management_app.Droid.Resource.Attribute.voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBar = global::attendance_management_app.Droid.Resource.Attribute.windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionBarOverlay = global::attendance_management_app.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowActionModeOverlay = global::attendance_management_app.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMajor = global::attendance_management_app.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedHeightMinor = global::attendance_management_app.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMajor = global::attendance_management_app.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowFixedWidthMinor = global::attendance_management_app.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMajor = global::attendance_management_app.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowMinWidthMinor = global::attendance_management_app.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Attribute.windowNoTitle = global::attendance_management_app.Droid.Resource.Attribute.windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_action_bar_embed_tabs = global::attendance_management_app.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::attendance_management_app.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::attendance_management_app.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_dark = global::attendance_management_app.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_background_cache_hint_selector_material_light = global::attendance_management_app.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_borderless_text_material = global::attendance_management_app.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_btn_colored_text_material = global::attendance_management_app.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_color_highlight_material = global::attendance_management_app.Droid.Resource.Color.abc_color_highlight_material;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_dark = global::attendance_management_app.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_hint_foreground_material_light = global::attendance_management_app.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_dark = global::attendance_management_app.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_disable_only_material_light = global::attendance_management_app.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_dark = global::attendance_management_app.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_primary_text_material_light = global::attendance_management_app.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text = global::attendance_management_app.Droid.Resource.Color.abc_search_url_text;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_normal = global::attendance_management_app.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_pressed = global::attendance_management_app.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_search_url_text_selected = global::attendance_management_app.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_dark = global::attendance_management_app.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_secondary_text_material_light = global::attendance_management_app.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_btn_checkable = global::attendance_management_app.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_default = global::attendance_management_app.Droid.Resource.Color.abc_tint_default;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_edittext = global::attendance_management_app.Droid.Resource.Color.abc_tint_edittext;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_seek_thumb = global::attendance_management_app.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_spinner = global::attendance_management_app.Droid.Resource.Color.abc_tint_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Color.abc_tint_switch_track = global::attendance_management_app.Droid.Resource.Color.abc_tint_switch_track;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_dark = global::attendance_management_app.Droid.Resource.Color.accent_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.accent_material_light = global::attendance_management_app.Droid.Resource.Color.accent_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_dark = global::attendance_management_app.Droid.Resource.Color.background_floating_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_floating_material_light = global::attendance_management_app.Droid.Resource.Color.background_floating_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_dark = global::attendance_management_app.Droid.Resource.Color.background_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.background_material_light = global::attendance_management_app.Droid.Resource.Color.background_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_dark = global::attendance_management_app.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_inverse_material_light = global::attendance_management_app.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_dark = global::attendance_management_app.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.bright_foreground_material_light = global::attendance_management_app.Droid.Resource.Color.bright_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_bg_grey = global::attendance_management_app.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_divider_color = global::attendance_management_app.Droid.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_text_color = global::attendance_management_app.Droid.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.browser_actions_title_color = global::attendance_management_app.Droid.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_dark = global::attendance_management_app.Droid.Resource.Color.button_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.button_material_light = global::attendance_management_app.Droid.Resource.Color.button_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_dark_background = global::attendance_management_app.Droid.Resource.Color.cardview_dark_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_light_background = global::attendance_management_app.Droid.Resource.Color.cardview_light_background;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_end_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.cardview_shadow_start_color = global::attendance_management_app.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_bottom_navigation_shadow_color = global::attendance_management_app.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary = global::attendance_management_app.Droid.Resource.Color.design_default_color_primary;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_default_color_primary_dark = global::attendance_management_app.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_error = global::attendance_management_app.Droid.Resource.Color.design_error;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_end_color = global::attendance_management_app.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_mid_color = global::attendance_management_app.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_shadow_start_color = global::attendance_management_app.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_inner_color = global::attendance_management_app.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_end_outer_color = global::attendance_management_app.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_inner_color = global::attendance_management_app.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_fab_stroke_top_outer_color = global::attendance_management_app.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.design_snackbar_background_color = global::attendance_management_app.Droid.Resource.Color.design_snackbar_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_dark = global::attendance_management_app.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.dim_foreground_material_light = global::attendance_management_app.Droid.Resource.Color.dim_foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_dark = global::attendance_management_app.Droid.Resource.Color.error_color_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.error_color_material_light = global::attendance_management_app.Droid.Resource.Color.error_color_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_dark = global::attendance_management_app.Droid.Resource.Color.foreground_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.foreground_material_light = global::attendance_management_app.Droid.Resource.Color.foreground_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_dark = global::attendance_management_app.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.highlighted_text_material_light = global::attendance_management_app.Droid.Resource.Color.highlighted_text_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_800 = global::attendance_management_app.Droid.Resource.Color.material_blue_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_900 = global::attendance_management_app.Droid.Resource.Color.material_blue_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_blue_grey_950 = global::attendance_management_app.Droid.Resource.Color.material_blue_grey_950;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_200 = global::attendance_management_app.Droid.Resource.Color.material_deep_teal_200;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_deep_teal_500 = global::attendance_management_app.Droid.Resource.Color.material_deep_teal_500;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_100 = global::attendance_management_app.Droid.Resource.Color.material_grey_100;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_300 = global::attendance_management_app.Droid.Resource.Color.material_grey_300;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_50 = global::attendance_management_app.Droid.Resource.Color.material_grey_50;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_600 = global::attendance_management_app.Droid.Resource.Color.material_grey_600;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_800 = global::attendance_management_app.Droid.Resource.Color.material_grey_800;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_850 = global::attendance_management_app.Droid.Resource.Color.material_grey_850;
+			global::Xamarin.Plugin.Calendar.Resource.Color.material_grey_900 = global::attendance_management_app.Droid.Resource.Color.material_grey_900;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_bg_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_ripple_color = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_stroke_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_btn_ripple_color = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_disabled = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_text_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_btn_transparent_bg_color = global::attendance_management_app.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_background_color = global::attendance_management_app.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_close_icon_tint = global::attendance_management_app.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_chip_text_color = global::attendance_management_app.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_fab_ripple_color = global::attendance_management_app.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_scrim_color = global::attendance_management_app.Droid.Resource.Color.mtrl_scrim_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_colored_ripple_color = global::attendance_management_app.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::attendance_management_app.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_tabs_ripple_color = global::attendance_management_app.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_default_box_stroke_color = global::attendance_management_app.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_disabled_color = global::attendance_management_app.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::attendance_management_app.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::attendance_management_app.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.mtrl_text_btn_text_color_selector = global::attendance_management_app.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_action_color_filter = global::attendance_management_app.Droid.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_icon_bg_color = global::attendance_management_app.Droid.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.notification_material_background_media_default_color = global::attendance_management_app.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_dark_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_dark_material_light = global::attendance_management_app.Droid.Resource.Color.primary_dark_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_material_light = global::attendance_management_app.Droid.Resource.Color.primary_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_default_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.primary_text_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_dark = global::attendance_management_app.Droid.Resource.Color.ripple_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.ripple_material_light = global::attendance_management_app.Droid.Resource.Color.ripple_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_dark = global::attendance_management_app.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_default_material_light = global::attendance_management_app.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.secondary_text_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_dark = global::attendance_management_app.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_disabled_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_dark = global::attendance_management_app.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_dark = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.switch_thumb_normal_material_light = global::attendance_management_app.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_dark = global::attendance_management_app.Droid.Resource.Color.tooltip_background_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Color.tooltip_background_light = global::attendance_management_app.Droid.Resource.Color.tooltip_background_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_end_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_default_padding_start_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_elevation_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_max_height = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_action_button_min_width_overflow_material = global::attendance_management_app.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_bar_height = global::attendance_management_app.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_alert_dialog_button_dimen = global::attendance_management_app.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_inset_vertical_material = global::attendance_management_app.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_button_padding_vertical_material = global::attendance_management_app.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::attendance_management_app.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_config_prefDialogWidth = global::attendance_management_app.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_corner_material = global::attendance_management_app.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_inset_material = global::attendance_management_app.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_control_padding_material = global::attendance_management_app.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_corner_radius_material = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_major = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_height_minor = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_major = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_fixed_width_minor = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_major = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_min_width_minor = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_material = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_padding_top_material = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dialog_title_divider_material = global::attendance_management_app.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_dark = global::attendance_management_app.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_disabled_alpha_material_light = global::attendance_management_app.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_icon_width = global::attendance_management_app.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_left = global::attendance_management_app.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_dropdownitem_text_padding_right = global::attendance_management_app.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_bottom_material = global::attendance_management_app.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_edit_text_inset_top_material = global::attendance_management_app.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_floating_window_z = global::attendance_management_app.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_large_material = global::attendance_management_app.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_height_small_material = global::attendance_management_app.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_list_item_padding_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_panel_menu_list_width = global::attendance_management_app.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_progress_bar_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_height = global::attendance_management_app.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_search_view_preferred_width = global::attendance_management_app.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_background_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_seekbar_track_progress_height_material = global::attendance_management_app.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_select_dialog_padding_start_material = global::attendance_management_app.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_switch_padding = global::attendance_management_app.Droid.Resource.Dimension.abc_switch_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_1_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_body_2_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_button_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_caption_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_1_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_2_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_3_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_display_4_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_headline_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_large_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_medium_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_header_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_menu_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_small_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subhead_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.abc_text_size_title_material_toolbar = global::attendance_management_app.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_max_width = global::attendance_management_app.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.browser_actions_context_menu_min_padding = global::attendance_management_app.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_compat_inset_shadow = global::attendance_management_app.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_elevation = global::attendance_management_app.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.cardview_default_radius = global::attendance_management_app.Droid.Resource.Dimension.cardview_default_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_inset_vertical_material = global::attendance_management_app.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_horizontal_material = global::attendance_management_app.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_button_padding_vertical_material = global::attendance_management_app.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_control_corner_material = global::attendance_management_app.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_height = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.compat_notification_large_icon_max_width = global::attendance_management_app.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_appbar_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_active_text_size = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_height = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_icon_size = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_item_min_width = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_margin = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_shadow_height = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_navigation_text_size = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_modal_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_bottom_sheet_peek_height_min = global::attendance_management_app.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_border_width = global::attendance_management_app.Droid.Resource.Dimension.design_fab_border_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_image_size = global::attendance_management_app.Droid.Resource.Dimension.design_fab_image_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_mini = global::attendance_management_app.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_size_normal = global::attendance_management_app.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_hovered_focused = global::attendance_management_app.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_fab_translation_z_pressed = global::attendance_management_app.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_padding = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_icon_size = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_horizontal_padding = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_item_icon_padding = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_padding_bottom = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_navigation_separator_vertical_padding = global::attendance_management_app.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_action_inline_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_background_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_elevation = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_min_width = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_horizontal = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_snackbar_text_size = global::attendance_management_app.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_max_width = global::attendance_management_app.Droid.Resource.Dimension.design_tab_max_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_scrollable_min_width = global::attendance_management_app.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size = global::attendance_management_app.Droid.Resource.Dimension.design_tab_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_tab_text_size_2line = global::attendance_management_app.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.design_textinput_caption_translate_y = global::attendance_management_app.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_dark = global::attendance_management_app.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.disabled_alpha_material_light = global::attendance_management_app.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_default_thickness = global::attendance_management_app.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_margin = global::attendance_management_app.Droid.Resource.Dimension.fastscroll_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.fastscroll_minimum_range = global::attendance_management_app.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_colored = global::attendance_management_app.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_dark = global::attendance_management_app.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.highlight_alpha_material_light = global::attendance_management_app.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_dark = global::attendance_management_app.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_alpha_material_light = global::attendance_management_app.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_dark = global::attendance_management_app.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.hint_pressed_alpha_material_light = global::attendance_management_app.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::attendance_management_app.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::attendance_management_app.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::attendance_management_app.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::attendance_management_app.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::attendance_management_app.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_bottomappbar_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_disabled_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_focused_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_hovered_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_icon_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_inset = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_letter_spacing = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_bottom = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_left = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_right = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_padding_top = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_pressed_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_stroke_size = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_text_size = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_btn_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_card_spacing = global::attendance_management_app.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_pressed_translation_z = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_chip_text_size = global::attendance_management_app.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::attendance_management_app.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_fab_translation_z_pressed = global::attendance_management_app.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_elevation = global::attendance_management_app.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_navigation_item_icon_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_snackbar_margin = global::attendance_management_app.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::attendance_management_app.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.mtrl_toolbar_default_height = global::attendance_management_app.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_icon_size = global::attendance_management_app.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_action_text_size = global::attendance_management_app.Droid.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_big_circle_margin = global::attendance_management_app.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_content_margin_start = global::attendance_management_app.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_height = global::attendance_management_app.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_large_icon_width = global::attendance_management_app.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_main_column_padding_top = global::attendance_management_app.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_media_narrow_margin = global::attendance_management_app.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_icon_size = global::attendance_management_app.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_right_side_padding_top = global::attendance_management_app.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_background_padding = global::attendance_management_app.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_small_icon_size_as_large = global::attendance_management_app.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_subtext_size = global::attendance_management_app.Droid.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.notification_top_pad_large_text = global::attendance_management_app.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_corner_radius = global::attendance_management_app.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_horizontal_padding = global::attendance_management_app.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_margin = global::attendance_management_app.Droid.Resource.Dimension.tooltip_margin;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::attendance_management_app.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_precise_anchor_threshold = global::attendance_management_app.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_vertical_padding = global::attendance_management_app.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_non_touch = global::attendance_management_app.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Dimension.tooltip_y_offset_touch = global::attendance_management_app.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_action_bar_item_background_material = global::attendance_management_app.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_borderless_material = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_material_anim = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_colored_material = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_default_mtrl_shape = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_material_anim = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::attendance_management_app.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_internal_bg = global::attendance_management_app.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_material = global::attendance_management_app.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_control_background_material = global::attendance_management_app.Droid.Resource.Drawable.abc_control_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_dialog_material_background = global::attendance_management_app.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_edit_text_material = global::attendance_management_app.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_ab_back_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_clear_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_go_search_api_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_overflow_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_search_api_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ic_voice_search_api_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_dark = global::attendance_management_app.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_item_background_holo_light = global::attendance_management_app.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_material = global::attendance_management_app.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_divider_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_focused_holo = global::attendance_management_app.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_longpressed_holo = global::attendance_management_app.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_dark = global::attendance_management_app.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_pressed_holo_light = global::attendance_management_app.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_disabled_holo_light = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_dark = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_list_selector_holo_light = global::attendance_management_app.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::attendance_management_app.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_popup_background_mtrl_mult = global::attendance_management_app.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_indicator_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_ratingbar_small_material = global::attendance_management_app.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::attendance_management_app.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::attendance_management_app.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_thumb_material = global::attendance_management_app.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_tick_mark_material = global::attendance_management_app.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_seekbar_track_material = global::attendance_management_app.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_spinner_textfield_background_material = global::attendance_management_app.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_thumb_material = global::attendance_management_app.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_switch_track_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_material = global::attendance_management_app.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::attendance_management_app.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_textfield_search_material = global::attendance_management_app.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_text_cursor_material = global::attendance_management_app.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.abc_vector_test = global::attendance_management_app.Droid.Resource.Drawable.abc_vector_test;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_hide_password = global::attendance_management_app.Droid.Resource.Drawable.avd_hide_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.avd_show_password = global::attendance_management_app.Droid.Resource.Drawable.avd_show_password;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_mtrl = global::attendance_management_app.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::attendance_management_app.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::attendance_management_app.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::attendance_management_app.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_mtrl = global::attendance_management_app.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::attendance_management_app.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_mtrl = global::attendance_management_app.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::attendance_management_app.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_fab_background = global::attendance_management_app.Droid.Resource.Drawable.design_fab_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility = global::attendance_management_app.Droid.Resource.Drawable.design_ic_visibility;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_ic_visibility_off = global::attendance_management_app.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_password_eye = global::attendance_management_app.Droid.Resource.Drawable.design_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.design_snackbar_background = global::attendance_management_app.Droid.Resource.Drawable.design_snackbar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_black = global::attendance_management_app.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_checked_circle = global::attendance_management_app.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.ic_mtrl_chip_close_circle = global::attendance_management_app.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.mtrl_tabs_default_indicator = global::attendance_management_app.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.navigation_empty_icon = global::attendance_management_app.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_action_background = global::attendance_management_app.Droid.Resource.Drawable.notification_action_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low = global::attendance_management_app.Droid.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_normal = global::attendance_management_app.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_low_pressed = global::attendance_management_app.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal = global::attendance_management_app.Droid.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_bg_normal_pressed = global::attendance_management_app.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_icon_background = global::attendance_management_app.Droid.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_template_icon_low_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notification_tile_bg = global::attendance_management_app.Droid.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.notify_panel_notification_icon_bg = global::attendance_management_app.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_dark = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Xamarin.Plugin.Calendar.Resource.Drawable.tooltip_frame_light = global::attendance_management_app.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_action_clickable_span = global::attendance_management_app.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_0 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_1 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_10 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_11 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_12 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_13 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_14 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_15 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_16 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_17 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_18 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_19 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_2 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_20 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_21 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_22 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_23 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_24 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_25 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_26 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_27 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_28 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_29 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_3 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_30 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_31 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_4 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_5 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_6 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_7 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_8 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Plugin.Calendar.Resource.Id.accessibility_custom_action_9 = global::attendance_management_app.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action0 = global::attendance_management_app.Droid.Resource.Id.action0;
+			global::Xamarin.Plugin.Calendar.Resource.Id.actions = global::attendance_management_app.Droid.Resource.Id.actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar = global::attendance_management_app.Droid.Resource.Id.action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_activity_content = global::attendance_management_app.Droid.Resource.Id.action_bar_activity_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_container = global::attendance_management_app.Droid.Resource.Id.action_bar_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_root = global::attendance_management_app.Droid.Resource.Id.action_bar_root;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_spinner = global::attendance_management_app.Droid.Resource.Id.action_bar_spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_subtitle = global::attendance_management_app.Droid.Resource.Id.action_bar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_bar_title = global::attendance_management_app.Droid.Resource.Id.action_bar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_container = global::attendance_management_app.Droid.Resource.Id.action_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_context_bar = global::attendance_management_app.Droid.Resource.Id.action_context_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_divider = global::attendance_management_app.Droid.Resource.Id.action_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_image = global::attendance_management_app.Droid.Resource.Id.action_image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_divider = global::attendance_management_app.Droid.Resource.Id.action_menu_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_menu_presenter = global::attendance_management_app.Droid.Resource.Id.action_menu_presenter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar = global::attendance_management_app.Droid.Resource.Id.action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_bar_stub = global::attendance_management_app.Droid.Resource.Id.action_mode_bar_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_mode_close_button = global::attendance_management_app.Droid.Resource.Id.action_mode_close_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.action_text = global::attendance_management_app.Droid.Resource.Id.action_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.activity_chooser_view_content = global::attendance_management_app.Droid.Resource.Id.activity_chooser_view_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.add = global::attendance_management_app.Droid.Resource.Id.add;
+			global::Xamarin.Plugin.Calendar.Resource.Id.alertTitle = global::attendance_management_app.Droid.Resource.Id.alertTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.all = global::attendance_management_app.Droid.Resource.Id.all;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ALT = global::attendance_management_app.Droid.Resource.Id.ALT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.always = global::attendance_management_app.Droid.Resource.Id.always;
+			global::Xamarin.Plugin.Calendar.Resource.Id.async = global::attendance_management_app.Droid.Resource.Id.async;
+			global::Xamarin.Plugin.Calendar.Resource.Id.auto = global::attendance_management_app.Droid.Resource.Id.auto;
+			global::Xamarin.Plugin.Calendar.Resource.Id.beginning = global::attendance_management_app.Droid.Resource.Id.beginning;
+			global::Xamarin.Plugin.Calendar.Resource.Id.blocking = global::attendance_management_app.Droid.Resource.Id.blocking;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottom = global::attendance_management_app.Droid.Resource.Id.bottom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_navarea = global::attendance_management_app.Droid.Resource.Id.bottomtab_navarea;
+			global::Xamarin.Plugin.Calendar.Resource.Id.bottomtab_tabbar = global::attendance_management_app.Droid.Resource.Id.bottomtab_tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_header_text = global::attendance_management_app.Droid.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_items = global::attendance_management_app.Droid.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_icon = global::attendance_management_app.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_item_text = global::attendance_management_app.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.browser_actions_menu_view = global::attendance_management_app.Droid.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.buttonPanel = global::attendance_management_app.Droid.Resource.Id.buttonPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.cancel_action = global::attendance_management_app.Droid.Resource.Id.cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center = global::attendance_management_app.Droid.Resource.Id.center;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_horizontal = global::attendance_management_app.Droid.Resource.Id.center_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.center_vertical = global::attendance_management_app.Droid.Resource.Id.center_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.checkbox = global::attendance_management_app.Droid.Resource.Id.checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@checked = global::attendance_management_app.Droid.Resource.Id.@checked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.chronometer = global::attendance_management_app.Droid.Resource.Id.chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_horizontal = global::attendance_management_app.Droid.Resource.Id.clip_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.clip_vertical = global::attendance_management_app.Droid.Resource.Id.clip_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.collapseActionView = global::attendance_management_app.Droid.Resource.Id.collapseActionView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.container = global::attendance_management_app.Droid.Resource.Id.container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.content = global::attendance_management_app.Droid.Resource.Id.content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.contentPanel = global::attendance_management_app.Droid.Resource.Id.contentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.coordinator = global::attendance_management_app.Droid.Resource.Id.coordinator;
+			global::Xamarin.Plugin.Calendar.Resource.Id.CTRL = global::attendance_management_app.Droid.Resource.Id.CTRL;
+			global::Xamarin.Plugin.Calendar.Resource.Id.custom = global::attendance_management_app.Droid.Resource.Id.custom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.customPanel = global::attendance_management_app.Droid.Resource.Id.customPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.decor_content_parent = global::attendance_management_app.Droid.Resource.Id.decor_content_parent;
+			global::Xamarin.Plugin.Calendar.Resource.Id.default_activity_button = global::attendance_management_app.Droid.Resource.Id.default_activity_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_bottom_sheet = global::attendance_management_app.Droid.Resource.Id.design_bottom_sheet;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area = global::attendance_management_app.Droid.Resource.Id.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_action_area_stub = global::attendance_management_app.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_menu_item_text = global::attendance_management_app.Droid.Resource.Id.design_menu_item_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.design_navigation_view = global::attendance_management_app.Droid.Resource.Id.design_navigation_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.dialog_button = global::attendance_management_app.Droid.Resource.Id.dialog_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.disableHome = global::attendance_management_app.Droid.Resource.Id.disableHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.edit_query = global::attendance_management_app.Droid.Resource.Id.edit_query;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end = global::attendance_management_app.Droid.Resource.Id.end;
+			global::Xamarin.Plugin.Calendar.Resource.Id.end_padder = global::attendance_management_app.Droid.Resource.Id.end_padder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlways = global::attendance_management_app.Droid.Resource.Id.enterAlways;
+			global::Xamarin.Plugin.Calendar.Resource.Id.enterAlwaysCollapsed = global::attendance_management_app.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.exitUntilCollapsed = global::attendance_management_app.Droid.Resource.Id.exitUntilCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expanded_menu = global::attendance_management_app.Droid.Resource.Id.expanded_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Id.expand_activities_button = global::attendance_management_app.Droid.Resource.Id.expand_activities_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill = global::attendance_management_app.Droid.Resource.Id.fill;
+			global::Xamarin.Plugin.Calendar.Resource.Id.filled = global::attendance_management_app.Droid.Resource.Id.filled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_horizontal = global::attendance_management_app.Droid.Resource.Id.fill_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.fill_vertical = global::attendance_management_app.Droid.Resource.Id.fill_vertical;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@fixed = global::attendance_management_app.Droid.Resource.Id.@fixed;
+			global::Xamarin.Plugin.Calendar.Resource.Id.flyoutcontent_appbar = global::attendance_management_app.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.forever = global::attendance_management_app.Droid.Resource.Id.forever;
+			global::Xamarin.Plugin.Calendar.Resource.Id.FUNCTION = global::attendance_management_app.Droid.Resource.Id.FUNCTION;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view = global::attendance_management_app.Droid.Resource.Id.ghost_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ghost_view_holder = global::attendance_management_app.Droid.Resource.Id.ghost_view_holder;
+			global::Xamarin.Plugin.Calendar.Resource.Id.group_divider = global::attendance_management_app.Droid.Resource.Id.group_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Id.home = global::attendance_management_app.Droid.Resource.Id.home;
+			global::Xamarin.Plugin.Calendar.Resource.Id.homeAsUp = global::attendance_management_app.Droid.Resource.Id.homeAsUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon = global::attendance_management_app.Droid.Resource.Id.icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.icon_group = global::attendance_management_app.Droid.Resource.Id.icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.ifRoom = global::attendance_management_app.Droid.Resource.Id.ifRoom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.image = global::attendance_management_app.Droid.Resource.Id.image;
+			global::Xamarin.Plugin.Calendar.Resource.Id.info = global::attendance_management_app.Droid.Resource.Id.info;
+			global::Xamarin.Plugin.Calendar.Resource.Id.italic = global::attendance_management_app.Droid.Resource.Id.italic;
+			global::Xamarin.Plugin.Calendar.Resource.Id.item_touch_helper_previous_elevation = global::attendance_management_app.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Id.labeled = global::attendance_management_app.Droid.Resource.Id.labeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.left = global::attendance_management_app.Droid.Resource.Id.left;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line1 = global::attendance_management_app.Droid.Resource.Id.line1;
+			global::Xamarin.Plugin.Calendar.Resource.Id.line3 = global::attendance_management_app.Droid.Resource.Id.line3;
+			global::Xamarin.Plugin.Calendar.Resource.Id.listMode = global::attendance_management_app.Droid.Resource.Id.listMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.list_item = global::attendance_management_app.Droid.Resource.Id.list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_appbar = global::attendance_management_app.Droid.Resource.Id.main_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_tablayout = global::attendance_management_app.Droid.Resource.Id.main_tablayout;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_toolbar = global::attendance_management_app.Droid.Resource.Id.main_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.main_viewpager = global::attendance_management_app.Droid.Resource.Id.main_viewpager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.masked = global::attendance_management_app.Droid.Resource.Id.masked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.media_actions = global::attendance_management_app.Droid.Resource.Id.media_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.message = global::attendance_management_app.Droid.Resource.Id.message;
+			global::Xamarin.Plugin.Calendar.Resource.Id.META = global::attendance_management_app.Droid.Resource.Id.META;
+			global::Xamarin.Plugin.Calendar.Resource.Id.middle = global::attendance_management_app.Droid.Resource.Id.middle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mini = global::attendance_management_app.Droid.Resource.Id.mini;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_child_content_container = global::attendance_management_app.Droid.Resource.Id.mtrl_child_content_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.mtrl_internal_children_alpha_tag = global::attendance_management_app.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Xamarin.Plugin.Calendar.Resource.Id.multiply = global::attendance_management_app.Droid.Resource.Id.multiply;
+			global::Xamarin.Plugin.Calendar.Resource.Id.navigation_header_container = global::attendance_management_app.Droid.Resource.Id.navigation_header_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.never = global::attendance_management_app.Droid.Resource.Id.never;
+			global::Xamarin.Plugin.Calendar.Resource.Id.none = global::attendance_management_app.Droid.Resource.Id.none;
+			global::Xamarin.Plugin.Calendar.Resource.Id.normal = global::attendance_management_app.Droid.Resource.Id.normal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_background = global::attendance_management_app.Droid.Resource.Id.notification_background;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column = global::attendance_management_app.Droid.Resource.Id.notification_main_column;
+			global::Xamarin.Plugin.Calendar.Resource.Id.notification_main_column_container = global::attendance_management_app.Droid.Resource.Id.notification_main_column_container;
+			global::Xamarin.Plugin.Calendar.Resource.Id.off = global::attendance_management_app.Droid.Resource.Id.off;
+			global::Xamarin.Plugin.Calendar.Resource.Id.on = global::attendance_management_app.Droid.Resource.Id.on;
+			global::Xamarin.Plugin.Calendar.Resource.Id.outline = global::attendance_management_app.Droid.Resource.Id.outline;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parallax = global::attendance_management_app.Droid.Resource.Id.parallax;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parentPanel = global::attendance_management_app.Droid.Resource.Id.parentPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.parent_matrix = global::attendance_management_app.Droid.Resource.Id.parent_matrix;
+			global::Xamarin.Plugin.Calendar.Resource.Id.pin = global::attendance_management_app.Droid.Resource.Id.pin;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_circular = global::attendance_management_app.Droid.Resource.Id.progress_circular;
+			global::Xamarin.Plugin.Calendar.Resource.Id.progress_horizontal = global::attendance_management_app.Droid.Resource.Id.progress_horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Id.radio = global::attendance_management_app.Droid.Resource.Id.radio;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right = global::attendance_management_app.Droid.Resource.Id.right;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_icon = global::attendance_management_app.Droid.Resource.Id.right_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.right_side = global::attendance_management_app.Droid.Resource.Id.right_side;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_non_transition_alpha = global::attendance_management_app.Droid.Resource.Id.save_non_transition_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Id.save_overlay_view = global::attendance_management_app.Droid.Resource.Id.save_overlay_view;
+			global::Xamarin.Plugin.Calendar.Resource.Id.screen = global::attendance_management_app.Droid.Resource.Id.screen;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scroll = global::attendance_management_app.Droid.Resource.Id.scroll;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollable = global::attendance_management_app.Droid.Resource.Id.scrollable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorDown = global::attendance_management_app.Droid.Resource.Id.scrollIndicatorDown;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollIndicatorUp = global::attendance_management_app.Droid.Resource.Id.scrollIndicatorUp;
+			global::Xamarin.Plugin.Calendar.Resource.Id.scrollView = global::attendance_management_app.Droid.Resource.Id.scrollView;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_badge = global::attendance_management_app.Droid.Resource.Id.search_badge;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_bar = global::attendance_management_app.Droid.Resource.Id.search_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_button = global::attendance_management_app.Droid.Resource.Id.search_button;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_close_btn = global::attendance_management_app.Droid.Resource.Id.search_close_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_edit_frame = global::attendance_management_app.Droid.Resource.Id.search_edit_frame;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_go_btn = global::attendance_management_app.Droid.Resource.Id.search_go_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_mag_icon = global::attendance_management_app.Droid.Resource.Id.search_mag_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_plate = global::attendance_management_app.Droid.Resource.Id.search_plate;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_src_text = global::attendance_management_app.Droid.Resource.Id.search_src_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.search_voice_btn = global::attendance_management_app.Droid.Resource.Id.search_voice_btn;
+			global::Xamarin.Plugin.Calendar.Resource.Id.selected = global::attendance_management_app.Droid.Resource.Id.selected;
+			global::Xamarin.Plugin.Calendar.Resource.Id.select_dialog_listview = global::attendance_management_app.Droid.Resource.Id.select_dialog_listview;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_appbar = global::attendance_management_app.Droid.Resource.Id.shellcontent_appbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shellcontent_toolbar = global::attendance_management_app.Droid.Resource.Id.shellcontent_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SHIFT = global::attendance_management_app.Droid.Resource.Id.SHIFT;
+			global::Xamarin.Plugin.Calendar.Resource.Id.shortcut = global::attendance_management_app.Droid.Resource.Id.shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showCustom = global::attendance_management_app.Droid.Resource.Id.showCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showHome = global::attendance_management_app.Droid.Resource.Id.showHome;
+			global::Xamarin.Plugin.Calendar.Resource.Id.showTitle = global::attendance_management_app.Droid.Resource.Id.showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.sliding_tabs = global::attendance_management_app.Droid.Resource.Id.sliding_tabs;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_action = global::attendance_management_app.Droid.Resource.Id.snackbar_action;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snackbar_text = global::attendance_management_app.Droid.Resource.Id.snackbar_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snap = global::attendance_management_app.Droid.Resource.Id.snap;
+			global::Xamarin.Plugin.Calendar.Resource.Id.snapMargins = global::attendance_management_app.Droid.Resource.Id.snapMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Id.spacer = global::attendance_management_app.Droid.Resource.Id.spacer;
+			global::Xamarin.Plugin.Calendar.Resource.Id.split_action_bar = global::attendance_management_app.Droid.Resource.Id.split_action_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_atop = global::attendance_management_app.Droid.Resource.Id.src_atop;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_in = global::attendance_management_app.Droid.Resource.Id.src_in;
+			global::Xamarin.Plugin.Calendar.Resource.Id.src_over = global::attendance_management_app.Droid.Resource.Id.src_over;
+			global::Xamarin.Plugin.Calendar.Resource.Id.start = global::attendance_management_app.Droid.Resource.Id.start;
+			global::Xamarin.Plugin.Calendar.Resource.Id.status_bar_latest_event_content = global::attendance_management_app.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Xamarin.Plugin.Calendar.Resource.Id.stretch = global::attendance_management_app.Droid.Resource.Id.stretch;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submenuarrow = global::attendance_management_app.Droid.Resource.Id.submenuarrow;
+			global::Xamarin.Plugin.Calendar.Resource.Id.submit_area = global::attendance_management_app.Droid.Resource.Id.submit_area;
+			global::Xamarin.Plugin.Calendar.Resource.Id.SYM = global::attendance_management_app.Droid.Resource.Id.SYM;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tabMode = global::attendance_management_app.Droid.Resource.Id.tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_actions = global::attendance_management_app.Droid.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_clickable_spans = global::attendance_management_app.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_heading = global::attendance_management_app.Droid.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_accessibility_pane_title = global::attendance_management_app.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_screen_reader_focusable = global::attendance_management_app.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_transition_group = global::attendance_management_app.Droid.Resource.Id.tag_transition_group;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_event_manager = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Plugin.Calendar.Resource.Id.tag_unhandled_key_listeners = global::attendance_management_app.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text = global::attendance_management_app.Droid.Resource.Id.text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.text2 = global::attendance_management_app.Droid.Resource.Id.text2;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_counter = global::attendance_management_app.Droid.Resource.Id.textinput_counter;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_error = global::attendance_management_app.Droid.Resource.Id.textinput_error;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textinput_helper_text = global::attendance_management_app.Droid.Resource.Id.textinput_helper_text;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoButtons = global::attendance_management_app.Droid.Resource.Id.textSpacerNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textSpacerNoTitle = global::attendance_management_app.Droid.Resource.Id.textSpacerNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Id.textStart = global::attendance_management_app.Droid.Resource.Id.textStart;
+			global::Xamarin.Plugin.Calendar.Resource.Id.time = global::attendance_management_app.Droid.Resource.Id.time;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title = global::attendance_management_app.Droid.Resource.Id.title;
+			global::Xamarin.Plugin.Calendar.Resource.Id.titleDividerNoCustom = global::attendance_management_app.Droid.Resource.Id.titleDividerNoCustom;
+			global::Xamarin.Plugin.Calendar.Resource.Id.title_template = global::attendance_management_app.Droid.Resource.Id.title_template;
+			global::Xamarin.Plugin.Calendar.Resource.Id.toolbar = global::attendance_management_app.Droid.Resource.Id.toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Id.top = global::attendance_management_app.Droid.Resource.Id.top;
+			global::Xamarin.Plugin.Calendar.Resource.Id.topPanel = global::attendance_management_app.Droid.Resource.Id.topPanel;
+			global::Xamarin.Plugin.Calendar.Resource.Id.touch_outside = global::attendance_management_app.Droid.Resource.Id.touch_outside;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_current_scene = global::attendance_management_app.Droid.Resource.Id.transition_current_scene;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_layout_save = global::attendance_management_app.Droid.Resource.Id.transition_layout_save;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_position = global::attendance_management_app.Droid.Resource.Id.transition_position;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_scene_layoutid_cache = global::attendance_management_app.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Xamarin.Plugin.Calendar.Resource.Id.transition_transform = global::attendance_management_app.Droid.Resource.Id.transition_transform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.@unchecked = global::attendance_management_app.Droid.Resource.Id.@unchecked;
+			global::Xamarin.Plugin.Calendar.Resource.Id.uniform = global::attendance_management_app.Droid.Resource.Id.uniform;
+			global::Xamarin.Plugin.Calendar.Resource.Id.unlabeled = global::attendance_management_app.Droid.Resource.Id.unlabeled;
+			global::Xamarin.Plugin.Calendar.Resource.Id.up = global::attendance_management_app.Droid.Resource.Id.up;
+			global::Xamarin.Plugin.Calendar.Resource.Id.useLogo = global::attendance_management_app.Droid.Resource.Id.useLogo;
+			global::Xamarin.Plugin.Calendar.Resource.Id.view_offset_helper = global::attendance_management_app.Droid.Resource.Id.view_offset_helper;
+			global::Xamarin.Plugin.Calendar.Resource.Id.visible = global::attendance_management_app.Droid.Resource.Id.visible;
+			global::Xamarin.Plugin.Calendar.Resource.Id.withText = global::attendance_management_app.Droid.Resource.Id.withText;
+			global::Xamarin.Plugin.Calendar.Resource.Id.wrap_content = global::attendance_management_app.Droid.Resource.Id.wrap_content;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityDefaultDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.abc_config_activityShortDur = global::attendance_management_app.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.app_bar_elevation_anim_duration = global::attendance_management_app.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.bottom_sheet_slide_duration = global::attendance_management_app.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.cancel_button_image_alpha = global::attendance_management_app.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.config_tooltipAnimTime = global::attendance_management_app.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_snackbar_text_max_lines = global::attendance_management_app.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.design_tab_indicator_anim_duration_ms = global::attendance_management_app.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.hide_password_duration = global::attendance_management_app.Droid.Resource.Integer.hide_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_delay_ms = global::attendance_management_app.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_btn_anim_duration_ms = global::attendance_management_app.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_chip_anim_duration = global::attendance_management_app.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::attendance_management_app.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.show_password_duration = global::attendance_management_app.Droid.Resource.Integer.show_password_duration;
+			global::Xamarin.Plugin.Calendar.Resource.Integer.status_bar_notification_info_maxnum = global::attendance_management_app.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::attendance_management_app.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::attendance_management_app.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::attendance_management_app.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::attendance_management_app.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::attendance_management_app.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::attendance_management_app.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.fast_out_slow_in = global::attendance_management_app.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_linear_in = global::attendance_management_app.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_fast_out_slow_in = global::attendance_management_app.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear = global::attendance_management_app.Droid.Resource.Interpolator.mtrl_linear;
+			global::Xamarin.Plugin.Calendar.Resource.Interpolator.mtrl_linear_out_slow_in = global::attendance_management_app.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_title_item = global::attendance_management_app.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_bar_up_container = global::attendance_management_app.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_item_layout = global::attendance_management_app.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_menu_layout = global::attendance_management_app.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_bar = global::attendance_management_app.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_action_mode_close_item_material = global::attendance_management_app.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view = global::attendance_management_app.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_activity_chooser_view_list_item = global::attendance_management_app.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_button_bar_material = global::attendance_management_app.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_material = global::attendance_management_app.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_alert_dialog_title_material = global::attendance_management_app.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_cascading_menu_item_layout = global::attendance_management_app.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_dialog_title_material = global::attendance_management_app.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_expanded_menu_layout = global::attendance_management_app.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_checkbox = global::attendance_management_app.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_icon = global::attendance_management_app.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_layout = global::attendance_management_app.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_list_menu_item_radio = global::attendance_management_app.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_header_item_layout = global::attendance_management_app.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_popup_menu_item_layout = global::attendance_management_app.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_content_include = global::attendance_management_app.Droid.Resource.Layout.abc_screen_content_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple = global::attendance_management_app.Droid.Resource.Layout.abc_screen_simple;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_simple_overlay_action_mode = global::attendance_management_app.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_screen_toolbar = global::attendance_management_app.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_dropdown_item_icons_2line = global::attendance_management_app.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_search_view = global::attendance_management_app.Droid.Resource.Layout.abc_search_view;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_select_dialog_material = global::attendance_management_app.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.abc_tooltip = global::attendance_management_app.Droid.Resource.Layout.abc_tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.BottomTabLayout = global::attendance_management_app.Droid.Resource.Layout.BottomTabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_page = global::attendance_management_app.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.browser_actions_context_menu_row = global::attendance_management_app.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.custom_dialog = global::attendance_management_app.Droid.Resource.Layout.custom_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_navigation_item = global::attendance_management_app.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_bottom_sheet_dialog = global::attendance_management_app.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar = global::attendance_management_app.Droid.Resource.Layout.design_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_snackbar_include = global::attendance_management_app.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_icon = global::attendance_management_app.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_layout_tab_text = global::attendance_management_app.Droid.Resource.Layout.design_layout_tab_text;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_menu_item_action_area = global::attendance_management_app.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item = global::attendance_management_app.Droid.Resource.Layout.design_navigation_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_header = global::attendance_management_app.Droid.Resource.Layout.design_navigation_item_header;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_separator = global::attendance_management_app.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_item_subheader = global::attendance_management_app.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu = global::attendance_management_app.Droid.Resource.Layout.design_navigation_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.design_navigation_menu_item = global::attendance_management_app.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackTabbarDoNotUse = global::attendance_management_app.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FallbackToolbarDoNotUse = global::attendance_management_app.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.FlyoutContent = global::attendance_management_app.Droid.Resource.Layout.FlyoutContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar = global::attendance_management_app.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.mtrl_layout_snackbar_include = global::attendance_management_app.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action = global::attendance_management_app.Droid.Resource.Layout.notification_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_action_tombstone = global::attendance_management_app.Droid.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_action = global::attendance_management_app.Droid.Resource.Layout.notification_media_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_media_cancel_action = global::attendance_management_app.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media = global::attendance_management_app.Droid.Resource.Layout.notification_template_big_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_custom = global::attendance_management_app.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow = global::attendance_management_app.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_big_media_narrow_custom = global::attendance_management_app.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_custom_big = global::attendance_management_app.Droid.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_icon_group = global::attendance_management_app.Droid.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_lines_media = global::attendance_management_app.Droid.Resource.Layout.notification_template_lines_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media = global::attendance_management_app.Droid.Resource.Layout.notification_template_media;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_media_custom = global::attendance_management_app.Droid.Resource.Layout.notification_template_media_custom;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_chronometer = global::attendance_management_app.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.notification_template_part_time = global::attendance_management_app.Droid.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.RootLayout = global::attendance_management_app.Droid.Resource.Layout.RootLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_item_material = global::attendance_management_app.Droid.Resource.Layout.select_dialog_item_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_multichoice_material = global::attendance_management_app.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.select_dialog_singlechoice_material = global::attendance_management_app.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.ShellContent = global::attendance_management_app.Droid.Resource.Layout.ShellContent;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.support_simple_spinner_dropdown_item = global::attendance_management_app.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Tabbar = global::attendance_management_app.Droid.Resource.Layout.Tabbar;
+			global::Xamarin.Plugin.Calendar.Resource.Layout.Toolbar = global::attendance_management_app.Droid.Resource.Layout.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_home_description = global::attendance_management_app.Droid.Resource.String.abc_action_bar_home_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_bar_up_description = global::attendance_management_app.Droid.Resource.String.abc_action_bar_up_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_menu_overflow_description = global::attendance_management_app.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_action_mode_done = global::attendance_management_app.Droid.Resource.String.abc_action_mode_done;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activitychooserview_choose_application = global::attendance_management_app.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_activity_chooser_view_see_all = global::attendance_management_app.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_off = global::attendance_management_app.Droid.Resource.String.abc_capital_off;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_capital_on = global::attendance_management_app.Droid.Resource.String.abc_capital_on;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_alt_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_ctrl_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_delete_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_enter_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_function_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_meta_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_shift_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_space_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_menu_sym_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_prepend_shortcut_label = global::attendance_management_app.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_clear = global::attendance_management_app.Droid.Resource.String.abc_searchview_description_clear;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_query = global::attendance_management_app.Droid.Resource.String.abc_searchview_description_query;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_search = global::attendance_management_app.Droid.Resource.String.abc_searchview_description_search;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_submit = global::attendance_management_app.Droid.Resource.String.abc_searchview_description_submit;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_searchview_description_voice = global::attendance_management_app.Droid.Resource.String.abc_searchview_description_voice;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_search_hint = global::attendance_management_app.Droid.Resource.String.abc_search_hint;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_shareactionprovider_share_with_application = global::attendance_management_app.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Xamarin.Plugin.Calendar.Resource.String.abc_toolbar_collapse_description = global::attendance_management_app.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.appbar_scrolling_view_behavior = global::attendance_management_app.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.bottom_sheet_behavior = global::attendance_management_app.Droid.Resource.String.bottom_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_content_description = global::attendance_management_app.Droid.Resource.String.character_counter_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.character_counter_pattern = global::attendance_management_app.Droid.Resource.String.character_counter_pattern;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_scrim_behavior = global::attendance_management_app.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.fab_transformation_sheet_behavior = global::attendance_management_app.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.hide_bottom_view_on_scroll_behavior = global::attendance_management_app.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.String.mtrl_chip_close_icon_content_description = global::attendance_management_app.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.overflow_tab_title = global::attendance_management_app.Droid.Resource.String.overflow_tab_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.password_toggle_content_description = global::attendance_management_app.Droid.Resource.String.password_toggle_content_description;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye = global::attendance_management_app.Droid.Resource.String.path_password_eye;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_strike_through = global::attendance_management_app.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_eye_mask_visible = global::attendance_management_app.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Xamarin.Plugin.Calendar.Resource.String.path_password_strike_through = global::attendance_management_app.Droid.Resource.String.path_password_strike_through;
+			global::Xamarin.Plugin.Calendar.Resource.String.search_menu_title = global::attendance_management_app.Droid.Resource.String.search_menu_title;
+			global::Xamarin.Plugin.Calendar.Resource.String.status_bar_notification_info_overflow = global::attendance_management_app.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AlertDialog_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_DropDownUp = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Animation_Design_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.AppCompatDialogStyle = global::attendance_management_app.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_AlertDialog_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::attendance_management_app.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Animation_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_CardView = global::attendance_management_app.Droid.Resource.Style.Base_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_DialogWindowTitle_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Button = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::attendance_management_app.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V22_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V23_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::attendance_management_app.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V28_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::attendance_management_app.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::attendance_management_app.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::attendance_management_app.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActionMode = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Button_Small = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_EditText = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ImageButton = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::attendance_management_app.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_Design_TabLayout = global::attendance_management_app.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_Chip = global::attendance_management_app.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::attendance_management_app.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::attendance_management_app.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView = global::attendance_management_app.Droid.Resource.Style.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Dark = global::attendance_management_app.Droid.Resource.Style.CardView_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.CardView_Light = global::attendance_management_app.Droid.Resource.Style.CardView_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.collectionViewTheme = global::attendance_management_app.Droid.Resource.Style.collectionViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme = global::attendance_management_app.Droid.Resource.Style.MainTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.MainTheme_Base = global::attendance_management_app.Droid.Resource.Style.MainTheme_Base;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat = global::attendance_management_app.Droid.Resource.Style.Platform_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat = global::attendance_management_app.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::attendance_management_app.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat = global::attendance_management_app.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V21_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat = global::attendance_management_app.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_V25_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Platform_Widget_AppCompat_Spinner = global::attendance_management_app.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::attendance_management_app.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::attendance_management_app.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewScrollBars = global::attendance_management_app.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Plugin.Calendar.Resource.Style.scrollViewTheme = global::attendance_management_app.Droid.Resource.Style.scrollViewTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Body2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Button = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Caption = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display3 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Display4 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Headline = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Menu = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Tooltip = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::attendance_management_app.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Media = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Counter_Overflow = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Error = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_HelperText = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Hint = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Snackbar_Message = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Design_Tab = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Button = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Caption = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Chip = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Overline = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::attendance_management_app.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::attendance_management_app.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::attendance_management_app.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_CompactMenu = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_AppCompat_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design = global::attendance_management_app.Droid.Resource.Style.Theme_Design;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light = global::attendance_management_app.Droid.Resource.Style.Theme_Design_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_Light_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_Design_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_CompactMenu = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::attendance_management_app.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActionMode = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ActivityChooserView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Colored = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Button_Small = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_EditText = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ImageButton = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_SearchView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListMenuView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListPopupWindow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_DropDown = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ListView_Menu = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_PopupWindow = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_RatingBar_Small = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::attendance_management_app.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionContainer = global::attendance_management_app.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Compat_NotificationActionText = global::attendance_management_app.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_AppBarLayout = global::attendance_management_app.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomNavigationView = global::attendance_management_app.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_BottomSheet_Modal = global::attendance_management_app.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_CollapsingToolbar = global::attendance_management_app.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_FloatingActionButton = global::attendance_management_app.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_NavigationView = global::attendance_management_app.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::attendance_management_app.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_Snackbar = global::attendance_management_app.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TabLayout = global::attendance_management_app.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Design_TextInputLayout = global::attendance_management_app.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_Icon = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_CardView = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_ChipGroup = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Action = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_NavigationView = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_MaterialComponents_Toolbar = global::attendance_management_app.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Style.Widget_Support_CoordinatorLayout = global::attendance_management_app.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar = global::attendance_management_app.Droid.Resource.Styleable.ActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout = global::attendance_management_app.Droid.Resource.Styleable.ActionBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::attendance_management_app.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_background = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundSplit = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_backgroundStacked = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEnd = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetLeft = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetRight = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStart = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_customNavigationLayout = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_displayOptions = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_divider = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_elevation = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_height = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_hideOnContentScroll = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeAsUpIndicator = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_homeLayout = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_icon = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_itemPadding = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_logo = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_navigationMode = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_popupTheme = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarPadding = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_progressBarStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitle = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_subtitleTextStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_title = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionBar_titleTextStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView = global::attendance_management_app.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuItemView_android_minWidth = global::attendance_management_app.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMenuView = global::attendance_management_app.Droid.Resource.Styleable.ActionMenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode = global::attendance_management_app.Droid.Resource.Styleable.ActionMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_background = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_backgroundSplit = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_closeItemLayout = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_height = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_subtitleTextStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActionMode_titleTextStyle = global::attendance_management_app.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView = global::attendance_management_app.Droid.Resource.Styleable.ActivityChooserView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::attendance_management_app.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ActivityChooserView_initialActivityCount = global::attendance_management_app.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_android_layout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonIconDimen = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listItemLayout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_listLayout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_showTitle = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::attendance_management_app.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::attendance_management_app.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_liftable = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayoutStates_state_lifted = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_background = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_elevation = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_expanded = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppBarLayout_liftOnScroll = global::attendance_management_app.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_android_src = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_srcCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tint = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatImageView_tintMode = global::attendance_management_app.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar = global::attendance_management_app.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_android_thumb = global::attendance_management_app.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMark = global::attendance_management_app.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::attendance_management_app.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::attendance_management_app.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_android_textAppearance = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTint = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTintMode = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontFamily = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_lineHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textAllCaps = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTextView_textLocale = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarDivider = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSize = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkboxStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorAccent = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlActivated = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorControlNormal = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorError = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimary = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_controlBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dialogTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dividerVertical = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextColor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_editTextStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_searchViewStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_seekBarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_spinnerStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_switchStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_toolbarStyle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBar = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.AppCompatTheme_windowNoTitle = global::attendance_management_app.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_backgroundTint = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleMargin = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomAppBar_hideOnScroll = global::attendance_management_app.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView = global::attendance_management_app.Droid.Resource.Styleable.BottomNavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::attendance_management_app.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout = global::attendance_management_app.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::attendance_management_app.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::attendance_management_app.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::attendance_management_app.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::attendance_management_app.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout = global::attendance_management_app.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ButtonBarLayout_allowStacking = global::attendance_management_app.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView = global::attendance_management_app.Droid.Resource.Styleable.CardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minHeight = global::attendance_management_app.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_android_minWidth = global::attendance_management_app.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardBackgroundColor = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardCornerRadius = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardElevation = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardMaxElevation = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardPreventCornerOverlap = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_cardUseCompatPadding = global::attendance_management_app.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPadding = global::attendance_management_app.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingBottom = global::attendance_management_app.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingLeft = global::attendance_management_app.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingRight = global::attendance_management_app.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CardView_contentPaddingTop = global::attendance_management_app.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip = global::attendance_management_app.Droid.Resource.Styleable.Chip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_checkedChip = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacing = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_chipSpacingVertical = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleLine = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ChipGroup_singleSelection = global::attendance_management_app.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_checkable = global::attendance_management_app.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_ellipsize = global::attendance_management_app.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_maxWidth = global::attendance_management_app.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_text = global::attendance_management_app.Droid.Resource.Styleable.Chip_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_android_textAppearance = global::attendance_management_app.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIcon = global::attendance_management_app.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconEnabled = global::attendance_management_app.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_checkedIconVisible = global::attendance_management_app.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipBackgroundColor = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipCornerRadius = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipEndPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIcon = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconEnabled = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconSize = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconTint = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipIconVisible = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipMinHeight = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStartPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeColor = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_chipStrokeWidth = global::attendance_management_app.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIcon = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEnabled = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconEndPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconSize = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconStartPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconTint = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_closeIconVisible = global::attendance_management_app.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_hideMotionSpec = global::attendance_management_app.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconEndPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_iconStartPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_rippleColor = global::attendance_management_app.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_showMotionSpec = global::attendance_management_app.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textEndPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Chip_textStartPadding = global::attendance_management_app.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_title = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::attendance_management_app.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_alpha = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ColorStateListItem_android_color = global::attendance_management_app.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_android_button = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonCompat = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTint = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CompoundButton_buttonTintMode = global::attendance_management_app.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_keylines = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::attendance_management_app.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_barLength = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_color = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_drawableSize = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_spinBars = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.DrawerArrowToggle_thickness = global::attendance_management_app.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTint = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_borderWidth = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_elevation = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabCustomSize = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_fabSize = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_maxImageSize = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_rippleColor = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_showMotionSpec = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FloatingActionButton_useCompatPadding = global::attendance_management_app.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout = global::attendance_management_app.Droid.Resource.Styleable.FlowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_itemSpacing = global::attendance_management_app.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FlowLayout_lineSpacing = global::attendance_management_app.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily = global::attendance_management_app.Droid.Resource.Styleable.FontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_font = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontStyle = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_fontWeight = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_font = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontStyle = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_fontWeight = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamilyFont_ttcIndex = global::attendance_management_app.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderAuthority = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderCerts = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderPackage = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.FontFamily_fontProviderQuery = global::attendance_management_app.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout = global::attendance_management_app.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::attendance_management_app.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::attendance_management_app.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::attendance_management_app.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor = global::attendance_management_app.Droid.Resource.Styleable.GradientColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem = global::attendance_management_app.Droid.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_color = global::attendance_management_app.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColorItem_android_offset = global::attendance_management_app.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerColor = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerX = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_centerY = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endColor = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endX = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_endY = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_gradientRadius = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startColor = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startX = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_startY = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_tileMode = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.GradientColor_android_type = global::attendance_management_app.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme = global::attendance_management_app.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::attendance_management_app.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_gravity = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_orientation = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_divider = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.LinearLayoutCompat_showDividers = global::attendance_management_app.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow = global::attendance_management_app.Droid.Resource.Styleable.ListPopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::attendance_management_app.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::attendance_management_app.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetBottom = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetLeft = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetRight = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_android_insetTop = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTint = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_backgroundTintMode = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_cornerRadius = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_icon = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconGravity = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconPadding = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconSize = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTint = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_iconTintMode = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_rippleColor = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeColor = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialButton_strokeWidth = global::attendance_management_app.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView = global::attendance_management_app.Droid.Resource.Styleable.MaterialCardView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeColor = global::attendance_management_app.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MaterialCardView_strokeWidth = global::attendance_management_app.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_checkableBehavior = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_enabled = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_id = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_menuCategory = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_orderInCategory = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuGroup_android_visible = global::attendance_management_app.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem = global::attendance_management_app.Droid.Resource.Styleable.MenuItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionLayout = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionProviderClass = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_actionViewClass = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_alphabeticModifiers = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checkable = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_checked = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_enabled = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_icon = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_id = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_menuCategory = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_numericShortcut = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_onClick = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_orderInCategory = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_title = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_titleCondensed = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_android_visible = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_contentDescription = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTint = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_iconTintMode = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_numericModifiers = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_showAsAction = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuItem_tooltipText = global::attendance_management_app.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView = global::attendance_management_app.Droid.Resource.Styleable.MenuView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_headerBackground = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_horizontalDivider = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemBackground = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_itemTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_verticalDivider = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_android_windowAnimationStyle = global::attendance_management_app.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_preserveIconSpacing = global::attendance_management_app.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.MenuView_subMenuArrow = global::attendance_management_app.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView = global::attendance_management_app.Droid.Resource.Styleable.NavigationView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_background = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_android_maxWidth = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_elevation = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_headerLayout = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemBackground = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemHorizontalPadding = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconPadding = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemIconTint = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_itemTextColor = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.NavigationView_menu = global::attendance_management_app.Droid.Resource.Styleable.NavigationView_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow = global::attendance_management_app.Droid.Resource.Styleable.PopupWindow;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState = global::attendance_management_app.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::attendance_management_app.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::attendance_management_app.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_android_popupBackground = global::attendance_management_app.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.PopupWindow_overlapAnchor = global::attendance_management_app.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView = global::attendance_management_app.Droid.Resource.Styleable.RecycleListView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::attendance_management_app.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::attendance_management_app.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_clipToPadding = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_descendantFocusability = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_android_orientation = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollEnabled = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_layoutManager = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_reverseLayout = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_spanCount = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.RecyclerView_stackFromEnd = global::attendance_management_app.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout = global::attendance_management_app.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::attendance_management_app.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout = global::attendance_management_app.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::attendance_management_app.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme = global::attendance_management_app.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::attendance_management_app.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView = global::attendance_management_app.Droid.Resource.Styleable.SearchView;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_focusable = global::attendance_management_app.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_imeOptions = global::attendance_management_app.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_inputType = global::attendance_management_app.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_android_maxWidth = global::attendance_management_app.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_closeIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_commitIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_defaultQueryHint = global::attendance_management_app.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_goIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_iconifiedByDefault = global::attendance_management_app.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_layout = global::attendance_management_app.Droid.Resource.Styleable.SearchView_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryBackground = global::attendance_management_app.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_queryHint = global::attendance_management_app.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchHintIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_searchIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_submitBackground = global::attendance_management_app.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_suggestionRowLayout = global::attendance_management_app.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SearchView_voiceIcon = global::attendance_management_app.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar = global::attendance_management_app.Droid.Resource.Styleable.Snackbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout = global::attendance_management_app.Droid.Resource.Styleable.SnackbarLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_android_maxWidth = global::attendance_management_app.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_elevation = global::attendance_management_app.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::attendance_management_app.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarButtonStyle = global::attendance_management_app.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Snackbar_snackbarStyle = global::attendance_management_app.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner = global::attendance_management_app.Droid.Resource.Styleable.Spinner;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_dropDownWidth = global::attendance_management_app.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_entries = global::attendance_management_app.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_popupBackground = global::attendance_management_app.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_android_prompt = global::attendance_management_app.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Spinner_popupTheme = global::attendance_management_app.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawableItem_android_drawable = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_constantSize = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_dither = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_variablePadding = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.StateListDrawable_android_visible = global::attendance_management_app.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOff = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_textOn = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_android_thumb = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_showText = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_splitTrack = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchMinWidth = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchPadding = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_switchTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTextPadding = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTint = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_thumbTintMode = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_track = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTint = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.SwitchCompat_trackTintMode = global::attendance_management_app.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem = global::attendance_management_app.Droid.Resource.Styleable.TabItem;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_icon = global::attendance_management_app.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_layout = global::attendance_management_app.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabItem_android_text = global::attendance_management_app.Droid.Resource.Styleable.TabItem_android_text;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout = global::attendance_management_app.Droid.Resource.Styleable.TabLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabBackground = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabContentStart = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabGravity = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTint = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIconTintMode = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicator = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorColor = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorGravity = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabIndicatorHeight = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabInlineLabel = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMaxWidth = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMinWidth = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabMode = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPadding = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingBottom = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingEnd = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingStart = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabPaddingTop = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabRippleColor = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabSelectedTextColor = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabTextColor = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TabLayout_tabUnboundedRipple = global::attendance_management_app.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_fontFamily = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowColor = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDx = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowDy = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_shadowRadius = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColor = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorHint = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textColorLink = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textFontWeight = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textSize = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_textStyle = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_android_typeface = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontFamily = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_fontVariationSettings = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textAllCaps = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextAppearance_textLocale = global::attendance_management_app.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_hint = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_android_textColorHint = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeColor = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterMaxLength = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_counterTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_errorTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperText = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_hintTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTint = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::attendance_management_app.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement = global::attendance_management_app.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::attendance_management_app.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::attendance_management_app.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar = global::attendance_management_app.Droid.Resource.Styleable.Toolbar;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_gravity = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_android_minHeight = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_buttonGravity = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseContentDescription = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_collapseIcon = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEnd = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetLeft = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetRight = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStart = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logo = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_logo;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_logoDescription = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_maxButtonHeight = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_menu = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_menu;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationContentDescription = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_navigationIcon = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_popupTheme = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitle = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_subtitleTextColor = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_title = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_title;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargin = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginBottom = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginEnd = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMargins = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginStart = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleMarginTop = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextAppearance = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.Toolbar_titleTextColor = global::attendance_management_app.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View = global::attendance_management_app.Droid.Resource.Styleable.View;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper = global::attendance_management_app.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_android_background = global::attendance_management_app.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::attendance_management_app.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::attendance_management_app.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat = global::attendance_management_app.Droid.Resource.Styleable.ViewStubCompat;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_id = global::attendance_management_app.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_inflatedId = global::attendance_management_app.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.ViewStubCompat_android_layout = global::attendance_management_app.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_focusable = global::attendance_management_app.Droid.Resource.Styleable.View_android_focusable;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_android_theme = global::attendance_management_app.Droid.Resource.Styleable.View_android_theme;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingEnd = global::attendance_management_app.Droid.Resource.Styleable.View_paddingEnd;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_paddingStart = global::attendance_management_app.Droid.Resource.Styleable.View_paddingStart;
+			global::Xamarin.Plugin.Calendar.Resource.Styleable.View_theme = global::attendance_management_app.Droid.Resource.Styleable.View_theme;
 		}
 		
 		public partial class Animation
@@ -13967,2018 +16433,2033 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0x7F030099
 			public const int checkBoxPreferenceStyle = 2130903193;
 			
-			// aapt resource value: 0x7F03009A
-			public const int checkboxStyle = 2130903194;
-			
-			// aapt resource value: 0x7F03009B
-			public const int checkedButton = 2130903195;
-			
-			// aapt resource value: 0x7F03009C
-			public const int checkedChip = 2130903196;
-			
 			// aapt resource value: 0x7F03009D
-			public const int checkedIcon = 2130903197;
+			public const int checkboxStyle = 2130903197;
 			
 			// aapt resource value: 0x7F03009E
-			public const int checkedIconEnabled = 2130903198;
+			public const int checkedButton = 2130903198;
 			
 			// aapt resource value: 0x7F03009F
-			public const int checkedIconMargin = 2130903199;
+			public const int checkedChip = 2130903199;
 			
 			// aapt resource value: 0x7F0300A0
-			public const int checkedIconSize = 2130903200;
+			public const int checkedIcon = 2130903200;
 			
 			// aapt resource value: 0x7F0300A1
-			public const int checkedIconTint = 2130903201;
+			public const int checkedIconEnabled = 2130903201;
 			
 			// aapt resource value: 0x7F0300A2
-			public const int checkedIconVisible = 2130903202;
+			public const int checkedIconMargin = 2130903202;
 			
 			// aapt resource value: 0x7F0300A3
-			public const int checkedTextViewStyle = 2130903203;
+			public const int checkedIconSize = 2130903203;
 			
 			// aapt resource value: 0x7F0300A4
-			public const int chipBackgroundColor = 2130903204;
+			public const int checkedIconTint = 2130903204;
 			
 			// aapt resource value: 0x7F0300A5
-			public const int chipCornerRadius = 2130903205;
+			public const int checkedIconVisible = 2130903205;
 			
 			// aapt resource value: 0x7F0300A6
-			public const int chipEndPadding = 2130903206;
+			public const int checkedTextViewStyle = 2130903206;
+			
+			// aapt resource value: 0x7F03009A
+			public const int checkMarkCompat = 2130903194;
+			
+			// aapt resource value: 0x7F03009B
+			public const int checkMarkTint = 2130903195;
+			
+			// aapt resource value: 0x7F03009C
+			public const int checkMarkTintMode = 2130903196;
 			
 			// aapt resource value: 0x7F0300A7
-			public const int chipGroupStyle = 2130903207;
+			public const int chipBackgroundColor = 2130903207;
 			
 			// aapt resource value: 0x7F0300A8
-			public const int chipIcon = 2130903208;
+			public const int chipCornerRadius = 2130903208;
 			
 			// aapt resource value: 0x7F0300A9
-			public const int chipIconEnabled = 2130903209;
+			public const int chipEndPadding = 2130903209;
 			
 			// aapt resource value: 0x7F0300AA
-			public const int chipIconSize = 2130903210;
+			public const int chipGroupStyle = 2130903210;
 			
 			// aapt resource value: 0x7F0300AB
-			public const int chipIconTint = 2130903211;
+			public const int chipIcon = 2130903211;
 			
 			// aapt resource value: 0x7F0300AC
-			public const int chipIconVisible = 2130903212;
+			public const int chipIconEnabled = 2130903212;
 			
 			// aapt resource value: 0x7F0300AD
-			public const int chipMinHeight = 2130903213;
+			public const int chipIconSize = 2130903213;
 			
 			// aapt resource value: 0x7F0300AE
-			public const int chipMinTouchTargetSize = 2130903214;
+			public const int chipIconTint = 2130903214;
 			
 			// aapt resource value: 0x7F0300AF
-			public const int chipSpacing = 2130903215;
+			public const int chipIconVisible = 2130903215;
 			
 			// aapt resource value: 0x7F0300B0
-			public const int chipSpacingHorizontal = 2130903216;
+			public const int chipMinHeight = 2130903216;
 			
 			// aapt resource value: 0x7F0300B1
-			public const int chipSpacingVertical = 2130903217;
+			public const int chipMinTouchTargetSize = 2130903217;
 			
 			// aapt resource value: 0x7F0300B2
-			public const int chipStandaloneStyle = 2130903218;
+			public const int chipSpacing = 2130903218;
 			
 			// aapt resource value: 0x7F0300B3
-			public const int chipStartPadding = 2130903219;
+			public const int chipSpacingHorizontal = 2130903219;
 			
 			// aapt resource value: 0x7F0300B4
-			public const int chipStrokeColor = 2130903220;
+			public const int chipSpacingVertical = 2130903220;
 			
 			// aapt resource value: 0x7F0300B5
-			public const int chipStrokeWidth = 2130903221;
+			public const int chipStandaloneStyle = 2130903221;
 			
 			// aapt resource value: 0x7F0300B6
-			public const int chipStyle = 2130903222;
+			public const int chipStartPadding = 2130903222;
 			
 			// aapt resource value: 0x7F0300B7
-			public const int chipSurfaceColor = 2130903223;
+			public const int chipStrokeColor = 2130903223;
 			
 			// aapt resource value: 0x7F0300B8
-			public const int circleRadius = 2130903224;
-			
-			// aapt resource value: 0x7F0300BA
-			public const int circularflow_angles = 2130903226;
-			
-			// aapt resource value: 0x7F0300BB
-			public const int circularflow_defaultAngle = 2130903227;
-			
-			// aapt resource value: 0x7F0300BC
-			public const int circularflow_defaultRadius = 2130903228;
-			
-			// aapt resource value: 0x7F0300BD
-			public const int circularflow_radiusInDP = 2130903229;
-			
-			// aapt resource value: 0x7F0300BE
-			public const int circularflow_viewCenter = 2130903230;
+			public const int chipStrokeWidth = 2130903224;
 			
 			// aapt resource value: 0x7F0300B9
-			public const int circularProgressIndicatorStyle = 2130903225;
+			public const int chipStyle = 2130903225;
+			
+			// aapt resource value: 0x7F0300BA
+			public const int chipSurfaceColor = 2130903226;
+			
+			// aapt resource value: 0x7F0300BB
+			public const int circleRadius = 2130903227;
+			
+			// aapt resource value: 0x7F0300BD
+			public const int circularflow_angles = 2130903229;
+			
+			// aapt resource value: 0x7F0300BE
+			public const int circularflow_defaultAngle = 2130903230;
 			
 			// aapt resource value: 0x7F0300BF
-			public const int clearsTag = 2130903231;
+			public const int circularflow_defaultRadius = 2130903231;
 			
 			// aapt resource value: 0x7F0300C0
-			public const int clickAction = 2130903232;
+			public const int circularflow_radiusInDP = 2130903232;
 			
 			// aapt resource value: 0x7F0300C1
-			public const int clockFaceBackgroundColor = 2130903233;
+			public const int circularflow_viewCenter = 2130903233;
+			
+			// aapt resource value: 0x7F0300BC
+			public const int circularProgressIndicatorStyle = 2130903228;
 			
 			// aapt resource value: 0x7F0300C2
-			public const int clockHandColor = 2130903234;
+			public const int clearsTag = 2130903234;
 			
 			// aapt resource value: 0x7F0300C3
-			public const int clockIcon = 2130903235;
+			public const int clickAction = 2130903235;
 			
 			// aapt resource value: 0x7F0300C4
-			public const int clockNumberTextColor = 2130903236;
+			public const int clockFaceBackgroundColor = 2130903236;
 			
 			// aapt resource value: 0x7F0300C5
-			public const int closeIcon = 2130903237;
+			public const int clockHandColor = 2130903237;
 			
 			// aapt resource value: 0x7F0300C6
-			public const int closeIconEnabled = 2130903238;
+			public const int clockIcon = 2130903238;
 			
 			// aapt resource value: 0x7F0300C7
-			public const int closeIconEndPadding = 2130903239;
+			public const int clockNumberTextColor = 2130903239;
 			
 			// aapt resource value: 0x7F0300C8
-			public const int closeIconSize = 2130903240;
+			public const int closeIcon = 2130903240;
 			
 			// aapt resource value: 0x7F0300C9
-			public const int closeIconStartPadding = 2130903241;
+			public const int closeIconEnabled = 2130903241;
 			
 			// aapt resource value: 0x7F0300CA
-			public const int closeIconTint = 2130903242;
+			public const int closeIconEndPadding = 2130903242;
 			
 			// aapt resource value: 0x7F0300CB
-			public const int closeIconVisible = 2130903243;
+			public const int closeIconSize = 2130903243;
 			
 			// aapt resource value: 0x7F0300CC
-			public const int closeItemLayout = 2130903244;
+			public const int closeIconStartPadding = 2130903244;
 			
 			// aapt resource value: 0x7F0300CD
-			public const int collapseContentDescription = 2130903245;
-			
-			// aapt resource value: 0x7F0300CF
-			public const int collapsedSize = 2130903247;
-			
-			// aapt resource value: 0x7F0300D0
-			public const int collapsedTitleGravity = 2130903248;
-			
-			// aapt resource value: 0x7F0300D1
-			public const int collapsedTitleTextAppearance = 2130903249;
+			public const int closeIconTint = 2130903245;
 			
 			// aapt resource value: 0x7F0300CE
-			public const int collapseIcon = 2130903246;
+			public const int closeIconVisible = 2130903246;
+			
+			// aapt resource value: 0x7F0300CF
+			public const int closeItemLayout = 2130903247;
+			
+			// aapt resource value: 0x7F0300D0
+			public const int collapseContentDescription = 2130903248;
 			
 			// aapt resource value: 0x7F0300D2
-			public const int collapsingToolbarLayoutStyle = 2130903250;
+			public const int collapsedSize = 2130903250;
 			
 			// aapt resource value: 0x7F0300D3
-			public const int collectionViewStyle = 2130903251;
+			public const int collapsedTitleGravity = 2130903251;
 			
 			// aapt resource value: 0x7F0300D4
-			public const int color = 2130903252;
+			public const int collapsedTitleTextAppearance = 2130903252;
+			
+			// aapt resource value: 0x7F0300D1
+			public const int collapseIcon = 2130903249;
 			
 			// aapt resource value: 0x7F0300D5
-			public const int colorAccent = 2130903253;
+			public const int collapsingToolbarLayoutStyle = 2130903253;
 			
 			// aapt resource value: 0x7F0300D6
-			public const int colorBackgroundFloating = 2130903254;
+			public const int collectionViewStyle = 2130903254;
 			
 			// aapt resource value: 0x7F0300D7
-			public const int colorButtonNormal = 2130903255;
+			public const int color = 2130903255;
 			
 			// aapt resource value: 0x7F0300D8
-			public const int colorControlActivated = 2130903256;
+			public const int colorAccent = 2130903256;
 			
 			// aapt resource value: 0x7F0300D9
-			public const int colorControlHighlight = 2130903257;
+			public const int colorBackgroundFloating = 2130903257;
 			
 			// aapt resource value: 0x7F0300DA
-			public const int colorControlNormal = 2130903258;
+			public const int colorButtonNormal = 2130903258;
 			
 			// aapt resource value: 0x7F0300DB
-			public const int colorError = 2130903259;
+			public const int colorControlActivated = 2130903259;
 			
 			// aapt resource value: 0x7F0300DC
-			public const int colorOnBackground = 2130903260;
+			public const int colorControlHighlight = 2130903260;
 			
 			// aapt resource value: 0x7F0300DD
-			public const int colorOnError = 2130903261;
+			public const int colorControlNormal = 2130903261;
 			
 			// aapt resource value: 0x7F0300DE
-			public const int colorOnPrimary = 2130903262;
+			public const int colorError = 2130903262;
 			
 			// aapt resource value: 0x7F0300DF
-			public const int colorOnPrimarySurface = 2130903263;
+			public const int colorOnBackground = 2130903263;
 			
 			// aapt resource value: 0x7F0300E0
-			public const int colorOnSecondary = 2130903264;
+			public const int colorOnError = 2130903264;
 			
 			// aapt resource value: 0x7F0300E1
-			public const int colorOnSurface = 2130903265;
+			public const int colorOnPrimary = 2130903265;
 			
 			// aapt resource value: 0x7F0300E2
-			public const int colorPrimary = 2130903266;
+			public const int colorOnPrimarySurface = 2130903266;
 			
 			// aapt resource value: 0x7F0300E3
-			public const int colorPrimaryDark = 2130903267;
+			public const int colorOnSecondary = 2130903267;
 			
 			// aapt resource value: 0x7F0300E4
-			public const int colorPrimarySurface = 2130903268;
+			public const int colorOnSurface = 2130903268;
 			
 			// aapt resource value: 0x7F0300E5
-			public const int colorPrimaryVariant = 2130903269;
+			public const int colorPrimary = 2130903269;
 			
 			// aapt resource value: 0x7F0300E6
-			public const int colorSecondary = 2130903270;
+			public const int colorPrimaryDark = 2130903270;
 			
 			// aapt resource value: 0x7F0300E7
-			public const int colorSecondaryVariant = 2130903271;
+			public const int colorPrimarySurface = 2130903271;
 			
 			// aapt resource value: 0x7F0300E8
-			public const int colorSurface = 2130903272;
+			public const int colorPrimaryVariant = 2130903272;
 			
 			// aapt resource value: 0x7F0300E9
-			public const int colorSwitchThumbNormal = 2130903273;
+			public const int colorSecondary = 2130903273;
 			
 			// aapt resource value: 0x7F0300EA
-			public const int commitIcon = 2130903274;
+			public const int colorSecondaryVariant = 2130903274;
+			
+			// aapt resource value: 0x7F0300EB
+			public const int colorSurface = 2130903275;
+			
+			// aapt resource value: 0x7F0300EC
+			public const int colorSwitchThumbNormal = 2130903276;
+			
+			// aapt resource value: 0x7F0300ED
+			public const int commitIcon = 2130903277;
 			
 			// aapt resource value: 0x7F030000
 			public const int ConstraintRotate = 2130903040;
 			
-			// aapt resource value: 0x7F0300F0
-			public const int constraints = 2130903280;
-			
-			// aapt resource value: 0x7F0300EB
-			public const int constraintSet = 2130903275;
-			
-			// aapt resource value: 0x7F0300EC
-			public const int constraintSetEnd = 2130903276;
-			
-			// aapt resource value: 0x7F0300ED
-			public const int constraintSetStart = 2130903277;
+			// aapt resource value: 0x7F0300F3
+			public const int constraints = 2130903283;
 			
 			// aapt resource value: 0x7F0300EE
-			public const int constraint_referenced_ids = 2130903278;
+			public const int constraintSet = 2130903278;
 			
 			// aapt resource value: 0x7F0300EF
-			public const int constraint_referenced_tags = 2130903279;
+			public const int constraintSetEnd = 2130903279;
+			
+			// aapt resource value: 0x7F0300F0
+			public const int constraintSetStart = 2130903280;
 			
 			// aapt resource value: 0x7F0300F1
-			public const int content = 2130903281;
+			public const int constraint_referenced_ids = 2130903281;
 			
 			// aapt resource value: 0x7F0300F2
-			public const int contentDescription = 2130903282;
-			
-			// aapt resource value: 0x7F0300F3
-			public const int contentInsetEnd = 2130903283;
+			public const int constraint_referenced_tags = 2130903282;
 			
 			// aapt resource value: 0x7F0300F4
-			public const int contentInsetEndWithActions = 2130903284;
+			public const int content = 2130903284;
 			
 			// aapt resource value: 0x7F0300F5
-			public const int contentInsetLeft = 2130903285;
+			public const int contentDescription = 2130903285;
 			
 			// aapt resource value: 0x7F0300F6
-			public const int contentInsetRight = 2130903286;
+			public const int contentInsetEnd = 2130903286;
 			
 			// aapt resource value: 0x7F0300F7
-			public const int contentInsetStart = 2130903287;
+			public const int contentInsetEndWithActions = 2130903287;
 			
 			// aapt resource value: 0x7F0300F8
-			public const int contentInsetStartWithNavigation = 2130903288;
+			public const int contentInsetLeft = 2130903288;
 			
 			// aapt resource value: 0x7F0300F9
-			public const int contentPadding = 2130903289;
+			public const int contentInsetRight = 2130903289;
 			
 			// aapt resource value: 0x7F0300FA
-			public const int contentPaddingBottom = 2130903290;
+			public const int contentInsetStart = 2130903290;
 			
 			// aapt resource value: 0x7F0300FB
-			public const int contentPaddingEnd = 2130903291;
+			public const int contentInsetStartWithNavigation = 2130903291;
 			
 			// aapt resource value: 0x7F0300FC
-			public const int contentPaddingLeft = 2130903292;
+			public const int contentPadding = 2130903292;
 			
 			// aapt resource value: 0x7F0300FD
-			public const int contentPaddingRight = 2130903293;
+			public const int contentPaddingBottom = 2130903293;
 			
 			// aapt resource value: 0x7F0300FE
-			public const int contentPaddingStart = 2130903294;
+			public const int contentPaddingEnd = 2130903294;
 			
 			// aapt resource value: 0x7F0300FF
-			public const int contentPaddingTop = 2130903295;
+			public const int contentPaddingLeft = 2130903295;
 			
 			// aapt resource value: 0x7F030100
-			public const int contentScrim = 2130903296;
+			public const int contentPaddingRight = 2130903296;
 			
 			// aapt resource value: 0x7F030101
-			public const int contrast = 2130903297;
+			public const int contentPaddingStart = 2130903297;
 			
 			// aapt resource value: 0x7F030102
-			public const int controlBackground = 2130903298;
+			public const int contentPaddingTop = 2130903298;
 			
 			// aapt resource value: 0x7F030103
-			public const int coordinatorLayoutStyle = 2130903299;
+			public const int contentScrim = 2130903299;
 			
 			// aapt resource value: 0x7F030104
-			public const int cornerFamily = 2130903300;
+			public const int contrast = 2130903300;
 			
 			// aapt resource value: 0x7F030105
-			public const int cornerFamilyBottomLeft = 2130903301;
+			public const int controlBackground = 2130903301;
 			
 			// aapt resource value: 0x7F030106
-			public const int cornerFamilyBottomRight = 2130903302;
+			public const int coordinatorLayoutStyle = 2130903302;
 			
 			// aapt resource value: 0x7F030107
-			public const int cornerFamilyTopLeft = 2130903303;
+			public const int cornerFamily = 2130903303;
 			
 			// aapt resource value: 0x7F030108
-			public const int cornerFamilyTopRight = 2130903304;
+			public const int cornerFamilyBottomLeft = 2130903304;
 			
 			// aapt resource value: 0x7F030109
-			public const int cornerRadius = 2130903305;
+			public const int cornerFamilyBottomRight = 2130903305;
 			
 			// aapt resource value: 0x7F03010A
-			public const int cornerSize = 2130903306;
+			public const int cornerFamilyTopLeft = 2130903306;
 			
 			// aapt resource value: 0x7F03010B
-			public const int cornerSizeBottomLeft = 2130903307;
+			public const int cornerFamilyTopRight = 2130903307;
 			
 			// aapt resource value: 0x7F03010C
-			public const int cornerSizeBottomRight = 2130903308;
+			public const int cornerRadius = 2130903308;
 			
 			// aapt resource value: 0x7F03010D
-			public const int cornerSizeTopLeft = 2130903309;
+			public const int cornerSize = 2130903309;
 			
 			// aapt resource value: 0x7F03010E
-			public const int cornerSizeTopRight = 2130903310;
+			public const int cornerSizeBottomLeft = 2130903310;
 			
 			// aapt resource value: 0x7F03010F
-			public const int counterEnabled = 2130903311;
+			public const int cornerSizeBottomRight = 2130903311;
 			
 			// aapt resource value: 0x7F030110
-			public const int counterMaxLength = 2130903312;
+			public const int cornerSizeTopLeft = 2130903312;
 			
 			// aapt resource value: 0x7F030111
-			public const int counterOverflowTextAppearance = 2130903313;
+			public const int cornerSizeTopRight = 2130903313;
 			
 			// aapt resource value: 0x7F030112
-			public const int counterOverflowTextColor = 2130903314;
+			public const int counterEnabled = 2130903314;
 			
 			// aapt resource value: 0x7F030113
-			public const int counterTextAppearance = 2130903315;
+			public const int counterMaxLength = 2130903315;
 			
 			// aapt resource value: 0x7F030114
-			public const int counterTextColor = 2130903316;
+			public const int counterOverflowTextAppearance = 2130903316;
 			
 			// aapt resource value: 0x7F030115
-			public const int crossfade = 2130903317;
+			public const int counterOverflowTextColor = 2130903317;
 			
 			// aapt resource value: 0x7F030116
-			public const int currentState = 2130903318;
+			public const int counterTextAppearance = 2130903318;
 			
 			// aapt resource value: 0x7F030117
-			public const int curveFit = 2130903319;
+			public const int counterTextColor = 2130903319;
 			
 			// aapt resource value: 0x7F030118
-			public const int customBoolean = 2130903320;
+			public const int crossfade = 2130903320;
 			
 			// aapt resource value: 0x7F030119
-			public const int customColorDrawableValue = 2130903321;
+			public const int currentState = 2130903321;
 			
 			// aapt resource value: 0x7F03011A
-			public const int customColorValue = 2130903322;
+			public const int curveFit = 2130903322;
 			
 			// aapt resource value: 0x7F03011B
-			public const int customDimension = 2130903323;
+			public const int customBoolean = 2130903323;
 			
 			// aapt resource value: 0x7F03011C
-			public const int customFloatValue = 2130903324;
+			public const int customColorDrawableValue = 2130903324;
 			
 			// aapt resource value: 0x7F03011D
-			public const int customIntegerValue = 2130903325;
+			public const int customColorValue = 2130903325;
 			
 			// aapt resource value: 0x7F03011E
-			public const int customNavigationLayout = 2130903326;
+			public const int customDimension = 2130903326;
 			
 			// aapt resource value: 0x7F03011F
-			public const int customPixelDimension = 2130903327;
+			public const int customFloatValue = 2130903327;
 			
 			// aapt resource value: 0x7F030120
-			public const int customReference = 2130903328;
+			public const int customIntegerValue = 2130903328;
 			
 			// aapt resource value: 0x7F030121
-			public const int customStringValue = 2130903329;
+			public const int customNavigationLayout = 2130903329;
 			
 			// aapt resource value: 0x7F030122
-			public const int data = 2130903330;
+			public const int customPixelDimension = 2130903330;
 			
 			// aapt resource value: 0x7F030123
-			public const int dataPattern = 2130903331;
+			public const int customReference = 2130903331;
 			
 			// aapt resource value: 0x7F030124
-			public const int dayInvalidStyle = 2130903332;
+			public const int customStringValue = 2130903332;
 			
 			// aapt resource value: 0x7F030125
-			public const int daySelectedStyle = 2130903333;
+			public const int data = 2130903333;
 			
 			// aapt resource value: 0x7F030126
-			public const int dayStyle = 2130903334;
+			public const int dataPattern = 2130903334;
 			
 			// aapt resource value: 0x7F030127
-			public const int dayTodayStyle = 2130903335;
+			public const int dayInvalidStyle = 2130903335;
 			
 			// aapt resource value: 0x7F030128
-			public const int defaultDuration = 2130903336;
+			public const int daySelectedStyle = 2130903336;
 			
 			// aapt resource value: 0x7F030129
-			public const int defaultQueryHint = 2130903337;
+			public const int dayStyle = 2130903337;
 			
 			// aapt resource value: 0x7F03012A
-			public const int defaultState = 2130903338;
+			public const int dayTodayStyle = 2130903338;
 			
 			// aapt resource value: 0x7F03012B
-			public const int defaultValue = 2130903339;
+			public const int defaultDuration = 2130903339;
 			
 			// aapt resource value: 0x7F03012C
-			public const int deltaPolarAngle = 2130903340;
+			public const int defaultQueryHint = 2130903340;
 			
 			// aapt resource value: 0x7F03012D
-			public const int deltaPolarRadius = 2130903341;
+			public const int defaultState = 2130903341;
 			
 			// aapt resource value: 0x7F03012E
-			public const int dependency = 2130903342;
+			public const int defaultValue = 2130903342;
 			
 			// aapt resource value: 0x7F03012F
-			public const int deriveConstraintsFrom = 2130903343;
+			public const int deltaPolarAngle = 2130903343;
 			
 			// aapt resource value: 0x7F030130
-			public const int destination = 2130903344;
+			public const int deltaPolarRadius = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int dialogCornerRadius = 2130903345;
+			public const int dependency = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int dialogIcon = 2130903346;
+			public const int deriveConstraintsFrom = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int dialogLayout = 2130903347;
+			public const int destination = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int dialogMessage = 2130903348;
+			public const int dialogCornerRadius = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int dialogPreferenceStyle = 2130903349;
+			public const int dialogIcon = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int dialogPreferredPadding = 2130903350;
+			public const int dialogLayout = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int dialogTheme = 2130903351;
+			public const int dialogMessage = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int dialogTitle = 2130903352;
+			public const int dialogPreferenceStyle = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int disableDependentsState = 2130903353;
+			public const int dialogPreferredPadding = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int displayOptions = 2130903354;
+			public const int dialogTheme = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int divider = 2130903355;
+			public const int dialogTitle = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int dividerHorizontal = 2130903356;
+			public const int disableDependentsState = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int dividerPadding = 2130903357;
+			public const int displayOptions = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int dividerVertical = 2130903358;
+			public const int divider = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int dragDirection = 2130903359;
+			public const int dividerHorizontal = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int dragScale = 2130903360;
+			public const int dividerPadding = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int dragThreshold = 2130903361;
-			
-			// aapt resource value: 0x7F030143
-			public const int drawableBottomCompat = 2130903363;
-			
-			// aapt resource value: 0x7F030144
-			public const int drawableEndCompat = 2130903364;
-			
-			// aapt resource value: 0x7F030145
-			public const int drawableLeftCompat = 2130903365;
-			
-			// aapt resource value: 0x7F030146
-			public const int drawableRightCompat = 2130903366;
-			
-			// aapt resource value: 0x7F030147
-			public const int drawableSize = 2130903367;
-			
-			// aapt resource value: 0x7F030148
-			public const int drawableStartCompat = 2130903368;
-			
-			// aapt resource value: 0x7F030149
-			public const int drawableTint = 2130903369;
-			
-			// aapt resource value: 0x7F03014A
-			public const int drawableTintMode = 2130903370;
-			
-			// aapt resource value: 0x7F03014B
-			public const int drawableTopCompat = 2130903371;
-			
-			// aapt resource value: 0x7F03014C
-			public const int drawerArrowStyle = 2130903372;
-			
-			// aapt resource value: 0x7F03014D
-			public const int drawerLayoutStyle = 2130903373;
+			public const int dividerVertical = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int drawPath = 2130903362;
+			public const int dragDirection = 2130903362;
 			
-			// aapt resource value: 0x7F03014F
-			public const int dropdownListPreferredItemHeight = 2130903375;
+			// aapt resource value: 0x7F030143
+			public const int dragScale = 2130903363;
+			
+			// aapt resource value: 0x7F030144
+			public const int dragThreshold = 2130903364;
+			
+			// aapt resource value: 0x7F030146
+			public const int drawableBottomCompat = 2130903366;
+			
+			// aapt resource value: 0x7F030147
+			public const int drawableEndCompat = 2130903367;
+			
+			// aapt resource value: 0x7F030148
+			public const int drawableLeftCompat = 2130903368;
+			
+			// aapt resource value: 0x7F030149
+			public const int drawableRightCompat = 2130903369;
+			
+			// aapt resource value: 0x7F03014A
+			public const int drawableSize = 2130903370;
+			
+			// aapt resource value: 0x7F03014B
+			public const int drawableStartCompat = 2130903371;
+			
+			// aapt resource value: 0x7F03014C
+			public const int drawableTint = 2130903372;
+			
+			// aapt resource value: 0x7F03014D
+			public const int drawableTintMode = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int dropDownListViewStyle = 2130903374;
+			public const int drawableTopCompat = 2130903374;
+			
+			// aapt resource value: 0x7F03014F
+			public const int drawerArrowStyle = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int dropdownPreferenceStyle = 2130903376;
+			public const int drawerLayoutStyle = 2130903376;
 			
-			// aapt resource value: 0x7F030151
-			public const int duration = 2130903377;
+			// aapt resource value: 0x7F030145
+			public const int drawPath = 2130903365;
 			
 			// aapt resource value: 0x7F030152
-			public const int editTextBackground = 2130903378;
+			public const int dropdownListPreferredItemHeight = 2130903378;
+			
+			// aapt resource value: 0x7F030151
+			public const int dropDownListViewStyle = 2130903377;
 			
 			// aapt resource value: 0x7F030153
-			public const int editTextColor = 2130903379;
+			public const int dropdownPreferenceStyle = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int editTextPreferenceStyle = 2130903380;
+			public const int duration = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int editTextStyle = 2130903381;
+			public const int editTextBackground = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int elevation = 2130903382;
+			public const int editTextColor = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int elevationOverlayColor = 2130903383;
+			public const int editTextPreferenceStyle = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int elevationOverlayEnabled = 2130903384;
+			public const int editTextStyle = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int enableCopying = 2130903385;
-			
-			// aapt resource value: 0x7F03015B
-			public const int enabled = 2130903387;
+			public const int elevation = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int enableEdgeToEdge = 2130903386;
+			public const int elevationOverlayColor = 2130903386;
+			
+			// aapt resource value: 0x7F03015B
+			public const int elevationOverlayEnabled = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int endIconCheckable = 2130903388;
+			public const int emojiCompatEnabled = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int endIconContentDescription = 2130903389;
-			
-			// aapt resource value: 0x7F03015E
-			public const int endIconDrawable = 2130903390;
+			public const int enableCopying = 2130903389;
 			
 			// aapt resource value: 0x7F03015F
-			public const int endIconMode = 2130903391;
+			public const int enabled = 2130903391;
+			
+			// aapt resource value: 0x7F03015E
+			public const int enableEdgeToEdge = 2130903390;
 			
 			// aapt resource value: 0x7F030160
-			public const int endIconTint = 2130903392;
+			public const int endIconCheckable = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int endIconTintMode = 2130903393;
+			public const int endIconContentDescription = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int enforceMaterialTheme = 2130903394;
+			public const int endIconDrawable = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int enforceTextAppearance = 2130903395;
+			public const int endIconMode = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int ensureMinTouchTargetSize = 2130903396;
+			public const int endIconTint = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int enterAnim = 2130903397;
+			public const int endIconTintMode = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int entries = 2130903398;
+			public const int enforceMaterialTheme = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int entryValues = 2130903399;
+			public const int enforceTextAppearance = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int errorContentDescription = 2130903400;
+			public const int ensureMinTouchTargetSize = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int errorEnabled = 2130903401;
+			public const int enterAnim = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int errorIconDrawable = 2130903402;
+			public const int entries = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int errorIconTint = 2130903403;
+			public const int entryValues = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int errorIconTintMode = 2130903404;
+			public const int errorContentDescription = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int errorTextAppearance = 2130903405;
+			public const int errorEnabled = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int errorTextColor = 2130903406;
+			public const int errorIconDrawable = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int exitAnim = 2130903407;
+			public const int errorIconTint = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int expandActivityOverflowButtonDrawable = 2130903408;
+			public const int errorIconTintMode = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int expanded = 2130903409;
+			public const int errorTextAppearance = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int expandedHintEnabled = 2130903410;
+			public const int errorTextColor = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int expandedTitleGravity = 2130903411;
+			public const int exitAnim = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int expandedTitleMargin = 2130903412;
+			public const int expandActivityOverflowButtonDrawable = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int expandedTitleMarginBottom = 2130903413;
+			public const int expanded = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int expandedTitleMarginEnd = 2130903414;
+			public const int expandedHintEnabled = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int expandedTitleMarginStart = 2130903415;
+			public const int expandedTitleGravity = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int expandedTitleMarginTop = 2130903416;
+			public const int expandedTitleMargin = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int expandedTitleTextAppearance = 2130903417;
-			
-			// aapt resource value: 0x7F03017B
-			public const int extendedFloatingActionButtonStyle = 2130903419;
+			public const int expandedTitleMarginBottom = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int extendMotionSpec = 2130903418;
+			public const int expandedTitleMarginEnd = 2130903418;
+			
+			// aapt resource value: 0x7F03017B
+			public const int expandedTitleMarginStart = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int extraMultilineHeightEnabled = 2130903420;
+			public const int expandedTitleMarginTop = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int fabAlignmentMode = 2130903421;
-			
-			// aapt resource value: 0x7F03017E
-			public const int fabAnimationMode = 2130903422;
+			public const int expandedTitleTextAppearance = 2130903421;
 			
 			// aapt resource value: 0x7F03017F
-			public const int fabCradleMargin = 2130903423;
+			public const int extendedFloatingActionButtonStyle = 2130903423;
+			
+			// aapt resource value: 0x7F03017E
+			public const int extendMotionSpec = 2130903422;
 			
 			// aapt resource value: 0x7F030180
-			public const int fabCradleRoundedCornerRadius = 2130903424;
+			public const int extraMultilineHeightEnabled = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int fabCradleVerticalOffset = 2130903425;
+			public const int fabAlignmentMode = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int fabCustomSize = 2130903426;
+			public const int fabAnimationMode = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int fabSize = 2130903427;
+			public const int fabCradleMargin = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int fastScrollEnabled = 2130903428;
+			public const int fabCradleRoundedCornerRadius = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int fastScrollHorizontalThumbDrawable = 2130903429;
+			public const int fabCradleVerticalOffset = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int fastScrollHorizontalTrackDrawable = 2130903430;
+			public const int fabCustomSize = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int fastScrollVerticalThumbDrawable = 2130903431;
+			public const int fabSize = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int fastScrollVerticalTrackDrawable = 2130903432;
+			public const int fastScrollEnabled = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int firstBaselineToTopHeight = 2130903433;
+			public const int fastScrollHorizontalThumbDrawable = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int floatingActionButtonStyle = 2130903434;
+			public const int fastScrollHorizontalTrackDrawable = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int flow_firstHorizontalBias = 2130903435;
+			public const int fastScrollVerticalThumbDrawable = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int flow_firstHorizontalStyle = 2130903436;
+			public const int fastScrollVerticalTrackDrawable = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int flow_firstVerticalBias = 2130903437;
+			public const int firstBaselineToTopHeight = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int flow_firstVerticalStyle = 2130903438;
+			public const int floatingActionButtonStyle = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int flow_horizontalAlign = 2130903439;
+			public const int flow_firstHorizontalBias = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int flow_horizontalBias = 2130903440;
+			public const int flow_firstHorizontalStyle = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int flow_horizontalGap = 2130903441;
+			public const int flow_firstVerticalBias = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int flow_horizontalStyle = 2130903442;
+			public const int flow_firstVerticalStyle = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int flow_lastHorizontalBias = 2130903443;
+			public const int flow_horizontalAlign = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int flow_lastHorizontalStyle = 2130903444;
+			public const int flow_horizontalBias = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int flow_lastVerticalBias = 2130903445;
+			public const int flow_horizontalGap = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int flow_lastVerticalStyle = 2130903446;
+			public const int flow_horizontalStyle = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int flow_maxElementsWrap = 2130903447;
+			public const int flow_lastHorizontalBias = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int flow_padding = 2130903448;
+			public const int flow_lastHorizontalStyle = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int flow_verticalAlign = 2130903449;
+			public const int flow_lastVerticalBias = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int flow_verticalBias = 2130903450;
+			public const int flow_lastVerticalStyle = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int flow_verticalGap = 2130903451;
+			public const int flow_maxElementsWrap = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int flow_verticalStyle = 2130903452;
+			public const int flow_padding = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int flow_wrapMode = 2130903453;
+			public const int flow_verticalAlign = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int font = 2130903454;
+			public const int flow_verticalBias = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int fontFamily = 2130903455;
+			public const int flow_verticalGap = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int fontProviderAuthority = 2130903456;
+			public const int flow_verticalStyle = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int fontProviderCerts = 2130903457;
+			public const int flow_wrapMode = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int fontProviderFetchStrategy = 2130903458;
+			public const int font = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int fontProviderFetchTimeout = 2130903459;
+			public const int fontFamily = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int fontProviderPackage = 2130903460;
+			public const int fontProviderAuthority = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int fontProviderQuery = 2130903461;
+			public const int fontProviderCerts = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int fontProviderSystemFontFamily = 2130903462;
+			public const int fontProviderFetchStrategy = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int fontStyle = 2130903463;
+			public const int fontProviderFetchTimeout = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int fontVariationSettings = 2130903464;
+			public const int fontProviderPackage = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int fontWeight = 2130903465;
+			public const int fontProviderQuery = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int forceApplySystemWindowInsetTop = 2130903466;
+			public const int fontProviderSystemFontFamily = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int foregroundInsidePadding = 2130903467;
+			public const int fontStyle = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int fragment = 2130903468;
+			public const int fontVariationSettings = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int framePosition = 2130903469;
+			public const int fontWeight = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int gapBetweenBars = 2130903470;
+			public const int forceApplySystemWindowInsetTop = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int gestureInsetBottomIgnored = 2130903471;
+			public const int foregroundInsidePadding = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int goIcon = 2130903472;
+			public const int fragment = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int graph = 2130903473;
+			public const int framePosition = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int haloColor = 2130903474;
+			public const int gapBetweenBars = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int haloRadius = 2130903475;
+			public const int gestureInsetBottomIgnored = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int headerLayout = 2130903476;
+			public const int goIcon = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int height = 2130903477;
+			public const int graph = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int helperText = 2130903478;
+			public const int haloColor = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int helperTextEnabled = 2130903479;
+			public const int haloRadius = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int helperTextTextAppearance = 2130903480;
+			public const int headerLayout = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int helperTextTextColor = 2130903481;
+			public const int height = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int hideAnimationBehavior = 2130903482;
+			public const int helperText = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int hideMotionSpec = 2130903483;
+			public const int helperTextEnabled = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int hideOnContentScroll = 2130903484;
+			public const int helperTextTextAppearance = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int hideOnScroll = 2130903485;
+			public const int helperTextTextColor = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int hintAnimationEnabled = 2130903486;
+			public const int hideAnimationBehavior = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int hintEnabled = 2130903487;
+			public const int hideMotionSpec = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int hintTextAppearance = 2130903488;
+			public const int hideOnContentScroll = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int hintTextColor = 2130903489;
+			public const int hideOnScroll = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int homeAsUpIndicator = 2130903490;
+			public const int hintAnimationEnabled = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int homeLayout = 2130903491;
+			public const int hintEnabled = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int horizontalOffset = 2130903492;
+			public const int hintTextAppearance = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int hoveredFocusedTranslationZ = 2130903493;
+			public const int hintTextColor = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int icon = 2130903494;
+			public const int homeAsUpIndicator = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int iconEndPadding = 2130903495;
+			public const int homeLayout = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int iconGravity = 2130903496;
-			
-			// aapt resource value: 0x7F0301CF
-			public const int iconifiedByDefault = 2130903503;
+			public const int horizontalOffset = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int iconPadding = 2130903497;
+			public const int hoveredFocusedTranslationZ = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int iconSize = 2130903498;
+			public const int icon = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int iconSpaceReserved = 2130903499;
+			public const int iconEndPadding = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int iconStartPadding = 2130903500;
-			
-			// aapt resource value: 0x7F0301CD
-			public const int iconTint = 2130903501;
-			
-			// aapt resource value: 0x7F0301CE
-			public const int iconTintMode = 2130903502;
-			
-			// aapt resource value: 0x7F0301D0
-			public const int ifTagNotSet = 2130903504;
-			
-			// aapt resource value: 0x7F0301D1
-			public const int ifTagSet = 2130903505;
-			
-			// aapt resource value: 0x7F0301D2
-			public const int imageButtonStyle = 2130903506;
+			public const int iconGravity = 2130903500;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int imagePanX = 2130903507;
+			public const int iconifiedByDefault = 2130903507;
+			
+			// aapt resource value: 0x7F0301CD
+			public const int iconPadding = 2130903501;
+			
+			// aapt resource value: 0x7F0301CE
+			public const int iconSize = 2130903502;
+			
+			// aapt resource value: 0x7F0301CF
+			public const int iconSpaceReserved = 2130903503;
+			
+			// aapt resource value: 0x7F0301D0
+			public const int iconStartPadding = 2130903504;
+			
+			// aapt resource value: 0x7F0301D1
+			public const int iconTint = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int iconTintMode = 2130903506;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int imagePanY = 2130903508;
+			public const int ifTagNotSet = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int imageRotate = 2130903509;
+			public const int ifTagSet = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int imageZoom = 2130903510;
+			public const int imageButtonStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int indeterminateAnimationType = 2130903511;
+			public const int imagePanX = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int indeterminateProgressStyle = 2130903512;
+			public const int imagePanY = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int indicatorColor = 2130903513;
+			public const int imageRotate = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int indicatorDirectionCircular = 2130903514;
+			public const int imageZoom = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int indicatorDirectionLinear = 2130903515;
+			public const int indeterminateAnimationType = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int indicatorInset = 2130903516;
+			public const int indeterminateProgressStyle = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int indicatorSize = 2130903517;
+			public const int indicatorColor = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int initialActivityCount = 2130903518;
+			public const int indicatorDirectionCircular = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int initialExpandedChildrenCount = 2130903519;
+			public const int indicatorDirectionLinear = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int insetForeground = 2130903520;
+			public const int indicatorInset = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int isLightTheme = 2130903521;
+			public const int indicatorSize = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int isMaterialTheme = 2130903522;
+			public const int initialActivityCount = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int isPreferenceVisible = 2130903523;
+			public const int initialExpandedChildrenCount = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int itemBackground = 2130903524;
+			public const int insetForeground = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int itemFillColor = 2130903525;
+			public const int isLightTheme = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int itemHorizontalPadding = 2130903526;
+			public const int isMaterialTheme = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int itemHorizontalTranslationEnabled = 2130903527;
+			public const int isPreferenceVisible = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int itemIconPadding = 2130903528;
+			public const int itemBackground = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int itemIconSize = 2130903529;
+			public const int itemFillColor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int itemIconTint = 2130903530;
+			public const int itemHorizontalPadding = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int itemMaxLines = 2130903531;
+			public const int itemHorizontalTranslationEnabled = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int itemPadding = 2130903532;
+			public const int itemIconPadding = 2130903532;
 			
 			// aapt resource value: 0x7F0301ED
-			public const int itemRippleColor = 2130903533;
+			public const int itemIconSize = 2130903533;
 			
 			// aapt resource value: 0x7F0301EE
-			public const int itemShapeAppearance = 2130903534;
+			public const int itemIconTint = 2130903534;
 			
 			// aapt resource value: 0x7F0301EF
-			public const int itemShapeAppearanceOverlay = 2130903535;
+			public const int itemMaxLines = 2130903535;
 			
 			// aapt resource value: 0x7F0301F0
-			public const int itemShapeFillColor = 2130903536;
+			public const int itemPadding = 2130903536;
 			
 			// aapt resource value: 0x7F0301F1
-			public const int itemShapeInsetBottom = 2130903537;
+			public const int itemRippleColor = 2130903537;
 			
 			// aapt resource value: 0x7F0301F2
-			public const int itemShapeInsetEnd = 2130903538;
+			public const int itemShapeAppearance = 2130903538;
 			
 			// aapt resource value: 0x7F0301F3
-			public const int itemShapeInsetStart = 2130903539;
+			public const int itemShapeAppearanceOverlay = 2130903539;
 			
 			// aapt resource value: 0x7F0301F4
-			public const int itemShapeInsetTop = 2130903540;
+			public const int itemShapeFillColor = 2130903540;
 			
 			// aapt resource value: 0x7F0301F5
-			public const int itemSpacing = 2130903541;
+			public const int itemShapeInsetBottom = 2130903541;
 			
 			// aapt resource value: 0x7F0301F6
-			public const int itemStrokeColor = 2130903542;
+			public const int itemShapeInsetEnd = 2130903542;
 			
 			// aapt resource value: 0x7F0301F7
-			public const int itemStrokeWidth = 2130903543;
+			public const int itemShapeInsetStart = 2130903543;
 			
 			// aapt resource value: 0x7F0301F8
-			public const int itemTextAppearance = 2130903544;
+			public const int itemShapeInsetTop = 2130903544;
 			
 			// aapt resource value: 0x7F0301F9
-			public const int itemTextAppearanceActive = 2130903545;
+			public const int itemSpacing = 2130903545;
 			
 			// aapt resource value: 0x7F0301FA
-			public const int itemTextAppearanceInactive = 2130903546;
+			public const int itemStrokeColor = 2130903546;
 			
 			// aapt resource value: 0x7F0301FB
-			public const int itemTextColor = 2130903547;
+			public const int itemStrokeWidth = 2130903547;
 			
 			// aapt resource value: 0x7F0301FC
-			public const int key = 2130903548;
-			
-			// aapt resource value: 0x7F0301FE
-			public const int keyboardIcon = 2130903550;
-			
-			// aapt resource value: 0x7F0301FF
-			public const int keylines = 2130903551;
+			public const int itemTextAppearance = 2130903548;
 			
 			// aapt resource value: 0x7F0301FD
-			public const int keyPositionType = 2130903549;
+			public const int itemTextAppearanceActive = 2130903549;
+			
+			// aapt resource value: 0x7F0301FE
+			public const int itemTextAppearanceInactive = 2130903550;
+			
+			// aapt resource value: 0x7F0301FF
+			public const int itemTextColor = 2130903551;
 			
 			// aapt resource value: 0x7F030200
-			public const int labelBehavior = 2130903552;
-			
-			// aapt resource value: 0x7F030201
-			public const int labelStyle = 2130903553;
+			public const int key = 2130903552;
 			
 			// aapt resource value: 0x7F030202
-			public const int labelVisibilityMode = 2130903554;
+			public const int keyboardIcon = 2130903554;
 			
 			// aapt resource value: 0x7F030203
-			public const int lastBaselineToBottomHeight = 2130903555;
+			public const int keylines = 2130903555;
 			
-			// aapt resource value: 0x7F030204
-			public const int launchSingleTop = 2130903556;
+			// aapt resource value: 0x7F030201
+			public const int keyPositionType = 2130903553;
 			
 			// aapt resource value: 0x7F030205
-			public const int layout = 2130903557;
+			public const int labelBehavior = 2130903557;
 			
 			// aapt resource value: 0x7F030206
-			public const int layoutDescription = 2130903558;
+			public const int labelStyle = 2130903558;
 			
 			// aapt resource value: 0x7F030207
-			public const int layoutDuringTransition = 2130903559;
+			public const int labelVisibilityMode = 2130903559;
 			
 			// aapt resource value: 0x7F030208
-			public const int layoutManager = 2130903560;
+			public const int lastBaselineToBottomHeight = 2130903560;
 			
 			// aapt resource value: 0x7F030209
-			public const int layout_anchor = 2130903561;
+			public const int launchSingleTop = 2130903561;
 			
 			// aapt resource value: 0x7F03020A
-			public const int layout_anchorGravity = 2130903562;
+			public const int layout = 2130903562;
 			
 			// aapt resource value: 0x7F03020B
-			public const int layout_behavior = 2130903563;
+			public const int layoutDescription = 2130903563;
 			
 			// aapt resource value: 0x7F03020C
-			public const int layout_collapseMode = 2130903564;
+			public const int layoutDuringTransition = 2130903564;
 			
 			// aapt resource value: 0x7F03020D
-			public const int layout_collapseParallaxMultiplier = 2130903565;
+			public const int layoutManager = 2130903565;
 			
 			// aapt resource value: 0x7F03020E
-			public const int layout_constrainedHeight = 2130903566;
+			public const int layout_anchor = 2130903566;
 			
 			// aapt resource value: 0x7F03020F
-			public const int layout_constrainedWidth = 2130903567;
+			public const int layout_anchorGravity = 2130903567;
 			
 			// aapt resource value: 0x7F030210
-			public const int layout_constraintBaseline_creator = 2130903568;
+			public const int layout_behavior = 2130903568;
 			
 			// aapt resource value: 0x7F030211
-			public const int layout_constraintBaseline_toBaselineOf = 2130903569;
+			public const int layout_collapseMode = 2130903569;
 			
 			// aapt resource value: 0x7F030212
-			public const int layout_constraintBaseline_toBottomOf = 2130903570;
+			public const int layout_collapseParallaxMultiplier = 2130903570;
 			
 			// aapt resource value: 0x7F030213
-			public const int layout_constraintBaseline_toTopOf = 2130903571;
+			public const int layout_constrainedHeight = 2130903571;
 			
 			// aapt resource value: 0x7F030214
-			public const int layout_constraintBottom_creator = 2130903572;
+			public const int layout_constrainedWidth = 2130903572;
 			
 			// aapt resource value: 0x7F030215
-			public const int layout_constraintBottom_toBottomOf = 2130903573;
+			public const int layout_constraintBaseline_creator = 2130903573;
 			
 			// aapt resource value: 0x7F030216
-			public const int layout_constraintBottom_toTopOf = 2130903574;
+			public const int layout_constraintBaseline_toBaselineOf = 2130903574;
 			
 			// aapt resource value: 0x7F030217
-			public const int layout_constraintCircle = 2130903575;
+			public const int layout_constraintBaseline_toBottomOf = 2130903575;
 			
 			// aapt resource value: 0x7F030218
-			public const int layout_constraintCircleAngle = 2130903576;
+			public const int layout_constraintBaseline_toTopOf = 2130903576;
 			
 			// aapt resource value: 0x7F030219
-			public const int layout_constraintCircleRadius = 2130903577;
+			public const int layout_constraintBottom_creator = 2130903577;
 			
 			// aapt resource value: 0x7F03021A
-			public const int layout_constraintDimensionRatio = 2130903578;
+			public const int layout_constraintBottom_toBottomOf = 2130903578;
 			
 			// aapt resource value: 0x7F03021B
-			public const int layout_constraintEnd_toEndOf = 2130903579;
+			public const int layout_constraintBottom_toTopOf = 2130903579;
 			
 			// aapt resource value: 0x7F03021C
-			public const int layout_constraintEnd_toStartOf = 2130903580;
+			public const int layout_constraintCircle = 2130903580;
 			
 			// aapt resource value: 0x7F03021D
-			public const int layout_constraintGuide_begin = 2130903581;
+			public const int layout_constraintCircleAngle = 2130903581;
 			
 			// aapt resource value: 0x7F03021E
-			public const int layout_constraintGuide_end = 2130903582;
+			public const int layout_constraintCircleRadius = 2130903582;
 			
 			// aapt resource value: 0x7F03021F
-			public const int layout_constraintGuide_percent = 2130903583;
+			public const int layout_constraintDimensionRatio = 2130903583;
 			
 			// aapt resource value: 0x7F030220
-			public const int layout_constraintHeight = 2130903584;
+			public const int layout_constraintEnd_toEndOf = 2130903584;
 			
 			// aapt resource value: 0x7F030221
-			public const int layout_constraintHeight_default = 2130903585;
+			public const int layout_constraintEnd_toStartOf = 2130903585;
 			
 			// aapt resource value: 0x7F030222
-			public const int layout_constraintHeight_max = 2130903586;
+			public const int layout_constraintGuide_begin = 2130903586;
 			
 			// aapt resource value: 0x7F030223
-			public const int layout_constraintHeight_min = 2130903587;
+			public const int layout_constraintGuide_end = 2130903587;
 			
 			// aapt resource value: 0x7F030224
-			public const int layout_constraintHeight_percent = 2130903588;
+			public const int layout_constraintGuide_percent = 2130903588;
 			
 			// aapt resource value: 0x7F030225
-			public const int layout_constraintHorizontal_bias = 2130903589;
+			public const int layout_constraintHeight = 2130903589;
 			
 			// aapt resource value: 0x7F030226
-			public const int layout_constraintHorizontal_chainStyle = 2130903590;
+			public const int layout_constraintHeight_default = 2130903590;
 			
 			// aapt resource value: 0x7F030227
-			public const int layout_constraintHorizontal_weight = 2130903591;
+			public const int layout_constraintHeight_max = 2130903591;
 			
 			// aapt resource value: 0x7F030228
-			public const int layout_constraintLeft_creator = 2130903592;
+			public const int layout_constraintHeight_min = 2130903592;
 			
 			// aapt resource value: 0x7F030229
-			public const int layout_constraintLeft_toLeftOf = 2130903593;
+			public const int layout_constraintHeight_percent = 2130903593;
 			
 			// aapt resource value: 0x7F03022A
-			public const int layout_constraintLeft_toRightOf = 2130903594;
+			public const int layout_constraintHorizontal_bias = 2130903594;
 			
 			// aapt resource value: 0x7F03022B
-			public const int layout_constraintRight_creator = 2130903595;
+			public const int layout_constraintHorizontal_chainStyle = 2130903595;
 			
 			// aapt resource value: 0x7F03022C
-			public const int layout_constraintRight_toLeftOf = 2130903596;
+			public const int layout_constraintHorizontal_weight = 2130903596;
 			
 			// aapt resource value: 0x7F03022D
-			public const int layout_constraintRight_toRightOf = 2130903597;
+			public const int layout_constraintLeft_creator = 2130903597;
 			
 			// aapt resource value: 0x7F03022E
-			public const int layout_constraintStart_toEndOf = 2130903598;
+			public const int layout_constraintLeft_toLeftOf = 2130903598;
 			
 			// aapt resource value: 0x7F03022F
-			public const int layout_constraintStart_toStartOf = 2130903599;
+			public const int layout_constraintLeft_toRightOf = 2130903599;
 			
 			// aapt resource value: 0x7F030230
-			public const int layout_constraintTag = 2130903600;
+			public const int layout_constraintRight_creator = 2130903600;
 			
 			// aapt resource value: 0x7F030231
-			public const int layout_constraintTop_creator = 2130903601;
+			public const int layout_constraintRight_toLeftOf = 2130903601;
 			
 			// aapt resource value: 0x7F030232
-			public const int layout_constraintTop_toBottomOf = 2130903602;
+			public const int layout_constraintRight_toRightOf = 2130903602;
 			
 			// aapt resource value: 0x7F030233
-			public const int layout_constraintTop_toTopOf = 2130903603;
+			public const int layout_constraintStart_toEndOf = 2130903603;
 			
 			// aapt resource value: 0x7F030234
-			public const int layout_constraintVertical_bias = 2130903604;
+			public const int layout_constraintStart_toStartOf = 2130903604;
 			
 			// aapt resource value: 0x7F030235
-			public const int layout_constraintVertical_chainStyle = 2130903605;
+			public const int layout_constraintTag = 2130903605;
 			
 			// aapt resource value: 0x7F030236
-			public const int layout_constraintVertical_weight = 2130903606;
+			public const int layout_constraintTop_creator = 2130903606;
 			
 			// aapt resource value: 0x7F030237
-			public const int layout_constraintWidth = 2130903607;
+			public const int layout_constraintTop_toBottomOf = 2130903607;
 			
 			// aapt resource value: 0x7F030238
-			public const int layout_constraintWidth_default = 2130903608;
+			public const int layout_constraintTop_toTopOf = 2130903608;
 			
 			// aapt resource value: 0x7F030239
-			public const int layout_constraintWidth_max = 2130903609;
+			public const int layout_constraintVertical_bias = 2130903609;
 			
 			// aapt resource value: 0x7F03023A
-			public const int layout_constraintWidth_min = 2130903610;
+			public const int layout_constraintVertical_chainStyle = 2130903610;
 			
 			// aapt resource value: 0x7F03023B
-			public const int layout_constraintWidth_percent = 2130903611;
+			public const int layout_constraintVertical_weight = 2130903611;
 			
 			// aapt resource value: 0x7F03023C
-			public const int layout_dodgeInsetEdges = 2130903612;
+			public const int layout_constraintWidth = 2130903612;
 			
 			// aapt resource value: 0x7F03023D
-			public const int layout_editor_absoluteX = 2130903613;
+			public const int layout_constraintWidth_default = 2130903613;
 			
 			// aapt resource value: 0x7F03023E
-			public const int layout_editor_absoluteY = 2130903614;
+			public const int layout_constraintWidth_max = 2130903614;
 			
 			// aapt resource value: 0x7F03023F
-			public const int layout_goneMarginBaseline = 2130903615;
+			public const int layout_constraintWidth_min = 2130903615;
 			
 			// aapt resource value: 0x7F030240
-			public const int layout_goneMarginBottom = 2130903616;
+			public const int layout_constraintWidth_percent = 2130903616;
 			
 			// aapt resource value: 0x7F030241
-			public const int layout_goneMarginEnd = 2130903617;
+			public const int layout_dodgeInsetEdges = 2130903617;
 			
 			// aapt resource value: 0x7F030242
-			public const int layout_goneMarginLeft = 2130903618;
+			public const int layout_editor_absoluteX = 2130903618;
 			
 			// aapt resource value: 0x7F030243
-			public const int layout_goneMarginRight = 2130903619;
+			public const int layout_editor_absoluteY = 2130903619;
 			
 			// aapt resource value: 0x7F030244
-			public const int layout_goneMarginStart = 2130903620;
+			public const int layout_goneMarginBaseline = 2130903620;
 			
 			// aapt resource value: 0x7F030245
-			public const int layout_goneMarginTop = 2130903621;
+			public const int layout_goneMarginBottom = 2130903621;
 			
 			// aapt resource value: 0x7F030246
-			public const int layout_insetEdge = 2130903622;
+			public const int layout_goneMarginEnd = 2130903622;
 			
 			// aapt resource value: 0x7F030247
-			public const int layout_keyline = 2130903623;
+			public const int layout_goneMarginLeft = 2130903623;
 			
 			// aapt resource value: 0x7F030248
-			public const int layout_marginBaseline = 2130903624;
+			public const int layout_goneMarginRight = 2130903624;
 			
 			// aapt resource value: 0x7F030249
-			public const int layout_optimizationLevel = 2130903625;
+			public const int layout_goneMarginStart = 2130903625;
 			
 			// aapt resource value: 0x7F03024A
-			public const int layout_scrollFlags = 2130903626;
+			public const int layout_goneMarginTop = 2130903626;
 			
 			// aapt resource value: 0x7F03024B
-			public const int layout_scrollInterpolator = 2130903627;
+			public const int layout_insetEdge = 2130903627;
 			
 			// aapt resource value: 0x7F03024C
-			public const int layout_wrapBehaviorInParent = 2130903628;
+			public const int layout_keyline = 2130903628;
 			
 			// aapt resource value: 0x7F03024D
-			public const int liftOnScroll = 2130903629;
+			public const int layout_marginBaseline = 2130903629;
 			
 			// aapt resource value: 0x7F03024E
-			public const int liftOnScrollTargetViewId = 2130903630;
+			public const int layout_optimizationLevel = 2130903630;
 			
 			// aapt resource value: 0x7F03024F
-			public const int limitBoundsTo = 2130903631;
-			
-			// aapt resource value: 0x7F030252
-			public const int linearProgressIndicatorStyle = 2130903634;
+			public const int layout_scrollFlags = 2130903631;
 			
 			// aapt resource value: 0x7F030250
-			public const int lineHeight = 2130903632;
+			public const int layout_scrollInterpolator = 2130903632;
 			
 			// aapt resource value: 0x7F030251
-			public const int lineSpacing = 2130903633;
+			public const int layout_wrapBehaviorInParent = 2130903633;
+			
+			// aapt resource value: 0x7F030252
+			public const int liftOnScroll = 2130903634;
 			
 			// aapt resource value: 0x7F030253
-			public const int listChoiceBackgroundIndicator = 2130903635;
+			public const int liftOnScrollTargetViewId = 2130903635;
 			
 			// aapt resource value: 0x7F030254
-			public const int listChoiceIndicatorMultipleAnimated = 2130903636;
-			
-			// aapt resource value: 0x7F030255
-			public const int listChoiceIndicatorSingleAnimated = 2130903637;
-			
-			// aapt resource value: 0x7F030256
-			public const int listDividerAlertDialog = 2130903638;
+			public const int limitBoundsTo = 2130903636;
 			
 			// aapt resource value: 0x7F030257
-			public const int listItemLayout = 2130903639;
+			public const int linearProgressIndicatorStyle = 2130903639;
+			
+			// aapt resource value: 0x7F030255
+			public const int lineHeight = 2130903637;
+			
+			// aapt resource value: 0x7F030256
+			public const int lineSpacing = 2130903638;
 			
 			// aapt resource value: 0x7F030258
-			public const int listLayout = 2130903640;
+			public const int listChoiceBackgroundIndicator = 2130903640;
 			
 			// aapt resource value: 0x7F030259
-			public const int listMenuViewStyle = 2130903641;
+			public const int listChoiceIndicatorMultipleAnimated = 2130903641;
 			
 			// aapt resource value: 0x7F03025A
-			public const int listPopupWindowStyle = 2130903642;
+			public const int listChoiceIndicatorSingleAnimated = 2130903642;
 			
 			// aapt resource value: 0x7F03025B
-			public const int listPreferredItemHeight = 2130903643;
+			public const int listDividerAlertDialog = 2130903643;
 			
 			// aapt resource value: 0x7F03025C
-			public const int listPreferredItemHeightLarge = 2130903644;
+			public const int listItemLayout = 2130903644;
 			
 			// aapt resource value: 0x7F03025D
-			public const int listPreferredItemHeightSmall = 2130903645;
+			public const int listLayout = 2130903645;
 			
 			// aapt resource value: 0x7F03025E
-			public const int listPreferredItemPaddingEnd = 2130903646;
+			public const int listMenuViewStyle = 2130903646;
 			
 			// aapt resource value: 0x7F03025F
-			public const int listPreferredItemPaddingLeft = 2130903647;
+			public const int listPopupWindowStyle = 2130903647;
 			
 			// aapt resource value: 0x7F030260
-			public const int listPreferredItemPaddingRight = 2130903648;
+			public const int listPreferredItemHeight = 2130903648;
 			
 			// aapt resource value: 0x7F030261
-			public const int listPreferredItemPaddingStart = 2130903649;
+			public const int listPreferredItemHeightLarge = 2130903649;
 			
 			// aapt resource value: 0x7F030262
-			public const int logo = 2130903650;
+			public const int listPreferredItemHeightSmall = 2130903650;
 			
 			// aapt resource value: 0x7F030263
-			public const int logoDescription = 2130903651;
+			public const int listPreferredItemPaddingEnd = 2130903651;
 			
 			// aapt resource value: 0x7F030264
-			public const int materialAlertDialogBodyTextStyle = 2130903652;
+			public const int listPreferredItemPaddingLeft = 2130903652;
 			
 			// aapt resource value: 0x7F030265
-			public const int materialAlertDialogTheme = 2130903653;
+			public const int listPreferredItemPaddingRight = 2130903653;
 			
 			// aapt resource value: 0x7F030266
-			public const int materialAlertDialogTitleIconStyle = 2130903654;
+			public const int listPreferredItemPaddingStart = 2130903654;
 			
 			// aapt resource value: 0x7F030267
-			public const int materialAlertDialogTitlePanelStyle = 2130903655;
+			public const int logo = 2130903655;
 			
 			// aapt resource value: 0x7F030268
-			public const int materialAlertDialogTitleTextStyle = 2130903656;
+			public const int logoDescription = 2130903656;
+			
+			// aapt resource value: 0x7F030204
+			public const int lStar = 2130903556;
 			
 			// aapt resource value: 0x7F030269
-			public const int materialButtonOutlinedStyle = 2130903657;
+			public const int materialAlertDialogBodyTextStyle = 2130903657;
 			
 			// aapt resource value: 0x7F03026A
-			public const int materialButtonStyle = 2130903658;
+			public const int materialAlertDialogTheme = 2130903658;
 			
 			// aapt resource value: 0x7F03026B
-			public const int materialButtonToggleGroupStyle = 2130903659;
+			public const int materialAlertDialogTitleIconStyle = 2130903659;
 			
 			// aapt resource value: 0x7F03026C
-			public const int materialCalendarDay = 2130903660;
+			public const int materialAlertDialogTitlePanelStyle = 2130903660;
 			
 			// aapt resource value: 0x7F03026D
-			public const int materialCalendarFullscreenTheme = 2130903661;
+			public const int materialAlertDialogTitleTextStyle = 2130903661;
 			
 			// aapt resource value: 0x7F03026E
-			public const int materialCalendarHeaderCancelButton = 2130903662;
+			public const int materialButtonOutlinedStyle = 2130903662;
 			
 			// aapt resource value: 0x7F03026F
-			public const int materialCalendarHeaderConfirmButton = 2130903663;
+			public const int materialButtonStyle = 2130903663;
 			
 			// aapt resource value: 0x7F030270
-			public const int materialCalendarHeaderDivider = 2130903664;
+			public const int materialButtonToggleGroupStyle = 2130903664;
 			
 			// aapt resource value: 0x7F030271
-			public const int materialCalendarHeaderLayout = 2130903665;
+			public const int materialCalendarDay = 2130903665;
 			
 			// aapt resource value: 0x7F030272
-			public const int materialCalendarHeaderSelection = 2130903666;
+			public const int materialCalendarFullscreenTheme = 2130903666;
 			
 			// aapt resource value: 0x7F030273
-			public const int materialCalendarHeaderTitle = 2130903667;
+			public const int materialCalendarHeaderCancelButton = 2130903667;
 			
 			// aapt resource value: 0x7F030274
-			public const int materialCalendarHeaderToggleButton = 2130903668;
+			public const int materialCalendarHeaderConfirmButton = 2130903668;
 			
 			// aapt resource value: 0x7F030275
-			public const int materialCalendarMonth = 2130903669;
+			public const int materialCalendarHeaderDivider = 2130903669;
 			
 			// aapt resource value: 0x7F030276
-			public const int materialCalendarMonthNavigationButton = 2130903670;
+			public const int materialCalendarHeaderLayout = 2130903670;
 			
 			// aapt resource value: 0x7F030277
-			public const int materialCalendarStyle = 2130903671;
+			public const int materialCalendarHeaderSelection = 2130903671;
 			
 			// aapt resource value: 0x7F030278
-			public const int materialCalendarTheme = 2130903672;
+			public const int materialCalendarHeaderTitle = 2130903672;
 			
 			// aapt resource value: 0x7F030279
-			public const int materialCalendarYearNavigationButton = 2130903673;
+			public const int materialCalendarHeaderToggleButton = 2130903673;
 			
 			// aapt resource value: 0x7F03027A
-			public const int materialCardViewStyle = 2130903674;
+			public const int materialCalendarMonth = 2130903674;
 			
 			// aapt resource value: 0x7F03027B
-			public const int materialCircleRadius = 2130903675;
+			public const int materialCalendarMonthNavigationButton = 2130903675;
 			
 			// aapt resource value: 0x7F03027C
-			public const int materialClockStyle = 2130903676;
+			public const int materialCalendarStyle = 2130903676;
 			
 			// aapt resource value: 0x7F03027D
-			public const int materialThemeOverlay = 2130903677;
+			public const int materialCalendarTheme = 2130903677;
 			
 			// aapt resource value: 0x7F03027E
-			public const int materialTimePickerStyle = 2130903678;
+			public const int materialCalendarYearNavigationButton = 2130903678;
 			
 			// aapt resource value: 0x7F03027F
-			public const int materialTimePickerTheme = 2130903679;
+			public const int materialCardViewStyle = 2130903679;
 			
 			// aapt resource value: 0x7F030280
-			public const int maxAcceleration = 2130903680;
+			public const int materialCircleRadius = 2130903680;
 			
 			// aapt resource value: 0x7F030281
-			public const int maxActionInlineWidth = 2130903681;
+			public const int materialClockStyle = 2130903681;
 			
 			// aapt resource value: 0x7F030282
-			public const int maxButtonHeight = 2130903682;
+			public const int materialThemeOverlay = 2130903682;
 			
 			// aapt resource value: 0x7F030283
-			public const int maxCharacterCount = 2130903683;
+			public const int materialTimePickerStyle = 2130903683;
 			
 			// aapt resource value: 0x7F030284
-			public const int maxHeight = 2130903684;
+			public const int materialTimePickerTheme = 2130903684;
 			
 			// aapt resource value: 0x7F030285
-			public const int maxImageSize = 2130903685;
+			public const int maxAcceleration = 2130903685;
 			
 			// aapt resource value: 0x7F030286
-			public const int maxLines = 2130903686;
+			public const int maxActionInlineWidth = 2130903686;
 			
 			// aapt resource value: 0x7F030287
-			public const int maxVelocity = 2130903687;
+			public const int maxButtonHeight = 2130903687;
 			
 			// aapt resource value: 0x7F030288
-			public const int maxWidth = 2130903688;
+			public const int maxCharacterCount = 2130903688;
 			
 			// aapt resource value: 0x7F030289
-			public const int measureWithLargestChild = 2130903689;
+			public const int maxHeight = 2130903689;
 			
 			// aapt resource value: 0x7F03028A
-			public const int menu = 2130903690;
+			public const int maxImageSize = 2130903690;
 			
 			// aapt resource value: 0x7F03028B
-			public const int menuGravity = 2130903691;
+			public const int maxLines = 2130903691;
 			
 			// aapt resource value: 0x7F03028C
-			public const int methodName = 2130903692;
+			public const int maxVelocity = 2130903692;
 			
 			// aapt resource value: 0x7F03028D
-			public const int mimeType = 2130903693;
+			public const int maxWidth = 2130903693;
 			
 			// aapt resource value: 0x7F03028E
-			public const int min = 2130903694;
+			public const int measureWithLargestChild = 2130903694;
 			
 			// aapt resource value: 0x7F03028F
-			public const int minHeight = 2130903695;
+			public const int menu = 2130903695;
 			
 			// aapt resource value: 0x7F030290
-			public const int minHideDelay = 2130903696;
+			public const int menuGravity = 2130903696;
 			
 			// aapt resource value: 0x7F030291
-			public const int minSeparation = 2130903697;
+			public const int methodName = 2130903697;
 			
 			// aapt resource value: 0x7F030292
-			public const int minTouchTargetSize = 2130903698;
+			public const int mimeType = 2130903698;
 			
 			// aapt resource value: 0x7F030293
-			public const int minWidth = 2130903699;
+			public const int min = 2130903699;
 			
 			// aapt resource value: 0x7F030294
-			public const int mock_diagonalsColor = 2130903700;
+			public const int minHeight = 2130903700;
 			
 			// aapt resource value: 0x7F030295
-			public const int mock_label = 2130903701;
+			public const int minHideDelay = 2130903701;
 			
 			// aapt resource value: 0x7F030296
-			public const int mock_labelBackgroundColor = 2130903702;
+			public const int minSeparation = 2130903702;
 			
 			// aapt resource value: 0x7F030297
-			public const int mock_labelColor = 2130903703;
+			public const int minTouchTargetSize = 2130903703;
 			
 			// aapt resource value: 0x7F030298
-			public const int mock_showDiagonals = 2130903704;
+			public const int minWidth = 2130903704;
 			
 			// aapt resource value: 0x7F030299
-			public const int mock_showLabel = 2130903705;
+			public const int mock_diagonalsColor = 2130903705;
 			
 			// aapt resource value: 0x7F03029A
-			public const int motionDebug = 2130903706;
+			public const int mock_label = 2130903706;
 			
 			// aapt resource value: 0x7F03029B
-			public const int motionDurationLong1 = 2130903707;
+			public const int mock_labelBackgroundColor = 2130903707;
 			
 			// aapt resource value: 0x7F03029C
-			public const int motionDurationLong2 = 2130903708;
+			public const int mock_labelColor = 2130903708;
 			
 			// aapt resource value: 0x7F03029D
-			public const int motionDurationMedium1 = 2130903709;
+			public const int mock_showDiagonals = 2130903709;
 			
 			// aapt resource value: 0x7F03029E
-			public const int motionDurationMedium2 = 2130903710;
+			public const int mock_showLabel = 2130903710;
 			
 			// aapt resource value: 0x7F03029F
-			public const int motionDurationShort1 = 2130903711;
+			public const int motionDebug = 2130903711;
 			
 			// aapt resource value: 0x7F0302A0
-			public const int motionDurationShort2 = 2130903712;
+			public const int motionDurationLong1 = 2130903712;
 			
 			// aapt resource value: 0x7F0302A1
-			public const int motionEasingAccelerated = 2130903713;
+			public const int motionDurationLong2 = 2130903713;
 			
 			// aapt resource value: 0x7F0302A2
-			public const int motionEasingDecelerated = 2130903714;
+			public const int motionDurationMedium1 = 2130903714;
 			
 			// aapt resource value: 0x7F0302A3
-			public const int motionEasingEmphasized = 2130903715;
+			public const int motionDurationMedium2 = 2130903715;
 			
 			// aapt resource value: 0x7F0302A4
-			public const int motionEasingLinear = 2130903716;
+			public const int motionDurationShort1 = 2130903716;
 			
 			// aapt resource value: 0x7F0302A5
-			public const int motionEasingStandard = 2130903717;
+			public const int motionDurationShort2 = 2130903717;
 			
 			// aapt resource value: 0x7F0302A6
-			public const int motionEffect_alpha = 2130903718;
+			public const int motionEasingAccelerated = 2130903718;
 			
 			// aapt resource value: 0x7F0302A7
-			public const int motionEffect_end = 2130903719;
+			public const int motionEasingDecelerated = 2130903719;
 			
 			// aapt resource value: 0x7F0302A8
-			public const int motionEffect_move = 2130903720;
+			public const int motionEasingEmphasized = 2130903720;
 			
 			// aapt resource value: 0x7F0302A9
-			public const int motionEffect_start = 2130903721;
+			public const int motionEasingLinear = 2130903721;
 			
 			// aapt resource value: 0x7F0302AA
-			public const int motionEffect_strict = 2130903722;
+			public const int motionEasingStandard = 2130903722;
 			
 			// aapt resource value: 0x7F0302AB
-			public const int motionEffect_translationX = 2130903723;
+			public const int motionEffect_alpha = 2130903723;
 			
 			// aapt resource value: 0x7F0302AC
-			public const int motionEffect_translationY = 2130903724;
+			public const int motionEffect_end = 2130903724;
 			
 			// aapt resource value: 0x7F0302AD
-			public const int motionEffect_viewTransition = 2130903725;
+			public const int motionEffect_move = 2130903725;
 			
 			// aapt resource value: 0x7F0302AE
-			public const int motionInterpolator = 2130903726;
+			public const int motionEffect_start = 2130903726;
 			
 			// aapt resource value: 0x7F0302AF
-			public const int motionPath = 2130903727;
+			public const int motionEffect_strict = 2130903727;
 			
 			// aapt resource value: 0x7F0302B0
-			public const int motionPathRotate = 2130903728;
+			public const int motionEffect_translationX = 2130903728;
 			
 			// aapt resource value: 0x7F0302B1
-			public const int motionProgress = 2130903729;
+			public const int motionEffect_translationY = 2130903729;
 			
 			// aapt resource value: 0x7F0302B2
-			public const int motionStagger = 2130903730;
+			public const int motionEffect_viewTransition = 2130903730;
 			
 			// aapt resource value: 0x7F0302B3
-			public const int motionTarget = 2130903731;
+			public const int motionInterpolator = 2130903731;
 			
 			// aapt resource value: 0x7F0302B4
-			public const int motion_postLayoutCollision = 2130903732;
+			public const int motionPath = 2130903732;
 			
 			// aapt resource value: 0x7F0302B5
-			public const int motion_triggerOnCollision = 2130903733;
+			public const int motionPathRotate = 2130903733;
 			
 			// aapt resource value: 0x7F0302B6
-			public const int moveWhenScrollAtTop = 2130903734;
+			public const int motionProgress = 2130903734;
 			
 			// aapt resource value: 0x7F0302B7
-			public const int multiChoiceItemLayout = 2130903735;
+			public const int motionStagger = 2130903735;
 			
 			// aapt resource value: 0x7F0302B8
-			public const int navGraph = 2130903736;
+			public const int motionTarget = 2130903736;
 			
 			// aapt resource value: 0x7F0302B9
-			public const int navigationContentDescription = 2130903737;
+			public const int motion_postLayoutCollision = 2130903737;
 			
 			// aapt resource value: 0x7F0302BA
-			public const int navigationIcon = 2130903738;
+			public const int motion_triggerOnCollision = 2130903738;
 			
 			// aapt resource value: 0x7F0302BB
-			public const int navigationIconTint = 2130903739;
+			public const int moveWhenScrollAtTop = 2130903739;
 			
 			// aapt resource value: 0x7F0302BC
-			public const int navigationMode = 2130903740;
+			public const int multiChoiceItemLayout = 2130903740;
 			
 			// aapt resource value: 0x7F0302BD
-			public const int navigationRailStyle = 2130903741;
+			public const int navGraph = 2130903741;
 			
 			// aapt resource value: 0x7F0302BE
-			public const int navigationViewStyle = 2130903742;
+			public const int navigationContentDescription = 2130903742;
 			
 			// aapt resource value: 0x7F0302BF
-			public const int negativeButtonText = 2130903743;
-			
-			// aapt resource value: 0x7F0302C2
-			public const int nestedScrollable = 2130903746;
+			public const int navigationIcon = 2130903743;
 			
 			// aapt resource value: 0x7F0302C0
-			public const int nestedScrollFlags = 2130903744;
+			public const int navigationIconTint = 2130903744;
 			
 			// aapt resource value: 0x7F0302C1
-			public const int nestedScrollViewStyle = 2130903745;
+			public const int navigationMode = 2130903745;
+			
+			// aapt resource value: 0x7F0302C2
+			public const int navigationRailStyle = 2130903746;
 			
 			// aapt resource value: 0x7F0302C3
-			public const int nullable = 2130903747;
+			public const int navigationViewStyle = 2130903747;
 			
 			// aapt resource value: 0x7F0302C4
-			public const int number = 2130903748;
-			
-			// aapt resource value: 0x7F0302C5
-			public const int numericModifiers = 2130903749;
-			
-			// aapt resource value: 0x7F0302C6
-			public const int onCross = 2130903750;
+			public const int negativeButtonText = 2130903748;
 			
 			// aapt resource value: 0x7F0302C7
-			public const int onHide = 2130903751;
+			public const int nestedScrollable = 2130903751;
+			
+			// aapt resource value: 0x7F0302C5
+			public const int nestedScrollFlags = 2130903749;
+			
+			// aapt resource value: 0x7F0302C6
+			public const int nestedScrollViewStyle = 2130903750;
 			
 			// aapt resource value: 0x7F0302C8
-			public const int onNegativeCross = 2130903752;
+			public const int nullable = 2130903752;
 			
 			// aapt resource value: 0x7F0302C9
-			public const int onPositiveCross = 2130903753;
+			public const int number = 2130903753;
 			
 			// aapt resource value: 0x7F0302CA
-			public const int onShow = 2130903754;
+			public const int numericModifiers = 2130903754;
 			
 			// aapt resource value: 0x7F0302CB
-			public const int onStateTransition = 2130903755;
+			public const int onCross = 2130903755;
 			
 			// aapt resource value: 0x7F0302CC
-			public const int onTouchUp = 2130903756;
+			public const int onHide = 2130903756;
 			
 			// aapt resource value: 0x7F0302CD
-			public const int order = 2130903757;
+			public const int onNegativeCross = 2130903757;
 			
 			// aapt resource value: 0x7F0302CE
-			public const int orderingFromXml = 2130903758;
+			public const int onPositiveCross = 2130903758;
 			
 			// aapt resource value: 0x7F0302CF
-			public const int overlapAnchor = 2130903759;
+			public const int onShow = 2130903759;
 			
 			// aapt resource value: 0x7F0302D0
-			public const int overlay = 2130903760;
+			public const int onStateTransition = 2130903760;
 			
 			// aapt resource value: 0x7F0302D1
-			public const int paddingBottomNoButtons = 2130903761;
+			public const int onTouchUp = 2130903761;
 			
 			// aapt resource value: 0x7F0302D2
-			public const int paddingBottomSystemWindowInsets = 2130903762;
+			public const int order = 2130903762;
 			
 			// aapt resource value: 0x7F0302D3
-			public const int paddingEnd = 2130903763;
+			public const int orderingFromXml = 2130903763;
 			
 			// aapt resource value: 0x7F0302D4
-			public const int paddingLeftSystemWindowInsets = 2130903764;
+			public const int overlapAnchor = 2130903764;
 			
 			// aapt resource value: 0x7F0302D5
-			public const int paddingRightSystemWindowInsets = 2130903765;
+			public const int overlay = 2130903765;
 			
 			// aapt resource value: 0x7F0302D6
-			public const int paddingStart = 2130903766;
+			public const int paddingBottomNoButtons = 2130903766;
 			
 			// aapt resource value: 0x7F0302D7
-			public const int paddingTopNoTitle = 2130903767;
+			public const int paddingBottomSystemWindowInsets = 2130903767;
 			
 			// aapt resource value: 0x7F0302D8
-			public const int paddingTopSystemWindowInsets = 2130903768;
+			public const int paddingEnd = 2130903768;
 			
 			// aapt resource value: 0x7F0302D9
-			public const int panelBackground = 2130903769;
+			public const int paddingLeftSystemWindowInsets = 2130903769;
 			
 			// aapt resource value: 0x7F0302DA
-			public const int panelMenuListTheme = 2130903770;
+			public const int paddingRightSystemWindowInsets = 2130903770;
 			
 			// aapt resource value: 0x7F0302DB
-			public const int panelMenuListWidth = 2130903771;
+			public const int paddingStart = 2130903771;
 			
 			// aapt resource value: 0x7F0302DC
-			public const int passwordToggleContentDescription = 2130903772;
+			public const int paddingTopNoTitle = 2130903772;
 			
 			// aapt resource value: 0x7F0302DD
-			public const int passwordToggleDrawable = 2130903773;
+			public const int paddingTopSystemWindowInsets = 2130903773;
 			
 			// aapt resource value: 0x7F0302DE
-			public const int passwordToggleEnabled = 2130903774;
+			public const int panelBackground = 2130903774;
 			
 			// aapt resource value: 0x7F0302DF
-			public const int passwordToggleTint = 2130903775;
+			public const int panelMenuListTheme = 2130903775;
 			
 			// aapt resource value: 0x7F0302E0
-			public const int passwordToggleTintMode = 2130903776;
+			public const int panelMenuListWidth = 2130903776;
 			
 			// aapt resource value: 0x7F0302E1
-			public const int pathMotionArc = 2130903777;
+			public const int passwordToggleContentDescription = 2130903777;
 			
 			// aapt resource value: 0x7F0302E2
-			public const int path_percent = 2130903778;
+			public const int passwordToggleDrawable = 2130903778;
 			
 			// aapt resource value: 0x7F0302E3
-			public const int percentHeight = 2130903779;
+			public const int passwordToggleEnabled = 2130903779;
 			
 			// aapt resource value: 0x7F0302E4
-			public const int percentWidth = 2130903780;
+			public const int passwordToggleTint = 2130903780;
 			
 			// aapt resource value: 0x7F0302E5
-			public const int percentX = 2130903781;
+			public const int passwordToggleTintMode = 2130903781;
 			
 			// aapt resource value: 0x7F0302E6
-			public const int percentY = 2130903782;
+			public const int pathMotionArc = 2130903782;
 			
 			// aapt resource value: 0x7F0302E7
-			public const int perpendicularPath_percent = 2130903783;
+			public const int path_percent = 2130903783;
 			
 			// aapt resource value: 0x7F0302E8
-			public const int persistent = 2130903784;
+			public const int percentHeight = 2130903784;
 			
 			// aapt resource value: 0x7F0302E9
-			public const int pivotAnchor = 2130903785;
+			public const int percentWidth = 2130903785;
 			
 			// aapt resource value: 0x7F0302EA
-			public const int placeholderText = 2130903786;
+			public const int percentX = 2130903786;
 			
 			// aapt resource value: 0x7F0302EB
-			public const int placeholderTextAppearance = 2130903787;
+			public const int percentY = 2130903787;
 			
 			// aapt resource value: 0x7F0302EC
-			public const int placeholderTextColor = 2130903788;
+			public const int perpendicularPath_percent = 2130903788;
 			
 			// aapt resource value: 0x7F0302ED
-			public const int placeholder_emptyVisibility = 2130903789;
+			public const int persistent = 2130903789;
 			
 			// aapt resource value: 0x7F0302EE
-			public const int polarRelativeTo = 2130903790;
+			public const int pivotAnchor = 2130903790;
 			
 			// aapt resource value: 0x7F0302EF
-			public const int popEnterAnim = 2130903791;
+			public const int placeholderText = 2130903791;
 			
 			// aapt resource value: 0x7F0302F0
-			public const int popExitAnim = 2130903792;
-			
-			// aapt resource value: 0x7F0302F3
-			public const int popupMenuBackground = 2130903795;
-			
-			// aapt resource value: 0x7F0302F4
-			public const int popupMenuStyle = 2130903796;
-			
-			// aapt resource value: 0x7F0302F5
-			public const int popupTheme = 2130903797;
+			public const int placeholderTextAppearance = 2130903792;
 			
 			// aapt resource value: 0x7F0302F1
-			public const int popUpTo = 2130903793;
+			public const int placeholderTextColor = 2130903793;
 			
 			// aapt resource value: 0x7F0302F2
-			public const int popUpToInclusive = 2130903794;
+			public const int placeholder_emptyVisibility = 2130903794;
 			
-			// aapt resource value: 0x7F0302F6
-			public const int popupWindowStyle = 2130903798;
+			// aapt resource value: 0x7F0302F3
+			public const int polarRelativeTo = 2130903795;
 			
-			// aapt resource value: 0x7F0302F7
-			public const int positiveButtonText = 2130903799;
+			// aapt resource value: 0x7F0302F4
+			public const int popEnterAnim = 2130903796;
+			
+			// aapt resource value: 0x7F0302F5
+			public const int popExitAnim = 2130903797;
 			
 			// aapt resource value: 0x7F0302F8
-			public const int preferenceCategoryStyle = 2130903800;
+			public const int popupMenuBackground = 2130903800;
 			
 			// aapt resource value: 0x7F0302F9
-			public const int preferenceCategoryTitleTextAppearance = 2130903801;
+			public const int popupMenuStyle = 2130903801;
 			
 			// aapt resource value: 0x7F0302FA
-			public const int preferenceFragmentCompatStyle = 2130903802;
+			public const int popupTheme = 2130903802;
+			
+			// aapt resource value: 0x7F0302F6
+			public const int popUpTo = 2130903798;
+			
+			// aapt resource value: 0x7F0302F7
+			public const int popUpToInclusive = 2130903799;
 			
 			// aapt resource value: 0x7F0302FB
-			public const int preferenceFragmentListStyle = 2130903803;
+			public const int popupWindowStyle = 2130903803;
 			
 			// aapt resource value: 0x7F0302FC
-			public const int preferenceFragmentStyle = 2130903804;
+			public const int positiveButtonText = 2130903804;
 			
 			// aapt resource value: 0x7F0302FD
-			public const int preferenceInformationStyle = 2130903805;
+			public const int preferenceCategoryStyle = 2130903805;
 			
 			// aapt resource value: 0x7F0302FE
-			public const int preferenceScreenStyle = 2130903806;
+			public const int preferenceCategoryTitleTextAppearance = 2130903806;
 			
 			// aapt resource value: 0x7F0302FF
-			public const int preferenceStyle = 2130903807;
+			public const int preferenceFragmentCompatStyle = 2130903807;
 			
 			// aapt resource value: 0x7F030300
-			public const int preferenceTheme = 2130903808;
+			public const int preferenceFragmentListStyle = 2130903808;
 			
 			// aapt resource value: 0x7F030301
-			public const int prefixText = 2130903809;
+			public const int preferenceFragmentStyle = 2130903809;
 			
 			// aapt resource value: 0x7F030302
-			public const int prefixTextAppearance = 2130903810;
+			public const int preferenceInformationStyle = 2130903810;
 			
 			// aapt resource value: 0x7F030303
-			public const int prefixTextColor = 2130903811;
+			public const int preferenceScreenStyle = 2130903811;
 			
 			// aapt resource value: 0x7F030304
-			public const int preserveIconSpacing = 2130903812;
+			public const int preferenceStyle = 2130903812;
 			
 			// aapt resource value: 0x7F030305
-			public const int pressedTranslationZ = 2130903813;
+			public const int preferenceTheme = 2130903813;
 			
 			// aapt resource value: 0x7F030306
-			public const int progressBarPadding = 2130903814;
+			public const int prefixText = 2130903814;
 			
 			// aapt resource value: 0x7F030307
-			public const int progressBarStyle = 2130903815;
+			public const int prefixTextAppearance = 2130903815;
 			
 			// aapt resource value: 0x7F030308
-			public const int quantizeMotionInterpolator = 2130903816;
+			public const int prefixTextColor = 2130903816;
 			
 			// aapt resource value: 0x7F030309
-			public const int quantizeMotionPhase = 2130903817;
+			public const int preserveIconSpacing = 2130903817;
 			
 			// aapt resource value: 0x7F03030A
-			public const int quantizeMotionSteps = 2130903818;
+			public const int pressedTranslationZ = 2130903818;
 			
 			// aapt resource value: 0x7F03030B
-			public const int queryBackground = 2130903819;
+			public const int progressBarPadding = 2130903819;
 			
 			// aapt resource value: 0x7F03030C
-			public const int queryHint = 2130903820;
+			public const int progressBarStyle = 2130903820;
 			
 			// aapt resource value: 0x7F03030D
-			public const int queryPatterns = 2130903821;
+			public const int quantizeMotionInterpolator = 2130903821;
 			
 			// aapt resource value: 0x7F03030E
-			public const int radioButtonStyle = 2130903822;
+			public const int quantizeMotionPhase = 2130903822;
 			
 			// aapt resource value: 0x7F03030F
-			public const int rangeFillColor = 2130903823;
+			public const int quantizeMotionSteps = 2130903823;
 			
 			// aapt resource value: 0x7F030310
-			public const int ratingBarStyle = 2130903824;
+			public const int queryBackground = 2130903824;
 			
 			// aapt resource value: 0x7F030311
-			public const int ratingBarStyleIndicator = 2130903825;
+			public const int queryHint = 2130903825;
 			
 			// aapt resource value: 0x7F030312
-			public const int ratingBarStyleSmall = 2130903826;
+			public const int queryPatterns = 2130903826;
 			
 			// aapt resource value: 0x7F030313
-			public const int reactiveGuide_animateChange = 2130903827;
+			public const int radioButtonStyle = 2130903827;
 			
 			// aapt resource value: 0x7F030314
-			public const int reactiveGuide_applyToAllConstraintSets = 2130903828;
+			public const int rangeFillColor = 2130903828;
 			
 			// aapt resource value: 0x7F030315
-			public const int reactiveGuide_applyToConstraintSet = 2130903829;
+			public const int ratingBarStyle = 2130903829;
 			
 			// aapt resource value: 0x7F030316
-			public const int reactiveGuide_valueId = 2130903830;
+			public const int ratingBarStyleIndicator = 2130903830;
 			
 			// aapt resource value: 0x7F030317
-			public const int recyclerViewStyle = 2130903831;
+			public const int ratingBarStyleSmall = 2130903831;
 			
 			// aapt resource value: 0x7F030318
-			public const int region_heightLessThan = 2130903832;
+			public const int reactiveGuide_animateChange = 2130903832;
 			
 			// aapt resource value: 0x7F030319
-			public const int region_heightMoreThan = 2130903833;
+			public const int reactiveGuide_applyToAllConstraintSets = 2130903833;
 			
 			// aapt resource value: 0x7F03031A
-			public const int region_widthLessThan = 2130903834;
+			public const int reactiveGuide_applyToConstraintSet = 2130903834;
 			
 			// aapt resource value: 0x7F03031B
-			public const int region_widthMoreThan = 2130903835;
+			public const int reactiveGuide_valueId = 2130903835;
 			
 			// aapt resource value: 0x7F03031C
-			public const int reverseLayout = 2130903836;
+			public const int recyclerViewStyle = 2130903836;
 			
 			// aapt resource value: 0x7F03031D
-			public const int rippleColor = 2130903837;
+			public const int region_heightLessThan = 2130903837;
 			
 			// aapt resource value: 0x7F03031E
-			public const int rotationCenterId = 2130903838;
+			public const int region_heightMoreThan = 2130903838;
 			
 			// aapt resource value: 0x7F03031F
-			public const int round = 2130903839;
+			public const int region_widthLessThan = 2130903839;
 			
 			// aapt resource value: 0x7F030320
-			public const int roundPercent = 2130903840;
+			public const int region_widthMoreThan = 2130903840;
 			
 			// aapt resource value: 0x7F030321
-			public const int saturation = 2130903841;
+			public const int reverseLayout = 2130903841;
 			
 			// aapt resource value: 0x7F030322
-			public const int scaleFromTextSize = 2130903842;
+			public const int rippleColor = 2130903842;
 			
 			// aapt resource value: 0x7F030323
-			public const int scrimAnimationDuration = 2130903843;
+			public const int rotationCenterId = 2130903843;
 			
 			// aapt resource value: 0x7F030324
-			public const int scrimBackground = 2130903844;
+			public const int round = 2130903844;
 			
 			// aapt resource value: 0x7F030325
-			public const int scrimVisibleHeightTrigger = 2130903845;
+			public const int roundPercent = 2130903845;
 			
 			// aapt resource value: 0x7F030326
-			public const int scrollViewStyle = 2130903846;
+			public const int saturation = 2130903846;
 			
 			// aapt resource value: 0x7F030327
-			public const int searchHintIcon = 2130903847;
+			public const int scaleFromTextSize = 2130903847;
 			
 			// aapt resource value: 0x7F030328
-			public const int searchIcon = 2130903848;
+			public const int scrimAnimationDuration = 2130903848;
 			
 			// aapt resource value: 0x7F030329
-			public const int searchViewStyle = 2130903849;
+			public const int scrimBackground = 2130903849;
 			
 			// aapt resource value: 0x7F03032A
-			public const int seekBarIncrement = 2130903850;
+			public const int scrimVisibleHeightTrigger = 2130903850;
 			
 			// aapt resource value: 0x7F03032B
-			public const int seekBarPreferenceStyle = 2130903851;
+			public const int scrollViewStyle = 2130903851;
 			
 			// aapt resource value: 0x7F03032C
-			public const int seekBarStyle = 2130903852;
+			public const int searchHintIcon = 2130903852;
 			
 			// aapt resource value: 0x7F03032D
-			public const int selectable = 2130903853;
+			public const int searchIcon = 2130903853;
 			
 			// aapt resource value: 0x7F03032E
-			public const int selectableItemBackground = 2130903854;
+			public const int searchViewStyle = 2130903854;
 			
 			// aapt resource value: 0x7F03032F
-			public const int selectableItemBackgroundBorderless = 2130903855;
+			public const int seekBarIncrement = 2130903855;
 			
 			// aapt resource value: 0x7F030330
-			public const int selectionRequired = 2130903856;
+			public const int seekBarPreferenceStyle = 2130903856;
 			
 			// aapt resource value: 0x7F030331
-			public const int selectorSize = 2130903857;
+			public const int seekBarStyle = 2130903857;
 			
 			// aapt resource value: 0x7F030332
-			public const int setsTag = 2130903858;
+			public const int selectable = 2130903858;
 			
 			// aapt resource value: 0x7F030333
-			public const int shapeAppearance = 2130903859;
+			public const int selectableItemBackground = 2130903859;
 			
 			// aapt resource value: 0x7F030334
-			public const int shapeAppearanceLargeComponent = 2130903860;
+			public const int selectableItemBackgroundBorderless = 2130903860;
 			
 			// aapt resource value: 0x7F030335
-			public const int shapeAppearanceMediumComponent = 2130903861;
+			public const int selectionRequired = 2130903861;
 			
 			// aapt resource value: 0x7F030336
-			public const int shapeAppearanceOverlay = 2130903862;
+			public const int selectorSize = 2130903862;
 			
 			// aapt resource value: 0x7F030337
-			public const int shapeAppearanceSmallComponent = 2130903863;
+			public const int setsTag = 2130903863;
+			
+			// aapt resource value: 0x7F030338
+			public const int shapeAppearance = 2130903864;
+			
+			// aapt resource value: 0x7F030339
+			public const int shapeAppearanceLargeComponent = 2130903865;
+			
+			// aapt resource value: 0x7F03033A
+			public const int shapeAppearanceMediumComponent = 2130903866;
+			
+			// aapt resource value: 0x7F03033B
+			public const int shapeAppearanceOverlay = 2130903867;
+			
+			// aapt resource value: 0x7F03033C
+			public const int shapeAppearanceSmallComponent = 2130903868;
 			
 			// aapt resource value: 0x7F030001
 			public const int SharedValue = 2130903041;
@@ -15986,749 +18467,749 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0x7F030002
 			public const int SharedValueId = 2130903042;
 			
-			// aapt resource value: 0x7F030338
-			public const int shortcutMatchRequired = 2130903864;
-			
-			// aapt resource value: 0x7F030339
-			public const int shouldDisableView = 2130903865;
-			
-			// aapt resource value: 0x7F03033A
-			public const int showAnimationBehavior = 2130903866;
-			
-			// aapt resource value: 0x7F03033B
-			public const int showAsAction = 2130903867;
-			
-			// aapt resource value: 0x7F03033C
-			public const int showDelay = 2130903868;
-			
 			// aapt resource value: 0x7F03033D
-			public const int showDividers = 2130903869;
+			public const int shortcutMatchRequired = 2130903869;
 			
 			// aapt resource value: 0x7F03033E
-			public const int showMotionSpec = 2130903870;
+			public const int shouldDisableView = 2130903870;
 			
 			// aapt resource value: 0x7F03033F
-			public const int showPaths = 2130903871;
+			public const int showAnimationBehavior = 2130903871;
 			
 			// aapt resource value: 0x7F030340
-			public const int showSeekBarValue = 2130903872;
+			public const int showAsAction = 2130903872;
 			
 			// aapt resource value: 0x7F030341
-			public const int showText = 2130903873;
+			public const int showDelay = 2130903873;
 			
 			// aapt resource value: 0x7F030342
-			public const int showTitle = 2130903874;
+			public const int showDividers = 2130903874;
 			
 			// aapt resource value: 0x7F030343
-			public const int shrinkMotionSpec = 2130903875;
+			public const int showMotionSpec = 2130903875;
 			
 			// aapt resource value: 0x7F030344
-			public const int singleChoiceItemLayout = 2130903876;
+			public const int showPaths = 2130903876;
 			
 			// aapt resource value: 0x7F030345
-			public const int singleLine = 2130903877;
+			public const int showSeekBarValue = 2130903877;
 			
 			// aapt resource value: 0x7F030346
-			public const int singleLineTitle = 2130903878;
+			public const int showText = 2130903878;
 			
 			// aapt resource value: 0x7F030347
-			public const int singleSelection = 2130903879;
+			public const int showTitle = 2130903879;
 			
 			// aapt resource value: 0x7F030348
-			public const int sizePercent = 2130903880;
+			public const int shrinkMotionSpec = 2130903880;
 			
 			// aapt resource value: 0x7F030349
-			public const int sliderStyle = 2130903881;
+			public const int singleChoiceItemLayout = 2130903881;
 			
 			// aapt resource value: 0x7F03034A
-			public const int snackbarButtonStyle = 2130903882;
+			public const int singleLine = 2130903882;
 			
 			// aapt resource value: 0x7F03034B
-			public const int snackbarStyle = 2130903883;
+			public const int singleLineTitle = 2130903883;
 			
 			// aapt resource value: 0x7F03034C
-			public const int snackbarTextViewStyle = 2130903884;
+			public const int singleSelection = 2130903884;
 			
 			// aapt resource value: 0x7F03034D
-			public const int spanCount = 2130903885;
+			public const int sizePercent = 2130903885;
 			
 			// aapt resource value: 0x7F03034E
-			public const int spinBars = 2130903886;
+			public const int sliderStyle = 2130903886;
 			
 			// aapt resource value: 0x7F03034F
-			public const int spinnerDropDownItemStyle = 2130903887;
+			public const int snackbarButtonStyle = 2130903887;
 			
 			// aapt resource value: 0x7F030350
-			public const int spinnerStyle = 2130903888;
+			public const int snackbarStyle = 2130903888;
 			
 			// aapt resource value: 0x7F030351
-			public const int splitTrack = 2130903889;
+			public const int snackbarTextViewStyle = 2130903889;
 			
 			// aapt resource value: 0x7F030352
-			public const int springBoundary = 2130903890;
+			public const int spanCount = 2130903890;
 			
 			// aapt resource value: 0x7F030353
-			public const int springDamping = 2130903891;
+			public const int spinBars = 2130903891;
 			
 			// aapt resource value: 0x7F030354
-			public const int springMass = 2130903892;
+			public const int spinnerDropDownItemStyle = 2130903892;
 			
 			// aapt resource value: 0x7F030355
-			public const int springStiffness = 2130903893;
+			public const int spinnerStyle = 2130903893;
 			
 			// aapt resource value: 0x7F030356
-			public const int springStopThreshold = 2130903894;
+			public const int splitTrack = 2130903894;
 			
 			// aapt resource value: 0x7F030357
-			public const int srcCompat = 2130903895;
+			public const int springBoundary = 2130903895;
 			
 			// aapt resource value: 0x7F030358
-			public const int stackFromEnd = 2130903896;
+			public const int springDamping = 2130903896;
 			
 			// aapt resource value: 0x7F030359
-			public const int staggered = 2130903897;
+			public const int springMass = 2130903897;
 			
 			// aapt resource value: 0x7F03035A
-			public const int startDestination = 2130903898;
+			public const int springStiffness = 2130903898;
 			
 			// aapt resource value: 0x7F03035B
-			public const int startIconCheckable = 2130903899;
+			public const int springStopThreshold = 2130903899;
 			
 			// aapt resource value: 0x7F03035C
-			public const int startIconContentDescription = 2130903900;
+			public const int srcCompat = 2130903900;
 			
 			// aapt resource value: 0x7F03035D
-			public const int startIconDrawable = 2130903901;
+			public const int stackFromEnd = 2130903901;
 			
 			// aapt resource value: 0x7F03035E
-			public const int startIconTint = 2130903902;
+			public const int staggered = 2130903902;
 			
 			// aapt resource value: 0x7F03035F
-			public const int startIconTintMode = 2130903903;
+			public const int startDestination = 2130903903;
 			
 			// aapt resource value: 0x7F030360
-			public const int state_above_anchor = 2130903904;
+			public const int startIconCheckable = 2130903904;
 			
 			// aapt resource value: 0x7F030361
-			public const int state_collapsed = 2130903905;
+			public const int startIconContentDescription = 2130903905;
 			
 			// aapt resource value: 0x7F030362
-			public const int state_collapsible = 2130903906;
+			public const int startIconDrawable = 2130903906;
 			
 			// aapt resource value: 0x7F030363
-			public const int state_dragged = 2130903907;
+			public const int startIconTint = 2130903907;
 			
 			// aapt resource value: 0x7F030364
-			public const int state_liftable = 2130903908;
+			public const int startIconTintMode = 2130903908;
 			
 			// aapt resource value: 0x7F030365
-			public const int state_lifted = 2130903909;
+			public const int state_above_anchor = 2130903909;
 			
 			// aapt resource value: 0x7F030366
-			public const int statusBarBackground = 2130903910;
+			public const int state_collapsed = 2130903910;
 			
 			// aapt resource value: 0x7F030367
-			public const int statusBarForeground = 2130903911;
+			public const int state_collapsible = 2130903911;
 			
 			// aapt resource value: 0x7F030368
-			public const int statusBarScrim = 2130903912;
+			public const int state_dragged = 2130903912;
 			
 			// aapt resource value: 0x7F030369
-			public const int strokeColor = 2130903913;
+			public const int state_liftable = 2130903913;
 			
 			// aapt resource value: 0x7F03036A
-			public const int strokeWidth = 2130903914;
+			public const int state_lifted = 2130903914;
 			
 			// aapt resource value: 0x7F03036B
-			public const int subMenuArrow = 2130903915;
+			public const int statusBarBackground = 2130903915;
 			
 			// aapt resource value: 0x7F03036C
-			public const int submitBackground = 2130903916;
+			public const int statusBarForeground = 2130903916;
 			
 			// aapt resource value: 0x7F03036D
-			public const int subtitle = 2130903917;
+			public const int statusBarScrim = 2130903917;
 			
 			// aapt resource value: 0x7F03036E
-			public const int subtitleCentered = 2130903918;
+			public const int strokeColor = 2130903918;
 			
 			// aapt resource value: 0x7F03036F
-			public const int subtitleTextAppearance = 2130903919;
+			public const int strokeWidth = 2130903919;
 			
 			// aapt resource value: 0x7F030370
-			public const int subtitleTextColor = 2130903920;
+			public const int subMenuArrow = 2130903920;
 			
 			// aapt resource value: 0x7F030371
-			public const int subtitleTextStyle = 2130903921;
+			public const int submitBackground = 2130903921;
 			
 			// aapt resource value: 0x7F030372
-			public const int suffixText = 2130903922;
+			public const int subtitle = 2130903922;
 			
 			// aapt resource value: 0x7F030373
-			public const int suffixTextAppearance = 2130903923;
+			public const int subtitleCentered = 2130903923;
 			
 			// aapt resource value: 0x7F030374
-			public const int suffixTextColor = 2130903924;
+			public const int subtitleTextAppearance = 2130903924;
 			
 			// aapt resource value: 0x7F030375
-			public const int suggestionRowLayout = 2130903925;
+			public const int subtitleTextColor = 2130903925;
 			
 			// aapt resource value: 0x7F030376
-			public const int summary = 2130903926;
+			public const int subtitleTextStyle = 2130903926;
 			
 			// aapt resource value: 0x7F030377
-			public const int summaryOff = 2130903927;
+			public const int suffixText = 2130903927;
 			
 			// aapt resource value: 0x7F030378
-			public const int summaryOn = 2130903928;
+			public const int suffixTextAppearance = 2130903928;
 			
 			// aapt resource value: 0x7F030379
-			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903929;
+			public const int suffixTextColor = 2130903929;
 			
 			// aapt resource value: 0x7F03037A
-			public const int switchMinWidth = 2130903930;
+			public const int suggestionRowLayout = 2130903930;
 			
 			// aapt resource value: 0x7F03037B
-			public const int switchPadding = 2130903931;
+			public const int summary = 2130903931;
 			
 			// aapt resource value: 0x7F03037C
-			public const int switchPreferenceCompatStyle = 2130903932;
+			public const int summaryOff = 2130903932;
 			
 			// aapt resource value: 0x7F03037D
-			public const int switchPreferenceStyle = 2130903933;
+			public const int summaryOn = 2130903933;
 			
 			// aapt resource value: 0x7F03037E
-			public const int switchStyle = 2130903934;
+			public const int swipeRefreshLayoutProgressSpinnerBackgroundColor = 2130903934;
 			
 			// aapt resource value: 0x7F03037F
-			public const int switchTextAppearance = 2130903935;
+			public const int switchMinWidth = 2130903935;
 			
 			// aapt resource value: 0x7F030380
-			public const int switchTextOff = 2130903936;
+			public const int switchPadding = 2130903936;
 			
 			// aapt resource value: 0x7F030381
-			public const int switchTextOn = 2130903937;
+			public const int switchPreferenceCompatStyle = 2130903937;
 			
 			// aapt resource value: 0x7F030382
-			public const int tabBackground = 2130903938;
+			public const int switchPreferenceStyle = 2130903938;
 			
 			// aapt resource value: 0x7F030383
-			public const int tabContentStart = 2130903939;
+			public const int switchStyle = 2130903939;
 			
 			// aapt resource value: 0x7F030384
-			public const int tabGravity = 2130903940;
+			public const int switchTextAppearance = 2130903940;
 			
 			// aapt resource value: 0x7F030385
-			public const int tabIconTint = 2130903941;
+			public const int switchTextOff = 2130903941;
 			
 			// aapt resource value: 0x7F030386
-			public const int tabIconTintMode = 2130903942;
+			public const int switchTextOn = 2130903942;
 			
 			// aapt resource value: 0x7F030387
-			public const int tabIndicator = 2130903943;
+			public const int tabBackground = 2130903943;
 			
 			// aapt resource value: 0x7F030388
-			public const int tabIndicatorAnimationDuration = 2130903944;
+			public const int tabContentStart = 2130903944;
 			
 			// aapt resource value: 0x7F030389
-			public const int tabIndicatorAnimationMode = 2130903945;
+			public const int tabGravity = 2130903945;
 			
 			// aapt resource value: 0x7F03038A
-			public const int tabIndicatorColor = 2130903946;
+			public const int tabIconTint = 2130903946;
 			
 			// aapt resource value: 0x7F03038B
-			public const int tabIndicatorFullWidth = 2130903947;
+			public const int tabIconTintMode = 2130903947;
 			
 			// aapt resource value: 0x7F03038C
-			public const int tabIndicatorGravity = 2130903948;
+			public const int tabIndicator = 2130903948;
 			
 			// aapt resource value: 0x7F03038D
-			public const int tabIndicatorHeight = 2130903949;
+			public const int tabIndicatorAnimationDuration = 2130903949;
 			
 			// aapt resource value: 0x7F03038E
-			public const int tabInlineLabel = 2130903950;
+			public const int tabIndicatorAnimationMode = 2130903950;
 			
 			// aapt resource value: 0x7F03038F
-			public const int tabMaxWidth = 2130903951;
+			public const int tabIndicatorColor = 2130903951;
 			
 			// aapt resource value: 0x7F030390
-			public const int tabMinWidth = 2130903952;
+			public const int tabIndicatorFullWidth = 2130903952;
 			
 			// aapt resource value: 0x7F030391
-			public const int tabMode = 2130903953;
+			public const int tabIndicatorGravity = 2130903953;
 			
 			// aapt resource value: 0x7F030392
-			public const int tabPadding = 2130903954;
+			public const int tabIndicatorHeight = 2130903954;
 			
 			// aapt resource value: 0x7F030393
-			public const int tabPaddingBottom = 2130903955;
+			public const int tabInlineLabel = 2130903955;
 			
 			// aapt resource value: 0x7F030394
-			public const int tabPaddingEnd = 2130903956;
+			public const int tabMaxWidth = 2130903956;
 			
 			// aapt resource value: 0x7F030395
-			public const int tabPaddingStart = 2130903957;
+			public const int tabMinWidth = 2130903957;
 			
 			// aapt resource value: 0x7F030396
-			public const int tabPaddingTop = 2130903958;
+			public const int tabMode = 2130903958;
 			
 			// aapt resource value: 0x7F030397
-			public const int tabRippleColor = 2130903959;
+			public const int tabPadding = 2130903959;
 			
 			// aapt resource value: 0x7F030398
-			public const int tabSelectedTextColor = 2130903960;
+			public const int tabPaddingBottom = 2130903960;
 			
 			// aapt resource value: 0x7F030399
-			public const int tabStyle = 2130903961;
+			public const int tabPaddingEnd = 2130903961;
 			
 			// aapt resource value: 0x7F03039A
-			public const int tabTextAppearance = 2130903962;
+			public const int tabPaddingStart = 2130903962;
 			
 			// aapt resource value: 0x7F03039B
-			public const int tabTextColor = 2130903963;
+			public const int tabPaddingTop = 2130903963;
 			
 			// aapt resource value: 0x7F03039C
-			public const int tabUnboundedRipple = 2130903964;
+			public const int tabRippleColor = 2130903964;
 			
 			// aapt resource value: 0x7F03039D
-			public const int targetId = 2130903965;
+			public const int tabSelectedTextColor = 2130903965;
 			
 			// aapt resource value: 0x7F03039E
-			public const int targetPackage = 2130903966;
+			public const int tabStyle = 2130903966;
 			
 			// aapt resource value: 0x7F03039F
-			public const int telltales_tailColor = 2130903967;
+			public const int tabTextAppearance = 2130903967;
 			
 			// aapt resource value: 0x7F0303A0
-			public const int telltales_tailScale = 2130903968;
+			public const int tabTextColor = 2130903968;
 			
 			// aapt resource value: 0x7F0303A1
-			public const int telltales_velocityMode = 2130903969;
+			public const int tabUnboundedRipple = 2130903969;
 			
 			// aapt resource value: 0x7F0303A2
-			public const int textAllCaps = 2130903970;
+			public const int targetId = 2130903970;
 			
 			// aapt resource value: 0x7F0303A3
-			public const int textAppearanceBody1 = 2130903971;
+			public const int targetPackage = 2130903971;
 			
 			// aapt resource value: 0x7F0303A4
-			public const int textAppearanceBody2 = 2130903972;
+			public const int telltales_tailColor = 2130903972;
 			
 			// aapt resource value: 0x7F0303A5
-			public const int textAppearanceButton = 2130903973;
+			public const int telltales_tailScale = 2130903973;
 			
 			// aapt resource value: 0x7F0303A6
-			public const int textAppearanceCaption = 2130903974;
+			public const int telltales_velocityMode = 2130903974;
 			
 			// aapt resource value: 0x7F0303A7
-			public const int textAppearanceHeadline1 = 2130903975;
+			public const int textAllCaps = 2130903975;
 			
 			// aapt resource value: 0x7F0303A8
-			public const int textAppearanceHeadline2 = 2130903976;
+			public const int textAppearanceBody1 = 2130903976;
 			
 			// aapt resource value: 0x7F0303A9
-			public const int textAppearanceHeadline3 = 2130903977;
+			public const int textAppearanceBody2 = 2130903977;
 			
 			// aapt resource value: 0x7F0303AA
-			public const int textAppearanceHeadline4 = 2130903978;
+			public const int textAppearanceButton = 2130903978;
 			
 			// aapt resource value: 0x7F0303AB
-			public const int textAppearanceHeadline5 = 2130903979;
+			public const int textAppearanceCaption = 2130903979;
 			
 			// aapt resource value: 0x7F0303AC
-			public const int textAppearanceHeadline6 = 2130903980;
+			public const int textAppearanceHeadline1 = 2130903980;
 			
 			// aapt resource value: 0x7F0303AD
-			public const int textAppearanceLargePopupMenu = 2130903981;
+			public const int textAppearanceHeadline2 = 2130903981;
 			
 			// aapt resource value: 0x7F0303AE
-			public const int textAppearanceLineHeightEnabled = 2130903982;
+			public const int textAppearanceHeadline3 = 2130903982;
 			
 			// aapt resource value: 0x7F0303AF
-			public const int textAppearanceListItem = 2130903983;
+			public const int textAppearanceHeadline4 = 2130903983;
 			
 			// aapt resource value: 0x7F0303B0
-			public const int textAppearanceListItemSecondary = 2130903984;
+			public const int textAppearanceHeadline5 = 2130903984;
 			
 			// aapt resource value: 0x7F0303B1
-			public const int textAppearanceListItemSmall = 2130903985;
+			public const int textAppearanceHeadline6 = 2130903985;
 			
 			// aapt resource value: 0x7F0303B2
-			public const int textAppearanceOverline = 2130903986;
+			public const int textAppearanceLargePopupMenu = 2130903986;
 			
 			// aapt resource value: 0x7F0303B3
-			public const int textAppearancePopupMenuHeader = 2130903987;
+			public const int textAppearanceLineHeightEnabled = 2130903987;
 			
 			// aapt resource value: 0x7F0303B4
-			public const int textAppearanceSearchResultSubtitle = 2130903988;
+			public const int textAppearanceListItem = 2130903988;
 			
 			// aapt resource value: 0x7F0303B5
-			public const int textAppearanceSearchResultTitle = 2130903989;
+			public const int textAppearanceListItemSecondary = 2130903989;
 			
 			// aapt resource value: 0x7F0303B6
-			public const int textAppearanceSmallPopupMenu = 2130903990;
+			public const int textAppearanceListItemSmall = 2130903990;
 			
 			// aapt resource value: 0x7F0303B7
-			public const int textAppearanceSubtitle1 = 2130903991;
+			public const int textAppearanceOverline = 2130903991;
 			
 			// aapt resource value: 0x7F0303B8
-			public const int textAppearanceSubtitle2 = 2130903992;
+			public const int textAppearancePopupMenuHeader = 2130903992;
 			
 			// aapt resource value: 0x7F0303B9
-			public const int textBackground = 2130903993;
+			public const int textAppearanceSearchResultSubtitle = 2130903993;
 			
 			// aapt resource value: 0x7F0303BA
-			public const int textBackgroundPanX = 2130903994;
+			public const int textAppearanceSearchResultTitle = 2130903994;
 			
 			// aapt resource value: 0x7F0303BB
-			public const int textBackgroundPanY = 2130903995;
+			public const int textAppearanceSmallPopupMenu = 2130903995;
 			
 			// aapt resource value: 0x7F0303BC
-			public const int textBackgroundRotate = 2130903996;
+			public const int textAppearanceSubtitle1 = 2130903996;
 			
 			// aapt resource value: 0x7F0303BD
-			public const int textBackgroundZoom = 2130903997;
+			public const int textAppearanceSubtitle2 = 2130903997;
 			
 			// aapt resource value: 0x7F0303BE
-			public const int textColorAlertDialogListItem = 2130903998;
+			public const int textBackground = 2130903998;
 			
 			// aapt resource value: 0x7F0303BF
-			public const int textColorSearchUrl = 2130903999;
+			public const int textBackgroundPanX = 2130903999;
 			
 			// aapt resource value: 0x7F0303C0
-			public const int textEndPadding = 2130904000;
+			public const int textBackgroundPanY = 2130904000;
 			
 			// aapt resource value: 0x7F0303C1
-			public const int textFillColor = 2130904001;
+			public const int textBackgroundRotate = 2130904001;
 			
 			// aapt resource value: 0x7F0303C2
-			public const int textInputLayoutFocusedRectEnabled = 2130904002;
+			public const int textBackgroundZoom = 2130904002;
 			
 			// aapt resource value: 0x7F0303C3
-			public const int textInputStyle = 2130904003;
+			public const int textColorAlertDialogListItem = 2130904003;
 			
 			// aapt resource value: 0x7F0303C4
-			public const int textLocale = 2130904004;
+			public const int textColorSearchUrl = 2130904004;
 			
 			// aapt resource value: 0x7F0303C5
-			public const int textOutlineColor = 2130904005;
+			public const int textEndPadding = 2130904005;
 			
 			// aapt resource value: 0x7F0303C6
-			public const int textOutlineThickness = 2130904006;
+			public const int textFillColor = 2130904006;
 			
 			// aapt resource value: 0x7F0303C7
-			public const int textPanX = 2130904007;
+			public const int textInputLayoutFocusedRectEnabled = 2130904007;
 			
 			// aapt resource value: 0x7F0303C8
-			public const int textPanY = 2130904008;
+			public const int textInputStyle = 2130904008;
 			
 			// aapt resource value: 0x7F0303C9
-			public const int textStartPadding = 2130904009;
+			public const int textLocale = 2130904009;
 			
 			// aapt resource value: 0x7F0303CA
-			public const int textureBlurFactor = 2130904010;
+			public const int textOutlineColor = 2130904010;
 			
 			// aapt resource value: 0x7F0303CB
-			public const int textureEffect = 2130904011;
+			public const int textOutlineThickness = 2130904011;
 			
 			// aapt resource value: 0x7F0303CC
-			public const int textureHeight = 2130904012;
+			public const int textPanX = 2130904012;
 			
 			// aapt resource value: 0x7F0303CD
-			public const int textureWidth = 2130904013;
+			public const int textPanY = 2130904013;
 			
 			// aapt resource value: 0x7F0303CE
-			public const int theme = 2130904014;
+			public const int textStartPadding = 2130904014;
 			
 			// aapt resource value: 0x7F0303CF
-			public const int themeLineHeight = 2130904015;
+			public const int textureBlurFactor = 2130904015;
 			
 			// aapt resource value: 0x7F0303D0
-			public const int thickness = 2130904016;
+			public const int textureEffect = 2130904016;
 			
 			// aapt resource value: 0x7F0303D1
-			public const int thumbColor = 2130904017;
+			public const int textureHeight = 2130904017;
 			
 			// aapt resource value: 0x7F0303D2
-			public const int thumbElevation = 2130904018;
+			public const int textureWidth = 2130904018;
 			
 			// aapt resource value: 0x7F0303D3
-			public const int thumbRadius = 2130904019;
+			public const int theme = 2130904019;
 			
 			// aapt resource value: 0x7F0303D4
-			public const int thumbStrokeColor = 2130904020;
+			public const int themeLineHeight = 2130904020;
 			
 			// aapt resource value: 0x7F0303D5
-			public const int thumbStrokeWidth = 2130904021;
+			public const int thickness = 2130904021;
 			
 			// aapt resource value: 0x7F0303D6
-			public const int thumbTextPadding = 2130904022;
+			public const int thumbColor = 2130904022;
 			
 			// aapt resource value: 0x7F0303D7
-			public const int thumbTint = 2130904023;
+			public const int thumbElevation = 2130904023;
 			
 			// aapt resource value: 0x7F0303D8
-			public const int thumbTintMode = 2130904024;
+			public const int thumbRadius = 2130904024;
 			
 			// aapt resource value: 0x7F0303D9
-			public const int tickColor = 2130904025;
+			public const int thumbStrokeColor = 2130904025;
 			
 			// aapt resource value: 0x7F0303DA
-			public const int tickColorActive = 2130904026;
+			public const int thumbStrokeWidth = 2130904026;
 			
 			// aapt resource value: 0x7F0303DB
-			public const int tickColorInactive = 2130904027;
+			public const int thumbTextPadding = 2130904027;
 			
 			// aapt resource value: 0x7F0303DC
-			public const int tickMark = 2130904028;
+			public const int thumbTint = 2130904028;
 			
 			// aapt resource value: 0x7F0303DD
-			public const int tickMarkTint = 2130904029;
+			public const int thumbTintMode = 2130904029;
 			
 			// aapt resource value: 0x7F0303DE
-			public const int tickMarkTintMode = 2130904030;
+			public const int tickColor = 2130904030;
 			
 			// aapt resource value: 0x7F0303DF
-			public const int tickVisible = 2130904031;
+			public const int tickColorActive = 2130904031;
 			
 			// aapt resource value: 0x7F0303E0
-			public const int tint = 2130904032;
+			public const int tickColorInactive = 2130904032;
 			
 			// aapt resource value: 0x7F0303E1
-			public const int tintMode = 2130904033;
+			public const int tickMark = 2130904033;
 			
 			// aapt resource value: 0x7F0303E2
-			public const int title = 2130904034;
+			public const int tickMarkTint = 2130904034;
 			
 			// aapt resource value: 0x7F0303E3
-			public const int titleCentered = 2130904035;
+			public const int tickMarkTintMode = 2130904035;
 			
 			// aapt resource value: 0x7F0303E4
-			public const int titleCollapseMode = 2130904036;
+			public const int tickVisible = 2130904036;
 			
 			// aapt resource value: 0x7F0303E5
-			public const int titleEnabled = 2130904037;
+			public const int tint = 2130904037;
 			
 			// aapt resource value: 0x7F0303E6
-			public const int titleMargin = 2130904038;
+			public const int tintMode = 2130904038;
 			
 			// aapt resource value: 0x7F0303E7
-			public const int titleMarginBottom = 2130904039;
+			public const int title = 2130904039;
 			
 			// aapt resource value: 0x7F0303E8
-			public const int titleMarginEnd = 2130904040;
-			
-			// aapt resource value: 0x7F0303EB
-			public const int titleMargins = 2130904043;
+			public const int titleCentered = 2130904040;
 			
 			// aapt resource value: 0x7F0303E9
-			public const int titleMarginStart = 2130904041;
+			public const int titleCollapseMode = 2130904041;
 			
 			// aapt resource value: 0x7F0303EA
-			public const int titleMarginTop = 2130904042;
+			public const int titleEnabled = 2130904042;
+			
+			// aapt resource value: 0x7F0303EB
+			public const int titleMargin = 2130904043;
 			
 			// aapt resource value: 0x7F0303EC
-			public const int titleTextAppearance = 2130904044;
+			public const int titleMarginBottom = 2130904044;
 			
 			// aapt resource value: 0x7F0303ED
-			public const int titleTextColor = 2130904045;
-			
-			// aapt resource value: 0x7F0303EE
-			public const int titleTextStyle = 2130904046;
-			
-			// aapt resource value: 0x7F0303EF
-			public const int toolbarId = 2130904047;
+			public const int titleMarginEnd = 2130904045;
 			
 			// aapt resource value: 0x7F0303F0
-			public const int toolbarNavigationButtonStyle = 2130904048;
+			public const int titleMargins = 2130904048;
+			
+			// aapt resource value: 0x7F0303EE
+			public const int titleMarginStart = 2130904046;
+			
+			// aapt resource value: 0x7F0303EF
+			public const int titleMarginTop = 2130904047;
 			
 			// aapt resource value: 0x7F0303F1
-			public const int toolbarStyle = 2130904049;
+			public const int titleTextAppearance = 2130904049;
 			
 			// aapt resource value: 0x7F0303F2
-			public const int tooltipForegroundColor = 2130904050;
+			public const int titleTextColor = 2130904050;
 			
 			// aapt resource value: 0x7F0303F3
-			public const int tooltipFrameBackground = 2130904051;
+			public const int titleTextStyle = 2130904051;
 			
 			// aapt resource value: 0x7F0303F4
-			public const int tooltipStyle = 2130904052;
+			public const int toolbarId = 2130904052;
 			
 			// aapt resource value: 0x7F0303F5
-			public const int tooltipText = 2130904053;
+			public const int toolbarNavigationButtonStyle = 2130904053;
 			
 			// aapt resource value: 0x7F0303F6
-			public const int touchAnchorId = 2130904054;
+			public const int toolbarStyle = 2130904054;
 			
 			// aapt resource value: 0x7F0303F7
-			public const int touchAnchorSide = 2130904055;
+			public const int tooltipForegroundColor = 2130904055;
 			
 			// aapt resource value: 0x7F0303F8
-			public const int touchRegionId = 2130904056;
+			public const int tooltipFrameBackground = 2130904056;
 			
 			// aapt resource value: 0x7F0303F9
-			public const int track = 2130904057;
+			public const int tooltipStyle = 2130904057;
 			
 			// aapt resource value: 0x7F0303FA
-			public const int trackColor = 2130904058;
+			public const int tooltipText = 2130904058;
 			
 			// aapt resource value: 0x7F0303FB
-			public const int trackColorActive = 2130904059;
+			public const int touchAnchorId = 2130904059;
 			
 			// aapt resource value: 0x7F0303FC
-			public const int trackColorInactive = 2130904060;
+			public const int touchAnchorSide = 2130904060;
 			
 			// aapt resource value: 0x7F0303FD
-			public const int trackCornerRadius = 2130904061;
+			public const int touchRegionId = 2130904061;
 			
 			// aapt resource value: 0x7F0303FE
-			public const int trackHeight = 2130904062;
+			public const int track = 2130904062;
 			
 			// aapt resource value: 0x7F0303FF
-			public const int trackThickness = 2130904063;
+			public const int trackColor = 2130904063;
 			
 			// aapt resource value: 0x7F030400
-			public const int trackTint = 2130904064;
+			public const int trackColorActive = 2130904064;
 			
 			// aapt resource value: 0x7F030401
-			public const int trackTintMode = 2130904065;
+			public const int trackColorInactive = 2130904065;
 			
 			// aapt resource value: 0x7F030402
-			public const int transformPivotTarget = 2130904066;
+			public const int trackCornerRadius = 2130904066;
 			
 			// aapt resource value: 0x7F030403
-			public const int transitionDisable = 2130904067;
+			public const int trackHeight = 2130904067;
 			
 			// aapt resource value: 0x7F030404
-			public const int transitionEasing = 2130904068;
+			public const int trackThickness = 2130904068;
 			
 			// aapt resource value: 0x7F030405
-			public const int transitionFlags = 2130904069;
+			public const int trackTint = 2130904069;
 			
 			// aapt resource value: 0x7F030406
-			public const int transitionPathRotate = 2130904070;
+			public const int trackTintMode = 2130904070;
 			
 			// aapt resource value: 0x7F030407
-			public const int transitionShapeAppearance = 2130904071;
+			public const int transformPivotTarget = 2130904071;
 			
 			// aapt resource value: 0x7F030408
-			public const int triggerId = 2130904072;
+			public const int transitionDisable = 2130904072;
 			
 			// aapt resource value: 0x7F030409
-			public const int triggerReceiver = 2130904073;
+			public const int transitionEasing = 2130904073;
 			
 			// aapt resource value: 0x7F03040A
-			public const int triggerSlack = 2130904074;
+			public const int transitionFlags = 2130904074;
 			
 			// aapt resource value: 0x7F03040B
-			public const int ttcIndex = 2130904075;
-			
-			// aapt resource value: 0x7F03040D
-			public const int updatesContinuously = 2130904077;
+			public const int transitionPathRotate = 2130904075;
 			
 			// aapt resource value: 0x7F03040C
-			public const int upDuration = 2130904076;
+			public const int transitionShapeAppearance = 2130904076;
+			
+			// aapt resource value: 0x7F03040D
+			public const int triggerId = 2130904077;
 			
 			// aapt resource value: 0x7F03040E
-			public const int uri = 2130904078;
+			public const int triggerReceiver = 2130904078;
 			
 			// aapt resource value: 0x7F03040F
-			public const int useCompatPadding = 2130904079;
+			public const int triggerSlack = 2130904079;
 			
 			// aapt resource value: 0x7F030410
-			public const int useMaterialThemeColors = 2130904080;
-			
-			// aapt resource value: 0x7F030411
-			public const int useSimpleSummaryProvider = 2130904081;
+			public const int ttcIndex = 2130904080;
 			
 			// aapt resource value: 0x7F030412
-			public const int values = 2130904082;
+			public const int updatesContinuously = 2130904082;
+			
+			// aapt resource value: 0x7F030411
+			public const int upDuration = 2130904081;
 			
 			// aapt resource value: 0x7F030413
-			public const int verticalOffset = 2130904083;
+			public const int uri = 2130904083;
 			
 			// aapt resource value: 0x7F030414
-			public const int viewInflaterClass = 2130904084;
+			public const int useCompatPadding = 2130904084;
 			
 			// aapt resource value: 0x7F030415
-			public const int viewTransitionMode = 2130904085;
+			public const int useMaterialThemeColors = 2130904085;
 			
 			// aapt resource value: 0x7F030416
-			public const int viewTransitionOnCross = 2130904086;
+			public const int useSimpleSummaryProvider = 2130904086;
 			
 			// aapt resource value: 0x7F030417
-			public const int viewTransitionOnNegativeCross = 2130904087;
+			public const int values = 2130904087;
 			
 			// aapt resource value: 0x7F030418
-			public const int viewTransitionOnPositiveCross = 2130904088;
+			public const int verticalOffset = 2130904088;
 			
 			// aapt resource value: 0x7F030419
-			public const int visibilityMode = 2130904089;
+			public const int viewInflaterClass = 2130904089;
 			
 			// aapt resource value: 0x7F03041A
-			public const int voiceIcon = 2130904090;
+			public const int viewTransitionMode = 2130904090;
 			
 			// aapt resource value: 0x7F03041B
-			public const int warmth = 2130904091;
+			public const int viewTransitionOnCross = 2130904091;
 			
 			// aapt resource value: 0x7F03041C
-			public const int waveDecay = 2130904092;
+			public const int viewTransitionOnNegativeCross = 2130904092;
 			
 			// aapt resource value: 0x7F03041D
-			public const int waveOffset = 2130904093;
+			public const int viewTransitionOnPositiveCross = 2130904093;
 			
 			// aapt resource value: 0x7F03041E
-			public const int wavePeriod = 2130904094;
+			public const int visibilityMode = 2130904094;
 			
 			// aapt resource value: 0x7F03041F
-			public const int wavePhase = 2130904095;
+			public const int voiceIcon = 2130904095;
 			
 			// aapt resource value: 0x7F030420
-			public const int waveShape = 2130904096;
+			public const int warmth = 2130904096;
 			
 			// aapt resource value: 0x7F030421
-			public const int waveVariesBy = 2130904097;
+			public const int waveDecay = 2130904097;
 			
 			// aapt resource value: 0x7F030422
-			public const int widgetLayout = 2130904098;
+			public const int waveOffset = 2130904098;
 			
 			// aapt resource value: 0x7F030423
-			public const int windowActionBar = 2130904099;
+			public const int wavePeriod = 2130904099;
 			
 			// aapt resource value: 0x7F030424
-			public const int windowActionBarOverlay = 2130904100;
+			public const int wavePhase = 2130904100;
 			
 			// aapt resource value: 0x7F030425
-			public const int windowActionModeOverlay = 2130904101;
+			public const int waveShape = 2130904101;
 			
 			// aapt resource value: 0x7F030426
-			public const int windowFixedHeightMajor = 2130904102;
+			public const int waveVariesBy = 2130904102;
 			
 			// aapt resource value: 0x7F030427
-			public const int windowFixedHeightMinor = 2130904103;
+			public const int widgetLayout = 2130904103;
 			
 			// aapt resource value: 0x7F030428
-			public const int windowFixedWidthMajor = 2130904104;
+			public const int windowActionBar = 2130904104;
 			
 			// aapt resource value: 0x7F030429
-			public const int windowFixedWidthMinor = 2130904105;
+			public const int windowActionBarOverlay = 2130904105;
 			
 			// aapt resource value: 0x7F03042A
-			public const int windowMinWidthMajor = 2130904106;
+			public const int windowActionModeOverlay = 2130904106;
 			
 			// aapt resource value: 0x7F03042B
-			public const int windowMinWidthMinor = 2130904107;
+			public const int windowFixedHeightMajor = 2130904107;
 			
 			// aapt resource value: 0x7F03042C
-			public const int windowNoTitle = 2130904108;
+			public const int windowFixedHeightMinor = 2130904108;
 			
 			// aapt resource value: 0x7F03042D
-			public const int yearSelectedStyle = 2130904109;
+			public const int windowFixedWidthMajor = 2130904109;
 			
 			// aapt resource value: 0x7F03042E
-			public const int yearStyle = 2130904110;
+			public const int windowFixedWidthMinor = 2130904110;
 			
 			// aapt resource value: 0x7F03042F
-			public const int yearTodayStyle = 2130904111;
+			public const int windowMinWidthMajor = 2130904111;
+			
+			// aapt resource value: 0x7F030430
+			public const int windowMinWidthMinor = 2130904112;
+			
+			// aapt resource value: 0x7F030431
+			public const int windowNoTitle = 2130904113;
+			
+			// aapt resource value: 0x7F030432
+			public const int yearSelectedStyle = 2130904114;
+			
+			// aapt resource value: 0x7F030433
+			public const int yearStyle = 2130904115;
+			
+			// aapt resource value: 0x7F030434
+			public const int yearTodayStyle = 2130904116;
 			
 			static Attribute()
 			{
@@ -19027,157 +21508,169 @@ namespace attendance_management_app.Droid
 			public const int design_snackbar_background = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int fondo_login = 2131165287;
+			public const int edit = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int grafico = 2131165288;
+			public const int fondo_login = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int Home = 2131165289;
+			public const int grafico = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int ic_arrow_down_24dp = 2131165290;
+			public const int Home = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_clock_black_24dp = 2131165291;
+			public const int ic_arrow_down_24dp = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_keyboard_black_24dp = 2131165292;
+			public const int ic_clock_black_24dp = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_mtrl_checked_circle = 2131165293;
+			public const int ic_keyboard_black_24dp = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_chip_checked_black = 2131165294;
+			public const int ic_mtrl_checked_circle = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_checked_circle = 2131165295;
+			public const int ic_mtrl_chip_checked_black = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_close_circle = 2131165296;
+			public const int ic_mtrl_chip_checked_circle = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int logo_alt = 2131165297;
+			public const int ic_mtrl_chip_close_circle = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int material_cursor_drawable = 2131165298;
+			public const int logo_act = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_ic_calendar_black_24dp = 2131165299;
+			public const int logo_act_rem = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_clear_black_24dp = 2131165300;
+			public const int logo_alt = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_edit_black_24dp = 2131165301;
+			public const int material_cursor_drawable = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165302;
+			public const int material_ic_calendar_black_24dp = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165303;
+			public const int material_ic_clear_black_24dp = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165304;
+			public const int material_ic_edit_black_24dp = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165305;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165306;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165307;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int mtrl_dialog_background = 2131165308;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int mtrl_dropdown_arrow = 2131165309;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_ic_arrow_drop_down = 2131165310;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_ic_arrow_drop_up = 2131165311;
+			public const int mtrl_dialog_background = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_cancel = 2131165312;
+			public const int mtrl_dropdown_arrow = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_error = 2131165313;
+			public const int mtrl_ic_arrow_drop_down = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_navigation_bar_item_background = 2131165314;
+			public const int mtrl_ic_arrow_drop_up = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_popupmenu_background = 2131165315;
+			public const int mtrl_ic_cancel = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_popupmenu_background_dark = 2131165316;
+			public const int mtrl_ic_error = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_tabs_default_indicator = 2131165317;
+			public const int mtrl_navigation_bar_item_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int navigation_empty_icon = 2131165318;
+			public const int mtrl_popupmenu_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int notification_action_background = 2131165319;
+			public const int mtrl_popupmenu_background_dark = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int notification_bg = 2131165320;
+			public const int mtrl_tabs_default_indicator = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_bg_low = 2131165321;
+			public const int navigation_empty_icon = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg_low_normal = 2131165322;
+			public const int notification_action_background = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_low_pressed = 2131165323;
+			public const int notification_bg = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_normal = 2131165324;
+			public const int notification_bg_low = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_bg_normal_pressed = 2131165325;
+			public const int notification_bg_low_normal = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_icon_background = 2131165326;
+			public const int notification_bg_low_pressed = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_template_icon_bg = 2131165327;
+			public const int notification_bg_normal = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_template_icon_low_bg = 2131165328;
+			public const int notification_bg_normal_pressed = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_tile_bg = 2131165329;
+			public const int notification_icon_background = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notify_panel_notification_icon_bg = 2131165330;
+			public const int notification_template_icon_bg = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int preference_list_divider_material = 2131165331;
+			public const int notification_template_icon_low_bg = 2131165331;
 			
 			// aapt resource value: 0x7F070094
-			public const int PresentationSplash = 2131165332;
+			public const int notification_tile_bg = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int test_custom_background = 2131165333;
+			public const int notify_panel_notification_icon_bg = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int tooltip_frame_dark = 2131165334;
+			public const int preference_list_divider_material = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int tooltip_frame_light = 2131165335;
+			public const int PresentationSplash = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int usuario = 2131165336;
+			public const int test_custom_background = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int warning = 2131165337;
+			public const int test_level_drawable = 2131165337;
+			
+			// aapt resource value: 0x7F07009A
+			public const int tooltip_frame_dark = 2131165338;
+			
+			// aapt resource value: 0x7F07009B
+			public const int tooltip_frame_light = 2131165339;
+			
+			// aapt resource value: 0x7F07009C
+			public const int usuario = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int warning = 2131165341;
 			
 			static Drawable()
 			{
@@ -20639,43 +23132,46 @@ namespace attendance_management_app.Droid
 			public const int view_tree_lifecycle_owner = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_saved_state_registry_owner = 2131231202;
+			public const int view_tree_on_back_pressed_dispatcher_owner = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_view_model_store_owner = 2131231203;
+			public const int view_tree_saved_state_registry_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int visible = 2131231204;
+			public const int view_tree_view_model_store_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible_removing_fragment_view_tag = 2131231205;
+			public const int visible = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int west = 2131231206;
-			
-			// aapt resource value: 0x7F0801E8
-			public const int withinBounds = 2131231208;
+			public const int visible_removing_fragment_view_tag = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int withText = 2131231207;
+			public const int west = 2131231207;
 			
 			// aapt resource value: 0x7F0801E9
-			public const int wrap = 2131231209;
+			public const int withinBounds = 2131231209;
+			
+			// aapt resource value: 0x7F0801E8
+			public const int withText = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap_content = 2131231210;
+			public const int wrap = 2131231210;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content_constrained = 2131231211;
+			public const int wrap_content = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int x_left = 2131231212;
+			public const int wrap_content_constrained = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_right = 2131231213;
+			public const int x_left = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int zero_corner_chip = 2131231214;
+			public const int x_right = 2131231214;
+			
+			// aapt resource value: 0x7F0801EF
+			public const int zero_corner_chip = 2131231215;
 			
 			static Id()
 			{
@@ -21419,280 +23915,283 @@ namespace attendance_management_app.Droid
 			public const int abc_toolbar_collapse_description = 2131623962;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int bottomsheet_action_expand_halfway = 2131623965;
+			public const int androidx_startup = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int appbar_scrolling_view_behavior = 2131623964;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_content_description = 2131623966;
+			public const int bottomsheet_action_expand_halfway = 2131623966;
+			
+			// aapt resource value: 0x7F0E001D
+			public const int bottom_sheet_behavior = 2131623965;
 			
 			// aapt resource value: 0x7F0E001F
-			public const int character_counter_overflowed_content_description = 2131623967;
+			public const int character_counter_content_description = 2131623967;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int character_counter_pattern = 2131623968;
+			public const int character_counter_overflowed_content_description = 2131623968;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int chip_text = 2131623969;
+			public const int character_counter_pattern = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int clear_text_end_icon_content_description = 2131623970;
+			public const int chip_text = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int copy = 2131623971;
+			public const int clear_text_end_icon_content_description = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int copy_toast_msg = 2131623972;
+			public const int copy = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int error_icon_content_description = 2131623973;
+			public const int copy_toast_msg = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int expand_button_title = 2131623974;
+			public const int error_icon_content_description = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int exposed_dropdown_menu_content_description = 2131623975;
+			public const int expand_button_title = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fab_transformation_scrim_behavior = 2131623976;
+			public const int exposed_dropdown_menu_content_description = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fab_transformation_sheet_behavior = 2131623977;
+			public const int fab_transformation_scrim_behavior = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int fallback_menu_item_copy_link = 2131623978;
+			public const int fab_transformation_sheet_behavior = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int fallback_menu_item_open_in_browser = 2131623979;
+			public const int fallback_menu_item_copy_link = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fallback_menu_item_share_link = 2131623980;
+			public const int fallback_menu_item_open_in_browser = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
+			public const int fallback_menu_item_share_link = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int icon_content_description = 2131623982;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int item_view_role_description = 2131623983;
+			public const int icon_content_description = 2131623983;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int library_name = 2131623984;
+			public const int item_view_role_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_display_divider = 2131623985;
+			public const int library_name = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_clock_toggle_content_description = 2131623986;
+			public const int material_clock_display_divider = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_selection = 2131623987;
+			public const int material_clock_toggle_content_description = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_hour_suffix = 2131623988;
+			public const int material_hour_selection = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_selection = 2131623989;
+			public const int material_hour_suffix = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_minute_suffix = 2131623990;
+			public const int material_minute_selection = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_accelerated = 2131623991;
+			public const int material_minute_suffix = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_decelerated = 2131623992;
+			public const int material_motion_easing_accelerated = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_emphasized = 2131623993;
+			public const int material_motion_easing_decelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_linear = 2131623994;
+			public const int material_motion_easing_emphasized = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_motion_easing_standard = 2131623995;
+			public const int material_motion_easing_linear = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_end = 2131623996;
+			public const int material_motion_easing_standard = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_slider_range_start = 2131623997;
+			public const int material_slider_range_end = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_am = 2131623998;
+			public const int material_slider_range_start = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_clock_mode_description = 2131623999;
+			public const int material_timepicker_am = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_hour = 2131624000;
+			public const int material_timepicker_clock_mode_description = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_minute = 2131624001;
+			public const int material_timepicker_hour = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_pm = 2131624002;
+			public const int material_timepicker_minute = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_select_time = 2131624003;
+			public const int material_timepicker_pm = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int material_timepicker_text_input_mode_description = 2131624004;
+			public const int material_timepicker_select_time = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_badge_numberless_content_description = 2131624005;
+			public const int material_timepicker_text_input_mode_description = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_chip_close_icon_content_description = 2131624006;
+			public const int mtrl_badge_numberless_content_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624007;
+			public const int mtrl_chip_close_icon_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624008;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_next_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_a11y_prev_month = 2131624010;
+			public const int mtrl_picker_a11y_next_month = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_announce_current_selection = 2131624011;
+			public const int mtrl_picker_a11y_prev_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_cancel = 2131624012;
+			public const int mtrl_picker_announce_current_selection = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_confirm = 2131624013;
+			public const int mtrl_picker_cancel = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_selected = 2131624014;
+			public const int mtrl_picker_confirm = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_title = 2131624015;
+			public const int mtrl_picker_date_header_selected = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_date_header_unselected = 2131624016;
+			public const int mtrl_picker_date_header_title = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_day_of_week_column_header = 2131624017;
+			public const int mtrl_picker_date_header_unselected = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format = 2131624018;
+			public const int mtrl_picker_day_of_week_column_header = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_example = 2131624019;
+			public const int mtrl_picker_invalid_format = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_format_use = 2131624020;
+			public const int mtrl_picker_invalid_format_example = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_invalid_range = 2131624021;
+			public const int mtrl_picker_invalid_format_use = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_navigate_to_year_description = 2131624022;
+			public const int mtrl_picker_invalid_range = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_out_of_range = 2131624023;
+			public const int mtrl_picker_navigate_to_year_description = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_end_selected = 2131624024;
+			public const int mtrl_picker_out_of_range = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_only_start_selected = 2131624025;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_selected = 2131624026;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_title = 2131624027;
+			public const int mtrl_picker_range_header_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_range_header_unselected = 2131624028;
+			public const int mtrl_picker_range_header_title = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_save = 2131624029;
+			public const int mtrl_picker_range_header_unselected = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_hint = 2131624030;
+			public const int mtrl_picker_save = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624031;
+			public const int mtrl_picker_text_input_date_hint = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624032;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_day_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_month_abbr = 2131624034;
+			public const int mtrl_picker_text_input_day_abbr = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_text_input_year_abbr = 2131624035;
+			public const int mtrl_picker_text_input_month_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624036;
+			public const int mtrl_picker_text_input_year_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_day_selection = 2131624037;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624038;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int mtrl_picker_toggle_to_year_selection = 2131624039;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_navigate_up_description = 2131624040;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int nav_app_bar_open_drawer_description = 2131624041;
+			public const int nav_app_bar_navigate_up_description = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int not_set = 2131624042;
+			public const int nav_app_bar_open_drawer_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int overflow_tab_title = 2131624043;
+			public const int not_set = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int password_toggle_content_description = 2131624044;
+			public const int overflow_tab_title = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye = 2131624045;
+			public const int password_toggle_content_description = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_strike_through = 2131624046;
+			public const int path_password_eye = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_eye_mask_visible = 2131624047;
+			public const int path_password_eye_mask_strike_through = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int path_password_strike_through = 2131624048;
+			public const int path_password_eye_mask_visible = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int preference_copied = 2131624049;
+			public const int path_password_strike_through = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int search_menu_title = 2131624050;
+			public const int preference_copied = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int status_bar_notification_info_overflow = 2131624051;
+			public const int search_menu_title = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int summary_collapsed_preference_list = 2131624052;
+			public const int status_bar_notification_info_overflow = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_off = 2131624053;
+			public const int summary_collapsed_preference_list = 2131624053;
 			
 			// aapt resource value: 0x7F0E0076
-			public const int v7_preference_on = 2131624054;
+			public const int v7_preference_off = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_on = 2131624055;
 			
 			static String()
 			{
@@ -24012,37 +26511,37 @@ namespace attendance_management_app.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F03011E,0x7F03013A,0x7F03013B,0x7F030156,0x7F0301B5,0x7F0301BC,0x7F0301C2,0x7F0301C3,0x7F0301C6,0x7F0301D8,0x7F0301EC,0x7F030262,0x7F0302BC,0x7F0302F5,0x7F030306,0x7F030307,0x7F03036D,0x7F030371,0x7F0303E2,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F03004F,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030121,0x7F03013D,0x7F03013E,0x7F030159,0x7F0301B9,0x7F0301C0,0x7F0301C6,0x7F0301C7,0x7F0301CA,0x7F0301DC,0x7F0301F0,0x7F030267,0x7F0302C1,0x7F0302FA,0x7F03030B,0x7F03030C,0x7F030372,0x7F030376,0x7F0303E7,0x7F0303F3 }
 			public static int[] ActionBar = new int[] {
 					2130903111,
 					2130903118,
 					2130903119,
-					2130903283,
-					2130903284,
-					2130903285,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903326,
-					2130903354,
-					2130903355,
-					2130903382,
-					2130903477,
-					2130903484,
-					2130903490,
-					2130903491,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903329,
+					2130903357,
+					2130903358,
+					2130903385,
+					2130903481,
+					2130903488,
 					2130903494,
-					2130903512,
-					2130903532,
-					2130903650,
-					2130903740,
-					2130903797,
-					2130903814,
-					2130903815,
-					2130903917,
-					2130903921,
-					2130904034,
-					2130904046};
+					2130903495,
+					2130903498,
+					2130903516,
+					2130903536,
+					2130903655,
+					2130903745,
+					2130903802,
+					2130903819,
+					2130903820,
+					2130903922,
+					2130903926,
+					2130904039,
+					2130904051};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -24149,14 +26648,14 @@ namespace attendance_management_app.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CC,0x7F0301B5,0x7F030371,0x7F0303EE }
+			// aapt resource value: { 0x7F030047,0x7F03004E,0x7F0300CF,0x7F0301B9,0x7F030376,0x7F0303F3 }
 			public static int[] ActionMode = new int[] {
 					2130903111,
 					2130903118,
-					2130903244,
-					2130903477,
-					2130903921,
-					2130904046};
+					2130903247,
+					2130903481,
+					2130903926,
+					2130904051};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -24176,10 +26675,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 5
 			public const int ActionMode_titleTextStyle = 5;
 			
-			// aapt resource value: { 0x7F030170,0x7F0301DE }
+			// aapt resource value: { 0x7F030174,0x7F0301E2 }
 			public static int[] ActivityChooserView = new int[] {
-					2130903408,
-					2130903518};
+					2130903412,
+					2130903522};
 			
 			// aapt resource value: 0
 			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 0;
@@ -24187,13 +26686,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x1010003,0x7F030003,0x7F030122,0x7F030123,0x7F03039E }
+			// aapt resource value: { 0x1010003,0x7F030003,0x7F030125,0x7F030126,0x7F0303A3 }
 			public static int[] ActivityNavigator = new int[] {
 					16842755,
 					2130903043,
-					2130903330,
-					2130903331,
-					2130903966};
+					2130903333,
+					2130903334,
+					2130903971};
 			
 			// aapt resource value: 1
 			public const int ActivityNavigator_action = 1;
@@ -24210,16 +26709,16 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 4
 			public const int ActivityNavigator_targetPackage = 4;
 			
-			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F030257,0x7F030258,0x7F0302B7,0x7F030342,0x7F030344 }
+			// aapt resource value: { 0x10100F2,0x7F030080,0x7F030081,0x7F03025C,0x7F03025D,0x7F0302BC,0x7F030347,0x7F030349 }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903168,
 					2130903169,
-					2130903639,
-					2130903640,
-					2130903735,
-					2130903874,
-					2130903876};
+					2130903644,
+					2130903645,
+					2130903740,
+					2130903879,
+					2130903881};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -24302,23 +26801,23 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int AnimatedStateListDrawableTransition_android_toId = 1;
 			
-			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030156,0x7F030171,0x7F03024D,0x7F03024E,0x7F030367 }
+			// aapt resource value: { 0x10100D4,0x101048F,0x1010540,0x7F030159,0x7F030175,0x7F030252,0x7F030253,0x7F03036C }
 			public static int[] AppBarLayout = new int[] {
 					16842964,
 					16843919,
 					16844096,
-					2130903382,
-					2130903409,
-					2130903629,
-					2130903630,
-					2130903911};
+					2130903385,
+					2130903413,
+					2130903634,
+					2130903635,
+					2130903916};
 			
-			// aapt resource value: { 0x7F030361,0x7F030362,0x7F030364,0x7F030365 }
+			// aapt resource value: { 0x7F030366,0x7F030367,0x7F030369,0x7F03036A }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903905,
-					2130903906,
-					2130903908,
-					2130903909};
+					2130903910,
+					2130903911,
+					2130903913,
+					2130903914};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -24347,10 +26846,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 4
 			public const int AppBarLayout_expanded = 4;
 			
-			// aapt resource value: { 0x7F03024A,0x7F03024B }
+			// aapt resource value: { 0x7F03024F,0x7F030250 }
 			public static int[] AppBarLayout_Layout = new int[] {
-					2130903626,
-					2130903627};
+					2130903631,
+					2130903632};
 			
 			// aapt resource value: 0
 			public const int AppBarLayout_Layout_layout_scrollFlags = 0;
@@ -24367,12 +26866,16 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 7
 			public const int AppBarLayout_statusBarForeground = 7;
 			
-			// aapt resource value: { 0x1010119,0x7F030357,0x7F0303E0,0x7F0303E1 }
+			// aapt resource value: { 0xFFFFFFFF }
+			public static int[] AppCompatEmojiHelper = new int[] {
+					-1};
+			
+			// aapt resource value: { 0x1010119,0x7F03035C,0x7F0303E5,0x7F0303E6 }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903895,
-					2130904032,
-					2130904033};
+					2130903900,
+					2130904037,
+					2130904038};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -24386,12 +26889,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0303DC,0x7F0303DD,0x7F0303DE }
+			// aapt resource value: { 0x1010142,0x7F0303E1,0x7F0303E2,0x7F0303E3 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130904028,
-					2130904029,
-					2130904030};
+					2130904033,
+					2130904034,
+					2130904035};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -24436,7 +26939,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030143,0x7F030144,0x7F030145,0x7F030146,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030189,0x7F03019F,0x7F0301A8,0x7F030203,0x7F030250,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010034,0x7F030041,0x7F030042,0x7F030043,0x7F030044,0x7F030045,0x7F030146,0x7F030147,0x7F030148,0x7F030149,0x7F03014B,0x7F03014C,0x7F03014D,0x7F03014E,0x7F03015C,0x7F03018D,0x7F0301A3,0x7F0301AC,0x7F030208,0x7F030255,0x7F0303A7,0x7F0303C9 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903105,
@@ -24444,21 +26947,22 @@ namespace attendance_management_app.Droid
 					2130903107,
 					2130903108,
 					2130903109,
-					2130903363,
-					2130903364,
-					2130903365,
 					2130903366,
+					2130903367,
 					2130903368,
 					2130903369,
-					2130903370,
 					2130903371,
-					2130903433,
-					2130903455,
-					2130903464,
-					2130903555,
-					2130903632,
-					2130903970,
-					2130904004};
+					2130903372,
+					2130903373,
+					2130903374,
+					2130903388,
+					2130903437,
+					2130903459,
+					2130903468,
+					2130903560,
+					2130903637,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -24503,27 +27007,30 @@ namespace attendance_management_app.Droid
 			public const int AppCompatTextView_drawableTopCompat = 13;
 			
 			// aapt resource value: 14
-			public const int AppCompatTextView_firstBaselineToTopHeight = 14;
+			public const int AppCompatTextView_emojiCompatEnabled = 14;
 			
 			// aapt resource value: 15
-			public const int AppCompatTextView_fontFamily = 15;
+			public const int AppCompatTextView_firstBaselineToTopHeight = 15;
 			
 			// aapt resource value: 16
-			public const int AppCompatTextView_fontVariationSettings = 16;
+			public const int AppCompatTextView_fontFamily = 16;
 			
 			// aapt resource value: 17
-			public const int AppCompatTextView_lastBaselineToBottomHeight = 17;
+			public const int AppCompatTextView_fontVariationSettings = 17;
 			
 			// aapt resource value: 18
-			public const int AppCompatTextView_lineHeight = 18;
+			public const int AppCompatTextView_lastBaselineToBottomHeight = 18;
 			
 			// aapt resource value: 19
-			public const int AppCompatTextView_textAllCaps = 19;
+			public const int AppCompatTextView_lineHeight = 19;
 			
 			// aapt resource value: 20
-			public const int AppCompatTextView_textLocale = 20;
+			public const int AppCompatTextView_textAllCaps = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009A,0x7F0300A3,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300E2,0x7F0300E3,0x7F0300E9,0x7F030102,0x7F030131,0x7F030136,0x7F030137,0x7F03013C,0x7F03013E,0x7F03014E,0x7F03014F,0x7F030152,0x7F030153,0x7F030155,0x7F0301C2,0x7F0301D2,0x7F030253,0x7F030254,0x7F030255,0x7F030256,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025C,0x7F03025D,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F0302D9,0x7F0302DA,0x7F0302DB,0x7F0302F4,0x7F0302F6,0x7F03030E,0x7F030310,0x7F030311,0x7F030312,0x7F030329,0x7F03032C,0x7F03032E,0x7F03032F,0x7F03034F,0x7F030350,0x7F03037E,0x7F0303AD,0x7F0303AF,0x7F0303B0,0x7F0303B1,0x7F0303B3,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303BE,0x7F0303BF,0x7F0303F0,0x7F0303F1,0x7F0303F2,0x7F0303F3,0x7F030414,0x7F030423,0x7F030424,0x7F030425,0x7F030426,0x7F030427,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C }
+			// aapt resource value: 21
+			public const int AppCompatTextView_textLocale = 21;
+			
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000D,0x7F03000E,0x7F03000F,0x7F030010,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F03001F,0x7F030020,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030028,0x7F03002A,0x7F03002B,0x7F03002C,0x7F03002D,0x7F030040,0x7F030068,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F030082,0x7F030083,0x7F03009D,0x7F0300A6,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0300DB,0x7F0300DC,0x7F0300DD,0x7F0300DE,0x7F0300E5,0x7F0300E6,0x7F0300EC,0x7F030105,0x7F030134,0x7F030139,0x7F03013A,0x7F03013F,0x7F030141,0x7F030151,0x7F030152,0x7F030155,0x7F030156,0x7F030158,0x7F0301C6,0x7F0301D6,0x7F030258,0x7F030259,0x7F03025A,0x7F03025B,0x7F03025E,0x7F03025F,0x7F030260,0x7F030261,0x7F030262,0x7F030263,0x7F030264,0x7F030265,0x7F030266,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302F9,0x7F0302FB,0x7F030313,0x7F030315,0x7F030316,0x7F030317,0x7F03032E,0x7F030331,0x7F030333,0x7F030334,0x7F030354,0x7F030355,0x7F030383,0x7F0303B2,0x7F0303B4,0x7F0303B5,0x7F0303B6,0x7F0303B8,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303C3,0x7F0303C4,0x7F0303F5,0x7F0303F6,0x7F0303F7,0x7F0303F8,0x7F030419,0x7F030428,0x7F030429,0x7F03042A,0x7F03042B,0x7F03042C,0x7F03042D,0x7F03042E,0x7F03042F,0x7F030430,0x7F030431 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -24573,85 +27080,85 @@ namespace attendance_management_app.Droid
 					2130903165,
 					2130903170,
 					2130903171,
-					2130903194,
-					2130903203,
-					2130903253,
-					2130903254,
-					2130903255,
+					2130903197,
+					2130903206,
 					2130903256,
 					2130903257,
 					2130903258,
 					2130903259,
-					2130903266,
-					2130903267,
-					2130903273,
-					2130903298,
-					2130903345,
-					2130903350,
-					2130903351,
-					2130903356,
-					2130903358,
-					2130903374,
-					2130903375,
+					2130903260,
+					2130903261,
+					2130903262,
+					2130903269,
+					2130903270,
+					2130903276,
+					2130903301,
+					2130903348,
+					2130903353,
+					2130903354,
+					2130903359,
+					2130903361,
+					2130903377,
 					2130903378,
-					2130903379,
 					2130903381,
-					2130903490,
-					2130903506,
-					2130903635,
-					2130903636,
-					2130903637,
-					2130903638,
+					2130903382,
+					2130903384,
+					2130903494,
+					2130903510,
+					2130903640,
 					2130903641,
 					2130903642,
 					2130903643,
-					2130903644,
-					2130903645,
 					2130903646,
 					2130903647,
 					2130903648,
 					2130903649,
-					2130903769,
-					2130903770,
-					2130903771,
-					2130903796,
-					2130903798,
-					2130903822,
-					2130903824,
-					2130903825,
-					2130903826,
-					2130903849,
-					2130903852,
+					2130903650,
+					2130903651,
+					2130903652,
+					2130903653,
+					2130903654,
+					2130903774,
+					2130903775,
+					2130903776,
+					2130903801,
+					2130903803,
+					2130903827,
+					2130903829,
+					2130903830,
+					2130903831,
 					2130903854,
-					2130903855,
-					2130903887,
-					2130903888,
-					2130903934,
-					2130903981,
-					2130903983,
-					2130903984,
-					2130903985,
-					2130903987,
+					2130903857,
+					2130903859,
+					2130903860,
+					2130903892,
+					2130903893,
+					2130903939,
+					2130903986,
 					2130903988,
 					2130903989,
 					2130903990,
-					2130903998,
-					2130903999,
-					2130904048,
-					2130904049,
-					2130904050,
-					2130904051,
-					2130904084,
-					2130904099,
-					2130904100,
-					2130904101,
-					2130904102,
-					2130904103,
+					2130903992,
+					2130903993,
+					2130903994,
+					2130903995,
+					2130904003,
+					2130904004,
+					2130904053,
+					2130904054,
+					2130904055,
+					2130904056,
+					2130904089,
 					2130904104,
 					2130904105,
 					2130904106,
 					2130904107,
-					2130904108};
+					2130904108,
+					2130904109,
+					2130904110,
+					2130904111,
+					2130904112,
+					2130904113};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -25034,10 +27541,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 126
 			public const int AppCompatTheme_windowNoTitle = 126;
 			
-			// aapt resource value: { 0x101030E,0x7F03032E }
+			// aapt resource value: { 0x101030E,0x7F030333 }
 			public static int[] BackgroundStyle = new int[] {
 					16843534,
-					2130903854};
+					2130903859};
 			
 			// aapt resource value: 0
 			public const int BackgroundStyle_android_selectableItemBackground = 0;
@@ -25045,15 +27552,15 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int BackgroundStyle_selectableItemBackground = 1;
 			
-			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C4,0x7F030283,0x7F0302C4,0x7F030413 }
+			// aapt resource value: { 0x7F030048,0x7F030052,0x7F030054,0x7F0301C8,0x7F030288,0x7F0302C9,0x7F030418 }
 			public static int[] Badge = new int[] {
 					2130903112,
 					2130903122,
 					2130903124,
-					2130903492,
-					2130903683,
-					2130903748,
-					2130904083};
+					2130903496,
+					2130903688,
+					2130903753,
+					2130904088};
 			
 			// aapt resource value: 0
 			public const int Badge_backgroundColor = 0;
@@ -25076,17 +27583,17 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 6
 			public const int Badge_verticalOffset = 6;
 			
-			// aapt resource value: { 0x1010139,0x7F0301BA,0x7F0301D9,0x7F030290,0x7F03033A,0x7F03033C,0x7F0303FA,0x7F0303FD,0x7F0303FF }
+			// aapt resource value: { 0x1010139,0x7F0301BE,0x7F0301DD,0x7F030295,0x7F03033F,0x7F030341,0x7F0303FF,0x7F030402,0x7F030404 }
 			public static int[] BaseProgressIndicator = new int[] {
 					16843065,
-					2130903482,
-					2130903513,
-					2130903696,
-					2130903866,
-					2130903868,
-					2130904058,
-					2130904061,
-					2130904063};
+					2130903486,
+					2130903517,
+					2130903701,
+					2130903871,
+					2130903873,
+					2130904063,
+					2130904066,
+					2130904068};
 			
 			// aapt resource value: 0
 			public const int BaseProgressIndicator_android_indeterminate = 0;
@@ -25115,19 +27622,19 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 8
 			public const int BaseProgressIndicator_trackThickness = 8;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F0301BD,0x7F0302D2,0x7F0302D4,0x7F0302D5 }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F0301C1,0x7F0302D7,0x7F0302D9,0x7F0302DA }
 			public static int[] BottomAppBar = new int[] {
 					2130903120,
-					2130903382,
-					2130903421,
-					2130903422,
-					2130903423,
-					2130903424,
+					2130903385,
 					2130903425,
-					2130903485,
-					2130903762,
-					2130903764,
-					2130903765};
+					2130903426,
+					2130903427,
+					2130903428,
+					2130903429,
+					2130903489,
+					2130903767,
+					2130903769,
+					2130903770};
 			
 			// aapt resource value: 0
 			public const int BottomAppBar_backgroundTint = 0;
@@ -25162,14 +27669,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 10
 			public const int BottomAppBar_paddingRightSystemWindowInsets = 10;
 			
-			// aapt resource value: { 0x7F0301E7 }
+			// aapt resource value: { 0x7F0301EB }
 			public static int[] BottomNavigationView = new int[] {
-					2130903527};
+					2130903531};
 			
 			// aapt resource value: 0
 			public const int BottomNavigationView_itemHorizontalTranslationEnabled = 0;
 			
-			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301AF,0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x101011F,0x1010440,0x7F030050,0x7F03005B,0x7F03005C,0x7F03005D,0x7F03005E,0x7F03005F,0x7F030061,0x7F030062,0x7F030063,0x7F0301B3,0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD,0x7F030338,0x7F03033B }
 			public static int[] BottomSheetBehavior_Layout = new int[] {
 					16843039,
 					16843840,
@@ -25182,13 +27689,13 @@ namespace attendance_management_app.Droid
 					2130903137,
 					2130903138,
 					2130903139,
-					2130903471,
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768,
-					2130903859,
-					2130903862};
+					2130903475,
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 1
 			public const int BottomSheetBehavior_Layout_android_elevation = 1;
@@ -25251,10 +27758,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int ButtonBarLayout_allowStacking = 0;
 			
-			// aapt resource value: { 0x7F03030D,0x7F030338 }
+			// aapt resource value: { 0x7F030312,0x7F03033D }
 			public static int[] Capability = new int[] {
-					2130903821,
-					2130903864};
+					2130903826,
+					2130903869};
 			
 			// aapt resource value: 0
 			public const int Capability_queryPatterns = 0;
@@ -25262,7 +27769,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int Capability_shortcutMatchRequired = 1;
 			
-			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F0300FF }
+			// aapt resource value: { 0x101013F,0x1010140,0x7F030086,0x7F030087,0x7F030088,0x7F03008A,0x7F03008B,0x7F03008C,0x7F0300FC,0x7F0300FD,0x7F0300FF,0x7F030100,0x7F030102 }
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
@@ -25272,11 +27779,11 @@ namespace attendance_management_app.Droid
 					2130903178,
 					2130903179,
 					2130903180,
-					2130903289,
-					2130903290,
 					2130903292,
 					2130903293,
-					2130903295};
+					2130903295,
+					2130903296,
+					2130903298};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -25360,14 +27867,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 9
 			public const int Carousel_carousel_touchUp_velocityThreshold = 9;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F030139,0x7F030377,0x7F030378 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x7F03013C,0x7F03037C,0x7F03037D }
 			public static int[] CheckBoxPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
-					2130903353,
-					2130903927,
-					2130903928};
+					2130903356,
+					2130903932,
+					2130903933};
 			
 			// aapt resource value: 2
 			public const int CheckBoxPreference_android_disableDependentsState = 2;
@@ -25387,7 +27894,26 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 5
 			public const int CheckBoxPreference_summaryOn = 5;
 			
-			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F03009D,0x7F03009E,0x7F0300A1,0x7F0300A2,0x7F0300A4,0x7F0300A5,0x7F0300A6,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300B3,0x7F0300B4,0x7F0300B5,0x7F0300B7,0x7F0300C5,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F030164,0x7F0301BB,0x7F0301C7,0x7F0301CC,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F0303C0,0x7F0303C9 }
+			// aapt resource value: { 0x1010108,0x7F03009A,0x7F03009B,0x7F03009C }
+			public static int[] CheckedTextView = new int[] {
+					16843016,
+					2130903194,
+					2130903195,
+					2130903196};
+			
+			// aapt resource value: 0
+			public const int CheckedTextView_android_checkMark = 0;
+			
+			// aapt resource value: 1
+			public const int CheckedTextView_checkMarkCompat = 1;
+			
+			// aapt resource value: 2
+			public const int CheckedTextView_checkMarkTint = 2;
+			
+			// aapt resource value: 3
+			public const int CheckedTextView_checkMarkTintMode = 3;
+			
+			// aapt resource value: { 0x1010034,0x1010095,0x1010098,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F0300A0,0x7F0300A1,0x7F0300A4,0x7F0300A5,0x7F0300A7,0x7F0300A8,0x7F0300A9,0x7F0300AB,0x7F0300AC,0x7F0300AD,0x7F0300AE,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300BA,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F0300CE,0x7F030168,0x7F0301BF,0x7F0301CB,0x7F0301D0,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F0303C5,0x7F0303CE }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842901,
@@ -25396,51 +27922,51 @@ namespace attendance_management_app.Droid
 					16843039,
 					16843087,
 					16843237,
-					2130903197,
-					2130903198,
+					2130903200,
 					2130903201,
-					2130903202,
 					2130903204,
 					2130903205,
-					2130903206,
+					2130903207,
 					2130903208,
 					2130903209,
-					2130903210,
 					2130903211,
 					2130903212,
 					2130903213,
 					2130903214,
-					2130903219,
-					2130903220,
-					2130903221,
+					2130903215,
+					2130903216,
+					2130903217,
+					2130903222,
 					2130903223,
-					2130903237,
-					2130903238,
-					2130903239,
+					2130903224,
+					2130903226,
 					2130903240,
 					2130903241,
 					2130903242,
 					2130903243,
-					2130903396,
-					2130903483,
-					2130903495,
-					2130903500,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904000,
-					2130904009};
+					2130903244,
+					2130903245,
+					2130903246,
+					2130903400,
+					2130903487,
+					2130903499,
+					2130903504,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904005,
+					2130904014};
 			
-			// aapt resource value: { 0x7F03009C,0x7F0300AF,0x7F0300B0,0x7F0300B1,0x7F030330,0x7F030345,0x7F030347 }
+			// aapt resource value: { 0x7F03009F,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F030335,0x7F03034A,0x7F03034C }
 			public static int[] ChipGroup = new int[] {
-					2130903196,
-					2130903215,
-					2130903216,
-					2130903217,
-					2130903856,
-					2130903877,
-					2130903879};
+					2130903199,
+					2130903218,
+					2130903219,
+					2130903220,
+					2130903861,
+					2130903882,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -25589,11 +28115,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 41
 			public const int Chip_textStartPadding = 41;
 			
-			// aapt resource value: { 0x7F0301DA,0x7F0301DC,0x7F0301DD }
+			// aapt resource value: { 0x7F0301DE,0x7F0301E0,0x7F0301E1 }
 			public static int[] CircularProgressIndicator = new int[] {
-					2130903514,
-					2130903516,
-					2130903517};
+					2130903518,
+					2130903520,
+					2130903521};
 			
 			// aapt resource value: 0
 			public const int CircularProgressIndicator_indicatorDirectionCircular = 0;
@@ -25604,10 +28130,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int CircularProgressIndicator_indicatorSize = 2;
 			
-			// aapt resource value: { 0x7F0300C1,0x7F0300C4 }
+			// aapt resource value: { 0x7F0300C4,0x7F0300C7 }
 			public static int[] ClockFaceView = new int[] {
-					2130903233,
-					2130903236};
+					2130903236,
+					2130903239};
 			
 			// aapt resource value: 0
 			public const int ClockFaceView_clockFaceBackgroundColor = 0;
@@ -25615,11 +28141,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int ClockFaceView_clockNumberTextColor = 1;
 			
-			// aapt resource value: { 0x7F0300C2,0x7F03027B,0x7F030331 }
+			// aapt resource value: { 0x7F0300C5,0x7F030280,0x7F030336 }
 			public static int[] ClockHandView = new int[] {
-					2130903234,
-					2130903675,
-					2130903857};
+					2130903237,
+					2130903680,
+					2130903862};
 			
 			// aapt resource value: 0
 			public const int ClockHandView_clockHandColor = 0;
@@ -25630,28 +28156,28 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int ClockHandView_selectorSize = 2;
 			
-			// aapt resource value: { 0x7F0300D0,0x7F0300D1,0x7F030100,0x7F030173,0x7F030174,0x7F030175,0x7F030176,0x7F030177,0x7F030178,0x7F030179,0x7F03017C,0x7F0301AA,0x7F030286,0x7F030323,0x7F030325,0x7F030368,0x7F0303E2,0x7F0303E4,0x7F0303E5,0x7F0303EF }
+			// aapt resource value: { 0x7F0300D3,0x7F0300D4,0x7F030103,0x7F030177,0x7F030178,0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C,0x7F03017D,0x7F030180,0x7F0301AE,0x7F03028B,0x7F030328,0x7F03032A,0x7F03036D,0x7F0303E7,0x7F0303E9,0x7F0303EA,0x7F0303F4 }
 			public static int[] CollapsingToolbarLayout = new int[] {
-					2130903248,
-					2130903249,
-					2130903296,
-					2130903411,
-					2130903412,
-					2130903413,
-					2130903414,
+					2130903251,
+					2130903252,
+					2130903299,
 					2130903415,
 					2130903416,
 					2130903417,
+					2130903418,
+					2130903419,
 					2130903420,
-					2130903466,
-					2130903686,
-					2130903843,
-					2130903845,
-					2130903912,
-					2130904034,
-					2130904036,
-					2130904037,
-					2130904047};
+					2130903421,
+					2130903424,
+					2130903470,
+					2130903691,
+					2130903848,
+					2130903850,
+					2130903917,
+					2130904039,
+					2130904041,
+					2130904042,
+					2130904052};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -25689,10 +28215,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int CollapsingToolbarLayout_forceApplySystemWindowInsetTop = 11;
 			
-			// aapt resource value: { 0x7F03020C,0x7F03020D }
+			// aapt resource value: { 0x7F030211,0x7F030212 }
 			public static int[] CollapsingToolbarLayout_Layout = new int[] {
-					2130903564,
-					2130903565};
+					2130903569,
+					2130903570};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_Layout_layout_collapseMode = 0;
@@ -25724,20 +28250,28 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 19
 			public const int CollapsingToolbarLayout_toolbarId = 19;
 			
-			// aapt resource value: { 0x10101A5,0x101031F,0x7F030032 }
+			// aapt resource value: { 0x10101A5,0x101031F,0x1010647,0x7F030032,0x7F030204 }
 			public static int[] ColorStateListItem = new int[] {
 					16843173,
 					16843551,
-					2130903090};
+					16844359,
+					2130903090,
+					2130903556};
 			
-			// aapt resource value: 2
-			public const int ColorStateListItem_alpha = 2;
+			// aapt resource value: 3
+			public const int ColorStateListItem_alpha = 3;
 			
 			// aapt resource value: 1
 			public const int ColorStateListItem_android_alpha = 1;
 			
 			// aapt resource value: 0
 			public const int ColorStateListItem_android_color = 0;
+			
+			// aapt resource value: 2
+			public const int ColorStateListItem_android_lStar = 2;
+			
+			// aapt resource value: 4
+			public const int ColorStateListItem_lStar = 4;
 			
 			// aapt resource value: { 0x1010107,0x7F03007E,0x7F030084,0x7F030085 }
 			public static int[] CompoundButton = new int[] {
@@ -25758,7 +28292,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] Constraint = new int[] {
 					16842948,
 					16842960,
@@ -25793,13 +28327,9 @@ namespace attendance_management_app.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -25809,16 +28339,15 @@ namespace attendance_management_app.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -25860,31 +28389,36 @@ namespace attendance_management_app.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
-			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300EB,0x7F0300EE,0x7F0300EF,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F030206,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F030249,0x7F03024C }
+			// aapt resource value: { 0x10100C4,0x10100D5,0x10100D6,0x10100D7,0x10100D8,0x10100D9,0x10100DC,0x10100F4,0x10100F5,0x10100F6,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10103B3,0x10103B4,0x10103B5,0x10103B6,0x1010440,0x101053B,0x101053C,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300EE,0x7F0300F1,0x7F0300F2,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F03020B,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F03024E,0x7F030251 }
 			public static int[] ConstraintLayout_Layout = new int[] {
 					16842948,
 					16842965,
@@ -25915,18 +28449,14 @@ namespace attendance_management_app.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903226,
-					2130903227,
-					2130903228,
 					2130903229,
 					2130903230,
-					2130903275,
+					2130903231,
+					2130903232,
+					2130903233,
 					2130903278,
-					2130903279,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -25936,17 +28466,16 @@ namespace attendance_management_app.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903558,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903563,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -25988,18 +28517,23 @@ namespace attendance_management_app.Droid
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
 					2130903625,
-					2130903628};
+					2130903626,
+					2130903629,
+					2130903630,
+					2130903633};
 			
 			// aapt resource value: 22
 			public const int ConstraintLayout_Layout_android_elevation = 22;
@@ -26343,10 +28877,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 113
 			public const int ConstraintLayout_Layout_layout_wrapBehaviorInParent = 113;
 			
-			// aapt resource value: { 0x7F0300F1,0x7F0302ED }
+			// aapt resource value: { 0x7F0300F4,0x7F0302F2 }
 			public static int[] ConstraintLayout_placeholder = new int[] {
-					2130903281,
-					2130903789};
+					2130903284,
+					2130903794};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_placeholder_content = 0;
@@ -26354,12 +28888,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int ConstraintLayout_placeholder_placeholder_emptyVisibility = 1;
 			
-			// aapt resource value: { 0x7F030313,0x7F030314,0x7F030315,0x7F030316 }
+			// aapt resource value: { 0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
 			public static int[] ConstraintLayout_ReactiveGuide = new int[] {
-					2130903827,
-					2130903828,
-					2130903829,
-					2130903830};
+					2130903832,
+					2130903833,
+					2130903834,
+					2130903835};
 			
 			// aapt resource value: 0
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_animateChange = 0;
@@ -26373,7 +28907,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int ConstraintLayout_ReactiveGuide_reactiveGuide_valueId = 3;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030214,0x7F030218,0x7F030219,0x7F03021A,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F03022B,0x7F030230,0x7F030231,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302B3,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F030308,0x7F030309,0x7F03030A,0x7F030402,0x7F030404,0x7F030406,0x7F030419 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030219,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F030230,0x7F030235,0x7F030236,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302B8,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030407,0x7F030409,0x7F03040B,0x7F03041E }
 			public static int[] ConstraintOverride = new int[] {
 					16842948,
 					16842960,
@@ -26408,12 +28942,8 @@ namespace attendance_management_app.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -26423,23 +28953,22 @@ namespace attendance_management_app.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
+					2130903571,
 					2130903572,
-					2130903576,
+					2130903573,
 					2130903577,
-					2130903578,
 					2130903581,
 					2130903582,
 					2130903583,
-					2130903584,
-					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
@@ -26447,41 +28976,46 @@ namespace attendance_management_app.Droid
 					2130903590,
 					2130903591,
 					2130903592,
+					2130903593,
+					2130903594,
 					2130903595,
+					2130903596,
+					2130903597,
 					2130903600,
-					2130903601,
-					2130903604,
 					2130903605,
 					2130903606,
-					2130903607,
-					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903731,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903736,
+					2130903782,
 					2130903790,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904066,
-					2130904068,
-					2130904070,
-					2130904089};
+					2130903795,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904071,
+					2130904073,
+					2130904075,
+					2130904094};
 			
 			// aapt resource value: 13
 			public const int ConstraintOverride_android_alpha = 13;
@@ -26804,7 +29338,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 106
 			public const int ConstraintOverride_visibilityMode = 106;
 			
-			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03012F,0x7F030142,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F0302B1,0x7F0302B2,0x7F0302E1,0x7F0302E9,0x7F0302EE,0x7F03030A,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x10100C4,0x10100D0,0x10100DC,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x101011F,0x1010120,0x101013F,0x1010140,0x10101B5,0x10101B6,0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103B5,0x10103B6,0x10103FA,0x1010440,0x7F030000,0x7F030035,0x7F030036,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030132,0x7F030145,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F0302B6,0x7F0302B7,0x7F0302E6,0x7F0302EE,0x7F0302F3,0x7F03030F,0x7F030409,0x7F03040B }
 			public static int[] ConstraintSet = new int[] {
 					16842948,
 					16842960,
@@ -26842,14 +29376,10 @@ namespace attendance_management_app.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903343,
-					2130903362,
-					2130903435,
-					2130903436,
-					2130903437,
-					2130903438,
+					2130903281,
+					2130903282,
+					2130903346,
+					2130903365,
 					2130903439,
 					2130903440,
 					2130903441,
@@ -26859,16 +29389,15 @@ namespace attendance_management_app.Droid
 					2130903445,
 					2130903446,
 					2130903447,
+					2130903448,
 					2130903449,
 					2130903450,
 					2130903451,
-					2130903452,
 					2130903453,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903454,
+					2130903455,
+					2130903456,
+					2130903457,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -26882,11 +29411,11 @@ namespace attendance_management_app.Droid
 					2130903581,
 					2130903582,
 					2130903583,
+					2130903584,
 					2130903585,
 					2130903586,
 					2130903587,
 					2130903588,
-					2130903589,
 					2130903590,
 					2130903591,
 					2130903592,
@@ -26904,6 +29433,7 @@ namespace attendance_management_app.Droid
 					2130903604,
 					2130903605,
 					2130903606,
+					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
@@ -26912,21 +29442,25 @@ namespace attendance_management_app.Droid
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903729,
-					2130903730,
-					2130903777,
-					2130903785,
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903734,
+					2130903735,
+					2130903782,
 					2130903790,
-					2130903818,
-					2130904068,
-					2130904070};
+					2130903795,
+					2130903823,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 15
 			public const int ConstraintSet_android_alpha = 15;
@@ -27660,23 +30194,23 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 122
 			public const int Constraint_visibilityMode = 122;
 			
-			// aapt resource value: { 0x7F0301FF,0x7F030366 }
+			// aapt resource value: { 0x7F030203,0x7F03036B }
 			public static int[] CoordinatorLayout = new int[] {
-					2130903551,
-					2130903910};
+					2130903555,
+					2130903915};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
 			
-			// aapt resource value: { 0x10100B3,0x7F030209,0x7F03020A,0x7F03020B,0x7F03023C,0x7F030246,0x7F030247 }
+			// aapt resource value: { 0x10100B3,0x7F03020E,0x7F03020F,0x7F030210,0x7F030241,0x7F03024B,0x7F03024C }
 			public static int[] CoordinatorLayout_Layout = new int[] {
 					16842931,
-					2130903561,
-					2130903562,
-					2130903563,
-					2130903612,
-					2130903622,
-					2130903623};
+					2130903566,
+					2130903567,
+					2130903568,
+					2130903617,
+					2130903627,
+					2130903628};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_Layout_android_layout_gravity = 0;
@@ -27702,19 +30236,19 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int CoordinatorLayout_statusBarBackground = 1;
 			
-			// aapt resource value: { 0x7F03003E,0x7F030118,0x7F030119,0x7F03011A,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011F,0x7F030120,0x7F030121,0x7F03028C }
+			// aapt resource value: { 0x7F03003E,0x7F03011B,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030122,0x7F030123,0x7F030124,0x7F030291 }
 			public static int[] CustomAttribute = new int[] {
 					2130903102,
-					2130903320,
-					2130903321,
-					2130903322,
 					2130903323,
 					2130903324,
 					2130903325,
+					2130903326,
 					2130903327,
 					2130903328,
-					2130903329,
-					2130903692};
+					2130903330,
+					2130903331,
+					2130903332,
+					2130903697};
 			
 			// aapt resource value: 0
 			public const int CustomAttribute_attributeName = 0;
@@ -27749,7 +30283,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 10
 			public const int CustomAttribute_methodName = 10;
 			
-			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030132,0x7F030133,0x7F030134,0x7F030138,0x7F0302BF,0x7F0302F7 }
+			// aapt resource value: { 0x10101F2,0x10101F3,0x10101F4,0x10101F5,0x10101F6,0x10101F7,0x7F030135,0x7F030136,0x7F030137,0x7F03013B,0x7F0302C4,0x7F0302FC }
 			public static int[] DialogPreference = new int[] {
 					16843250,
 					16843251,
@@ -27757,12 +30291,12 @@ namespace attendance_management_app.Droid
 					16843253,
 					16843254,
 					16843255,
-					2130903346,
-					2130903347,
-					2130903348,
-					2130903352,
-					2130903743,
-					2130903799};
+					2130903349,
+					2130903350,
+					2130903351,
+					2130903355,
+					2130903748,
+					2130903804};
 			
 			// aapt resource value: 2
 			public const int DialogPreference_android_dialogIcon = 2;
@@ -27800,16 +30334,16 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int DialogPreference_positiveButtonText = 11;
 			
-			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D4,0x7F030147,0x7F0301AE,0x7F03034E,0x7F0303D0 }
+			// aapt resource value: { 0x7F03003C,0x7F03003D,0x7F030055,0x7F0300D7,0x7F03014A,0x7F0301B2,0x7F030353,0x7F0303D5 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903100,
 					2130903101,
 					2130903125,
-					2130903252,
-					2130903367,
-					2130903470,
-					2130903886,
-					2130904016};
+					2130903255,
+					2130903370,
+					2130903474,
+					2130903891,
+					2130904021};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -27835,28 +30369,28 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030156 }
+			// aapt resource value: { 0x7F030159 }
 			public static int[] DrawerLayout = new int[] {
-					2130903382};
+					2130903385};
 			
 			// aapt resource value: 0
 			public const int DrawerLayout_elevation = 0;
 			
-			// aapt resource value: { 0x7F030411 }
+			// aapt resource value: { 0x7F030416 }
 			public static int[] EditTextPreference = new int[] {
-					2130904081};
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int EditTextPreference_useSimpleSummaryProvider = 0;
 			
-			// aapt resource value: { 0x7F0300CF,0x7F030156,0x7F03017A,0x7F0301BB,0x7F03033E,0x7F030343 }
+			// aapt resource value: { 0x7F0300D2,0x7F030159,0x7F03017E,0x7F0301BF,0x7F030343,0x7F030348 }
 			public static int[] ExtendedFloatingActionButton = new int[] {
-					2130903247,
-					2130903382,
-					2130903418,
-					2130903483,
-					2130903870,
-					2130903875};
+					2130903250,
+					2130903385,
+					2130903422,
+					2130903487,
+					2130903875,
+					2130903880};
 			
 			// aapt resource value: { 0x7F030059,0x7F03005A }
 			public static int[] ExtendedFloatingActionButton_Behavior_Layout = new int[] {
@@ -27887,25 +30421,25 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 5
 			public const int ExtendedFloatingActionButton_shrinkMotionSpec = 5;
 			
-			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030156,0x7F030164,0x7F030182,0x7F030183,0x7F0301BB,0x7F0301C5,0x7F030285,0x7F030305,0x7F03031D,0x7F030333,0x7F030336,0x7F03033E,0x7F03040F }
+			// aapt resource value: { 0x101000E,0x7F030050,0x7F030051,0x7F030067,0x7F030159,0x7F030168,0x7F030186,0x7F030187,0x7F0301BF,0x7F0301C9,0x7F03028A,0x7F03030A,0x7F030322,0x7F030338,0x7F03033B,0x7F030343,0x7F030414 }
 			public static int[] FloatingActionButton = new int[] {
 					16842766,
 					2130903120,
 					2130903121,
 					2130903143,
-					2130903382,
-					2130903396,
-					2130903426,
-					2130903427,
-					2130903483,
-					2130903493,
-					2130903685,
-					2130903813,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903870,
-					2130904079};
+					2130903385,
+					2130903400,
+					2130903430,
+					2130903431,
+					2130903487,
+					2130903497,
+					2130903690,
+					2130903818,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903875,
+					2130904084};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_android_enabled = 0;
@@ -27965,10 +30499,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 16
 			public const int FloatingActionButton_useCompatPadding = 16;
 			
-			// aapt resource value: { 0x7F0301F5,0x7F030251 }
+			// aapt resource value: { 0x7F0301F9,0x7F030256 }
 			public static int[] FlowLayout = new int[] {
-					2130903541,
-					2130903633};
+					2130903545,
+					2130903638};
 			
 			// aapt resource value: 0
 			public const int FlowLayout_itemSpacing = 0;
@@ -27976,28 +30510,28 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int FlowLayout_lineSpacing = 1;
 			
-			// aapt resource value: { 0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6 }
+			// aapt resource value: { 0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA }
 			public static int[] FontFamily = new int[] {
-					2130903456,
-					2130903457,
-					2130903458,
-					2130903459,
 					2130903460,
 					2130903461,
-					2130903462};
+					2130903462,
+					2130903463,
+					2130903464,
+					2130903465,
+					2130903466};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F03019E,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F03040B }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0301A2,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F030410 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
 					16844095,
 					16844143,
 					16844144,
-					2130903454,
-					2130903463,
-					2130903464,
-					2130903465,
-					2130904075};
+					2130903458,
+					2130903467,
+					2130903468,
+					2130903469,
+					2130904080};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -28050,11 +30584,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 6
 			public const int FontFamily_fontProviderSystemFontFamily = 6;
 			
-			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AB }
+			// aapt resource value: { 0x1010109,0x1010200,0x7F0301AF }
 			public static int[] ForegroundLinearLayout = new int[] {
 					16843017,
 					16843264,
-					2130903467};
+					2130903471};
 			
 			// aapt resource value: 0
 			public const int ForegroundLinearLayout_android_foreground = 0;
@@ -28153,22 +30687,22 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030101,0x7F030115,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0302D0,0x7F03031F,0x7F030320,0x7F030321,0x7F03041B }
+			// aapt resource value: { 0x7F030034,0x7F030064,0x7F030078,0x7F030104,0x7F030118,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0302D5,0x7F030324,0x7F030325,0x7F030326,0x7F030420 }
 			public static int[] ImageFilterView = new int[] {
 					2130903092,
 					2130903140,
 					2130903160,
-					2130903297,
-					2130903317,
-					2130903507,
-					2130903508,
-					2130903509,
-					2130903510,
-					2130903760,
-					2130903839,
-					2130903840,
-					2130903841,
-					2130904091};
+					2130903300,
+					2130903320,
+					2130903511,
+					2130903512,
+					2130903513,
+					2130903514,
+					2130903765,
+					2130903844,
+					2130903845,
+					2130903846,
+					2130904096};
 			
 			// aapt resource value: 0
 			public const int ImageFilterView_altSrc = 0;
@@ -28212,19 +30746,19 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 13
 			public const int ImageFilterView_warmth = 13;
 			
-			// aapt resource value: { 0x7F0300EB }
+			// aapt resource value: { 0x7F0300EE }
 			public static int[] include = new int[] {
-					2130903275};
+					2130903278};
 			
 			// aapt resource value: 0
 			public const int include_constraintSet = 0;
 			
-			// aapt resource value: { 0x7F0302D2,0x7F0302D4,0x7F0302D5,0x7F0302D8 }
+			// aapt resource value: { 0x7F0302D7,0x7F0302D9,0x7F0302DA,0x7F0302DD }
 			public static int[] Insets = new int[] {
-					2130903762,
-					2130903764,
-					2130903765,
-					2130903768};
+					2130903767,
+					2130903769,
+					2130903770,
+					2130903773};
 			
 			// aapt resource value: 0
 			public const int Insets_paddingBottomSystemWindowInsets = 0;
@@ -28238,14 +30772,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int Insets_paddingTopSystemWindowInsets = 3;
 			
-			// aapt resource value: { 0x7F0300D3 }
+			// aapt resource value: { 0x7F0300D6 }
 			public static int[] ItemsViewRendererTheme = new int[] {
-					2130903251};
+					2130903254};
 			
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030402,0x7F030404,0x7F030406 }
+			// aapt resource value: { 0x101031F,0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030407,0x7F030409,0x7F03040B }
 			public static int[] KeyAttribute = new int[] {
 					16843551,
 					16843552,
@@ -28259,13 +30793,13 @@ namespace attendance_management_app.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904066,
-					2130904068,
-					2130904070};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904071,
+					2130904073,
+					2130904075};
 			
 			// aapt resource value: 0
 			public const int KeyAttribute_android_alpha = 0;
@@ -28324,7 +30858,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 18
 			public const int KeyAttribute_transitionPathRotate = 18;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420,0x7F030421 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030422,0x7F030423,0x7F030424,0x7F030425,0x7F030426 }
 			public static int[] KeyCycle = new int[] {
 					16843551,
 					16843554,
@@ -28336,17 +30870,17 @@ namespace attendance_management_app.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096,
-					2130904097};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101,
+					2130904102};
 			
 			// aapt resource value: 0
 			public const int KeyCycle_android_alpha = 0;
@@ -28423,20 +30957,20 @@ namespace attendance_management_app.Droid
 			public static int[] KeyFramesVelocity = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030117,0x7F030142,0x7F0301AD,0x7F0301FD,0x7F0302B3,0x7F0302E1,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302E6,0x7F030348,0x7F030404 }
+			// aapt resource value: { 0x7F03011A,0x7F030145,0x7F0301B1,0x7F030201,0x7F0302B8,0x7F0302E6,0x7F0302E8,0x7F0302E9,0x7F0302EA,0x7F0302EB,0x7F03034D,0x7F030409 }
 			public static int[] KeyPosition = new int[] {
-					2130903319,
-					2130903362,
-					2130903469,
-					2130903549,
-					2130903731,
-					2130903777,
-					2130903779,
-					2130903780,
-					2130903781,
+					2130903322,
+					2130903365,
+					2130903473,
+					2130903553,
+					2130903736,
 					2130903782,
-					2130903880,
-					2130904068};
+					2130903784,
+					2130903785,
+					2130903786,
+					2130903787,
+					2130903885,
+					2130904073};
 			
 			// aapt resource value: 0
 			public const int KeyPosition_curveFit = 0;
@@ -28474,7 +31008,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int KeyPosition_transitionEasing = 11;
 			
-			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030117,0x7F0301AD,0x7F0302B1,0x7F0302B3,0x7F030404,0x7F030406,0x7F03041C,0x7F03041D,0x7F03041E,0x7F03041F,0x7F030420 }
+			// aapt resource value: { 0x101031F,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F03011A,0x7F0301B1,0x7F0302B6,0x7F0302B8,0x7F030409,0x7F03040B,0x7F030421,0x7F030422,0x7F030423,0x7F030424,0x7F030425 }
 			public static int[] KeyTimeCycle = new int[] {
 					16843551,
 					16843554,
@@ -28486,17 +31020,17 @@ namespace attendance_management_app.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130903319,
-					2130903469,
-					2130903729,
-					2130903731,
-					2130904068,
-					2130904070,
-					2130904092,
-					2130904093,
-					2130904094,
-					2130904095,
-					2130904096};
+					2130903322,
+					2130903473,
+					2130903734,
+					2130903736,
+					2130904073,
+					2130904075,
+					2130904097,
+					2130904098,
+					2130904099,
+					2130904100,
+					2130904101};
 			
 			// aapt resource value: 0
 			public const int KeyTimeCycle_android_alpha = 0;
@@ -28561,21 +31095,21 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 20
 			public const int KeyTimeCycle_waveShape = 20;
 			
-			// aapt resource value: { 0x7F0301AD,0x7F0302B3,0x7F0302B4,0x7F0302B5,0x7F0302C6,0x7F0302C8,0x7F0302C9,0x7F030408,0x7F030409,0x7F03040A,0x7F030416,0x7F030417,0x7F030418 }
+			// aapt resource value: { 0x7F0301B1,0x7F0302B8,0x7F0302B9,0x7F0302BA,0x7F0302CB,0x7F0302CD,0x7F0302CE,0x7F03040D,0x7F03040E,0x7F03040F,0x7F03041B,0x7F03041C,0x7F03041D }
 			public static int[] KeyTrigger = new int[] {
-					2130903469,
-					2130903731,
-					2130903732,
-					2130903733,
-					2130903750,
-					2130903752,
-					2130903753,
-					2130904072,
-					2130904073,
-					2130904074,
-					2130904086,
-					2130904087,
-					2130904088};
+					2130903473,
+					2130903736,
+					2130903737,
+					2130903738,
+					2130903755,
+					2130903757,
+					2130903758,
+					2130904077,
+					2130904078,
+					2130904079,
+					2130904091,
+					2130904092,
+					2130904093};
 			
 			// aapt resource value: 0
 			public const int KeyTrigger_framePosition = 0;
@@ -28616,7 +31150,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 12
 			public const int KeyTrigger_viewTransitionOnPositiveCross = 12;
 			
-			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300EE,0x7F0300EF,0x7F03020E,0x7F03020F,0x7F030210,0x7F030211,0x7F030212,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030235,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030241,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030248,0x7F03024C,0x7F030284,0x7F030288,0x7F03028F,0x7F030293 }
+			// aapt resource value: { 0x10100C4,0x10100F4,0x10100F5,0x10100F7,0x10100F8,0x10100F9,0x10100FA,0x10103B5,0x10103B6,0x7F030056,0x7F030057,0x7F030058,0x7F030098,0x7F0300F1,0x7F0300F2,0x7F030213,0x7F030214,0x7F030215,0x7F030216,0x7F030217,0x7F030218,0x7F030219,0x7F03021A,0x7F03021B,0x7F03021C,0x7F03021D,0x7F03021E,0x7F03021F,0x7F030220,0x7F030221,0x7F030222,0x7F030223,0x7F030224,0x7F030225,0x7F030226,0x7F030227,0x7F030228,0x7F030229,0x7F03022A,0x7F03022B,0x7F03022C,0x7F03022D,0x7F03022E,0x7F03022F,0x7F030230,0x7F030231,0x7F030232,0x7F030233,0x7F030234,0x7F030236,0x7F030237,0x7F030238,0x7F030239,0x7F03023A,0x7F03023B,0x7F03023C,0x7F03023D,0x7F03023E,0x7F03023F,0x7F030240,0x7F030242,0x7F030243,0x7F030244,0x7F030245,0x7F030246,0x7F030247,0x7F030248,0x7F030249,0x7F03024A,0x7F03024D,0x7F030251,0x7F030289,0x7F03028D,0x7F030294,0x7F030298 }
 			public static int[] Layout = new int[] {
 					16842948,
 					16842996,
@@ -28631,13 +31165,8 @@ namespace attendance_management_app.Droid
 					2130903127,
 					2130903128,
 					2130903192,
-					2130903278,
-					2130903279,
-					2130903566,
-					2130903567,
-					2130903568,
-					2130903569,
-					2130903570,
+					2130903281,
+					2130903282,
 					2130903571,
 					2130903572,
 					2130903573,
@@ -28667,32 +31196,37 @@ namespace attendance_management_app.Droid
 					2130903597,
 					2130903598,
 					2130903599,
+					2130903600,
 					2130903601,
 					2130903602,
 					2130903603,
 					2130903604,
-					2130903605,
 					2130903606,
 					2130903607,
 					2130903608,
 					2130903609,
 					2130903610,
 					2130903611,
+					2130903612,
 					2130903613,
 					2130903614,
 					2130903615,
 					2130903616,
-					2130903617,
 					2130903618,
 					2130903619,
 					2130903620,
 					2130903621,
+					2130903622,
+					2130903623,
 					2130903624,
-					2130903628,
-					2130903684,
-					2130903688,
-					2130903695,
-					2130903699};
+					2130903625,
+					2130903626,
+					2130903629,
+					2130903633,
+					2130903689,
+					2130903693,
+					2130903700,
+					2130903704};
 			
 			// aapt resource value: 2
 			public const int Layout_android_layout_height = 2;
@@ -28919,17 +31453,17 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 74
 			public const int Layout_minWidth = 74;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013B,0x7F03013D,0x7F030289,0x7F03033D }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F03013E,0x7F030140,0x7F03028E,0x7F030342 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
 					16843046,
 					16843047,
 					16843048,
-					2130903355,
-					2130903357,
-					2130903689,
-					2130903869};
+					2130903358,
+					2130903360,
+					2130903694,
+					2130903874};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -28977,10 +31511,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 8
 			public const int LinearLayoutCompat_showDividers = 8;
 			
-			// aapt resource value: { 0x7F0301D7,0x7F0301DB }
+			// aapt resource value: { 0x7F0301DB,0x7F0301DF }
 			public static int[] LinearProgressIndicator = new int[] {
-					2130903511,
-					2130903515};
+					2130903515,
+					2130903519};
 			
 			// aapt resource value: 0
 			public const int LinearProgressIndicator_indeterminateAnimationType = 0;
@@ -28999,13 +31533,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167,0x7F030411 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B,0x7F030416 }
 			public static int[] ListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399,
-					2130904081};
+					2130903402,
+					2130903403,
+					2130904086};
 			
 			// aapt resource value: 0
 			public const int ListPreference_android_entries = 0;
@@ -29029,13 +31563,13 @@ namespace attendance_management_app.Droid
 					2130903115,
 					2130903116};
 			
-			// aapt resource value: { 0x7F030264,0x7F030265,0x7F030266,0x7F030267,0x7F030268 }
+			// aapt resource value: { 0x7F030269,0x7F03026A,0x7F03026B,0x7F03026C,0x7F03026D }
 			public static int[] MaterialAlertDialogTheme = new int[] {
-					2130903652,
-					2130903653,
-					2130903654,
-					2130903655,
-					2130903656};
+					2130903657,
+					2130903658,
+					2130903659,
+					2130903660,
+					2130903661};
 			
 			// aapt resource value: 0
 			public const int MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = 0;
@@ -29071,7 +31605,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int MaterialAutoCompleteTextView_android_inputType = 0;
 			
-			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F030109,0x7F030156,0x7F0301C6,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301CD,0x7F0301CE,0x7F03031D,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10100D4,0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x10101E5,0x7F030050,0x7F030051,0x7F03010C,0x7F030159,0x7F0301CA,0x7F0301CC,0x7F0301CD,0x7F0301CE,0x7F0301D1,0x7F0301D2,0x7F030322,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] MaterialButton = new int[] {
 					16842964,
 					16843191,
@@ -29081,25 +31615,25 @@ namespace attendance_management_app.Droid
 					16843237,
 					2130903120,
 					2130903121,
-					2130903305,
-					2130903382,
-					2130903494,
-					2130903496,
-					2130903497,
+					2130903308,
+					2130903385,
 					2130903498,
+					2130903500,
 					2130903501,
 					2130903502,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903505,
+					2130903506,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
-			// aapt resource value: { 0x7F03009B,0x7F030330,0x7F030347 }
+			// aapt resource value: { 0x7F03009E,0x7F030335,0x7F03034C }
 			public static int[] MaterialButtonToggleGroup = new int[] {
-					2130903195,
-					2130903856,
-					2130903879};
+					2130903198,
+					2130903861,
+					2130903884};
 			
 			// aapt resource value: 0
 			public const int MaterialButtonToggleGroup_checkedButton = 0;
@@ -29173,31 +31707,31 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 20
 			public const int MaterialButton_strokeWidth = 20;
 			
-			// aapt resource value: { 0x101020D,0x7F030124,0x7F030125,0x7F030126,0x7F030127,0x7F0302C2,0x7F03030F,0x7F03042D,0x7F03042E,0x7F03042F }
+			// aapt resource value: { 0x101020D,0x7F030127,0x7F030128,0x7F030129,0x7F03012A,0x7F0302C7,0x7F030314,0x7F030432,0x7F030433,0x7F030434 }
 			public static int[] MaterialCalendar = new int[] {
 					16843277,
-					2130903332,
-					2130903333,
-					2130903334,
 					2130903335,
-					2130903746,
-					2130903823,
-					2130904109,
-					2130904110,
-					2130904111};
+					2130903336,
+					2130903337,
+					2130903338,
+					2130903751,
+					2130903828,
+					2130904114,
+					2130904115,
+					2130904116};
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E5,0x7F0301EE,0x7F0301EF,0x7F0301F6,0x7F0301F7,0x7F0301FB }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F0301E9,0x7F0301F2,0x7F0301F3,0x7F0301FA,0x7F0301FB,0x7F0301FF }
 			public static int[] MaterialCalendarItem = new int[] {
 					16843191,
 					16843192,
 					16843193,
 					16843194,
-					2130903525,
-					2130903534,
-					2130903535,
-					2130903542,
-					2130903543,
-					2130903547};
+					2130903529,
+					2130903538,
+					2130903539,
+					2130903546,
+					2130903547,
+					2130903551};
 			
 			// aapt resource value: 3
 			public const int MaterialCalendarItem_android_insetBottom = 3;
@@ -29259,20 +31793,20 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 9
 			public const int MaterialCalendar_yearTodayStyle = 9;
 			
-			// aapt resource value: { 0x10101E5,0x7F030089,0x7F03009D,0x7F03009F,0x7F0300A0,0x7F0300A1,0x7F03031D,0x7F030333,0x7F030336,0x7F030363,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x10101E5,0x7F030089,0x7F0300A0,0x7F0300A2,0x7F0300A3,0x7F0300A4,0x7F030322,0x7F030338,0x7F03033B,0x7F030368,0x7F03036E,0x7F03036F }
 			public static int[] MaterialCardView = new int[] {
 					16843237,
 					2130903177,
-					2130903197,
-					2130903199,
 					2130903200,
-					2130903201,
-					2130903837,
-					2130903859,
-					2130903862,
-					2130903907,
-					2130903913,
-					2130903914};
+					2130903202,
+					2130903203,
+					2130903204,
+					2130903842,
+					2130903864,
+					2130903867,
+					2130903912,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_android_checkable = 0;
@@ -29310,10 +31844,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int MaterialCardView_strokeWidth = 11;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialCheckBox = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialCheckBox_buttonTint = 0;
@@ -29321,10 +31855,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MaterialCheckBox_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030084,0x7F030410 }
+			// aapt resource value: { 0x7F030084,0x7F030415 }
 			public static int[] MaterialRadioButton = new int[] {
 					2130903172,
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int MaterialRadioButton_buttonTint = 0;
@@ -29332,10 +31866,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MaterialRadioButton_useMaterialThemeColors = 1;
 			
-			// aapt resource value: { 0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x7F030338,0x7F03033B }
 			public static int[] MaterialShape = new int[] {
-					2130903859,
-					2130903862};
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int MaterialShape_shapeAppearance = 0;
@@ -29343,11 +31877,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MaterialShape_shapeAppearanceOverlay = 1;
 			
-			// aapt resource value: { 0x10104B6,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x10104B6,0x101057F,0x7F030255 }
 			public static int[] MaterialTextAppearance = new int[] {
 					16843958,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 0
 			public const int MaterialTextAppearance_android_letterSpacing = 0;
@@ -29358,11 +31892,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int MaterialTextAppearance_lineHeight = 2;
 			
-			// aapt resource value: { 0x1010034,0x101057F,0x7F030250 }
+			// aapt resource value: { 0x1010034,0x101057F,0x7F030255 }
 			public static int[] MaterialTextView = new int[] {
 					16842804,
 					16844159,
-					2130903632};
+					2130903637};
 			
 			// aapt resource value: 1
 			public const int MaterialTextView_android_lineHeight = 1;
@@ -29373,10 +31907,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int MaterialTextView_lineHeight = 2;
 			
-			// aapt resource value: { 0x7F0300C3,0x7F0301FE }
+			// aapt resource value: { 0x7F0300C6,0x7F030202 }
 			public static int[] MaterialTimePicker = new int[] {
-					2130903235,
-					2130903550};
+					2130903238,
+					2130903554};
 			
 			// aapt resource value: 0
 			public const int MaterialTimePicker_clockIcon = 0;
@@ -29384,11 +31918,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MaterialTimePicker_keyboardIcon = 1;
 			
-			// aapt resource value: { 0x7F0302BB,0x7F03036E,0x7F0303E3 }
+			// aapt resource value: { 0x7F0302C0,0x7F030373,0x7F0303E8 }
 			public static int[] MaterialToolbar = new int[] {
-					2130903739,
-					2130903918,
-					2130904035};
+					2130903744,
+					2130903923,
+					2130904040};
 			
 			// aapt resource value: 0
 			public const int MaterialToolbar_navigationIconTint = 0;
@@ -29426,7 +31960,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F2,0x7F0301CD,0x7F0301CE,0x7F0302C5,0x7F03033B,0x7F0303F5 }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F030011,0x7F030025,0x7F030027,0x7F030033,0x7F0300F5,0x7F0301D1,0x7F0301D2,0x7F0302CA,0x7F030340,0x7F0303FA }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -29445,12 +31979,12 @@ namespace attendance_management_app.Droid
 					2130903077,
 					2130903079,
 					2130903091,
-					2130903282,
-					2130903501,
-					2130903502,
-					2130903749,
-					2130903867,
-					2130904053};
+					2130903285,
+					2130903505,
+					2130903506,
+					2130903754,
+					2130903872,
+					2130904058};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -29521,7 +32055,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030304,0x7F03036B }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030309,0x7F030370 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -29530,8 +32064,8 @@ namespace attendance_management_app.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903812,
-					2130903915};
+					2130903817,
+					2130903920};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -29560,14 +32094,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 8
 			public const int MenuView_subMenuArrow = 8;
 			
-			// aapt resource value: { 0x7F030294,0x7F030295,0x7F030296,0x7F030297,0x7F030298,0x7F030299 }
+			// aapt resource value: { 0x7F030299,0x7F03029A,0x7F03029B,0x7F03029C,0x7F03029D,0x7F03029E }
 			public static int[] MockView = new int[] {
-					2130903700,
-					2130903701,
-					2130903702,
-					2130903703,
-					2130903704,
-					2130903705};
+					2130903705,
+					2130903706,
+					2130903707,
+					2130903708,
+					2130903709,
+					2130903710};
 			
 			// aapt resource value: 0
 			public const int MockView_mock_diagonalsColor = 0;
@@ -29587,29 +32121,29 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 5
 			public const int MockView_mock_showLabel = 5;
 			
-			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030142,0x7F0302B0,0x7F0302B2,0x7F0302E1,0x7F030308,0x7F030309,0x7F03030A,0x7F030404 }
+			// aapt resource value: { 0x7F030035,0x7F030036,0x7F030145,0x7F0302B5,0x7F0302B7,0x7F0302E6,0x7F03030D,0x7F03030E,0x7F03030F,0x7F030409 }
 			public static int[] Motion = new int[] {
 					2130903093,
 					2130903094,
-					2130903362,
-					2130903728,
-					2130903730,
-					2130903777,
-					2130903816,
-					2130903817,
-					2130903818,
-					2130904068};
+					2130903365,
+					2130903733,
+					2130903735,
+					2130903782,
+					2130903821,
+					2130903822,
+					2130903823,
+					2130904073};
 			
-			// aapt resource value: { 0x7F0302A6,0x7F0302A7,0x7F0302A8,0x7F0302A9,0x7F0302AA,0x7F0302AB,0x7F0302AC,0x7F0302AD }
+			// aapt resource value: { 0x7F0302AB,0x7F0302AC,0x7F0302AD,0x7F0302AE,0x7F0302AF,0x7F0302B0,0x7F0302B1,0x7F0302B2 }
 			public static int[] MotionEffect = new int[] {
-					2130903718,
-					2130903719,
-					2130903720,
-					2130903721,
-					2130903722,
 					2130903723,
 					2130903724,
-					2130903725};
+					2130903725,
+					2130903726,
+					2130903727,
+					2130903728,
+					2130903729,
+					2130903730};
 			
 			// aapt resource value: 0
 			public const int MotionEffect_motionEffect_alpha = 0;
@@ -29635,10 +32169,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 7
 			public const int MotionEffect_motionEffect_viewTransition = 7;
 			
-			// aapt resource value: { 0x7F0302C7,0x7F0302CA }
+			// aapt resource value: { 0x7F0302CC,0x7F0302CF }
 			public static int[] MotionHelper = new int[] {
-					2130903751,
-					2130903754};
+					2130903756,
+					2130903759};
 			
 			// aapt resource value: 0
 			public const int MotionHelper_onHide = 0;
@@ -29646,7 +32180,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MotionHelper_onShow = 1;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030322,0x7F0303B9,0x7F0303BA,0x7F0303BB,0x7F0303BC,0x7F0303BD,0x7F0303C5,0x7F0303C6,0x7F0303C7,0x7F0303C8,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x10100AF,0x101014F,0x1010164,0x10103AC,0x1010535,0x7F030065,0x7F030066,0x7F030327,0x7F0303BE,0x7F0303BF,0x7F0303C0,0x7F0303C1,0x7F0303C2,0x7F0303CA,0x7F0303CB,0x7F0303CC,0x7F0303CD,0x7F0303CF,0x7F0303D0,0x7F0303D1,0x7F0303D2 }
 			public static int[] MotionLabel = new int[] {
 					16842901,
 					16842902,
@@ -29659,20 +32193,20 @@ namespace attendance_management_app.Droid
 					16844085,
 					2130903141,
 					2130903142,
-					2130903842,
-					2130903993,
-					2130903994,
-					2130903995,
-					2130903996,
-					2130903997,
-					2130904005,
-					2130904006,
-					2130904007,
-					2130904008,
+					2130903847,
+					2130903998,
+					2130903999,
+					2130904000,
+					2130904001,
+					2130904002,
 					2130904010,
 					2130904011,
 					2130904012,
-					2130904013};
+					2130904013,
+					2130904015,
+					2130904016,
+					2130904017,
+					2130904018};
 			
 			// aapt resource value: 8
 			public const int MotionLabel_android_autoSizeTextType = 8;
@@ -29749,14 +32283,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 24
 			public const int MotionLabel_textureWidth = 24;
 			
-			// aapt resource value: { 0x7F030039,0x7F030116,0x7F030206,0x7F03029A,0x7F0302B1,0x7F03033F }
+			// aapt resource value: { 0x7F030039,0x7F030119,0x7F03020B,0x7F03029F,0x7F0302B6,0x7F030344 }
 			public static int[] MotionLayout = new int[] {
 					2130903097,
-					2130903318,
-					2130903558,
-					2130903706,
-					2130903729,
-					2130903871};
+					2130903321,
+					2130903563,
+					2130903711,
+					2130903734,
+					2130903876};
 			
 			// aapt resource value: 0
 			public const int MotionLayout_applyMotionScene = 0;
@@ -29776,10 +32310,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 5
 			public const int MotionLayout_showPaths = 5;
 			
-			// aapt resource value: { 0x7F030128,0x7F030207 }
+			// aapt resource value: { 0x7F03012B,0x7F03020C }
 			public static int[] MotionScene = new int[] {
-					2130903336,
-					2130903559};
+					2130903339,
+					2130903564};
 			
 			// aapt resource value: 0
 			public const int MotionScene_defaultDuration = 0;
@@ -29787,11 +32321,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int MotionScene_layoutDuringTransition = 1;
 			
-			// aapt resource value: { 0x7F03039F,0x7F0303A0,0x7F0303A1 }
+			// aapt resource value: { 0x7F0303A4,0x7F0303A5,0x7F0303A6 }
 			public static int[] MotionTelltales = new int[] {
-					2130903967,
-					2130903968,
-					2130903969};
+					2130903972,
+					2130903973,
+					2130903974};
 			
 			// aapt resource value: 0
 			public const int MotionTelltales_telltales_tailColor = 0;
@@ -29832,12 +32366,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 9
 			public const int Motion_transitionEasing = 9;
 			
-			// aapt resource value: { 0x10100B2,0x10101F8,0x7F030166,0x7F030167 }
+			// aapt resource value: { 0x10100B2,0x10101F8,0x7F03016A,0x7F03016B }
 			public static int[] MultiSelectListPreference = new int[] {
 					16842930,
 					16843256,
-					2130903398,
-					2130903399};
+					2130903402,
+					2130903403};
 			
 			// aapt resource value: 0
 			public const int MultiSelectListPreference_android_entries = 0;
@@ -29851,17 +32385,17 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int MultiSelectListPreference_entryValues = 3;
 			
-			// aapt resource value: { 0x10100D0,0x7F030130,0x7F030165,0x7F03016F,0x7F030204,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F0302F2 }
+			// aapt resource value: { 0x10100D0,0x7F030133,0x7F030169,0x7F030173,0x7F030209,0x7F0302F4,0x7F0302F5,0x7F0302F6,0x7F0302F7 }
 			public static int[] NavAction = new int[] {
 					16842960,
-					2130903344,
-					2130903397,
-					2130903407,
-					2130903556,
-					2130903791,
-					2130903792,
-					2130903793,
-					2130903794};
+					2130903347,
+					2130903401,
+					2130903411,
+					2130903561,
+					2130903796,
+					2130903797,
+					2130903798,
+					2130903799};
 			
 			// aapt resource value: 0
 			public const int NavAction_android_id = 0;
@@ -29890,12 +32424,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 8
 			public const int NavAction_popUpToInclusive = 8;
 			
-			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C3 }
+			// aapt resource value: { 0x1010003,0x10101ED,0x7F03003B,0x7F0302C8 }
 			public static int[] NavArgument = new int[] {
 					16842755,
 					16843245,
 					2130903099,
-					2130903747};
+					2130903752};
 			
 			// aapt resource value: 1
 			public const int NavArgument_android_defaultValue = 1;
@@ -29909,12 +32443,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int NavArgument_nullable = 3;
 			
-			// aapt resource value: { 0x10104EE,0x7F030003,0x7F03028D,0x7F03040E }
+			// aapt resource value: { 0x10104EE,0x7F030003,0x7F030292,0x7F030413 }
 			public static int[] NavDeepLink = new int[] {
 					16844014,
 					2130903043,
-					2130903693,
-					2130904078};
+					2130903698,
+					2130904083};
 			
 			// aapt resource value: 1
 			public const int NavDeepLink_action = 1;
@@ -29928,33 +32462,33 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int NavDeepLink_uri = 3;
 			
-			// aapt resource value: { 0x7F03035A }
+			// aapt resource value: { 0x7F03035F }
 			public static int[] NavGraphNavigator = new int[] {
-					2130903898};
+					2130903903};
 			
 			// aapt resource value: 0
 			public const int NavGraphNavigator_startDestination = 0;
 			
-			// aapt resource value: { 0x7F0302B8 }
+			// aapt resource value: { 0x7F0302BD }
 			public static int[] NavHost = new int[] {
-					2130903736};
+					2130903741};
 			
 			// aapt resource value: 0
 			public const int NavHost_navGraph = 0;
 			
-			// aapt resource value: { 0x7F030050,0x7F030156,0x7F0301E4,0x7F0301E9,0x7F0301EA,0x7F0301ED,0x7F0301F9,0x7F0301FA,0x7F0301FB,0x7F030202,0x7F03028A }
+			// aapt resource value: { 0x7F030050,0x7F030159,0x7F0301E8,0x7F0301ED,0x7F0301EE,0x7F0301F1,0x7F0301FD,0x7F0301FE,0x7F0301FF,0x7F030207,0x7F03028F }
 			public static int[] NavigationBarView = new int[] {
 					2130903120,
-					2130903382,
-					2130903524,
-					2130903529,
-					2130903530,
+					2130903385,
+					2130903528,
 					2130903533,
-					2130903545,
-					2130903546,
-					2130903547,
-					2130903554,
-					2130903690};
+					2130903534,
+					2130903537,
+					2130903549,
+					2130903550,
+					2130903551,
+					2130903559,
+					2130903695};
 			
 			// aapt resource value: 0
 			public const int NavigationBarView_backgroundTint = 0;
@@ -29989,10 +32523,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 10
 			public const int NavigationBarView_menu = 10;
 			
-			// aapt resource value: { 0x7F0301B4,0x7F03028B }
+			// aapt resource value: { 0x7F0301B8,0x7F030290 }
 			public static int[] NavigationRailView = new int[] {
-					2130903476,
-					2130903691};
+					2130903480,
+					2130903696};
 			
 			// aapt resource value: 0
 			public const int NavigationRailView_headerLayout = 0;
@@ -30000,31 +32534,31 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int NavigationRailView_menuGravity = 1;
 			
-			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030156,0x7F0301B4,0x7F0301E4,0x7F0301E6,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F8,0x7F0301FB,0x7F03028A,0x7F030333,0x7F030336 }
+			// aapt resource value: { 0x10100D4,0x10100DD,0x101011F,0x7F030159,0x7F0301B8,0x7F0301E8,0x7F0301EA,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F2,0x7F0301F3,0x7F0301F4,0x7F0301F5,0x7F0301F6,0x7F0301F7,0x7F0301F8,0x7F0301FC,0x7F0301FF,0x7F03028F,0x7F030338,0x7F03033B }
 			public static int[] NavigationView = new int[] {
 					16842964,
 					16842973,
 					16843039,
-					2130903382,
-					2130903476,
-					2130903524,
-					2130903526,
+					2130903385,
+					2130903480,
 					2130903528,
-					2130903529,
 					2130903530,
-					2130903531,
+					2130903532,
+					2130903533,
 					2130903534,
 					2130903535,
-					2130903536,
-					2130903537,
 					2130903538,
 					2130903539,
 					2130903540,
+					2130903541,
+					2130903542,
+					2130903543,
 					2130903544,
-					2130903547,
-					2130903690,
-					2130903859,
-					2130903862};
+					2130903548,
+					2130903551,
+					2130903695,
+					2130903864,
+					2130903867};
 			
 			// aapt resource value: 0
 			public const int NavigationView_android_background = 0;
@@ -30106,17 +32640,17 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int Navigator_android_label = 0;
 			
-			// aapt resource value: { 0x7F0301B1 }
+			// aapt resource value: { 0x7F0301B5 }
 			public static int[] NavInclude = new int[] {
-					2130903473};
+					2130903477};
 			
 			// aapt resource value: 0
 			public const int NavInclude_graph = 0;
 			
-			// aapt resource value: { 0x7F0300C0,0x7F03039D }
+			// aapt resource value: { 0x7F0300C3,0x7F0303A2 }
 			public static int[] OnClick = new int[] {
-					2130903232,
-					2130903965};
+					2130903235,
+					2130903970};
 			
 			// aapt resource value: 0
 			public const int OnClick_clickAction = 0;
@@ -30124,27 +32658,27 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int OnClick_targetId = 1;
 			
-			// aapt resource value: { 0x7F03003F,0x7F03013F,0x7F030140,0x7F030141,0x7F03024F,0x7F030280,0x7F030287,0x7F0302B6,0x7F0302C0,0x7F0302CC,0x7F03031E,0x7F030352,0x7F030353,0x7F030354,0x7F030355,0x7F030356,0x7F0303F6,0x7F0303F7,0x7F0303F8 }
+			// aapt resource value: { 0x7F03003F,0x7F030142,0x7F030143,0x7F030144,0x7F030254,0x7F030285,0x7F03028C,0x7F0302BB,0x7F0302C5,0x7F0302D1,0x7F030323,0x7F030357,0x7F030358,0x7F030359,0x7F03035A,0x7F03035B,0x7F0303FB,0x7F0303FC,0x7F0303FD }
 			public static int[] OnSwipe = new int[] {
 					2130903103,
-					2130903359,
-					2130903360,
-					2130903361,
-					2130903631,
-					2130903680,
-					2130903687,
-					2130903734,
-					2130903744,
-					2130903756,
-					2130903838,
-					2130903890,
-					2130903891,
-					2130903892,
-					2130903893,
-					2130903894,
-					2130904054,
-					2130904055,
-					2130904056};
+					2130903362,
+					2130903363,
+					2130903364,
+					2130903636,
+					2130903685,
+					2130903692,
+					2130903739,
+					2130903749,
+					2130903761,
+					2130903843,
+					2130903895,
+					2130903896,
+					2130903897,
+					2130903898,
+					2130903899,
+					2130904059,
+					2130904060,
+					2130904061};
 			
 			// aapt resource value: 0
 			public const int OnSwipe_autoCompleteMode = 0;
@@ -30203,15 +32737,15 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 18
 			public const int OnSwipe_touchRegionId = 18;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302CF }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F0302D4 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903759};
+					2130903764};
 			
-			// aapt resource value: { 0x7F030360 }
+			// aapt resource value: { 0x7F030365 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903904};
+					2130903909};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -30225,7 +32759,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012B,0x7F03012E,0x7F030159,0x7F03015B,0x7F0301AC,0x7F0301C6,0x7F0301CB,0x7F0301E3,0x7F0301FC,0x7F030205,0x7F0302CD,0x7F0302E8,0x7F03032D,0x7F030339,0x7F030346,0x7F030376,0x7F0303E2,0x7F030422 }
+			// aapt resource value: { 0x1010002,0x101000D,0x101000E,0x10100F2,0x10101E1,0x10101E6,0x10101E8,0x10101E9,0x10101EA,0x10101EB,0x10101EC,0x10101ED,0x10101EE,0x10102E3,0x101055C,0x1010561,0x7F03002E,0x7F030030,0x7F03012E,0x7F030131,0x7F03015D,0x7F03015F,0x7F0301B0,0x7F0301CA,0x7F0301CF,0x7F0301E7,0x7F030200,0x7F03020A,0x7F0302D2,0x7F0302ED,0x7F030332,0x7F03033E,0x7F03034B,0x7F03037B,0x7F0303E7,0x7F030427 }
 			public static int[] Preference = new int[] {
 					16842754,
 					16842765,
@@ -30245,24 +32779,24 @@ namespace attendance_management_app.Droid
 					16844129,
 					2130903086,
 					2130903088,
-					2130903339,
 					2130903342,
-					2130903385,
-					2130903387,
-					2130903468,
-					2130903494,
-					2130903499,
-					2130903523,
-					2130903548,
-					2130903557,
-					2130903757,
-					2130903784,
-					2130903853,
-					2130903865,
-					2130903878,
-					2130903926,
-					2130904034,
-					2130904098};
+					2130903345,
+					2130903389,
+					2130903391,
+					2130903472,
+					2130903498,
+					2130903503,
+					2130903527,
+					2130903552,
+					2130903562,
+					2130903762,
+					2130903789,
+					2130903858,
+					2130903870,
+					2130903883,
+					2130903931,
+					2130904039,
+					2130904103};
 			
 			// aapt resource value: { 0x10100F2,0x1010129,0x101012A,0x7F03002F }
 			public static int[] PreferenceFragment = new int[] {
@@ -30302,11 +32836,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int PreferenceFragment_android_layout = 0;
 			
-			// aapt resource value: { 0x10101E7,0x7F0301DF,0x7F0302CE }
+			// aapt resource value: { 0x10101E7,0x7F0301E3,0x7F0302D3 }
 			public static int[] PreferenceGroup = new int[] {
 					16843239,
-					2130903519,
-					2130903758};
+					2130903523,
+					2130903763};
 			
 			// aapt resource value: 0
 			public const int PreferenceGroup_android_orderingFromXml = 0;
@@ -30317,12 +32851,12 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int PreferenceGroup_orderingFromXml = 2;
 			
-			// aapt resource value: { 0x101011F,0x1010120,0x7F030284,0x7F030288 }
+			// aapt resource value: { 0x101011F,0x1010120,0x7F030289,0x7F03028D }
 			public static int[] PreferenceImageView = new int[] {
 					16843039,
 					16843040,
-					2130903684,
-					2130903688};
+					2130903689,
+					2130903693};
 			
 			// aapt resource value: 1
 			public const int PreferenceImageView_android_maxHeight = 1;
@@ -30336,24 +32870,24 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 3
 			public const int PreferenceImageView_maxWidth = 3;
 			
-			// aapt resource value: { 0x7F030099,0x7F030135,0x7F030150,0x7F030154,0x7F0302F8,0x7F0302F9,0x7F0302FA,0x7F0302FB,0x7F0302FC,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F03032B,0x7F03037C,0x7F03037D }
+			// aapt resource value: { 0x7F030099,0x7F030138,0x7F030153,0x7F030157,0x7F0302FD,0x7F0302FE,0x7F0302FF,0x7F030300,0x7F030301,0x7F030302,0x7F030303,0x7F030304,0x7F030305,0x7F030330,0x7F030381,0x7F030382 }
 			public static int[] PreferenceTheme = new int[] {
 					2130903193,
-					2130903349,
-					2130903376,
-					2130903380,
-					2130903800,
-					2130903801,
-					2130903802,
-					2130903803,
-					2130903804,
+					2130903352,
+					2130903379,
+					2130903383,
 					2130903805,
 					2130903806,
 					2130903807,
 					2130903808,
-					2130903851,
-					2130903932,
-					2130903933};
+					2130903809,
+					2130903810,
+					2130903811,
+					2130903812,
+					2130903813,
+					2130903856,
+					2130903937,
+					2130903938};
 			
 			// aapt resource value: 0
 			public const int PreferenceTheme_checkBoxPreferenceStyle = 0;
@@ -30511,13 +33045,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 35
 			public const int Preference_widgetLayout = 35;
 			
-			// aapt resource value: { 0x10100DC,0x101031F,0x7F030230,0x7F0302B1,0x7F030419 }
+			// aapt resource value: { 0x10100DC,0x101031F,0x7F030235,0x7F0302B6,0x7F03041E }
 			public static int[] PropertySet = new int[] {
 					16842972,
 					16843551,
-					2130903600,
-					2130903729,
-					2130904089};
+					2130903605,
+					2130903734,
+					2130904094};
 			
 			// aapt resource value: 1
 			public const int PropertySet_android_alpha = 1;
@@ -30534,17 +33068,17 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 4
 			public const int PropertySet_visibilityMode = 4;
 			
-			// aapt resource value: { 0x7F03027B }
+			// aapt resource value: { 0x7F030280 }
 			public static int[] RadialViewGroup = new int[] {
-					2130903675};
+					2130903680};
 			
 			// aapt resource value: 0
 			public const int RadialViewGroup_materialCircleRadius = 0;
 			
-			// aapt resource value: { 0x7F030291,0x7F030412 }
+			// aapt resource value: { 0x7F030296,0x7F030417 }
 			public static int[] RangeSlider = new int[] {
-					2130903697,
-					2130904082};
+					2130903702,
+					2130904087};
 			
 			// aapt resource value: 0
 			public const int RangeSlider_minSeparation = 0;
@@ -30552,10 +33086,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int RangeSlider_values = 1;
 			
-			// aapt resource value: { 0x7F0302D1,0x7F0302D7 }
+			// aapt resource value: { 0x7F0302D6,0x7F0302DC }
 			public static int[] RecycleListView = new int[] {
-					2130903761,
-					2130903767};
+					2130903766,
+					2130903772};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -30563,20 +33097,20 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030208,0x7F03031C,0x7F03034D,0x7F030358 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03020D,0x7F030321,0x7F030352,0x7F03035D }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
 					16842993,
-					2130903428,
-					2130903429,
-					2130903430,
-					2130903431,
 					2130903432,
-					2130903560,
-					2130903836,
-					2130903885,
-					2130903896};
+					2130903433,
+					2130903434,
+					2130903435,
+					2130903436,
+					2130903565,
+					2130903841,
+					2130903890,
+					2130903901};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -30614,9 +33148,9 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int RecyclerView_stackFromEnd = 11;
 			
-			// aapt resource value: { 0x7F0301E0 }
+			// aapt resource value: { 0x7F0301E4 }
 			public static int[] ScrimInsetsFrameLayout = new int[] {
-					2130903520};
+					2130903524};
 			
 			// aapt resource value: 0
 			public const int ScrimInsetsFrameLayout_insetForeground = 0;
@@ -30628,32 +33162,32 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x7F030326 }
+			// aapt resource value: { 0x7F03032B }
 			public static int[] ScrollViewRendererTheme = new int[] {
-					2130903846};
+					2130903851};
 			
 			// aapt resource value: 0
 			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C5,0x7F0300EA,0x7F030129,0x7F0301B0,0x7F0301CF,0x7F030205,0x7F03030B,0x7F03030C,0x7F030327,0x7F030328,0x7F03036C,0x7F030375,0x7F03041A }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F0300C8,0x7F0300ED,0x7F03012C,0x7F0301B4,0x7F0301D3,0x7F03020A,0x7F030310,0x7F030311,0x7F03032C,0x7F03032D,0x7F030371,0x7F03037A,0x7F03041F }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
 					16843296,
 					16843364,
-					2130903237,
-					2130903274,
-					2130903337,
-					2130903472,
-					2130903503,
-					2130903557,
-					2130903819,
-					2130903820,
-					2130903847,
-					2130903848,
-					2130903916,
-					2130903925,
-					2130904090};
+					2130903240,
+					2130903277,
+					2130903340,
+					2130903476,
+					2130903507,
+					2130903562,
+					2130903824,
+					2130903825,
+					2130903852,
+					2130903853,
+					2130903921,
+					2130903930,
+					2130904095};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -30706,15 +33240,15 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F03028E,0x7F03032A,0x7F030340,0x7F03040D }
+			// aapt resource value: { 0x10100F2,0x1010136,0x7F030029,0x7F030293,0x7F03032F,0x7F030345,0x7F030412 }
 			public static int[] SeekBarPreference = new int[] {
 					16842994,
 					16843062,
 					2130903081,
-					2130903694,
-					2130903850,
-					2130903872,
-					2130904077};
+					2130903699,
+					2130903855,
+					2130903877,
+					2130904082};
 			
 			// aapt resource value: 2
 			public const int SeekBarPreference_adjustable = 2;
@@ -30737,19 +33271,19 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 6
 			public const int SeekBarPreference_updatesContinuously = 6;
 			
-			// aapt resource value: { 0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030333,0x7F030336,0x7F030369,0x7F03036A }
+			// aapt resource value: { 0x7F0300FC,0x7F0300FD,0x7F0300FE,0x7F0300FF,0x7F030100,0x7F030101,0x7F030102,0x7F030338,0x7F03033B,0x7F03036E,0x7F03036F }
 			public static int[] ShapeableImageView = new int[] {
-					2130903289,
-					2130903290,
-					2130903291,
 					2130903292,
 					2130903293,
 					2130903294,
 					2130903295,
-					2130903859,
-					2130903862,
-					2130903913,
-					2130903914};
+					2130903296,
+					2130903297,
+					2130903298,
+					2130903864,
+					2130903867,
+					2130903918,
+					2130903919};
 			
 			// aapt resource value: 0
 			public const int ShapeableImageView_contentPadding = 0;
@@ -30784,18 +33318,18 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 10
 			public const int ShapeableImageView_strokeWidth = 10;
 			
-			// aapt resource value: { 0x7F030104,0x7F030105,0x7F030106,0x7F030107,0x7F030108,0x7F03010A,0x7F03010B,0x7F03010C,0x7F03010D,0x7F03010E }
+			// aapt resource value: { 0x7F030107,0x7F030108,0x7F030109,0x7F03010A,0x7F03010B,0x7F03010D,0x7F03010E,0x7F03010F,0x7F030110,0x7F030111 }
 			public static int[] ShapeAppearance = new int[] {
-					2130903300,
-					2130903301,
-					2130903302,
 					2130903303,
 					2130903304,
+					2130903305,
 					2130903306,
 					2130903307,
-					2130903308,
 					2130903309,
-					2130903310};
+					2130903310,
+					2130903311,
+					2130903312,
+					2130903313};
 			
 			// aapt resource value: 0
 			public const int ShapeAppearance_cornerFamily = 0;
@@ -30827,30 +33361,30 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 9
 			public const int ShapeAppearance_cornerSizeTopRight = 9;
 			
-			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B2,0x7F0301B3,0x7F030200,0x7F030201,0x7F0303D1,0x7F0303D2,0x7F0303D3,0x7F0303D4,0x7F0303D5,0x7F0303D9,0x7F0303DA,0x7F0303DB,0x7F0303DF,0x7F0303FA,0x7F0303FB,0x7F0303FC,0x7F0303FE }
+			// aapt resource value: { 0x101000E,0x1010024,0x1010146,0x10102DE,0x10102DF,0x7F0301B6,0x7F0301B7,0x7F030205,0x7F030206,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303D9,0x7F0303DA,0x7F0303DE,0x7F0303DF,0x7F0303E0,0x7F0303E4,0x7F0303FF,0x7F030400,0x7F030401,0x7F030403 }
 			public static int[] Slider = new int[] {
 					16842766,
 					16842788,
 					16843078,
 					16843486,
 					16843487,
-					2130903474,
-					2130903475,
-					2130903552,
-					2130903553,
-					2130904017,
-					2130904018,
-					2130904019,
-					2130904020,
-					2130904021,
+					2130903478,
+					2130903479,
+					2130903557,
+					2130903558,
+					2130904022,
+					2130904023,
+					2130904024,
 					2130904025,
 					2130904026,
-					2130904027,
+					2130904030,
 					2130904031,
-					2130904058,
-					2130904059,
-					2130904060,
-					2130904062};
+					2130904032,
+					2130904036,
+					2130904063,
+					2130904064,
+					2130904065,
+					2130904067};
 			
 			// aapt resource value: 0
 			public const int Slider_android_enabled = 0;
@@ -30918,13 +33452,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 21
 			public const int Slider_trackHeight = 21;
 			
-			// aapt resource value: { 0x7F03034A,0x7F03034B,0x7F03034C }
+			// aapt resource value: { 0x7F03034F,0x7F030350,0x7F030351 }
 			public static int[] Snackbar = new int[] {
-					2130903882,
-					2130903883,
-					2130903884};
+					2130903887,
+					2130903888,
+					2130903889};
 			
-			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030156,0x7F030281 }
+			// aapt resource value: { 0x101011F,0x7F030026,0x7F030037,0x7F03004D,0x7F030050,0x7F030051,0x7F030159,0x7F030286 }
 			public static int[] SnackbarLayout = new int[] {
 					16843039,
 					2130903078,
@@ -30932,8 +33466,8 @@ namespace attendance_management_app.Droid
 					2130903117,
 					2130903120,
 					2130903121,
-					2130903382,
-					2130903681};
+					2130903385,
+					2130903686};
 			
 			// aapt resource value: 1
 			public const int SnackbarLayout_actionTextColorAlpha = 1;
@@ -30968,13 +33502,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int Snackbar_snackbarTextViewStyle = 2;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302F5 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F0302FA }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903797};
+					2130903802};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -30991,10 +33525,10 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 4
 			public const int Spinner_popupTheme = 4;
 			
-			// aapt resource value: { 0x10100D0,0x7F0300F0 }
+			// aapt resource value: { 0x10100D0,0x7F0300F3 }
 			public static int[] State = new int[] {
 					16842960,
-					2130903280};
+					2130903283};
 			
 			// aapt resource value: { 0x101011C,0x1010194,0x1010195,0x1010196,0x101030C,0x101030D }
 			public static int[] StateListDrawable = new int[] {
@@ -31030,9 +33564,9 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x7F03012A }
+			// aapt resource value: { 0x7F03012D }
 			public static int[] StateSet = new int[] {
-					2130903338};
+					2130903341};
 			
 			// aapt resource value: 0
 			public const int StateSet_defaultState = 0;
@@ -31043,29 +33577,29 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int State_constraints = 1;
 			
-			// aapt resource value: { 0x7F030379 }
+			// aapt resource value: { 0x7F03037E }
 			public static int[] SwipeRefreshLayout = new int[] {
-					2130903929};
+					2130903934};
 			
 			// aapt resource value: 0
 			public const int SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = 0;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030341,0x7F030351,0x7F03037A,0x7F03037B,0x7F03037F,0x7F0303D6,0x7F0303D7,0x7F0303D8,0x7F0303F9,0x7F030400,0x7F030401 }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030346,0x7F030356,0x7F03037F,0x7F030380,0x7F030384,0x7F0303DB,0x7F0303DC,0x7F0303DD,0x7F0303FE,0x7F030405,0x7F030406 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903873,
-					2130903889,
-					2130903930,
-					2130903931,
+					2130903878,
+					2130903894,
 					2130903935,
-					2130904022,
-					2130904023,
-					2130904024,
-					2130904057,
-					2130904064,
-					2130904065};
+					2130903936,
+					2130903940,
+					2130904027,
+					2130904028,
+					2130904029,
+					2130904062,
+					2130904069,
+					2130904070};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -31109,38 +33643,38 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 13
 			public const int SwitchCompat_trackTintMode = 13;
 			
-			// aapt resource value: { 0x7F030410 }
+			// aapt resource value: { 0x7F030415 }
 			public static int[] SwitchMaterial = new int[] {
-					2130904080};
+					2130904085};
 			
 			// aapt resource value: 0
 			public const int SwitchMaterial_useMaterialThemeColors = 0;
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreference = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
-			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F030139,0x7F030377,0x7F030378,0x7F030380,0x7F030381 }
+			// aapt resource value: { 0x10101EF,0x10101F0,0x10101F1,0x101036B,0x101036C,0x7F03013C,0x7F03037C,0x7F03037D,0x7F030385,0x7F030386 }
 			public static int[] SwitchPreferenceCompat = new int[] {
 					16843247,
 					16843248,
 					16843249,
 					16843627,
 					16843628,
-					2130903353,
-					2130903927,
-					2130903928,
-					2130903936,
-					2130903937};
+					2130903356,
+					2130903932,
+					2130903933,
+					2130903941,
+					2130903942};
 			
 			// aapt resource value: 2
 			public const int SwitchPreferenceCompat_android_disableDependentsState = 2;
@@ -31217,13 +33751,8 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F030382,0x7F030383,0x7F030384,0x7F030385,0x7F030386,0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F03039A,0x7F03039B,0x7F03039C }
+			// aapt resource value: { 0x7F030387,0x7F030388,0x7F030389,0x7F03038A,0x7F03038B,0x7F03038C,0x7F03038D,0x7F03038E,0x7F03038F,0x7F030390,0x7F030391,0x7F030392,0x7F030393,0x7F030394,0x7F030395,0x7F030396,0x7F030397,0x7F030398,0x7F030399,0x7F03039A,0x7F03039B,0x7F03039C,0x7F03039D,0x7F03039F,0x7F0303A0,0x7F0303A1 }
 			public static int[] TabLayout = new int[] {
-					2130903938,
-					2130903939,
-					2130903940,
-					2130903941,
-					2130903942,
 					2130903943,
 					2130903944,
 					2130903945,
@@ -31242,9 +33771,14 @@ namespace attendance_management_app.Droid
 					2130903958,
 					2130903959,
 					2130903960,
+					2130903961,
 					2130903962,
 					2130903963,
-					2130903964};
+					2130903964,
+					2130903965,
+					2130903967,
+					2130903968,
+					2130903969};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -31324,7 +33858,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 25
 			public const int TabLayout_tabUnboundedRipple = 25;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F03019F,0x7F0301A8,0x7F0303A2,0x7F0303C4 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0301A3,0x7F0301AC,0x7F0303A7,0x7F0303C9 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -31338,10 +33872,10 @@ namespace attendance_management_app.Droid
 					16843108,
 					16843692,
 					16844165,
-					2130903455,
-					2130903464,
-					2130903970,
-					2130904004};
+					2130903459,
+					2130903468,
+					2130903975,
+					2130904009};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -31391,7 +33925,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 15
 			public const int TextAppearance_textLocale = 15;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C1,0x7F0303C5,0x7F0303C6 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x101014F,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F030065,0x7F030066,0x7F0303C6,0x7F0303CA,0x7F0303CB }
 			public static int[] TextEffects = new int[] {
 					16842901,
 					16842902,
@@ -31404,9 +33938,9 @@ namespace attendance_management_app.Droid
 					16843692,
 					2130903141,
 					2130903142,
-					2130904001,
-					2130904005,
-					2130904006};
+					2130904006,
+					2130904010,
+					2130904011};
 			
 			// aapt resource value: 8
 			public const int TextEffects_android_fontFamily = 8;
@@ -31450,14 +33984,14 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 13
 			public const int TextEffects_textOutlineThickness = 13;
 			
-			// aapt resource value: { 0x7F0303C2 }
+			// aapt resource value: { 0x7F0303C7 }
 			public static int[] TextInputEditText = new int[] {
-					2130904002};
+					2130904007};
 			
 			// aapt resource value: 0
 			public const int TextInputEditText_textInputLayoutFocusedRectEnabled = 0;
 			
-			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F03010F,0x7F030110,0x7F030111,0x7F030112,0x7F030113,0x7F030114,0x7F03015C,0x7F03015D,0x7F03015E,0x7F03015F,0x7F030160,0x7F030161,0x7F030168,0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E,0x7F030172,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0302DC,0x7F0302DD,0x7F0302DE,0x7F0302DF,0x7F0302E0,0x7F0302EA,0x7F0302EB,0x7F0302EC,0x7F030301,0x7F030302,0x7F030303,0x7F030333,0x7F030336,0x7F03035B,0x7F03035C,0x7F03035D,0x7F03035E,0x7F03035F,0x7F030372,0x7F030373,0x7F030374 }
+			// aapt resource value: { 0x101000E,0x101009A,0x101011F,0x101013F,0x1010150,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030070,0x7F030071,0x7F030072,0x7F030073,0x7F030074,0x7F030075,0x7F030076,0x7F030077,0x7F030112,0x7F030113,0x7F030114,0x7F030115,0x7F030116,0x7F030117,0x7F030160,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F03016C,0x7F03016D,0x7F03016E,0x7F03016F,0x7F030170,0x7F030171,0x7F030172,0x7F030176,0x7F0301BA,0x7F0301BB,0x7F0301BC,0x7F0301BD,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0302E1,0x7F0302E2,0x7F0302E3,0x7F0302E4,0x7F0302E5,0x7F0302EF,0x7F0302F0,0x7F0302F1,0x7F030306,0x7F030307,0x7F030308,0x7F030338,0x7F03033B,0x7F030360,0x7F030361,0x7F030362,0x7F030363,0x7F030364,0x7F030377,0x7F030378,0x7F030379 }
 			public static int[] TextInputLayout = new int[] {
 					16842766,
 					16842906,
@@ -31475,55 +34009,55 @@ namespace attendance_management_app.Droid
 					2130903157,
 					2130903158,
 					2130903159,
-					2130903311,
-					2130903312,
-					2130903313,
 					2130903314,
 					2130903315,
 					2130903316,
-					2130903388,
-					2130903389,
-					2130903390,
-					2130903391,
+					2130903317,
+					2130903318,
+					2130903319,
 					2130903392,
 					2130903393,
-					2130903400,
-					2130903401,
-					2130903402,
-					2130903403,
+					2130903394,
+					2130903395,
+					2130903396,
+					2130903397,
 					2130903404,
 					2130903405,
 					2130903406,
+					2130903407,
+					2130903408,
+					2130903409,
 					2130903410,
-					2130903478,
-					2130903479,
-					2130903480,
-					2130903481,
-					2130903486,
-					2130903487,
-					2130903488,
-					2130903489,
-					2130903772,
-					2130903773,
-					2130903774,
-					2130903775,
-					2130903776,
-					2130903786,
-					2130903787,
-					2130903788,
-					2130903809,
-					2130903810,
-					2130903811,
-					2130903859,
-					2130903862,
-					2130903899,
-					2130903900,
-					2130903901,
-					2130903902,
-					2130903903,
-					2130903922,
-					2130903923,
-					2130903924};
+					2130903414,
+					2130903482,
+					2130903483,
+					2130903484,
+					2130903485,
+					2130903490,
+					2130903491,
+					2130903492,
+					2130903493,
+					2130903777,
+					2130903778,
+					2130903779,
+					2130903780,
+					2130903781,
+					2130903791,
+					2130903792,
+					2130903793,
+					2130903814,
+					2130903815,
+					2130903816,
+					2130903864,
+					2130903867,
+					2130903904,
+					2130903905,
+					2130903906,
+					2130903907,
+					2130903908,
+					2130903927,
+					2130903928,
+					2130903929};
 			
 			// aapt resource value: 0
 			public const int TextInputLayout_android_enabled = 0;
@@ -31720,11 +34254,11 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 64
 			public const int TextInputLayout_suffixTextColor = 64;
 			
-			// aapt resource value: { 0x1010034,0x7F030162,0x7F030163 }
+			// aapt resource value: { 0x1010034,0x7F030166,0x7F030167 }
 			public static int[] ThemeEnforcement = new int[] {
 					16842804,
-					2130903394,
-					2130903395};
+					2130903398,
+					2130903399};
 			
 			// aapt resource value: 0
 			public const int ThemeEnforcement_android_textAppearance = 0;
@@ -31735,38 +34269,38 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300CD,0x7F0300CE,0x7F0300F3,0x7F0300F4,0x7F0300F5,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F030262,0x7F030263,0x7F030282,0x7F03028A,0x7F0302B9,0x7F0302BA,0x7F0302F5,0x7F03036D,0x7F03036F,0x7F030370,0x7F0303E2,0x7F0303E6,0x7F0303E7,0x7F0303E8,0x7F0303E9,0x7F0303EA,0x7F0303EB,0x7F0303EC,0x7F0303ED }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F03007F,0x7F0300D0,0x7F0300D1,0x7F0300F6,0x7F0300F7,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FB,0x7F030267,0x7F030268,0x7F030287,0x7F03028F,0x7F0302BE,0x7F0302BF,0x7F0302FA,0x7F030372,0x7F030374,0x7F030375,0x7F0303E7,0x7F0303EB,0x7F0303EC,0x7F0303ED,0x7F0303EE,0x7F0303EF,0x7F0303F0,0x7F0303F1,0x7F0303F2 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
 					2130903167,
-					2130903245,
-					2130903246,
-					2130903283,
-					2130903284,
-					2130903285,
+					2130903248,
+					2130903249,
 					2130903286,
 					2130903287,
 					2130903288,
-					2130903650,
-					2130903651,
-					2130903682,
-					2130903690,
-					2130903737,
-					2130903738,
-					2130903797,
-					2130903917,
-					2130903919,
-					2130903920,
-					2130904034,
-					2130904038,
+					2130903289,
+					2130903290,
+					2130903291,
+					2130903655,
+					2130903656,
+					2130903687,
+					2130903695,
+					2130903742,
+					2130903743,
+					2130903802,
+					2130903922,
+					2130903924,
+					2130903925,
 					2130904039,
-					2130904040,
-					2130904041,
-					2130904042,
 					2130904043,
 					2130904044,
-					2130904045};
+					2130904045,
+					2130904046,
+					2130904047,
+					2130904048,
+					2130904049,
+					2130904050};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -31889,7 +34423,7 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 6
 			public const int Tooltip_backgroundTint = 6;
 			
-			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030402 }
+			// aapt resource value: { 0x1010320,0x1010321,0x1010322,0x1010323,0x1010324,0x1010325,0x1010326,0x1010327,0x1010328,0x10103FA,0x1010440,0x7F030407 }
 			public static int[] Transform = new int[] {
 					16843552,
 					16843553,
@@ -31902,7 +34436,7 @@ namespace attendance_management_app.Droid
 					16843560,
 					16843770,
 					16843840,
-					2130904066};
+					2130904071};
 			
 			// aapt resource value: 10
 			public const int Transform_android_elevation = 10;
@@ -31940,19 +34474,19 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 11
 			public const int Transform_transformPivotTarget = 11;
 			
-			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EC,0x7F0300ED,0x7F030151,0x7F030207,0x7F0302AE,0x7F0302E1,0x7F030359,0x7F030403,0x7F030405 }
+			// aapt resource value: { 0x10100D0,0x7F030046,0x7F0300EF,0x7F0300F0,0x7F030154,0x7F03020C,0x7F0302B3,0x7F0302E6,0x7F03035E,0x7F030408,0x7F03040A }
 			public static int[] Transition = new int[] {
 					16842960,
 					2130903110,
-					2130903276,
-					2130903277,
-					2130903377,
-					2130903559,
-					2130903726,
-					2130903777,
-					2130903897,
-					2130904067,
-					2130904069};
+					2130903279,
+					2130903280,
+					2130903380,
+					2130903564,
+					2130903731,
+					2130903782,
+					2130903902,
+					2130904072,
+					2130904074};
 			
 			// aapt resource value: 0
 			public const int Transition_android_id = 0;
@@ -31987,13 +34521,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 10
 			public const int Transition_transitionFlags = 10;
 			
-			// aapt resource value: { 0x7F0300F0,0x7F030318,0x7F030319,0x7F03031A,0x7F03031B }
+			// aapt resource value: { 0x7F0300F3,0x7F03031D,0x7F03031E,0x7F03031F,0x7F030320 }
 			public static int[] Variant = new int[] {
-					2130903280,
-					2130903832,
-					2130903833,
-					2130903834,
-					2130903835};
+					2130903283,
+					2130903837,
+					2130903838,
+					2130903839,
+					2130903840};
 			
 			// aapt resource value: 0
 			public const int Variant_constraints = 0;
@@ -32010,13 +34544,13 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 4
 			public const int Variant_region_widthMoreThan = 4;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D3,0x7F0302D6,0x7F0303CE }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F0302D8,0x7F0302DB,0x7F0303D3 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903763,
-					2130903766,
-					2130904014};
+					2130903768,
+					2130903771,
+					2130904019};
 			
 			// aapt resource value: { 0x10100D4,0x7F030050,0x7F030051 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -32055,23 +34589,23 @@ namespace attendance_management_app.Droid
 			// aapt resource value: 1
 			public const int ViewStubCompat_android_layout = 1;
 			
-			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300BF,0x7F030151,0x7F0301D0,0x7F0301D1,0x7F0302AE,0x7F0302B3,0x7F0302CB,0x7F0302E1,0x7F030332,0x7F030403,0x7F03040C,0x7F030415 }
+			// aapt resource value: { 0x10100D0,0x7F030001,0x7F030002,0x7F0300C2,0x7F030154,0x7F0301D4,0x7F0301D5,0x7F0302B3,0x7F0302B8,0x7F0302D0,0x7F0302E6,0x7F030337,0x7F030408,0x7F030411,0x7F03041A }
 			public static int[] ViewTransition = new int[] {
 					16842960,
 					2130903041,
 					2130903042,
-					2130903231,
-					2130903377,
-					2130903504,
-					2130903505,
-					2130903726,
+					2130903234,
+					2130903380,
+					2130903508,
+					2130903509,
 					2130903731,
-					2130903755,
-					2130903777,
-					2130903858,
-					2130904067,
-					2130904076,
-					2130904085};
+					2130903736,
+					2130903760,
+					2130903782,
+					2130903863,
+					2130904072,
+					2130904081,
+					2130904090};
 			
 			// aapt resource value: 0
 			public const int ViewTransition_android_id = 0;

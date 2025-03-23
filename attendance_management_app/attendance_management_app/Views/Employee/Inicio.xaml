@@ -3,146 +3,191 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.Views.Employee.Inicio"
              NavigationPage.HasNavigationBar="False"
-             Background="white">
-    <ContentPage.Content>
-        <StackLayout Padding="16"
-                     VerticalOptions="FillAndExpand">
-            <Label Text="Registro de Asistencia"
-                   VerticalOptions="Start"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="#000000"
-                   Margin="0,24,0,0" />
-            <BoxView HeightRequest="2"
-                     BackgroundColor="Black"
-                     WidthRequest="270"
-                     HorizontalOptions="Center"
-                     Margin="0,0,0,15" />
-            <!-- Frame for adding a border to the sides -->
-            <Frame HasShadow="False"
-                   CornerRadius="5"
-                   BorderColor="Black"
-                   Padding="0"
-                   Margin="0">
-                <StackLayout Orientation="Horizontal"
-                             Spacing="5"
-                             Padding="0"
-                             Margin="0"
-                             HeightRequest="40">
-                    <!-- CollectionView inside StackLayout -->
-                    <CollectionView ItemsSource="{Binding WorkingDaysFormat}"
-                                    SelectionMode="Single"
-                                    ItemsLayout="HorizontalList">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <Button x:Name="{Binding .}"
-                                        Text="{Binding .}"
-                                        HorizontalOptions="Start"
-                                        VerticalOptions="Center"
-                                        Margin="2"
-                                        BackgroundColor="Black"
-                                        TextColor="White"
-                                        Clicked="OnButtonClicked"
-                                        CommandParameter="{Binding .}" />
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </StackLayout>
-            </Frame>
-            <StackLayout HorizontalOptions="Center"
-                         VerticalOptions="Center">
-                <Frame HasShadow="False"
-                       x:Name="AttendanceFrame"
-                       CornerRadius="10"
-                       BorderColor="Black"
-                       BackgroundColor="White"
-                       Padding="10"
-                       Margin="0,20,0,0"
-                       HorizontalOptions="Center"
-                       WidthRequest="193"
-                       HeightRequest="100">
-                    <StackLayout VerticalOptions="CenterAndExpand"
-                                 HorizontalOptions="Center"
-                                 Spacing="5">
-                        <Label Text="Hora de Entrada:"
-                               FontSize="14"
-                               TextColor="Black"
-                               HorizontalOptions="Center" />
-                        <Label x:Name="StartTime"
-                               Text=""
-                               FontSize="14"
-                               TextColor="Black"
-                               HorizontalOptions="Center" />
+             BackgroundColor="#f5f7fa">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <!-- Main Content -->
+        <ScrollView Grid.Row="0">
+            <StackLayout Spacing="15" Padding="0">
+                <!-- Header with gradient background -->
+                <Frame Padding="20" CornerRadius="0" HasShadow="False">
+                    <Frame.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                            <GradientStop Color="#4e67f7" Offset="0.0" />
+                            <GradientStop Color="#6b8cff" Offset="1.0" />
+                        </LinearGradientBrush>
+                    </Frame.Background>
+
+                    <StackLayout Spacing="8">
+                        <Label Text="HOLA JUAN" 
+                               TextColor="White"
+                               FontSize="26" 
+                               FontAttributes="Bold" />
+                        <Label Text="Recuerda marcar tu asistencia de hoy" 
+                               TextColor="White"
+                               FontSize="16" 
+                               Opacity="0.9" />
                     </StackLayout>
                 </Frame>
-                <Frame HasShadow="False"
-                       CornerRadius="10"
-                       BorderColor="Black"
-                       BackgroundColor="White"
-                       Padding="10"
-                       Margin="0,20,0,0"
-                       HorizontalOptions="Center"
-                       WidthRequest="193"
-                       HeightRequest="100"
-                       IsVisible="false"
-                       x:Name="AttendanceHistoryFrame">
-                    <StackLayout VerticalOptions="CenterAndExpand"
-                                 HorizontalOptions="Center"
-                                 Spacing="10">
-                        <Label Text=""
-                               x:Name="AttendanceHistoryLabel"
-                               FontSize="14"
-                               TextColor="Black"
+
+                <!-- Work Status Card -->
+                <Frame CornerRadius="10" Padding="0" HasShadow="True" BorderColor="Transparent">
+                    <StackLayout>
+                        <Grid Padding="15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Frame Grid.Column="0" 
+                                   HeightRequest="30" 
+                                   WidthRequest="30" 
+                                   CornerRadius="15" 
+                                   BackgroundColor="#e8f7e8" 
+                                   Padding="0" 
+                                   HasShadow="False"
+                                   VerticalOptions="Center">
+                                <Frame HeightRequest="12" 
+                                       WidthRequest="12" 
+                                       CornerRadius="6" 
+                                       BackgroundColor="#39c168" 
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="Center" 
+                                       HasShadow="False" />
+                            </Frame>
+
+                            <Label Grid.Column="1" 
+                                   Text="JORNADA LABORAL" 
+                                   FontSize="16" 
+                                   FontAttributes="Bold" 
+                                   VerticalOptions="Center" 
+                                   Margin="10,0,0,0" />
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#f0f0f0" />
+
+                        <Label Text="Part Time Morning" 
+                               FontSize="18" 
+                               Margin="15,10" 
+                               TextColor="#333333" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Schedule Card -->
+                <Frame CornerRadius="10" Padding="15" HasShadow="True" BorderColor="Transparent">
+                    <StackLayout Spacing="15">
+                        <Label Text="Horario" 
+                               FontSize="16" 
+                               FontAttributes="Bold" 
+                               TextColor="#555555" />
+
+                        <Label Text="8:00 a.m. - 12:00 p.m." 
+                               FontSize="22" 
+                               FontAttributes="Bold" 
+                               TextColor="#333333" 
                                HorizontalOptions="Center" />
-                        <Image Source=""
-                               x:Name="AttendanceHistoryImage" />
+
+                        <Button Text="Entrar" 
+                                BackgroundColor="#4e67f7" 
+                                TextColor="White" 
+                                CornerRadius="25" 
+                                HeightRequest="50" 
+                                FontAttributes="Bold"
+                                FontSize="16" />
+                    </StackLayout>
+                </Frame>
+
+                <!-- Birthday Card -->
+                <Frame CornerRadius="10" Padding="0" HasShadow="True" BorderColor="Transparent" Margin="0,0,0,70">
+                    <StackLayout>
+                        <Grid Padding="15">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+
+                            <Frame Grid.Column="0" 
+                                   HeightRequest="30" 
+                                   WidthRequest="30" 
+                                   CornerRadius="15" 
+                                   BackgroundColor="#ffe8ed" 
+                                   Padding="0" 
+                                   HasShadow="False"
+                                   VerticalOptions="Center">
+                                <Frame HeightRequest="12" 
+                                       WidthRequest="12" 
+                                       CornerRadius="6" 
+                                       BackgroundColor="#ff4d7a" 
+                                       HorizontalOptions="Center" 
+                                       VerticalOptions="Center" 
+                                       HasShadow="False" />
+                            </Frame>
+
+                            <Label Grid.Column="1" 
+                                   Text="CUMPLEAÑOS" 
+                                   FontSize="16" 
+                                   FontAttributes="Bold" 
+                                   VerticalOptions="Center" 
+                                   Margin="10,0,0,0" />
+                        </Grid>
+
+                        <BoxView HeightRequest="1" Color="#f0f0f0" />
+
+                        <Label Text="Cumpleaños de Juan Manuel" 
+                               FontSize="18" 
+                               Margin="15,10" 
+                               TextColor="#333333" />
                     </StackLayout>
                 </Frame>
             </StackLayout>
-            <Grid VerticalOptions="EndAndExpand"
-                  Padding="0"
-                  Margin="-20, 0, -20, -17"
-                  BackgroundColor="Black">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        BackgroundColor="Black"
-                        TextColor="White"
-                        Text="Registrar"
-                        Clicked="OnMarkAttendance"
-                        WidthRequest="210"
-                        ImageSource="@drawable/Home"
-                        ContentLayout="Top, 10"
-                        Padding="0,12,0,10" />
-                <Button Grid.Column="1"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        BackgroundColor="Black"
-                        TextColor="White"
-                        Text="Dashboard"
-                        WidthRequest="210"
-                        ImageSource="@drawable/grafico"
-                        Clicked="OnDashboardView"
-                        ContentLayout="Top, 10"
-                        Padding="0,12,0,10" />
-                <Button Grid.Column="2"
-                        HorizontalOptions="Center"
-                        VerticalOptions="Center"
-                        BackgroundColor="Black"
-                        TextColor="White"
-                        Text="Salir"
-                        WidthRequest="210"
-                        ImageSource="@drawable/cerrarsession"
-                        Clicked="OnLogoutButtonClicked"
-                        ContentLayout="Top, 10"
-                        Padding="0,12,0,10" />
-            </Grid>
-        </StackLayout>
-    </ContentPage.Content>
+        </ScrollView>
+
+        <!-- Navigation Bar -->
+        <Grid Grid.Row="1"
+              VerticalOptions="End"
+              Padding="0"
+              Margin="0"
+              BackgroundColor="Black">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    
+                    ImageSource="@drawable/Home"
+                    ContentLayout="Top, 10"
+                    Padding="0,12,0,10" />
+
+            <Button Grid.Column="1"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    ImageSource="@drawable/grafico"
+                    Clicked="OnDashboardView"
+                    ContentLayout="Top, 10"
+                    Padding="0,12,0,10" />
+
+            <Button Grid.Column="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    ImageSource="@drawable/cerrarsession"
+                    Clicked="OnLogoutButtonClicked"
+                    ContentLayout="Top, 10"
+                    Padding="0,12,0,10" />
+        </Grid>
+    </Grid>
 </ContentPage>

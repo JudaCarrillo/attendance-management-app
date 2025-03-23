@@ -4,26 +4,36 @@
              xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              x:Class="attendance_management_app.Views.Administrator.Graficos"
-             BackgroundColor="White"
+             BackgroundColor="#F5F7FA"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
         <StackLayout VerticalOptions="FillAndExpand">
-            <Label Text="Graficos de Asistencias"
-                   VerticalOptions="Start"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="#000000"
-                   Margin="0,24,0,0" />
-            <BoxView HeightRequest="2"
-                     BackgroundColor="Black"
-                     WidthRequest="270"
-                     HorizontalOptions="Center"
-                     Margin="0,0,0,1" />
+            <!-- Header Section -->
+            <Frame BackgroundColor="#4361EE" 
+                   Padding="20" 
+                   HasShadow="True" 
+                   CornerRadius="0">
+                <StackLayout>
+                    <Label Text="Asistencias"   
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="White" />
+                    <Label Text="Visualiza las asistencias, tardanzas, faltas de los empleados"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"
+                           FontSize="14"
+                           TextColor="White"
+                           Opacity="0.9" />
+                </StackLayout>
+            </Frame>
+
+            <!-- Tab Buttons -->
             <Frame HasShadow="False"
                    CornerRadius="9"
                    Padding="-2,-2,0,0"
-                   Margin="0,5,0,30"
+                   Margin="0,20,0,15"
                    HorizontalOptions="Center">
                 <StackLayout Orientation="Horizontal"
                              HorizontalOptions="Center"
@@ -31,47 +41,71 @@
                              Padding="0"
                              Margin="0"
                              HeightRequest="40">
-                    <!-- Botón Gestión -->
-                    <Button Text="Diaria"
+                    <!-- Botón Semanal -->
+                    <Button Text="Semanal"
                             HorizontalOptions="Start"
                             VerticalOptions="Center"
                             Margin="2"
                             WidthRequest="150"
-                            BackgroundColor="Gray"
+                            BackgroundColor="#6A83FF"
                             TextColor="White"
                             x:Name="DiarioButton"
                             Clicked="DiarioButton_Clicked" />
-                    <!-- Botón Registro -->
-                    <Button Text="mensual"
+
+                    <!-- Botón Mensual -->
+                    <Button Text="Mensuales"
                             HorizontalOptions="Start"
                             VerticalOptions="Center"
                             Margin="2"
                             WidthRequest="150"
-                            BackgroundColor="Black"
-                            TextColor="White"
+                            BackgroundColor="White"
+                            TextColor="Black"
                             x:Name="MensualButton"
                             Clicked="MensualButton_Clicked" />
                 </StackLayout>
             </Frame>
 
+            <!-- Daily Chart Frame -->
             <Frame x:Name="GraficoDiario"
                    HeightRequest="395"
                    Padding="15"
                    BorderColor="Black"
-                   CornerRadius="10"
+                   CornerRadius="15"
+                   HasShadow="True"
                    Margin="10,10,10,0">
-                <forms:ChartView x:Name="dailyChart"
-                                 HeightRequest="400" />
+                <StackLayout>
+                    <Label Text="GRAFICO SEMANAL"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#374151"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,15" />
+                    <forms:ChartView x:Name="dailyChart"
+                                     HeightRequest="320" />
+                </StackLayout>
             </Frame>
+
+            <!-- Monthly Chart Frame -->
             <Frame x:Name="GraficoMensual"
                    HeightRequest="395"
                    Padding="15"
                    BorderColor="Black"
-                   CornerRadius="10"
+                   CornerRadius="15"
+                   HasShadow="True"
                    Margin="10,10,10,0">
-                <forms:ChartView x:Name="monthlyChart"
-                                 HeightRequest="400" />
+                <StackLayout>
+                    <Label Text="GRAFICO MENSUAL"
+                           FontSize="18"
+                           FontAttributes="Bold"
+                           TextColor="#374151"
+                           HorizontalOptions="Center"
+                           Margin="0,0,0,15" />
+                    <forms:ChartView x:Name="monthlyChart"
+                                     HeightRequest="320" />
+                </StackLayout>
             </Frame>
+
+            <!-- Bottom Navigation Bar -->
             <Grid VerticalOptions="EndAndExpand"
                   Padding="0"
                   Margin="-20, 0, -20, 0"
@@ -83,35 +117,38 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
                 </Grid.ColumnDefinitions>
+
+                <!-- Dashboard Button -->
                 <Button Grid.Column="0"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Dashboard"
                         WidthRequest="110"
                         ImageSource="grafico.png"
                         ContentLayout="Top, 10"
                         Padding="0,12,0,10"
                         x:Name="BtnCharts" />
+
+                <!-- Employees Button -->
                 <Button Grid.Column="1"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Empleados"
                         WidthRequest="110"
                         ImageSource="usuario.png"
                         ContentLayout="Top, 10"
                         Padding="0,12,0,10"
                         x:Name="BtnEmployee"
                         Clicked="BtnEmployee_Clicked" />
+
+                <!-- Logout Button -->
                 <Button Grid.Column="2"
                         HorizontalOptions="Center"
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Salir"
                         WidthRequest="110"
                         ImageSource="cerrarsession.png"
                         ContentLayout="Top, 10"

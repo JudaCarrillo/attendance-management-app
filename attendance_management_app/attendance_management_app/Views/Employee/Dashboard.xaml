@@ -2,37 +2,113 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="attendance_management_app.Views.Employee.Dashboard"
-             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
-             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
              NavigationPage.HasNavigationBar="False"
-             Background="White">
+             Background="White"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:controls="clr-namespace:Xamarin.Plugin.Calendar.Controls;assembly=Xamarin.Plugin.Calendar"
+             xmlns:microcharts="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             >
+
     <ContentPage.Content>
-        <StackLayout Padding="16"
-                     VerticalOptions="FillAndExpand">
-            <Label Text="Asistencias Mensuales"
-                   VerticalOptions="Start"
-                   HorizontalOptions="CenterAndExpand"
-                   FontSize="24"
-                   FontAttributes="Bold"
-                   TextColor="#000000"
-                   Margin="0,24,0,0" />
-            <BoxView HeightRequest="2"
-                     BackgroundColor="Black"
-                     WidthRequest="270"
-                     HorizontalOptions="Center"
-                     Margin="0,0,0,15" />
-            <Frame x:Name="GraficoMensual"
-                   HeightRequest="460"
-                   Padding="15"
-                   BorderColor="Black"
-                   CornerRadius="10"
-                   Margin="10,10,10,0">
-                <forms:ChartView x:Name="monthlyChart"
-                                 HeightRequest="400"/>
+        <StackLayout Padding="0" VerticalOptions="FillAndExpand">
+
+            <!-- Encabezado -->
+            <Frame BackgroundColor="#5E7BF7" Padding="16" HasShadow="False">
+                <StackLayout>
+                    <Label Text="Asistencias"
+                           VerticalOptions="Start"
+                           HorizontalOptions="Start"
+                           FontSize="24"
+                           FontAttributes="Bold"
+                           TextColor="White" />
+                    <Label Text="Visualiza tus asistencias, tardanzas, faltas"
+                           FontSize="14"
+                           HorizontalOptions="Start"
+                           TextColor="White"/>
+                </StackLayout>
             </Frame>
+
+            <StackLayout Padding="14">
+                <Frame x:Name="Calendario"
+                       HeightRequest="430"
+                       Padding="10"
+                       BorderColor="Black"
+                       CornerRadius="10"
+                       Margin="5,5,5,5">
+                    <controls:Calendar 
+                        Events="{Binding Events}"
+                        ShownDate="2025-03-21"
+                        ShowMonthPicker="False"
+                        ShowYearPicker="False"
+                        VerticalOptions="FillAndExpand"
+                        HorizontalOptions="FillAndExpand">
+                        <controls:Calendar.EventTemplate>
+                            <DataTemplate>
+                                <StackLayout Padding="8">
+                                    <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Small" />
+                                </StackLayout>
+                            </DataTemplate>
+                        </controls:Calendar.EventTemplate>
+                    </controls:Calendar>
+                </Frame>
+            </StackLayout>
+
+            <!-- Gráfico de asistencias (tamaño reducido) -->
+            <forms:ChartView x:Name="monthlyChart"
+                             HeightRequest="120"
+                             Margin="10,0,10,5"/>
+
+            <!-- Leyenda de colores -->
+            <Frame Padding="5" Margin="5,0,5,10" BorderColor="#EEEEEE" CornerRadius="6" HasShadow="False">
+                <Grid ColumnSpacing="5" RowSpacing="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="Auto" />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Asistencia -->
+                    <BoxView Grid.Row="0" Grid.Column="0" 
+                 Color="#2DCD70" 
+                 HeightRequest="12" 
+                 WidthRequest="12"
+                 CornerRadius="2"/>
+                    <Label Grid.Row="0" Grid.Column="1" 
+               Text="Asistencia" 
+               FontSize="Micro"
+               VerticalOptions="Center"/>
+
+                    <!-- Tardanza -->
+                    <BoxView Grid.Row="1" Grid.Column="0" 
+                 Color="#F2C416" 
+                 HeightRequest="12" 
+                 WidthRequest="12"
+                 CornerRadius="2"/>
+                    <Label Grid.Row="1" Grid.Column="1" 
+               Text="Tardanza" 
+               FontSize="Micro"
+               VerticalOptions="Center"/>
+
+                    <!-- Falta -->
+                    <BoxView Grid.Row="2" Grid.Column="0" 
+                 Color="#E94D3D" 
+                 HeightRequest="12" 
+                 WidthRequest="12"
+                 CornerRadius="2"/>
+                    <Label Grid.Row="2" Grid.Column="1" 
+               Text="Falta" 
+               FontSize="Micro"
+               VerticalOptions="Center"/>
+                </Grid>
+            </Frame>
+            <!-- Botones de navegación -->
             <Grid VerticalOptions="EndAndExpand"
                   Padding="0"
-                  Margin="-20, 0, -20, -17"
+                  Margin="0, 0, 0, 0"
                   BackgroundColor="Black">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
@@ -44,9 +120,8 @@
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Registrar"
                         Clicked="OnHomeView"
-                        WidthRequest="210"
+                        WidthRequest="120"
                         ImageSource="@drawable/Home"
                         ContentLayout="Top, 10"
                         Padding="0,12,0,10" />
@@ -55,8 +130,7 @@
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Dashboard"
-                        WidthRequest="210"
+                        WidthRequest="120"
                         ImageSource="@drawable/grafico"
                         ContentLayout="Top, 10"
                         Padding="0,12,0,10" />
@@ -65,8 +139,7 @@
                         VerticalOptions="Center"
                         BackgroundColor="Black"
                         TextColor="White"
-                        Text="Salir"
-                        WidthRequest="210"
+                        WidthRequest="120"
                         ImageSource="@drawable/cerrarsession"
                         Clicked="OnLogoutButtonClicked"
                         ContentLayout="Top, 10"

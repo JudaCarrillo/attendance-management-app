@@ -16,7 +16,7 @@
     <!--<item name="colorAccent">#FF4081</item>-->
   </style>
 	<style name="ScreenPageTheme" parent="Theme.AppCompat.Light.NoActionBar">
-		<item name="android:windowBackground">@drawable/presentationsplash</item>
+		<item name="android:windowBackground">@drawable/logo_act_rem</item>
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:windowFullscreen">true</item>
 		<item name="android:windowContentOverlay">@null</item>

@@ -29,18 +29,18 @@ namespace attendance_management_app.Views.Administrator
         {
             if (_selectedButton != null)
             {
-                _selectedButton.BackgroundColor = Color.Black;
-
+                _selectedButton.BackgroundColor = Color.White;
+                _selectedButton.TextColor = Color.Black; // Restaurar color de texto
             }
 
             // Aplicamos el estilo de "seleccionado" al botón que fue presionado
-            button.BackgroundColor = Color.Gray;
-
+            button.BackgroundColor = Color.FromHex("#6A83FF");
+            button.TextColor = Color.White; // Cambiar el color del texto
 
             // Actualizamos el botón seleccionado
             _selectedButton = button;
-
         }
+
 
         private void DiarioButton_Clicked(object sender, EventArgs e)
         {

@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:attendance_management_app.Utils"
-             x:Class="attendance_management_app.Views.Administrador.RegistrarEmpleado"
+             x:Class="attendance_management_app.Views.Administrador.EditarEmpleado"
              BackgroundColor="White"
              NavigationPage.HasNavigationBar="False">
     <ContentPage.Content>
@@ -12,58 +11,24 @@
                    HasShadow="False"
                    CornerRadius="0">
                 <StackLayout>
-                    <Label Text="Empleados" 
+                    <Label Text="Editar Empleado" 
                            TextColor="White" 
                            FontSize="24" 
                            FontAttributes="Bold" 
                            HorizontalOptions="Start" />
-                    <Label Text="Gestión de empleados" 
+                    <Label Text="Modificar datos del empleado" 
                            TextColor="White" 
                            FontSize="16" 
                            HorizontalOptions="Start" />
                 </StackLayout>
             </Frame>
-            <!-- Frame con botones de Registro y Gestión -->
-            <Frame HasShadow="False"
-                   CornerRadius="9"
-                   Padding="-2,-2,0,0"
-                   Margin="0,5,0,30"
-                   HorizontalOptions="Center">
-                <StackLayout Orientation="Horizontal"
-                             HorizontalOptions="Center"
-                             Spacing="-8"
-                             Padding="0"
-                             Margin="0"
-                             HeightRequest="40">
-                    <!-- Botón Gestión -->
-                    <Button Text="Gestión"
-                            HorizontalOptions="Start"
-                            VerticalOptions="Center"
-                            Margin="2"
-                            WidthRequest="150"
-                            BackgroundColor="Gray"
-                            TextColor="White"
-                            x:Name="GestionButton"
-                            Clicked="GestionButton_Clicked" />
-                    <!-- Botón Registro -->
-                    <Button Text="Registro"
-                            HorizontalOptions="Start"
-                            VerticalOptions="Center"
-                            Margin="2"
-                            WidthRequest="150"
-                            BackgroundColor="White"
-                            TextColor="Black"
-                            x:Name="RegistroButton"
-                            Clicked="OnButtonClicked" />
-                </StackLayout>
-            </Frame>
-            <!-- Frame con formulario de registro -->
-            <Frame x:Name="registerFrame"
-                   HeightRequest="415"
+
+            <!-- Frame con formulario de edición -->
+            <Frame HeightRequest="415"
                    Padding="15"
                    BorderColor="Black"
                    CornerRadius="10"
-                   Margin="10,0,10,0">
+                   Margin="10,20,10,0">
                 <ScrollView>
                     <Grid ColumnSpacing="10"
                           RowSpacing="15">
@@ -121,7 +86,7 @@
                             <Entry x:Name="txtPhoneNumber"
                                    TextColor="Black" />
                         </Frame>
-                        <!-- Dirección -->
+                        <!-- Correo Electrónico -->
                         <Label Text="Correo Electronico"
                                Grid.Row="2"
                                Grid.Column="1"
@@ -147,7 +112,7 @@
                             <Entry  x:Name="txtDni"
                                     TextColor="Black" />
                         </Frame>
-                        <!-- Contraseña -->
+                        <!-- Cumpleaños -->
                         <Label Text="Cumpleaños"
                                Grid.Row="4"
                                Grid.Column="1"
@@ -158,8 +123,7 @@
                                Grid.Row="5"
                                Grid.Column="1">
                             <Entry x:Name="txtBirthDate"
-                                   TextColor="Black"
-                                   IsPassword="True" />
+                                   TextColor="Black" />
                         </Frame>
                         <!-- Turnos (ComboBox) -->
                         <Label Text="Turnos"
@@ -185,15 +149,15 @@
                                 <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                            <!-- Botón Registrar -->
-                            <Button Text="Registrar"
+                            <!-- Botón Guardar -->
+                            <Button Text="Guardar"
                                     CornerRadius="7"
                                     BackgroundColor="#6A83FF"
                                     TextColor="White"
                                     FontAttributes="Bold"
                                     Grid.Column="0"
-                                    x:Name="BtnNewUser"
-                                    Clicked="BtnNewUser_Clicked" />
+                                    x:Name="BtnSaveUser"
+                                    Clicked="BtnSaveUser_Clicked" />
                             <!-- Botón Cancelar -->
                             <Button Text="Cancelar"
                                     CornerRadius="7"
@@ -207,101 +171,14 @@
                     </Grid>
                 </ScrollView>
             </Frame>
-            <!-- Frame con la tabla de empleados -->
-            <Frame x:Name="employeeTableFrame"
-                   HeightRequest="415"
-                   Padding="15"
-                   BorderColor="Black"
-                   CornerRadius="10"
-                   Margin="10,0,10,0">
-                <Grid>
-                    <!-- Encabezado -->
-                    <Grid ColumnDefinitions="Auto,*,*"
-                          Padding="5">
-                        <Label Text="#"
-                               FontAttributes="Bold"
-                               HorizontalOptions="Center"
-                               TextColor="Black" />
-                        <Label Text="Empleado"
-                               FontAttributes="Bold"
-                               Grid.Column="1"
-                               HorizontalOptions="Center"
-                               TextColor="Black" />
-                        <Label Text="Opciones"
-                               FontAttributes="Bold"
-                               Grid.Column="2"
-                               HorizontalOptions="Center"
-                               TextColor="Black" />
-                    </Grid>
-                    <!-- Lista de empleados -->
-                    <CollectionView x:Name="listEmployees"
-                Margin="0,40,0,0">
-                        <CollectionView.ItemTemplate>
-                            <DataTemplate>
-                                <StackLayout>
-                                    <Grid Padding="10"
-                      ColumnDefinitions="Auto,*,Auto,Auto"
-                      RowDefinitions="Auto"
-                      BackgroundColor="White">
-                                        <Label Text="{Binding UserId}"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           TextColor="Black" />
-                                        <Label Text="{Binding Name}"
-                           Grid.Column="1"
-                           HorizontalOptions="Center"
-                           VerticalOptions="Center"
-                           TextColor="Black" />
-                                        <!-- Switch en lugar del botón -->
-                                        <Switch Grid.Column="2"
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            IsToggled="{Binding Enabled}"
-                            x:Name="SwitchUserState"
-                            Toggled="OnUserStateChanged">
-                                            <Switch.Triggers>
-                                                <DataTrigger TargetType="Switch"
-                                         Binding="{Binding Enabled}"
-                                         Value="True">
-                                                    <Setter Property="OnColor" Value="#1CDE3B" />
-                                                </DataTrigger>
-                                                <DataTrigger TargetType="Switch"
-                                         Binding="{Binding Enabled}"
-                                         Value="False">
-                                                    <Setter Property="OnColor" Value="#FF0000" />
-                                                </DataTrigger>
-                                            </Switch.Triggers>
-                                        </Switch>
-                                        <!-- Botón de edición -->
-                                        <ImageButton Grid.Column="3"
-                                Source="edit"
-                                WidthRequest="30"
-                                HeightRequest="30"
-                                BackgroundColor="Transparent"
-                                HorizontalOptions="Center"
-                                VerticalOptions="Center"
-                                Margin="10,0,0,0"
-                                CommandParameter="{Binding UserId}"
-                                Clicked="EditButton_Clicked" />
-                                    </Grid>
-                                    <BoxView Color="Black"
-                         HeightRequest="1"
-                         VerticalOptions="End"
-                         HorizontalOptions="FillAndExpand" />
-                                </StackLayout>
-                            </DataTemplate>
-                        </CollectionView.ItemTemplate>
-                    </CollectionView>
-                </Grid>
-            </Frame>
 
             <!-- Bottom navigation bar -->
             <Grid VerticalOptions="EndAndExpand"
-       Padding="0"
-       Margin="-20, 0, -20, 0"
-       BackgroundColor="Black"
-       HorizontalOptions="Center"
-       ColumnSpacing="-10">
+                  Padding="0"
+                  Margin="-20, 0, -20, 0"
+                  BackgroundColor="Black"
+                  HorizontalOptions="Center"
+                  ColumnSpacing="-10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="*" />
@@ -310,41 +187,41 @@
 
                 <!-- Dashboard Button -->
                 <Button Grid.Column="0"
-             HorizontalOptions="Center"
-             VerticalOptions="Center"
-             BackgroundColor="Black"
-             TextColor="White"
-             WidthRequest="110"
-             ImageSource="grafico.png"
-             ContentLayout="Top, 10"
-             Padding="0,12,0,10"
-             x:Name="BtnCharts" />
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="110"
+                        ImageSource="grafico.png"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10"
+                        x:Name="BtnCharts" />
 
                 <!-- Employees Button -->
                 <Button Grid.Column="1"
-             HorizontalOptions="Center"
-             VerticalOptions="Center"
-             BackgroundColor="Black"
-             TextColor="White"
-             WidthRequest="110"
-             ImageSource="usuario.png"
-             ContentLayout="Top, 10"
-             Padding="0,12,0,10"
-             x:Name="BtnEmployee"
-              />
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="110"
+                        ImageSource="usuario.png"
+                        ContentLayout="Top, 10"
+                        Padding="0,12,0,10"
+                        x:Name="BtnEmployee"
+                        Clicked="BtnEmployee_Clicked" />
 
                 <!-- Logout Button -->
                 <Button Grid.Column="2"
-             HorizontalOptions="Center"
-             VerticalOptions="Center"
-             BackgroundColor="Black"
-             TextColor="White"
-             WidthRequest="110"
-             ImageSource="cerrarsession.png"
-             ContentLayout="Top, 10"
-             Padding="-6,12,9,10"
-             x:Name="BtnLogOut"
-             Clicked="BtnLogOut_Clicked" />
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="110"
+                        ImageSource="cerrarsession.png"
+                        ContentLayout="Top, 10"
+                        Padding="-6,12,9,10"
+                        x:Name="BtnLogOut"
+                        Clicked="BtnLogOut_Clicked" />
             </Grid>
         </StackLayout>
     </ContentPage.Content>
